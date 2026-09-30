@@ -13,7 +13,7 @@ PASS S1 — LICENSE présent
 PASS S2 — aucune clé dans l'historique git
 PASS S2 — clé absente des fichiers suivis et non suivis
 PASS S3 — aucun test désactivé
-FAIL S4 — clone propre : échec à l'étape 'install'
+PASS S4 — clone propre : install, build, lint, typecheck, test OK sans clé
 WARN S5 — changements non commités (le clone S4 ne les inclut pas)
 PASS S6 — aucun marqueur non résolu
 INFO S6 — 0 emplacement(s) [[HUMAN: ...]] à compléter à la main
@@ -21,4 +21,4 @@ PASS S7 — track indiqué
 PASS S7 — hashtag présent
 PASS S7 — endpoints nommés dans SUBMISSION.md
 PASS S8 — smoke.sh OK
-RESULT — 1 échec(s)
+RESULT — 0 échec(s)
