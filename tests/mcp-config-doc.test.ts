@@ -304,6 +304,15 @@ describe('the offline block, launched exactly as the README writes it', () => {
 
 describe('why the README sends a host to node and not to npm run mcp', () => {
   it('npm prints its own banner on stdout, where the JSON-RPC stream lives', () => {
+    // npm hands its own `--silent` down to a child npm run through npm_config_loglevel, so a suite started with
+    // `npm run -s test` — which is how scripts/presubmit.sh runs it — would read an empty stdout as npm printing
+    // no banner at all, and this test would pass or fail on how the suite was invoked rather than on npm. What is
+    // under test is npm's default verbosity, the one a host running `npm run mcp` meets, so an inherited level is
+    // dropped instead of passed on.
+    const env: NodeJS.ProcessEnv = { ...process.env, CMC_API_KEY: '' };
+    delete env.npm_config_loglevel;
+    delete env.npm_config_silent;
+
     const stdout = execFileSync('npm', ['run', 'mcp'], {
       cwd: projectRoot,
       // Closing stdin at once is what makes the server exit instead of waiting for a host.
@@ -311,7 +320,7 @@ describe('why the README sends a host to node and not to npm run mcp', () => {
       encoding: 'utf8',
       // stderr piped as well: the server's own log line belongs to the host, not to this test's output.
       stdio: ['pipe', 'pipe', 'pipe'],
-      env: { ...process.env, CMC_API_KEY: '' },
+      env,
       timeout: 120_000,
     });
     // npm opens with a blank line, then the banner: the first thing a host would try to parse as a frame.
