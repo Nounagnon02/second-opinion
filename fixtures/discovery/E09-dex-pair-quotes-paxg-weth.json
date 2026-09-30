@@ -1,0 +1,85 @@
+{
+  "label": "E09-dex-pair-quotes-paxg-weth",
+  "recordedAt": "2026-09-24T16:07:40.273Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v4/dex/pairs/quotes/latest?contract_address=0x9c4fe5ffd9a9fc5678cfbd93aa2d4fd684b67c4c&network_slug=ethereum",
+    "path": "/v4/dex/pairs/quotes/latest",
+    "query": {
+      "contract_address": "0x9c4fe5ffd9a9fc5678cfbd93aa2d4fd684b67c4c",
+      "network_slug": "ethereum"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 1053,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Thu, 24 Sep 2026 16:07:40 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 10e1486bad24a11a3edd4fce423c3662.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "4t7IDqRKYtBoju5rp-rQZ8CrNAjeL6zZKLdI76yMNVG021apBNKtVg==",
+      "x-amz-cf-pop": "CDG55-P3",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "579",
+      "x-server-traceid": "f71888c591cd6870ba25fd2203541a34"
+    },
+    "body": {
+      "data": [
+        {
+          "quote": [
+            {
+              "convert_id": "2781",
+              "price": 4264.153800061066,
+              "price_by_quote_asset": 1.5933844967849886,
+              "last_updated": "2026-09-24T16:05:21.861Z",
+              "volume_24h": 351538.4385732713,
+              "percent_change_price_1h": 0.0049,
+              "percent_change_price_24h": -0.0033,
+              "liquidity": 16257792.367634999,
+              "fully_diluted_value": 1843664828.207288
+            }
+          ],
+          "contract_address": "0x9c4fe5ffd9a9fc5678cfbd93aa2d4fd684b67c4c",
+          "name": "PAXG/WETH",
+          "base_asset_id": null,
+          "base_asset_ucid": "4705",
+          "base_asset_name": "Paxos Gold",
+          "base_asset_symbol": "PAXG",
+          "base_asset_contract_address": "0x45804880de22913dafe09f4980848ece6ecbaf78",
+          "quote_asset_id": null,
+          "quote_asset_ucid": "2396",
+          "quote_asset_name": "Wrapped Ether",
+          "quote_asset_symbol": "WETH",
+          "quote_asset_contract_address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "dex_id": "1069",
+          "dex_slug": "uniswap-v2",
+          "network_id": "1",
+          "network_slug": "Ethereum",
+          "last_updated": "2026-09-24T16:05:11.000Z",
+          "created_at": null
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-24T16:07:40.161Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 571,
+        "credit_count": 1
+      }
+    }
+  }
+}

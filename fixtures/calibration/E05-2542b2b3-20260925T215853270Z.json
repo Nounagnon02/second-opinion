@@ -1,0 +1,207 @@
+{
+  "label": "E05-2542b2b3-20260925T215853270Z",
+  "recordedAt": "2026-09-25T21:58:53.270Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v2/cryptocurrency/info?id=6535",
+    "path": "/v2/cryptocurrency/info",
+    "query": {
+      "id": "6535"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 857,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Fri, 25 Sep 2026 21:58:53 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 e9fd89f22389f457b4ab45c8cb281d96.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "iSF0j_LfNps35DKqP4gQ6irqsNasQYAsMsVIHo-eKpHh6uZkdY6cEA==",
+      "x-amz-cf-pop": "MAD53-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "11",
+      "x-server-traceid": "2e67aeadfab03a6729eeb1ba5203bb9f"
+    },
+    "body": {
+      "data": {
+        "6535": {
+          "id": 6535,
+          "name": "NEAR Protocol",
+          "symbol": "NEAR",
+          "category": "coin",
+          "description": "NEAR Protocol (NEAR) is a cryptocurrency launched in 2020. NEAR Protocol has a current supply of 1,307,294,697. The last known price of NEAR Protocol is 4.88041594 USD and is up 4.81 over the last 24 hours. It is currently trading on 676 active market(s) with $1,824,246,950.94 traded over the last 24 hours. More information can be found at https://near.org/.",
+          "slug": "near-protocol",
+          "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/6535.png",
+          "subreddit": "nearprotocol/",
+          "notice": "",
+          "tags": [
+            "platform",
+            "ai-big-data",
+            "staking",
+            "coinbase-ventures-portfolio",
+            "three-arrows-capital-portfolio",
+            "arrington-xrp-capital-portfolio",
+            "coinfund-portfolio",
+            "electric-capital-portfolio",
+            "fabric-ventures-portfolio",
+            "kenetic-capital-portfolio",
+            "near-protocol-ecosystem",
+            "cross-chain",
+            "circle-ventures-portfolio",
+            "layer-1",
+            "alleged-sec-securities",
+            "modular-blockchain",
+            "account-abstraction",
+            "data-availability",
+            "cmc-crypto-yearbook-2024-2025",
+            "made-in-america",
+            "binance-ecosystem",
+            "binance-listing",
+            "coinlist-launchpad",
+            "amber-group-portfolio"
+          ],
+          "tag-names": [
+            "Platform",
+            "AI & Big Data",
+            "Staking",
+            "Coinbase Ventures Portfolio",
+            "Three Arrows Capital Portfolio",
+            "Arrington XRP Capital Portfolio",
+            "Coinfund Portfolio",
+            "Electric Capital Portfolio",
+            "Fabric Ventures Portfolio",
+            "Kenetic Capital Portfolio",
+            "Near Protocol Ecosystem",
+            "Cross-Chain",
+            "Circle Ventures Portfolio",
+            "Layer 1",
+            "Alleged SEC Securities",
+            "Modular Blockchain",
+            "Account Abstraction",
+            "Data Availability",
+            "CMC Crypto Yearbook 2024-25",
+            "Made in America",
+            "Binance Ecosystem",
+            "Binance Listing",
+            "Coinlist Launchpad",
+            "Amber Group Portfolio"
+          ],
+          "tag-groups": [
+            "CATEGORY",
+            "INDUSTRY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "PLATFORM",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY"
+          ],
+          "urls": {
+            "website": [
+              "https://near.org/"
+            ],
+            "twitter": [
+              "https://twitter.com/NEARProtocol"
+            ],
+            "message_board": [
+              "https://near.org/blog/",
+              "https://medium.com/nearprotocol"
+            ],
+            "chat": [
+              "https://t.me/cryptonear",
+              "https://near.org/wechat/"
+            ],
+            "facebook": [],
+            "explorer": [
+              "https://nearblocks.io/",
+              "https://getblock.io/explorers/near/"
+            ],
+            "reddit": [
+              "https://reddit.com/r/nearprotocol/"
+            ],
+            "technical_doc": [
+              "https://near.org/papers/the-official-near-white-paper"
+            ],
+            "source_code": [
+              "https://github.com/near"
+            ],
+            "announcement": [
+              "https://near.org/blog"
+            ]
+          },
+          "platform": {
+            "id": "1027",
+            "name": "Ethereum",
+            "symbol": "ETH",
+            "slug": "ethereum",
+            "token_address": "0x85f17cf997934a597031b2e18a9ab6ebd4b9f6a4"
+          },
+          "date_added": "2020-08-11T00:00:00.000Z",
+          "twitter_username": "NEARProtocol",
+          "is_hidden": 0,
+          "date_launched": "2020-10-13T00:00:00.000Z",
+          "contract_address": [
+            {
+              "contract_address": "0x85f17cf997934a597031b2e18a9ab6ebd4b9f6a4",
+              "platform": {
+                "name": "Ethereum",
+                "coin": {
+                  "id": "1027",
+                  "name": "Ethereum",
+                  "symbol": "ETH",
+                  "slug": "ethereum"
+                }
+              }
+            }
+          ],
+          "self_reported_circulating_supply": 1209202633,
+          "self_reported_tags": [
+            "Generative AI",
+            "Layer 1",
+            "AI Agents"
+          ],
+          "self_reported_market_cap": 5922782238.51478,
+          "infinite_supply": true
+        }
+      },
+      "status": {
+        "timestamp": "2026-09-25T21:58:53.094Z",
+        "error_code": 0,
+        "error_message": null,
+        "elapsed": 7,
+        "credit_count": 1,
+        "notice": null
+      }
+    }
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "label": "E02-fc420632-20260925T215805981Z",
+  "recordedAt": "2026-09-25T21:58:05.981Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v3/cryptocurrency/quotes/latest?convert=USD&id=3957",
+    "path": "/v3/cryptocurrency/quotes/latest",
+    "query": {
+      "convert": "USD",
+      "id": "3957"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 968,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Fri, 25 Sep 2026 21:58:05 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 cab8a3ef6848ee8b34cad2177590449c.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "Fha0_AjjG14W-i2Gs-muSseTNB_478C4Q2H6_W9AYTn6LNCXE6bBYQ==",
+      "x-amz-cf-pop": "LOS50-P4",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "8",
+      "x-server-traceid": "eb8bd45b6f6f7f223696ac6d2040504c"
+    },
+    "body": {
+      "data": [
+        {
+          "tags": [
+            {
+              "slug": "marketplace",
+              "name": "Marketplace",
+              "category": "INDUSTRY"
+            },
+            {
+              "slug": "centralized-exchange",
+              "name": "Centralized Exchange (CEX) Token",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "discount-token",
+              "name": "Discount Token",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "payments",
+              "name": "Payments",
+              "category": "INDUSTRY"
+            },
+            {
+              "slug": "ethereum-ecosystem",
+              "name": "Ethereum Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "kenetic-capital-portfolio",
+              "name": "Kenetic Capital Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "alameda-research-portfolio",
+              "name": "Alameda Research Portfolio",
+              "category": "CATEGORY"
+            }
+          ],
+          "id": 3957,
+          "name": "UNUS SED LEO",
+          "symbol": "LEO",
+          "slug": "unus-sed-leo",
+          "is_active": 1,
+          "infinite_supply": false,
+          "is_fiat": 0,
+          "circulating_supply": 919857851.9,
+          "total_supply": 985239504,
+          "max_supply": null,
+          "date_added": "2019-05-21T00:00:00.000Z",
+          "num_market_pairs": 70,
+          "cmc_rank": 15,
+          "last_updated": "2026-09-25T21:56:00.000Z",
+          "tvl_ratio": null,
+          "platform": {
+            "id": 1027,
+            "slug": "ethereum",
+            "name": "Ethereum",
+            "symbol": "ETH",
+            "token_address": "0x2af5d2ad76741191d15dfe7bf6ac92d4bd912ca3"
+          },
+          "self_reported_circulating_supply": null,
+          "self_reported_market_cap": null,
+          "minted_market_cap": 8711793470.33,
+          "quote": [
+            {
+              "id": 2781,
+              "symbol": "USD",
+              "price": 8.842310356985548,
+              "volume_24h": 400009.84816569,
+              "volume_change_24h": 13.1158,
+              "cex_volume_24h": 400009.84816569,
+              "dex_volume_24h": 0,
+              "percent_change_1h": -0.01669575,
+              "percent_change_24h": -0.86868309,
+              "percent_change_7d": -0.77610382,
+              "percent_change_30d": -4.31895531,
+              "percent_change_60d": -9.29645554,
+              "percent_change_90d": -6.1336071,
+              "market_cap": 8133668610.809849,
+              "market_cap_dominance": 0.2829,
+              "fully_diluted_market_cap": 8711793470.33,
+              "minted_market_cap": 8711793470.33,
+              "tvl": null,
+              "last_updated": "2026-09-25T21:57:03.000Z"
+            }
+          ]
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-25T21:58:05.723Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 3,
+        "credit_count": 1
+      }
+    }
+  }
+}

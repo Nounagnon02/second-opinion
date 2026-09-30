@@ -1,0 +1,153 @@
+{
+  "label": "E02-12c13eac-20260925T215904746Z",
+  "recordedAt": "2026-09-25T21:59:04.746Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v3/cryptocurrency/quotes/latest?convert=USD&id=37263",
+    "path": "/v3/cryptocurrency/quotes/latest",
+    "query": {
+      "convert": "USD",
+      "id": "37263"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 1606,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Fri, 25 Sep 2026 21:59:03 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 e99fb41a4b0b0129140530df3aae3346.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "S_JBH3gJmwcFBes3Vwf4yCdHUcWyWKOdHQSN47fy_rdkAqlkiy1rZA==",
+      "x-amz-cf-pop": "MAD53-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "11",
+      "x-server-traceid": "fb53da180b6334c376ed15d835052a87"
+    },
+    "body": {
+      "data": [
+        {
+          "tags": [
+            {
+              "slug": "proof-of-authority",
+              "name": "Proof-of-Authority",
+              "category": "ALGORITHM"
+            },
+            {
+              "slug": "store-of-value",
+              "name": "Store Of Value",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "enterprise-solutions",
+              "name": "Enterprise Solutions",
+              "category": "INDUSTRY"
+            },
+            {
+              "slug": "privacy",
+              "name": "Privacy",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "interoperability",
+              "name": "Interoperability",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "scaling",
+              "name": "Scaling",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "smart-contracts",
+              "name": "Smart Contracts",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "layer-1",
+              "name": "Layer 1",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-ecosystem",
+              "name": "Binance Ecosystem",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-listing",
+              "name": "Binance Listing",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "privacy-blockchain",
+              "name": "Privacy Blockchain",
+              "category": "CATEGORY"
+            }
+          ],
+          "id": 37263,
+          "name": "Canton",
+          "symbol": "CC",
+          "slug": "canton-network",
+          "is_active": 1,
+          "infinite_supply": true,
+          "is_fiat": 0,
+          "circulating_supply": 39685530786.474976,
+          "total_supply": 39684469301.130905,
+          "max_supply": null,
+          "date_added": "2025-07-08T04:07:45.000Z",
+          "num_market_pairs": 119,
+          "cmc_rank": 21,
+          "last_updated": "2026-09-25T21:57:00.000Z",
+          "tvl_ratio": null,
+          "platform": null,
+          "self_reported_circulating_supply": 39684469301.13,
+          "self_reported_market_cap": 5078774125.977472,
+          "minted_market_cap": 5078774125.98,
+          "quote": [
+            {
+              "id": 2781,
+              "symbol": "USD",
+              "price": 0.12797888482366215,
+              "volume_24h": 51475070.31388153,
+              "volume_change_24h": 89.1256,
+              "cex_volume_24h": 43239462.99527828,
+              "dex_volume_24h": 8235607.31860325,
+              "percent_change_1h": -0.65533403,
+              "percent_change_24h": 12.92316226,
+              "percent_change_7d": 15.29356527,
+              "percent_change_30d": 9.85835987,
+              "percent_change_60d": 5.72502955,
+              "percent_change_90d": -16.25623984,
+              "market_cap": 5078909973.688179,
+              "market_cap_dominance": 0.1767,
+              "fully_diluted_market_cap": 5078774125.98,
+              "minted_market_cap": 5078774125.98,
+              "tvl": null,
+              "last_updated": "2026-09-25T21:58:02.000Z"
+            }
+          ]
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-25T21:59:03.540Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 4,
+        "credit_count": 1
+      }
+    }
+  }
+}

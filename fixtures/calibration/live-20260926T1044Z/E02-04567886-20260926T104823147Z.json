@@ -1,0 +1,143 @@
+{
+  "label": "E02-04567886-20260926T104823147Z",
+  "recordedAt": "2026-09-26T10:48:23.147Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v3/cryptocurrency/quotes/latest?convert=USD&id=11419",
+    "path": "/v3/cryptocurrency/quotes/latest",
+    "query": {
+      "convert": "USD",
+      "id": "11419"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 325,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 10:48:22 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 e2cb9339c523d170f53dc64537b22e10.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "sc7fQgunpONnBJBy5IzPcGvRJhft2wABw8H1-3lBpaCxwNNa8F2S9g==",
+      "x-amz-cf-pop": "IAD55-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "9",
+      "x-server-traceid": "eb6143b9e1095f9027744a14cc3a8373"
+    },
+    "body": {
+      "data": [
+        {
+          "tags": [
+            {
+              "slug": "pos",
+              "name": "PoS",
+              "category": "ALGORITHM"
+            },
+            {
+              "slug": "layer-1",
+              "name": "Layer 1",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "ftx-bankruptcy-estate",
+              "name": "FTX Bankruptcy Estate ",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "dwf-labs-portfolio",
+              "name": "DWF Labs Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "toncoin-ecosystem",
+              "name": "Toncoin Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "cmc-crypto-yearbook-2024-2025",
+              "name": "CMC Crypto Yearbook 2024-25",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-ecosystem",
+              "name": "Binance Ecosystem",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-listing",
+              "name": "Binance Listing",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-liquidity-enhancement-program",
+              "name": "Binance Liquidity Enhancement Program",
+              "category": "CATEGORY"
+            }
+          ],
+          "id": 11419,
+          "name": "Gram (prev. Toncoin)",
+          "symbol": "GRAM",
+          "slug": "gram",
+          "is_active": 1,
+          "infinite_supply": true,
+          "is_fiat": 0,
+          "circulating_supply": 2813780284.795163,
+          "total_supply": 5255761618.965821,
+          "max_supply": null,
+          "date_added": "2021-08-26T13:40:22.000Z",
+          "num_market_pairs": 925,
+          "cmc_rank": 28,
+          "last_updated": "2026-09-26T10:47:00.000Z",
+          "tvl_ratio": null,
+          "platform": null,
+          "self_reported_circulating_supply": 2710000000,
+          "self_reported_market_cap": 3930373062.830718,
+          "minted_market_cap": 7622547561.57,
+          "quote": [
+            {
+              "id": 2781,
+              "symbol": "USD",
+              "price": 1.450322163406169,
+              "volume_24h": 90424700.26302505,
+              "volume_change_24h": -9.2492,
+              "cex_volume_24h": 88430324.4070243,
+              "dex_volume_24h": 1994375.85600078,
+              "percent_change_1h": 0.12927991,
+              "percent_change_24h": 2.11174953,
+              "percent_change_7d": 5.70040363,
+              "percent_change_30d": 2.72258399,
+              "percent_change_60d": -0.09256659,
+              "percent_change_90d": -7.00219873,
+              "market_cap": 4080887909.993747,
+              "market_cap_dominance": 0.1414,
+              "fully_diluted_market_cap": 7622547561.57,
+              "minted_market_cap": 7622547561.57,
+              "tvl": null,
+              "last_updated": "2026-09-26T10:47:02.000Z"
+            }
+          ]
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-26T10:48:22.903Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 5,
+        "credit_count": 1
+      }
+    }
+  }
+}

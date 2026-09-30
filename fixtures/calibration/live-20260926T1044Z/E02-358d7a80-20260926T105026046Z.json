@@ -1,0 +1,258 @@
+{
+  "label": "E02-358d7a80-20260926T105026046Z",
+  "recordedAt": "2026-09-26T10:50:26.046Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v3/cryptocurrency/quotes/latest?convert=USD&id=6636",
+    "path": "/v3/cryptocurrency/quotes/latest",
+    "query": {
+      "convert": "USD",
+      "id": "6636"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 511,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 10:50:25 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 71b24e89f6f9e648d6cc206b3f6cc3da.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "2x9-7YhpQ33R2A0dR4o-zFlRoXqrIrgAiSviVQGN5FqQNcMHQCjAeQ==",
+      "x-amz-cf-pop": "IAD55-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "9",
+      "x-server-traceid": "be9cd6ab35174f64a8cd4dc9052dbd30"
+    },
+    "body": {
+      "data": [
+        {
+          "tags": [
+            {
+              "slug": "defi",
+              "name": "DeFi",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "ethereum-ecosystem",
+              "name": "Ethereum Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "substrate",
+              "name": "Substrate",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "polkadot-ecosystem",
+              "name": "Polkadot Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "three-arrows-capital-portfolio",
+              "name": "Three Arrows Capital Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "polychain-capital-portfolio",
+              "name": "Polychain Capital Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "heco-ecosystem",
+              "name": "HECO Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "arrington-xrp-capital-portfolio",
+              "name": "Arrington XRP Capital Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "blockchain-capital-portfolio",
+              "name": "Blockchain Capital Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "boostvc-portfolio",
+              "name": "BoostVC Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "cms-holdings-portfolio",
+              "name": "CMS Holdings Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "coinfund-portfolio",
+              "name": "Coinfund Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "fabric-ventures-portfolio",
+              "name": "Fabric Ventures Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "fenbushi-capital-portfolio",
+              "name": "Fenbushi Capital Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "hashkey-capital-portfolio",
+              "name": "Hashkey Capital Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "kenetic-capital-portfolio",
+              "name": "Kenetic Capital Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "1confirmation-portfolio",
+              "name": "1Confirmation Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "placeholder-ventures-portfolio",
+              "name": "Placeholder Ventures Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "pantera-capital-portfolio",
+              "name": "Pantera Capital Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "exnetwork-capital-portfolio",
+              "name": "Exnetwork Capital Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "web3",
+              "name": "Web3",
+              "category": "INDUSTRY"
+            },
+            {
+              "slug": "arbitrum-ecosystem",
+              "name": "Arbitrum Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "spartan-group",
+              "name": "Spartan Group",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "optimism-ecosystem",
+              "name": "Optimism Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "osmosis-ecosystem",
+              "name": "Osmosis Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "base-ecosystem",
+              "name": "Base Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "gnosis-chain-ecosystem",
+              "name": "Gnosis Chain Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "binance-ecosystem",
+              "name": "Binance Ecosystem",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-listing",
+              "name": "Binance Listing",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "sec-cftc-token-taxonomy",
+              "name": "SEC/CFTC Token Taxonomy",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "sec-cftc-digital-commodities",
+              "name": "SEC/CFTC Digital Commodities",
+              "category": "CATEGORY"
+            }
+          ],
+          "id": 6636,
+          "name": "Polkadot",
+          "symbol": "DOT",
+          "slug": "polkadot-new",
+          "is_active": 1,
+          "infinite_supply": false,
+          "is_fiat": 0,
+          "circulating_supply": 1704551789.2729604,
+          "total_supply": 1704551789.2729604,
+          "max_supply": 2100000000,
+          "date_added": "2020-08-19T00:00:00.000Z",
+          "num_market_pairs": 1070,
+          "cmc_rank": 42,
+          "last_updated": "2026-09-26T10:48:00.000Z",
+          "tvl_ratio": null,
+          "platform": null,
+          "self_reported_circulating_supply": null,
+          "self_reported_market_cap": null,
+          "minted_market_cap": 2099555156.75,
+          "quote": [
+            {
+              "id": 2781,
+              "symbol": "USD",
+              "price": 1.2317344477059402,
+              "volume_24h": 215301523.73145524,
+              "volume_change_24h": 17.3382,
+              "cex_volume_24h": 215049048.9847568,
+              "dex_volume_24h": 252474.74669846,
+              "percent_change_1h": 2.51075798,
+              "percent_change_24h": 5.51328871,
+              "percent_change_7d": 9.589905,
+              "percent_change_30d": 41.30209311,
+              "percent_change_60d": 61.68463242,
+              "percent_change_90d": 52.74134682,
+              "market_cap": 2099555156.7463021,
+              "market_cap_dominance": 0.0727,
+              "fully_diluted_market_cap": 2586642340.18,
+              "minted_market_cap": 2099555156.75,
+              "tvl": null,
+              "last_updated": "2026-09-26T10:49:05.000Z"
+            }
+          ]
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-26T10:50:25.624Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 4,
+        "credit_count": 1
+      }
+    }
+  }
+}

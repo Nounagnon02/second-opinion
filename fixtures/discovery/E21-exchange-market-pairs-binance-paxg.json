@@ -1,0 +1,49 @@
+{
+  "label": "E21-exchange-market-pairs-binance-paxg",
+  "recordedAt": "2026-09-24T16:18:17.082Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v1/exchange/market-pairs/latest?slug=binance&matched_id=4705&limit=10",
+    "path": "/v1/exchange/market-pairs/latest",
+    "query": {
+      "slug": "binance",
+      "matched_id": "4705",
+      "limit": "10"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 403,
+    "statusText": "Forbidden",
+    "latencyMs": 706,
+    "headers": {
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Thu, 24 Sep 2026 16:18:16 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 10e1486bad24a11a3edd4fce423c3662.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "F3JBvKVCLKbQbzJLV5AyvFgkNEDmvT7e0r357SFvAlhOOgAtbTfU_g==",
+      "x-amz-cf-pop": "CDG55-P3",
+      "x-cache": "Error from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "6",
+      "x-server-traceid": "a4458b33cd0810f942b02a612e1c2ffe"
+    },
+    "body": {
+      "status": {
+        "timestamp": "2026-09-24T16:18:16.974Z",
+        "error_code": 1006,
+        "error_message": "Your API Key subscription plan doesn't support this endpoint.",
+        "elapsed": 1,
+        "credit_count": 0,
+        "notice": null
+      }
+    }
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "label": "E05-cd182bff-20260926T104621489Z",
+  "recordedAt": "2026-09-26T10:46:21.489Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v2/cryptocurrency/info?id=3957",
+    "path": "/v2/cryptocurrency/info",
+    "query": {
+      "id": "3957"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 1399,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 10:46:21 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 0e373c2690d6d18d0c88347ad35ba498.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "rPWPv4v5JDxTSVFl50XJETX7lkJk25PXOzLMDB95d6Cf9fRcF0vzhA==",
+      "x-amz-cf-pop": "IAD55-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "8",
+      "x-server-traceid": "5a2d999c4c2f4e7822ba180b21306828"
+    },
+    "body": {
+      "data": {
+        "3957": {
+          "id": 3957,
+          "name": "UNUS SED LEO",
+          "symbol": "LEO",
+          "category": "token",
+          "description": "UNUS SED LEO (LEO) is a cryptocurrency and operates on the Ethereum platform. UNUS SED LEO has a current supply of 985,239,504 with 919,857,851.9 in circulation. The last known price of UNUS SED LEO is 8.95390937 USD and is up 1.27 over the last 24 hours. It is currently trading on 70 active market(s) with $230,768.19 traded over the last 24 hours. More information can be found at https://www.bitfinex.com/.",
+          "slug": "unus-sed-leo",
+          "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/3957.png",
+          "subreddit": "bitfinex",
+          "notice": "",
+          "tags": [
+            "marketplace",
+            "centralized-exchange",
+            "discount-token",
+            "payments",
+            "ethereum-ecosystem",
+            "kenetic-capital-portfolio",
+            "alameda-research-portfolio"
+          ],
+          "tag-names": [
+            "Marketplace",
+            "Centralized Exchange (CEX) Token",
+            "Discount Token",
+            "Payments",
+            "Ethereum Ecosystem",
+            "Kenetic Capital Portfolio",
+            "Alameda Research Portfolio"
+          ],
+          "tag-groups": [
+            "INDUSTRY",
+            "CATEGORY",
+            "CATEGORY",
+            "INDUSTRY",
+            "PLATFORM",
+            "CATEGORY",
+            "CATEGORY"
+          ],
+          "urls": {
+            "website": [
+              "https://www.bitfinex.com/"
+            ],
+            "twitter": [
+              "https://twitter.com/bitfinex"
+            ],
+            "message_board": [],
+            "chat": [
+              "https://t.me/bitfinex"
+            ],
+            "facebook": [],
+            "explorer": [
+              "https://etherscan.io/token/0x2af5d2ad76741191d15dfe7bf6ac92d4bd912ca3",
+              "https://www.okx.com/web3/explorer/eth/token/0x2AF5D2aD76741191D15Dfe7bF6aC92d4Bd912Ca3",
+              "https://eospark.com/account/bitfinexleo1",
+              "https://eosflare.io/account/bitfinexleo1"
+            ],
+            "reddit": [
+              "https://reddit.com/r/bitfinex"
+            ],
+            "technical_doc": [
+              "https://www.bitfinex.com/wp-2019-05.pdf"
+            ],
+            "source_code": [],
+            "announcement": []
+          },
+          "platform": {
+            "id": "1027",
+            "name": "Ethereum",
+            "symbol": "ETH",
+            "slug": "ethereum",
+            "token_address": "0x2af5d2ad76741191d15dfe7bf6ac92d4bd912ca3"
+          },
+          "date_added": "2019-05-21T00:00:00.000Z",
+          "twitter_username": "bitfinex",
+          "is_hidden": 0,
+          "contract_address": [
+            {
+              "contract_address": "0x2af5d2ad76741191d15dfe7bf6ac92d4bd912ca3",
+              "platform": {
+                "name": "Ethereum",
+                "coin": {
+                  "id": "1027",
+                  "name": "Ethereum",
+                  "symbol": "ETH",
+                  "slug": "ethereum"
+                }
+              }
+            }
+          ],
+          "infinite_supply": false
+        }
+      },
+      "status": {
+        "timestamp": "2026-09-26T10:46:21.093Z",
+        "error_code": 0,
+        "error_message": null,
+        "elapsed": 5,
+        "credit_count": 1,
+        "notice": null
+      }
+    }
+  }
+}

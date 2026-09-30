@@ -1,0 +1,177 @@
+{
+  "label": "E05-e47d3d9e-20260926T105119633Z",
+  "recordedAt": "2026-09-26T10:51:19.633Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v2/cryptocurrency/info?id=33251",
+    "path": "/v2/cryptocurrency/info",
+    "query": {
+      "id": "33251"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 2496,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 10:51:19 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 ec6ab86695d018f9e87cce7df2ae9964.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "ZPjPwIDpG-RlrQqXz7oOyuxYq4ezNaaw7tP0y_2CEi6-wUS3McvPlg==",
+      "x-amz-cf-pop": "IAD55-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "20",
+      "x-server-traceid": "5cfc3a75e49e59079808c0d87a2f025d"
+    },
+    "body": {
+      "data": {
+        "33251": {
+          "id": 33251,
+          "name": "World Liberty Financial",
+          "symbol": "WLFI",
+          "category": "token",
+          "description": "World Liberty Financial (WLFI) is a cryptocurrency launched in 2025and operates on the Ethereum platform. World Liberty Financial has a current supply of 100,000,000,000 with 31,777,913,727 in circulation. The last known price of World Liberty Financial is 0.05865853 USD and is up 3.74 over the last 24 hours. It is currently trading on 483 active market(s) with $47,934,576.20 traded over the last 24 hours. More information can be found at https://www.worldlibertyfinancial.com/.",
+          "slug": "world-liberty-financial-wlfi",
+          "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/33251.png",
+          "subreddit": "",
+          "notice": "This is the official WLFI project backed by [Donald J. Trump](https://x.com/realDonaldTrump/status/1840772362209251611).",
+          "tags": [
+            "defi",
+            "ethereum-ecosystem",
+            "solana-ecosystem",
+            "bnb-chain-ecosystem",
+            "made-in-america",
+            "binance-ecosystem",
+            "binance-listing",
+            "wlfi-ecosystem"
+          ],
+          "tag-names": [
+            "DeFi",
+            "Ethereum Ecosystem",
+            "Solana Ecosystem",
+            "BNB Chain Ecosystem",
+            "Made in America",
+            "Binance Ecosystem",
+            "Binance Listing",
+            "WLFI Ecosystem"
+          ],
+          "tag-groups": [
+            "CATEGORY",
+            "PLATFORM",
+            "PLATFORM",
+            "PLATFORM",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY"
+          ],
+          "urls": {
+            "website": [
+              "https://www.worldlibertyfinancial.com/"
+            ],
+            "twitter": [
+              "https://twitter.com/worldlibertyfi"
+            ],
+            "message_board": [
+              "https://governance.worldlibertyfinancial.com/"
+            ],
+            "chat": [
+              "https://t.me/defiant1s"
+            ],
+            "facebook": [],
+            "explorer": [
+              "https://etherscan.io/token/0xda5e1988097297dcdc1f90d4dfe7909e847cbef6",
+              "https://solscan.io/token/WLFinEv6ypjkczcS83FZqFpgFZYwQXutRbxGe7oC16g",
+              "https://bscscan.com/token/0x47474747477b199288bF72a1D702f7Fe0Fb1DEeA"
+            ],
+            "reddit": [],
+            "technical_doc": [
+              "https://static.worldlibertyfinancial.com/docs/gold-paper.pdf"
+            ],
+            "source_code": [
+              "https://github.com/worldliberty"
+            ],
+            "announcement": [
+              "https://x.com/worldlibertyfi/"
+            ]
+          },
+          "platform": {
+            "id": "1027",
+            "name": "Ethereum",
+            "symbol": "ETH",
+            "slug": "ethereum",
+            "token_address": "0xdA5e1988097297dCdc1f90D4dFE7909e847CBeF6"
+          },
+          "date_added": "2024-10-01T02:34:47.000Z",
+          "twitter_username": "worldlibertyfi",
+          "is_hidden": 0,
+          "date_launched": "2025-09-01T00:00:00.000Z",
+          "contract_address": [
+            {
+              "contract_address": "0xdA5e1988097297dCdc1f90D4dFE7909e847CBeF6",
+              "platform": {
+                "name": "Ethereum",
+                "coin": {
+                  "id": "1027",
+                  "name": "Ethereum",
+                  "symbol": "ETH",
+                  "slug": "ethereum"
+                }
+              }
+            },
+            {
+              "contract_address": "0x47474747477b199288bF72a1D702f7Fe0Fb1DEeA",
+              "platform": {
+                "name": "BNB Smart Chain (BEP20)",
+                "coin": {
+                  "id": "1839",
+                  "name": "BNB",
+                  "symbol": "BNB",
+                  "slug": "bnb"
+                }
+              }
+            },
+            {
+              "contract_address": "WLFinEv6ypjkczcS83FZqFpgFZYwQXutRbxGe7oC16g",
+              "platform": {
+                "name": "Solana",
+                "coin": {
+                  "id": "5426",
+                  "name": "Solana",
+                  "symbol": "SOL",
+                  "slug": "solana"
+                }
+              }
+            }
+          ],
+          "self_reported_tags": [
+            "DeFi",
+            "Stablecoin"
+          ],
+          "infinite_supply": false
+        }
+      },
+      "status": {
+        "timestamp": "2026-09-26T10:51:19.280Z",
+        "error_code": 0,
+        "error_message": null,
+        "elapsed": 7,
+        "credit_count": 1,
+        "notice": null
+      }
+    }
+  }
+}

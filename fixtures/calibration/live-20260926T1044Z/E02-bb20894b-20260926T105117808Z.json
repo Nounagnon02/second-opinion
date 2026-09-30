@@ -1,0 +1,144 @@
+{
+  "label": "E02-bb20894b-20260926T105117808Z",
+  "recordedAt": "2026-09-26T10:51:17.808Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v3/cryptocurrency/quotes/latest?convert=USD&id=33251",
+    "path": "/v3/cryptocurrency/quotes/latest",
+    "query": {
+      "convert": "USD",
+      "id": "33251"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 671,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 10:51:17 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 ec6ab86695d018f9e87cce7df2ae9964.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "r1i6UzYMeKd6K034P27YrUmCgWozbu5JFofWA4tNaY8T2JUye1nohQ==",
+      "x-amz-cf-pop": "IAD55-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "9",
+      "x-server-traceid": "7495d095c1d0ac515dfbd78ccd48517f"
+    },
+    "body": {
+      "data": [
+        {
+          "tags": [
+            {
+              "slug": "defi",
+              "name": "DeFi",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "ethereum-ecosystem",
+              "name": "Ethereum Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "solana-ecosystem",
+              "name": "Solana Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "bnb-chain-ecosystem",
+              "name": "BNB Chain Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "made-in-america",
+              "name": "Made in America",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-ecosystem",
+              "name": "Binance Ecosystem",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-listing",
+              "name": "Binance Listing",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "wlfi-ecosystem",
+              "name": "WLFI Ecosystem",
+              "category": "CATEGORY"
+            }
+          ],
+          "id": 33251,
+          "name": "World Liberty Financial",
+          "symbol": "WLFI",
+          "slug": "world-liberty-financial-wlfi",
+          "is_active": 1,
+          "infinite_supply": false,
+          "is_fiat": 0,
+          "circulating_supply": 31777913727,
+          "total_supply": 100000000000,
+          "max_supply": 100000000000,
+          "date_added": "2024-10-01T02:34:47.000Z",
+          "num_market_pairs": 483,
+          "cmc_rank": 45,
+          "last_updated": "2026-09-26T10:50:00.000Z",
+          "tvl_ratio": null,
+          "platform": {
+            "id": 1027,
+            "slug": "ethereum",
+            "name": "Ethereum",
+            "symbol": "ETH",
+            "token_address": "0xdA5e1988097297dCdc1f90D4dFE7909e847CBeF6"
+          },
+          "self_reported_circulating_supply": null,
+          "self_reported_market_cap": null,
+          "minted_market_cap": 5904303396.56,
+          "quote": [
+            {
+              "id": 2781,
+              "symbol": "USD",
+              "price": 0.05904303396564357,
+              "volume_24h": 49454380.54176532,
+              "volume_change_24h": -19.0241,
+              "cex_volume_24h": 49321135.40431999,
+              "dex_volume_24h": 133245.13744531,
+              "percent_change_1h": 2.11797417,
+              "percent_change_24h": 4.47819906,
+              "percent_change_7d": 0.02311949,
+              "percent_change_30d": 1.33588853,
+              "percent_change_60d": 7.676973,
+              "percent_change_90d": 1.32452518,
+              "market_cap": 1876264439.5405521,
+              "market_cap_dominance": 0.065,
+              "fully_diluted_market_cap": 5904303396.56,
+              "minted_market_cap": 5904303396.56,
+              "tvl": null,
+              "last_updated": "2026-09-26T10:50:02.000Z"
+            }
+          ]
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-26T10:51:17.559Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 4,
+        "credit_count": 1
+      }
+    }
+  }
+}

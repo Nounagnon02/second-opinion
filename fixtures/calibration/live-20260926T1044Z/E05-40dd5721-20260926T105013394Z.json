@@ -1,0 +1,133 @@
+{
+  "label": "E05-40dd5721-20260926T105013394Z",
+  "recordedAt": "2026-09-26T10:50:13.394Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v2/cryptocurrency/info?id=3897",
+    "path": "/v2/cryptocurrency/info",
+    "query": {
+      "id": "3897"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 3117,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 10:50:12 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 71b24e89f6f9e648d6cc206b3f6cc3da.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "Xh9k1qY6iLkSPJh84fROpkUbt8yJLFdtQWiqMKQgzPqkEg8lmExZyg==",
+      "x-amz-cf-pop": "IAD55-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "12",
+      "x-server-traceid": "22f7cfce83794bfd3bf1fced9cd0a7c1"
+    },
+    "body": {
+      "data": {
+        "3897": {
+          "id": 3897,
+          "name": "OKB",
+          "symbol": "OKB",
+          "category": "token",
+          "description": "OKB (OKB) is a cryptocurrency and operates on the X Layer platform. OKB has a current supply of 21,000,000. The last known price of OKB is 121.44924781 USD and is up 1.40 over the last 24 hours. It is currently trading on 214 active market(s) with $30,660,194.42 traded over the last 24 hours. More information can be found at https://www.okx.com/.",
+          "slug": "okb",
+          "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/3897.png",
+          "subreddit": "okx",
+          "notice": "",
+          "tags": [
+            "layer-2",
+            "alameda-research-portfolio",
+            "x-layer-ecosystem",
+            "xlayer-ecosystem",
+            "made-in-china"
+          ],
+          "tag-names": [
+            "Layer 2",
+            "Alameda Research Portfolio",
+            "X Layer Ecosystem",
+            "Xlayer Ecosystem",
+            "Made in China"
+          ],
+          "tag-groups": [
+            "CATEGORY",
+            "CATEGORY",
+            "PLATFORM",
+            "CATEGORY",
+            "CATEGORY"
+          ],
+          "urls": {
+            "website": [
+              "https://www.okx.com/"
+            ],
+            "twitter": [
+              "https://twitter.com/okx"
+            ],
+            "message_board": [],
+            "chat": [
+              "https://t.me/okexofficial_en"
+            ],
+            "facebook": [],
+            "explorer": [
+              "https://web3.okx.com/token/x-layer/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+            ],
+            "reddit": [
+              "https://reddit.com/r/okx"
+            ],
+            "technical_doc": [],
+            "source_code": [],
+            "announcement": []
+          },
+          "platform": {
+            "id": "3897",
+            "name": "OKB",
+            "symbol": "OKB",
+            "slug": "okb",
+            "token_address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+          },
+          "date_added": "2019-04-30T00:00:00.000Z",
+          "twitter_username": "okx",
+          "is_hidden": 0,
+          "contract_address": [
+            {
+              "contract_address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+              "platform": {
+                "name": "X Layer",
+                "coin": {
+                  "id": "3897",
+                  "name": "OKB",
+                  "symbol": "OKB",
+                  "slug": "okb"
+                }
+              }
+            }
+          ],
+          "self_reported_circulating_supply": 246638974,
+          "self_reported_market_cap": 29974105991.927006,
+          "infinite_supply": false
+        }
+      },
+      "status": {
+        "timestamp": "2026-09-26T10:50:12.879Z",
+        "error_code": 0,
+        "error_message": null,
+        "elapsed": 7,
+        "credit_count": 1,
+        "notice": null
+      }
+    }
+  }
+}

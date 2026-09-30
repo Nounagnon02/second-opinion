@@ -1,0 +1,169 @@
+{
+  "label": "E02-8c0455d4-20260926T105127554Z",
+  "recordedAt": "2026-09-26T10:51:27.554Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v3/cryptocurrency/quotes/latest?convert=USD&id=13502",
+    "path": "/v3/cryptocurrency/quotes/latest",
+    "query": {
+      "convert": "USD",
+      "id": "13502"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 285,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 10:51:27 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 ec6ab86695d018f9e87cce7df2ae9964.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "Ul6gFo2uli9RwC119Z97uQJbS_NO1o6Wk5x0UNheQL8XufnJX2iAHw==",
+      "x-amz-cf-pop": "IAD55-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "8",
+      "x-server-traceid": "33a8dbc4e56279adfca159a45ee8cc61"
+    },
+    "body": {
+      "data": [
+        {
+          "tags": [
+            {
+              "slug": "defi",
+              "name": "DeFi",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "zero-knowledge-proofs",
+              "name": "Zero Knowledge Proofs",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "identity",
+              "name": "Identity",
+              "category": "INDUSTRY"
+            },
+            {
+              "slug": "ethereum-ecosystem",
+              "name": "Ethereum Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "governance",
+              "name": "Governance",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "blockchain-capital-portfolio",
+              "name": "Blockchain Capital Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "a16z-portfolio",
+              "name": "a16z Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "token",
+              "name": "Token",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "optimism-ecosystem",
+              "name": "Optimism Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "world-chain-mainnet-ecosystem",
+              "name": "World Chain Mainnet Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "made-in-america",
+              "name": "Made in America",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-ecosystem",
+              "name": "Binance Ecosystem",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-listing",
+              "name": "Binance Listing",
+              "category": "CATEGORY"
+            }
+          ],
+          "id": 13502,
+          "name": "Worldcoin",
+          "symbol": "WLD",
+          "slug": "worldcoin-org",
+          "is_active": 1,
+          "infinite_supply": false,
+          "is_fiat": 0,
+          "circulating_supply": 3715161619.1244993,
+          "total_supply": 10000000000,
+          "max_supply": null,
+          "date_added": "2021-10-28T15:31:43.000Z",
+          "num_market_pairs": 583,
+          "cmc_rank": 49,
+          "last_updated": "2026-09-26T10:50:00.000Z",
+          "tvl_ratio": null,
+          "platform": {
+            "id": 1027,
+            "slug": "ethereum",
+            "name": "Ethereum",
+            "symbol": "ETH",
+            "token_address": "0x163f8c2467924be0ae7b5347228cabf260318753"
+          },
+          "self_reported_circulating_supply": 3715160393.13,
+          "self_reported_market_cap": 1802217840.3406143,
+          "minted_market_cap": 4850982594.65,
+          "quote": [
+            {
+              "id": 2781,
+              "symbol": "USD",
+              "price": 0.4850982594649855,
+              "volume_24h": 483607031.05657715,
+              "volume_change_24h": 41.3822,
+              "cex_volume_24h": 482807454.33184314,
+              "dex_volume_24h": 799576.72473413,
+              "percent_change_1h": 1.7041204,
+              "percent_change_24h": 7.97794013,
+              "percent_change_7d": 14.19718341,
+              "percent_change_30d": 21.04371259,
+              "percent_change_60d": 50.74974996,
+              "percent_change_90d": 7.42829813,
+              "market_cap": 1802218435.068412,
+              "market_cap_dominance": 0.0624,
+              "fully_diluted_market_cap": 4850982594.65,
+              "minted_market_cap": 4850982594.65,
+              "tvl": null,
+              "last_updated": "2026-09-26T10:50:02.000Z"
+            }
+          ]
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-26T10:51:27.364Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 3,
+        "credit_count": 1
+      }
+    }
+  }
+}

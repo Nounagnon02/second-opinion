@@ -1,0 +1,74 @@
+{
+  "label": "E19-a5079f27-20260925T162632103Z",
+  "recordedAt": "2026-09-25T16:26:32.103Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v5/real-world-assets/issuers?issuer_id=6a436076282e7240b76c8bf9&limit=250&start=1",
+    "path": "/v5/real-world-assets/issuers",
+    "query": {
+      "issuer_id": "6a436076282e7240b76c8bf9",
+      "limit": "250",
+      "start": "1"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 200,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Fri, 25 Sep 2026 16:26:31 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 b635e2b1f0ae92160e68ba87d10e2754.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "10YzHWe0njUf3Fb51zqIBLxFrwdn8anVOPsOntjoh68OuJ80ajK8-Q==",
+      "x-amz-cf-pop": "CDG55-P3",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "8",
+      "x-server-traceid": "fe20cc3eda80ab82bab4633dcfbd1187"
+    },
+    "body": {
+      "data": {
+        "name": "Republic",
+        "website": "https://republic.com/",
+        "logo": "https://s2.coinmarketcap.com/static/img/issuer/for2i2.png",
+        "tokens": [
+          {
+            "name": "SpaceX \nPre-IPO stock (Republic)",
+            "symbol": "preSPCX",
+            "crypto_id": 40643,
+            "rwa_id": 9
+          },
+          {
+            "name": "OpenAI\nPre-IPO stock (Republic)",
+            "symbol": "preOPAI",
+            "crypto_id": 40659,
+            "rwa_id": null
+          }
+        ],
+        "issuer_id": "6a436076282e7240b76c8bf9",
+        "num_tokens": 2,
+        "total_size": 2,
+        "has_more": false
+      },
+      "status": {
+        "timestamp": "2026-09-25T16:26:31.988Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 4,
+        "credit_count": 1
+      }
+    }
+  }
+}

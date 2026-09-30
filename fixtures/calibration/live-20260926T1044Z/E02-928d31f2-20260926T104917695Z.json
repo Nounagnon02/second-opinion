@@ -1,0 +1,149 @@
+{
+  "label": "E02-928d31f2-20260926T104917695Z",
+  "recordedAt": "2026-09-26T10:49:17.695Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v3/cryptocurrency/quotes/latest?convert=USD&id=30171",
+    "path": "/v3/cryptocurrency/quotes/latest",
+    "query": {
+      "convert": "USD",
+      "id": "30171"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 438,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 10:49:17 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 0e373c2690d6d18d0c88347ad35ba498.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "vcy5NeQrETQ4mXH0DkjzH771lOFExFtmHwxHzGdObMtxwcIhx-Xk4g==",
+      "x-amz-cf-pop": "IAD55-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "9",
+      "x-server-traceid": "3ceb5842a58e459cdd359aaa68b8a473"
+    },
+    "body": {
+      "data": [
+        {
+          "tags": [
+            {
+              "slug": "defi",
+              "name": "DeFi",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "ethereum-ecosystem",
+              "name": "Ethereum Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "binance-labs-portfolio",
+              "name": "YZi Labs Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "okx-ventures-portfolio",
+              "name": "OKX Ventures Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "cmc-crypto-yearbook-2024-2025",
+              "name": "CMC Crypto Yearbook 2024-25",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "world-liberty-financial-portfolio",
+              "name": "World Liberty Financial Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-ecosystem",
+              "name": "Binance Ecosystem",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-listing",
+              "name": "Binance Listing",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "amber-group-portfolio",
+              "name": "Amber Group Portfolio",
+              "category": "CATEGORY"
+            }
+          ],
+          "id": 30171,
+          "name": "Ethena",
+          "symbol": "ENA",
+          "slug": "ethena",
+          "is_active": 1,
+          "infinite_supply": false,
+          "is_fiat": 0,
+          "circulating_supply": 10095312500,
+          "total_supply": 15000000000,
+          "max_supply": 15000000000,
+          "date_added": "2024-03-29T04:42:08.000Z",
+          "num_market_pairs": 481,
+          "cmc_rank": 33,
+          "last_updated": "2026-09-26T10:48:00.000Z",
+          "tvl_ratio": 0.5328696,
+          "platform": {
+            "id": 1027,
+            "slug": "ethereum",
+            "name": "Ethereum",
+            "symbol": "ETH",
+            "token_address": "0x57e114B691Db790C35207b2e685D4A43181e6061"
+          },
+          "self_reported_circulating_supply": 1479139274,
+          "self_reported_market_cap": 418373721.7757827,
+          "minted_market_cap": 4242741665.34,
+          "quote": [
+            {
+              "id": 2781,
+              "symbol": "USD",
+              "price": 0.28284944435582793,
+              "volume_24h": 1292779133.1621432,
+              "volume_change_24h": 90.5188,
+              "cex_volume_24h": 1289641099.9269025,
+              "dex_volume_24h": 3138033.23524064,
+              "percent_change_1h": 2.04059297,
+              "percent_change_24h": 23.71153914,
+              "percent_change_7d": 47.38618633,
+              "percent_change_30d": 88.29061517,
+              "percent_change_60d": 238.09196469,
+              "percent_change_90d": 272.59260151,
+              "market_cap": 2855453531.223444,
+              "market_cap_dominance": 0.0989,
+              "fully_diluted_market_cap": 4242741665.34,
+              "minted_market_cap": 4242741665.34,
+              "tvl": 5358634749.02754,
+              "last_updated": "2026-09-26T10:48:02.000Z"
+            }
+          ]
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-26T10:49:17.345Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 4,
+        "credit_count": 1
+      }
+    }
+  }
+}

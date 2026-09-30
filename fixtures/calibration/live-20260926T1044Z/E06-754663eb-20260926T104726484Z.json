@@ -1,0 +1,65 @@
+{
+  "label": "E06-754663eb-20260926T104726484Z",
+  "recordedAt": "2026-09-26T10:47:26.484Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v2/simple/price?id=5805&include_last_updated=true",
+    "path": "/v2/simple/price",
+    "query": {
+      "id": "5805",
+      "include_last_updated": "true"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 218,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 10:47:26 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 cf29f50e3abcfc5226af6f36cb760c56.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "AaclO82gfvGIzQXI7vcyurLRy_vFtXclIWW1tb3CTDlGB2A1VUg58g==",
+      "x-amz-cf-pop": "IAD55-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "9",
+      "x-server-traceid": "a3f2441b8e87981f4d0cc9769cb52c6b"
+    },
+    "body": {
+      "data": [
+        {
+          "id": 5805,
+          "name": "Avalanche",
+          "symbol": "AVAX",
+          "slug": "avalanche",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "price": 10.751893941402031,
+              "last_updated": "2026-09-26T10:46:02.000Z"
+            }
+          ]
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-26T10:47:26.338Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 3,
+        "credit_count": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "label": "E19-01e67e22-20260925T162631701Z",
+  "recordedAt": "2026-09-25T16:26:31.701Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v5/real-world-assets/issuers?issuer_id=689612983f270c6ff4781b96&limit=250&start=1",
+    "path": "/v5/real-world-assets/issuers",
+    "query": {
+      "issuer_id": "689612983f270c6ff4781b96",
+      "limit": "250",
+      "start": "1"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 363,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Fri, 25 Sep 2026 16:26:31 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 b635e2b1f0ae92160e68ba87d10e2754.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "jX6E0R3bWquvY1J04sRMqMN7Y2XHZgS9YG3fxd_IEMpHIyKVHZipwQ==",
+      "x-amz-cf-pop": "CDG55-P3",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "8",
+      "x-server-traceid": "42b3cdb40ca6b6e1efd99cd3ee13a041"
+    },
+    "body": {
+      "data": {
+        "name": "PreStocks Assets",
+        "website": "https://prestocks.com/",
+        "tokens": [
+          {
+            "name": "SpaceX tokenized stock (PreStocks)",
+            "symbol": "SPACEX",
+            "crypto_id": 37656,
+            "rwa_id": 9
+          },
+          {
+            "name": "OpenAI tokenized stock (PreStocks)",
+            "symbol": "OPENAI",
+            "crypto_id": 37671,
+            "rwa_id": 250
+          },
+          {
+            "crypto_id": 37679,
+            "rwa_id": null
+          },
+          {
+            "crypto_id": 37680,
+            "rwa_id": null
+          },
+          {
+            "name": "xAI tokenized stock (PreStocks)",
+            "symbol": "XAI",
+            "crypto_id": 37682,
+            "rwa_id": null
+          },
+          {
+            "crypto_id": 37683,
+            "rwa_id": null
+          },
+          {
+            "crypto_id": 37684,
+            "rwa_id": null
+          },
+          {
+            "crypto_id": 37685,
+            "rwa_id": null
+          },
+          {
+            "crypto_id": 37686,
+            "rwa_id": null
+          },
+          {
+            "crypto_id": 37687,
+            "rwa_id": null
+          },
+          {
+            "crypto_id": 37688,
+            "rwa_id": null
+          },
+          {
+            "crypto_id": 37689,
+            "rwa_id": null
+          },
+          {
+            "crypto_id": 37690,
+            "rwa_id": null
+          },
+          {
+            "crypto_id": 37691,
+            "rwa_id": null
+          },
+          {
+            "name": "Anthropic tokenized stock (PreStocks)",
+            "symbol": "ANTHROPIC",
+            "crypto_id": 37693,
+            "rwa_id": 187
+          },
+          {
+            "name": "Anduril tokenized stock (PreStocks)",
+            "symbol": "ANDURIL",
+            "crypto_id": 37695,
+            "rwa_id": null
+          },
+          {
+            "crypto_id": 37696,
+            "rwa_id": null
+          },
+          {
+            "crypto_id": 37714,
+            "rwa_id": null
+          },
+          {
+            "crypto_id": 37715,
+            "rwa_id": null
+          },
+          {
+            "crypto_id": 37716,
+            "rwa_id": null
+          },
+          {
+            "crypto_id": 37717,
+            "rwa_id": null
+          },
+          {
+            "crypto_id": 37718,
+            "rwa_id": null
+          }
+        ],
+        "issuer_id": "689612983f270c6ff4781b96",
+        "num_tokens": 22,
+        "total_size": 22,
+        "has_more": false
+      },
+      "status": {
+        "timestamp": "2026-09-25T16:26:31.585Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 3,
+        "credit_count": 1
+      }
+    }
+  }
+}

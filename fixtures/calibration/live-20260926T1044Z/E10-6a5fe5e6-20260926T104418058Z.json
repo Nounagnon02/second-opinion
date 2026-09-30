@@ -1,0 +1,63 @@
+{
+  "label": "E10-6a5fe5e6-20260926T104418058Z",
+  "recordedAt": "2026-09-26T10:44:18.058Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v1/dex/token/price?address=0xb8c77482e45f1f44de1745f52c74426c631bdd52&platform=ethereum",
+    "path": "/v1/dex/token/price",
+    "query": {
+      "address": "0xb8c77482e45f1f44de1745f52c74426c631bdd52",
+      "platform": "ethereum"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 636,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 10:44:17 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 f6d7fdc57860c8c79f694e99b07ead5a.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "iKzWnluIQC7vYwkc3t-ErCsu9bblhxDEjagiBILmkjS5Bg7Dsb62Ng==",
+      "x-amz-cf-pop": "IAD55-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "174",
+      "x-server-traceid": "83beac3019ba055b7ebda9b91abe626a"
+    },
+    "body": {
+      "data": {
+        "pid": 1,
+        "pdex": "Ethereum",
+        "a": "0xb8c77482e45f1f44de1745f52c74426c631bdd52",
+        "p": 817.5811520535098,
+        "pc24h": 0.0025,
+        "v24h": 15808.074598287334,
+        "l": 172404.6324222246,
+        "ts": "1790419391000",
+        "fpt": "1740320351000",
+        "fpct": "1613202826000",
+        "mc": 321234280.2580735
+      },
+      "status": {
+        "timestamp": "2026-09-26T10:44:17.664Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 169,
+        "credit_count": 1
+      }
+    }
+  }
+}

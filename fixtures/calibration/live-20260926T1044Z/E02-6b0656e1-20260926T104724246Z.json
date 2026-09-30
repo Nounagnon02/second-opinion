@@ -1,0 +1,164 @@
+{
+  "label": "E02-6b0656e1-20260926T104724246Z",
+  "recordedAt": "2026-09-26T10:47:24.246Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v3/cryptocurrency/quotes/latest?convert=USD&id=29470",
+    "path": "/v3/cryptocurrency/quotes/latest",
+    "query": {
+      "convert": "USD",
+      "id": "29470"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 445,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 10:47:23 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 b61a4be0aa9880eabf6cbea18ec105b2.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "nxvhqIDjj2AUYQHZ2N1hJczTuzpb6skMXfiz2m0COF8N6vDHrE845Q==",
+      "x-amz-cf-pop": "IAD55-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "10",
+      "x-server-traceid": "f74c5f7c089c9f114b9e2af28d55dbd7"
+    },
+    "body": {
+      "data": [
+        {
+          "tags": [
+            {
+              "slug": "stablecoin",
+              "name": "Stablecoin",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "asset-backed-stablecoin",
+              "name": "Asset-Backed Stablecoin",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-labs-portfolio",
+              "name": "YZi Labs Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "dragonfly-capital-portfolio",
+              "name": "DragonFly Capital Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "usd-stablecoin",
+              "name": "USD Stablecoin",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "eigenlayer-ecosystem",
+              "name": "EigenLayer Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "binance-ecosystem",
+              "name": "Binance Ecosystem",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-listing",
+              "name": "Binance Listing",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "xlayer-ecosystem",
+              "name": "Xlayer Ecosystem",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "plasma-ecosystem",
+              "name": "Plasma Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "megaeth-ecosystem",
+              "name": "MegaETH Ecosystem",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "robinhood-ecosystem",
+              "name": "Robinhood Ecosystem",
+              "category": "CATEGORY"
+            }
+          ],
+          "id": 29470,
+          "name": "Ethena USDe",
+          "symbol": "USDe",
+          "slug": "ethena-usde",
+          "is_active": 1,
+          "infinite_supply": true,
+          "is_fiat": 0,
+          "circulating_supply": 4938234112.618181,
+          "total_supply": 4938234112.618181,
+          "max_supply": null,
+          "date_added": "2024-02-20T11:05:01.000Z",
+          "num_market_pairs": 336,
+          "cmc_rank": 22,
+          "last_updated": "2026-09-26T10:45:00.000Z",
+          "tvl_ratio": null,
+          "platform": {
+            "id": 1027,
+            "slug": "ethereum",
+            "name": "Ethereum",
+            "symbol": "ETH",
+            "token_address": "0x4c9edd5852cd905f086c759e8383e09bff1e68b3"
+          },
+          "self_reported_circulating_supply": null,
+          "self_reported_market_cap": null,
+          "minted_market_cap": 4936981978.04,
+          "quote": [
+            {
+              "id": 2781,
+              "symbol": "USD",
+              "price": 0.9997464408225917,
+              "volume_24h": 49586437.10086496,
+              "volume_change_24h": 17.3223,
+              "cex_volume_24h": 26149124.17584104,
+              "dex_volume_24h": 23437312.92502392,
+              "percent_change_1h": 0.01088102,
+              "percent_change_24h": -0.00770184,
+              "percent_change_7d": -0.00353242,
+              "percent_change_30d": -0.00884526,
+              "percent_change_60d": -0.01101101,
+              "percent_change_90d": 0.16029221,
+              "market_cap": 4936981978.038736,
+              "market_cap_dominance": 0.1711,
+              "fully_diluted_market_cap": 4936981978.04,
+              "minted_market_cap": 4936981978.04,
+              "tvl": null,
+              "last_updated": "2026-09-26T10:46:02.000Z"
+            }
+          ]
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-26T10:47:23.884Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 4,
+        "credit_count": 1
+      }
+    }
+  }
+}

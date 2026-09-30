@@ -1,0 +1,65 @@
+{
+  "label": "E06-3ad6ce2d-20260926T081108924Z",
+  "recordedAt": "2026-09-26T08:11:08.924Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v2/simple/price?id=36148&include_last_updated=true",
+    "path": "/v2/simple/price",
+    "query": {
+      "id": "36148",
+      "include_last_updated": "true"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 229,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 08:11:08 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 fd50884b2bfe902418b0eda3149a88d0.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "pbxrEZ1c5qoOiadSp1WrATGt5qSta76lHfOFAlJDu8mXbXxRbLT7Qg==",
+      "x-amz-cf-pop": "LHR86-P3",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "11",
+      "x-server-traceid": "4e2269415841dd341aa330c310f93204"
+    },
+    "body": {
+      "data": [
+        {
+          "id": 36148,
+          "name": "World Liberty Financial USD",
+          "symbol": "USD1",
+          "slug": "usd1",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "price": 0.9993709847348854,
+              "last_updated": "2026-09-26T08:10:03.000Z"
+            }
+          ]
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-26T08:11:08.787Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 4,
+        "credit_count": 1
+      }
+    }
+  }
+}

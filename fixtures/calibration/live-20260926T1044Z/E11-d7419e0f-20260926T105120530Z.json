@@ -1,0 +1,332 @@
+{
+  "label": "E11-d7419e0f-20260926T105120530Z",
+  "recordedAt": "2026-09-26T10:51:20.530Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v1/dex/token/pools?address=0xdA5e1988097297dCdc1f90D4dFE7909e847CBeF6&platform=ethereum&size=10",
+    "path": "/v1/dex/token/pools",
+    "query": {
+      "address": "0xdA5e1988097297dCdc1f90D4dFE7909e847CBeF6",
+      "platform": "ethereum",
+      "size": "10"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 896,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 10:51:20 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 df2f03f1e32bc36cc15af726be2891aa.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "N32ZP76izHCnQqeItiYY_MC7q8FKVNegXNq-6uCSFd1BLswZcEuJyg==",
+      "x-amz-cf-pop": "IAD55-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "266",
+      "x-server-traceid": "7b6028ed51a2eb87bca3f1b0eb00dee2"
+    },
+    "body": {
+      "data": [
+        {
+          "addr": "0x7f2869b24d83f03e0438c045ce24fd18045b2b6cdec47cd7b62e67e2284d1be9",
+          "v24": "48146.632896591650800901",
+          "t0": {
+            "addr": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png",
+            "n": "Ethereum",
+            "sym": "ETH",
+            "liq": "970.999231747902099062",
+            "liqUsd": "2608375.846727886515060446"
+          },
+          "t1": {
+            "addr": "0xda5e1988097297dcdc1f90d4dfe7909e847cbef6",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/33251.png",
+            "n": "World Liberty Financial",
+            "sym": "WLFI",
+            "liq": "40936429.919253565696979516",
+            "liqUsd": "2437709.245159099029946146"
+          },
+          "bidx": 1,
+          "exid": 11955,
+          "exn": "Uniswap v4 (Ethereum)",
+          "liqUsd": "5046085.091886985545006591",
+          "fa": "0x000000000004444c5dc75cb358380d2e3de08a90",
+          "top": true,
+          "mi": false
+        },
+        {
+          "addr": "0x4637ea6ecf7e16c99e67e941ab4d7d52eac7c73d",
+          "v24": "13.839896805997466375",
+          "pubAt": "1756073411000",
+          "t0": {
+            "addr": "0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/36148.png",
+            "n": "World Liberty Financial USD",
+            "sym": "USD1",
+            "liq": "17522.591496547998203762",
+            "liqUsd": "17512.10803997458082815"
+          },
+          "t1": {
+            "addr": "0xda5e1988097297dcdc1f90d4dfe7909e847cbef6",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/33251.png",
+            "n": "World Liberty Financial",
+            "sym": "WLFI",
+            "liq": "60495332.211584449997220597",
+            "liqUsd": "3564903.343735896308422138"
+          },
+          "bidx": 1,
+          "exid": 1348,
+          "exn": "Uniswap v3 (Ethereum)",
+          "liqUsd": "3582415.451775870889250287",
+          "fa": "0x1f98431c8ad98523631ae4a59f267346ea31f984",
+          "top": true,
+          "mi": false
+        },
+        {
+          "addr": "0x5267a76cff202fd8204afbfb8ec2331c8b138f94e07645e47069f4c174ffb180",
+          "v24": "0",
+          "pubAt": "1758217667000",
+          "t0": {
+            "addr": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/12409.png",
+            "n": "Wrapped liquid staked Ether 2.0",
+            "sym": "wstETH",
+            "liq": "166.201901753031144871",
+            "liqUsd": "555065.206280959174275401"
+          },
+          "t1": {
+            "addr": "0xda5e1988097297dcdc1f90d4dfe7909e847cbef6",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/33251.png",
+            "n": "World Liberty Financial",
+            "sym": "WLFI",
+            "liq": "15855479.018594447673019622",
+            "liqUsd": "1455386.389774824067796293"
+          },
+          "bidx": 1,
+          "exid": 11955,
+          "exn": "Uniswap v4 (Ethereum)",
+          "liqUsd": "2010451.596055783242071693",
+          "fa": "0x000000000004444c5dc75cb358380d2e3de08a90",
+          "top": true,
+          "mi": false
+        },
+        {
+          "addr": "0x238f00fcfd4f0c5930028237c6a1b395f4c0fc74",
+          "v24": "42391.332673219124666948",
+          "pubAt": "1756073231000",
+          "t0": {
+            "addr": "0xda5e1988097297dcdc1f90d4dfe7909e847cbef6",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/33251.png",
+            "n": "World Liberty Financial",
+            "sym": "WLFI",
+            "liq": "22187848.426699037523108496",
+            "liqUsd": "1320878.799456700086319155"
+          },
+          "t1": {
+            "addr": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/825.png",
+            "n": "Tether USD",
+            "sym": "USDT",
+            "liq": "110731.268406",
+            "liqUsd": "110703.038771788310067469"
+          },
+          "bidx": 0,
+          "exid": 1348,
+          "exn": "Uniswap v3 (Ethereum)",
+          "liqUsd": "1431581.838228488396386624",
+          "fa": "0x1f98431c8ad98523631ae4a59f267346ea31f984",
+          "top": true,
+          "mi": false
+        },
+        {
+          "addr": "0x6e5930d139a848e0446ff11e0d30f964eec8df76",
+          "v24": "34.231705137653264436",
+          "pubAt": "1756073039000",
+          "t0": {
+            "addr": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/3408.png",
+            "n": "USD Coin",
+            "sym": "USDC",
+            "liq": "7774.828133",
+            "liqUsd": "7773.384330460406466454"
+          },
+          "t1": {
+            "addr": "0xda5e1988097297dcdc1f90d4dfe7909e847cbef6",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/33251.png",
+            "n": "World Liberty Financial",
+            "sym": "WLFI",
+            "liq": "20111432.215266181161664514",
+            "liqUsd": "1181536.217060161422400619"
+          },
+          "bidx": 1,
+          "exid": 1348,
+          "exn": "Uniswap v3 (Ethereum)",
+          "liqUsd": "1189309.601390621828867072",
+          "fa": "0x1f98431c8ad98523631ae4a59f267346ea31f984",
+          "top": true,
+          "mi": false
+        },
+        {
+          "addr": "0xe9b027c431de595bab40f454e821bb0a34022c3e",
+          "v24": "16228.835677857490121931",
+          "pubAt": "1756646183000",
+          "t0": {
+            "addr": "0xda5e1988097297dcdc1f90d4dfe7909e847cbef6",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/33251.png",
+            "n": "World Liberty Financial",
+            "sym": "WLFI",
+            "liq": "5733195.660682398625611197",
+            "liqUsd": "338958.151882892902215802"
+          },
+          "t1": {
+            "addr": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/2396.png",
+            "n": "Wrapped Ether",
+            "sym": "WETH",
+            "liq": "125.786271582413733281",
+            "liqUsd": "337990.844131080068690839"
+          },
+          "bidx": 0,
+          "exid": 32396,
+          "exn": "Ring Exchange (Ethereum)",
+          "liqUsd": "676948.996013972970906641",
+          "fa": "0xeb2a625b704d73e82946d8d026e1f588eed06416",
+          "top": true,
+          "mi": false
+        },
+        {
+          "addr": "0x766890448e12eeae7af683ce04cbc4b12d2c3e6ef73536ab84da85f501a8484e",
+          "v24": "2.049910484398368812",
+          "pubAt": "1756721855000",
+          "t0": {
+            "addr": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/3408.png",
+            "n": "USD Coin",
+            "sym": "USDC",
+            "liq": "127705.462346",
+            "liqUsd": "127694.014408350939312434"
+          },
+          "t1": {
+            "addr": "0xda5e1988097297dcdc1f90d4dfe7909e847cbef6",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/33251.png",
+            "n": "World Liberty Financial",
+            "sym": "WLFI",
+            "liq": "601652.188163867237717105",
+            "liqUsd": "35039.244852786271940834"
+          },
+          "bidx": 1,
+          "exid": 11955,
+          "exn": "Uniswap v4 (Ethereum)",
+          "liqUsd": "162733.259261137211253267",
+          "fa": "0x000000000004444c5dc75cb358380d2e3de08a90",
+          "top": true,
+          "mi": false
+        },
+        {
+          "addr": "0x93fc0a85a8e8ca52c74748b63990bb86d0566ecd5b2ba527654eb6c775b4acba",
+          "v24": "2.498854969064022796",
+          "pubAt": "1756617947000",
+          "t0": {
+            "addr": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png",
+            "n": "Ethereum",
+            "sym": "ETH",
+            "liq": "3.37809382842705054",
+            "liqUsd": "9067.376741422391611105"
+          },
+          "t1": {
+            "addr": "0xda5e1988097297dcdc1f90d4dfe7909e847cbef6",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/33251.png",
+            "n": "World Liberty Financial",
+            "sym": "WLFI",
+            "liq": "74748.549322110434607571",
+            "liqUsd": "4294.408609867141806199"
+          },
+          "bidx": 1,
+          "exid": 11955,
+          "exn": "Uniswap v4 (Ethereum)",
+          "liqUsd": "13361.785351289533417303",
+          "fa": "0x000000000004444c5dc75cb358380d2e3de08a90",
+          "top": true,
+          "mi": false
+        },
+        {
+          "addr": "0xca2e972f081764c30ae5f012a29d5277eef33838",
+          "v24": "105.161882260530458713",
+          "pubAt": "1756639583000",
+          "t0": {
+            "addr": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/2396.png",
+            "n": "Wrapped Ether",
+            "sym": "WETH",
+            "liq": "0.534240144626195526",
+            "liqUsd": "1435.21911505198686263"
+          },
+          "t1": {
+            "addr": "0xda5e1988097297dcdc1f90d4dfe7909e847cbef6",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/33251.png",
+            "n": "World Liberty Financial",
+            "sym": "WLFI",
+            "liq": "60520.894372211195948338",
+            "liqUsd": "3590.312558862652536943"
+          },
+          "bidx": 1,
+          "exid": 1348,
+          "exn": "Uniswap v3 (Ethereum)",
+          "liqUsd": "5025.531673914639399572",
+          "fa": "0x1f98431c8ad98523631ae4a59f267346ea31f984",
+          "top": true,
+          "mi": false
+        },
+        {
+          "addr": "0xb290fbdd834488bad63d44676936e43b893dada0e46e9b7ca89788b956321163",
+          "v24": "79.174874717842915653",
+          "pubAt": "1752758123000",
+          "t0": {
+            "addr": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png",
+            "n": "Ethereum",
+            "sym": "ETH",
+            "liq": "0.70077266809855398",
+            "liqUsd": "1883.177877853103916455"
+          },
+          "t1": {
+            "addr": "0xda5e1988097297dcdc1f90d4dfe7909e847cbef6",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/33251.png",
+            "n": "World Liberty Financial",
+            "sym": "WLFI",
+            "liq": "29768.435486046912532216",
+            "liqUsd": "1743.119177808282127916"
+          },
+          "bidx": 1,
+          "exid": 11955,
+          "exn": "Uniswap v4 (Ethereum)",
+          "liqUsd": "3626.297055661386044371",
+          "fa": "0x000000000004444c5dc75cb358380d2e3de08a90",
+          "top": true,
+          "mi": false
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-26T10:51:20.372Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 261,
+        "credit_count": 1
+      }
+    }
+  }
+}

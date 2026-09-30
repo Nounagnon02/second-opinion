@@ -1,5 +1,6 @@
 node_modules/
 dist/
+coverage/
 .next/
 .env
 .env.*
@@ -8,3 +9,8 @@ dist/
 .loop/logs/
 *.log
 .vercel
+*.tsbuildinfo
+
+# Written by `next dev` on every start (Next.js 16 `agentRules`), not by this project.
+web/AGENTS.md
+web/CLAUDE.md

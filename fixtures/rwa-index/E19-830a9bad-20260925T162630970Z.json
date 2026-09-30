@@ -1,0 +1,409 @@
+{
+  "label": "E19-830a9bad-20260925T162630970Z",
+  "recordedAt": "2026-09-25T16:26:30.970Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v5/real-world-assets/issuers?issuer_id=688ca4ccabae9b5b9fb3167a&limit=250&start=501",
+    "path": "/v5/real-world-assets/issuers",
+    "query": {
+      "issuer_id": "688ca4ccabae9b5b9fb3167a",
+      "limit": "250",
+      "start": "501"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 202,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Fri, 25 Sep 2026 16:26:30 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 b635e2b1f0ae92160e68ba87d10e2754.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "zTomHXxslPF2Nd2_GIMY7apCbtpDmlKH6ysjZ0f0n4UmDuHdd67Rag==",
+      "x-amz-cf-pop": "CDG55-P3",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "7",
+      "x-server-traceid": "ff8c8172d4d37aca8aabba4c9b3d9918"
+    },
+    "body": {
+      "data": {
+        "name": "Ondo Assets",
+        "website": "https://ondo.finance/",
+        "tokens": [
+          {
+            "name": "Global X MSCI Argentina Tokenized ETF (Ondo)",
+            "symbol": "ARGTon",
+            "crypto_id": 40483,
+            "rwa_id": null
+          },
+          {
+            "name": "Nokia Tokenized Stock (Ondo)",
+            "symbol": "NOKon",
+            "crypto_id": 40484,
+            "rwa_id": null
+          },
+          {
+            "name": "CleanSpark Tokenized Stock (Ondo)",
+            "symbol": "CLSKon",
+            "crypto_id": 40485,
+            "rwa_id": null
+          },
+          {
+            "name": "Kratos Defense & Security Solutions Tokenized Stock (Ondo)",
+            "symbol": "KTOSon",
+            "crypto_id": 40486,
+            "rwa_id": null
+          },
+          {
+            "name": "Virgin Galactic Holdings Tokenized Stock (Ondo)",
+            "symbol": "SPCEon",
+            "crypto_id": 40487,
+            "rwa_id": null
+          },
+          {
+            "name": "Fabrinet Tokenized Stock (Ondo)",
+            "symbol": "FNon",
+            "crypto_id": 40488,
+            "rwa_id": null
+          },
+          {
+            "name": "Generac Holdings Tokenized Stock (Ondo)",
+            "symbol": "GNRCon",
+            "crypto_id": 40489,
+            "rwa_id": null
+          },
+          {
+            "name": "Amphenol Tokenized Stock (Ondo)",
+            "symbol": "APHon",
+            "crypto_id": 40490,
+            "rwa_id": null
+          },
+          {
+            "name": "Flex Tokenized Stock (Ondo)",
+            "symbol": "FLEXon",
+            "crypto_id": 40491,
+            "rwa_id": null
+          },
+          {
+            "name": "Vanguard FTSE Europe ETF Tokenized ETF (Ondo)",
+            "symbol": "VGKon",
+            "crypto_id": 40492,
+            "rwa_id": null
+          },
+          {
+            "name": "Cummins Tokenized Stock (Ondo)",
+            "symbol": "CMIon",
+            "crypto_id": 40493,
+            "rwa_id": null
+          },
+          {
+            "name": "Battalion Oil Tokenized Stock (Ondo)",
+            "symbol": "BATLon",
+            "crypto_id": 40494,
+            "rwa_id": null
+          },
+          {
+            "name": "Invesco Semiconductors Tokenized ETF (Ondo)",
+            "symbol": "PSIon",
+            "crypto_id": 40495,
+            "rwa_id": null
+          },
+          {
+            "name": "USA Rare Earth Tokenized Stock (Ondo)",
+            "symbol": "USARon",
+            "crypto_id": 40496,
+            "rwa_id": null
+          },
+          {
+            "name": "Ouster Tokenized Stock (Ondo)",
+            "symbol": "OUSTon",
+            "crypto_id": 40497,
+            "rwa_id": null
+          },
+          {
+            "name": "LightPath Technologies Tokenized Stock (Ondo)",
+            "symbol": "LPTHon",
+            "crypto_id": 40498,
+            "rwa_id": null
+          },
+          {
+            "name": "Quanta Services Tokenized Stock (Ondo)",
+            "symbol": "PWRon",
+            "crypto_id": 40499,
+            "rwa_id": null
+          },
+          {
+            "name": "Forgent Power Solutions Tokenized Stock (Ondo)",
+            "symbol": "FPSon",
+            "crypto_id": 40500,
+            "rwa_id": null
+          },
+          {
+            "name": "WESCO International Tokenized Stock (Ondo)",
+            "symbol": "WCCon",
+            "crypto_id": 40501,
+            "rwa_id": null
+          },
+          {
+            "name": "Devon Energy Corporation Tokenized Stock (Ondo)",
+            "symbol": "DVNon",
+            "crypto_id": 40502,
+            "rwa_id": null
+          },
+          {
+            "name": "Targa Resources Tokenized Stock (Ondo)",
+            "symbol": "TRGPon",
+            "crypto_id": 40503,
+            "rwa_id": null
+          },
+          {
+            "name": "Global X Blockchain Tokenized ETF (Ondo)",
+            "symbol": "BKCHon",
+            "crypto_id": 40504,
+            "rwa_id": null
+          },
+          {
+            "name": "Celestica Tokenized Stock (Ondo)",
+            "symbol": "CLSon",
+            "crypto_id": 40505,
+            "rwa_id": null
+          },
+          {
+            "name": "Fundrise Innovation Fund Tokenized Stock (Ondo)",
+            "symbol": "VCXon",
+            "crypto_id": 40506,
+            "rwa_id": null
+          },
+          {
+            "name": "iShares US Industry Rotation Active ETF Tokenized ETF (Ondo)",
+            "symbol": "INROon",
+            "crypto_id": 40507,
+            "rwa_id": null
+          },
+          {
+            "name": "Array Technologies Tokenized Stock (Ondo)",
+            "symbol": "ARRYon",
+            "crypto_id": 40508,
+            "rwa_id": null
+          },
+          {
+            "name": "iShares MSCI Emerging Markets Asia Tokenized ETF (Ondo)",
+            "symbol": "EEMAon",
+            "crypto_id": 40509,
+            "rwa_id": null
+          },
+          {
+            "name": "Schwab International Equity Tokenized ETF (Ondo)",
+            "symbol": "SCHFon",
+            "crypto_id": 40510,
+            "rwa_id": null
+          },
+          {
+            "name": "SPDR Bloomberg 1-3 Month T-Bill Tokenized ETF (Ondo)",
+            "symbol": "BILon",
+            "crypto_id": 40511,
+            "rwa_id": null
+          },
+          {
+            "name": "Synopsys Tokenized Stock (Ondo)",
+            "symbol": "SNPSon",
+            "crypto_id": 40512,
+            "rwa_id": null
+          },
+          {
+            "name": "Fidelity MSCI Information Technology Tokenized ETF (Ondo)",
+            "symbol": "FTECon",
+            "crypto_id": 40513,
+            "rwa_id": null
+          },
+          {
+            "name": "Global X Artificial Intelligence Tokenized ETF (Ondo)",
+            "symbol": "AIQon",
+            "crypto_id": 40514,
+            "rwa_id": null
+          },
+          {
+            "name": "Public Service Enterprise Group Tokenized Stock (Ondo)",
+            "symbol": "PEGon",
+            "crypto_id": 40515,
+            "rwa_id": null
+          },
+          {
+            "name": "Honeywell International Tokenized Stock (Ondo)",
+            "symbol": "HONon",
+            "crypto_id": 40516,
+            "rwa_id": null
+          },
+          {
+            "name": "Strive Preferred  Tokenized Stock (Ondo)",
+            "symbol": "SATAon",
+            "crypto_id": 40524,
+            "rwa_id": null
+          },
+          {
+            "name": "Reserve Robotics Tokenized DTF",
+            "symbol": "ROBOTS",
+            "crypto_id": 40525,
+            "rwa_id": null
+          },
+          {
+            "name": "Reserve AI Power Tokenized DTF",
+            "symbol": "POWER",
+            "crypto_id": 40526,
+            "rwa_id": null
+          },
+          {
+            "name": "Reserve AI Infrastructure Tokenized DTF",
+            "symbol": "BUILDOUT",
+            "crypto_id": 40527,
+            "rwa_id": null
+          },
+          {
+            "name": "Reserve AI Photonics Tokenized DTF",
+            "symbol": "PHOTON",
+            "crypto_id": 40528,
+            "rwa_id": null
+          },
+          {
+            "name": "Reserve AI Capacity & Neocloud Tokenized DTF",
+            "symbol": "NEOCLOUD",
+            "crypto_id": 40529,
+            "rwa_id": null
+          },
+          {
+            "name": "SK Hynix Tokenized Stock (Ondo)",
+            "symbol": "SKHYon",
+            "crypto_id": 40823,
+            "rwa_id": 8065
+          },
+          {
+            "name": "iShares Systematic Bond Tokenized ETF (Ondo)",
+            "symbol": "SYSBon",
+            "crypto_id": 40900,
+            "rwa_id": 7801
+          },
+          {
+            "name": "iShares Securitized Income Active Tokenized ETF (Ondo)",
+            "symbol": "SECUon",
+            "crypto_id": 40901,
+            "rwa_id": 7697
+          },
+          {
+            "name": "iShares High Yield Corporate Bond BuyWrite Tokenized ETF (Ondo)",
+            "symbol": "HYGWon",
+            "crypto_id": 40902,
+            "rwa_id": 5103
+          },
+          {
+            "name": "Recursion Pharmaceuticals Tokenized Stock (Ondo)",
+            "symbol": "RXRXon",
+            "crypto_id": 42270,
+            "rwa_id": 2126
+          },
+          {
+            "name": "iShares Short Duration Bond Active Tokenized ETF (Ondo)",
+            "symbol": "NEARon",
+            "crypto_id": 42271,
+            "rwa_id": 5397
+          },
+          {
+            "name": "Alphabet Class C Tokenized Stock (Ondo)",
+            "symbol": "GOOGon",
+            "crypto_id": 42272,
+            "rwa_id": 4
+          },
+          {
+            "name": "iShares High Yield Systematic Bond Tokenized ETF (Ondo)",
+            "symbol": "HYDBon",
+            "crypto_id": 42273,
+            "rwa_id": 5100
+          },
+          {
+            "name": "Hertz Global Holdings Tokenized Stock (Ondo)",
+            "symbol": "HTZon",
+            "crypto_id": 42274,
+            "rwa_id": 3179
+          },
+          {
+            "name": "Wendy's Tokenized Stock (Ondo)",
+            "symbol": "WENon",
+            "crypto_id": 42275,
+            "rwa_id": 3231
+          },
+          {
+            "name": "iShares Broad USD High Yield Tokenized ETF (Ondo)",
+            "symbol": "USHYon",
+            "crypto_id": 42276,
+            "rwa_id": 5853
+          },
+          {
+            "name": "High Income Powered by BlackRock Tokenized Assets (Ondo)",
+            "symbol": "BLKHIon",
+            "crypto_id": 42346,
+            "rwa_id": null
+          },
+          {
+            "name": "High Growth Powered by BlackRock Tokenized Assets (Ondo)",
+            "symbol": "BLKGRWon",
+            "crypto_id": 42347,
+            "rwa_id": null
+          },
+          {
+            "name": "Magnificent 7 and Crypto Portfolio Tokenized Assets (Ondo)",
+            "symbol": "MAG7Xon",
+            "crypto_id": 42348,
+            "rwa_id": null
+          },
+          {
+            "name": "AI Leaders Portfolio Tokenized Assets (Ondo)",
+            "symbol": "BRAINon",
+            "crypto_id": 42349,
+            "rwa_id": null
+          },
+          {
+            "name": "5 Targeted Income TR Portfolio Tokenized Assets (Ondo)",
+            "symbol": "YLD5on",
+            "crypto_id": 42350,
+            "rwa_id": null
+          },
+          {
+            "name": "8 Targeted Income TR Portfolio Tokenized Assets (Ondo)",
+            "symbol": "YLD8on",
+            "crypto_id": 42351,
+            "rwa_id": null
+          },
+          {
+            "name": "Diversified Growth Powered by BlackRock Tokenized Assets (Ondo)",
+            "symbol": "BLKDIGon",
+            "crypto_id": 42352,
+            "rwa_id": null
+          }
+        ],
+        "issuer_id": "688ca4ccabae9b5b9fb3167a",
+        "num_tokens": 558,
+        "total_size": 558,
+        "has_more": false
+      },
+      "status": {
+        "timestamp": "2026-09-25T16:26:30.852Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 3,
+        "credit_count": 1
+      }
+    }
+  }
+}

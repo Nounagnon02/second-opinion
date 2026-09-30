@@ -1,0 +1,198 @@
+{
+  "label": "E05-9a9cbc66-20260926T080741186Z",
+  "recordedAt": "2026-09-26T08:07:41.186Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v2/cryptocurrency/info?id=1958",
+    "path": "/v2/cryptocurrency/info",
+    "query": {
+      "id": "1958"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 225,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 08:07:41 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 060888e73e9e6ca8fb31338673fce1d8.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "EbOKTD0zSW5Jfp2-OA-8M6K-86JMZr2JxZ7LP2XGTOgq_cbZ0Ft9tQ==",
+      "x-amz-cf-pop": "CDG55-P3",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "13",
+      "x-server-traceid": "d1d75caf8c777d24aa30315866db627d"
+    },
+    "body": {
+      "data": {
+        "1958": {
+          "id": 1958,
+          "name": "TRON",
+          "symbol": "TRX",
+          "category": "coin",
+          "description": "TRON (TRX) is a cryptocurrency launched in 2018. TRON has a current supply of 94,968,439,234.536889 with 94,968,441,670.032089 in circulation. The last known price of TRON is 0.33719633 USD and is down -0.36 over the last 24 hours. It is currently trading on 1381 active market(s) with $366,201,420.34 traded over the last 24 hours. More information can be found at https://trondao.org/.",
+          "slug": "tron",
+          "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/1958.png",
+          "subreddit": "Tronix",
+          "notice": "",
+          "tags": [
+            "media",
+            "payments",
+            "tron-ecosystem",
+            "layer-1",
+            "dwf-labs-portfolio",
+            "alleged-sec-securities",
+            "2017-2018-alt-season",
+            "tron20-ecosystem",
+            "world-liberty-financial-portfolio",
+            "binance-ecosystem",
+            "binance-listing",
+            "made-in-china"
+          ],
+          "tag-names": [
+            "Media",
+            "Payments",
+            "TRON Ecosystem",
+            "Layer 1",
+            "DWF Labs Portfolio",
+            "Alleged SEC Securities",
+            "2017/18 Alt season",
+            "Tron20 Ecosystem",
+            "World Liberty Financial Portfolio",
+            "Binance Ecosystem",
+            "Binance Listing",
+            "Made in China"
+          ],
+          "tag-groups": [
+            "INDUSTRY",
+            "INDUSTRY",
+            "PLATFORM",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "PLATFORM",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY"
+          ],
+          "urls": {
+            "website": [
+              "https://trondao.org/",
+              "https://tron.network/"
+            ],
+            "twitter": [
+              "https://twitter.com/trondao"
+            ],
+            "message_board": [
+              "https://medium.com/@Tronfoundation"
+            ],
+            "chat": [
+              "http://t.me/tronnetworkEN"
+            ],
+            "facebook": [
+              "https://www.facebook.com/trondaoofficial"
+            ],
+            "explorer": [
+              "https://tronscan.org/#/token/0/transfers",
+              "https://bscscan.com/token/0xCE7de646e7208a4Ef112cb6ed5038FA6cC6b12e3",
+              "https://etherscan.io/token/0x50327c6c5a14DCaDE707ABad2E27eB517df87AB5"
+            ],
+            "reddit": [
+              "https://reddit.com/r/Tronix"
+            ],
+            "technical_doc": [
+              "https://developers.tron.network/docs"
+            ],
+            "source_code": [
+              "https://github.com/tronprotocol/java-tron"
+            ],
+            "announcement": [
+              "https://trondao.org/press/"
+            ]
+          },
+          "platform": null,
+          "date_added": "2017-09-13T00:00:00.000Z",
+          "twitter_username": "trondao",
+          "is_hidden": 0,
+          "date_launched": "2018-05-31T00:00:00.000Z",
+          "contract_address": [
+            {
+              "contract_address": "0x50327c6c5a14dcade707abad2e27eb517df87ab5",
+              "platform": {
+                "name": "Ethereum",
+                "coin": {
+                  "id": "1027",
+                  "name": "Ethereum",
+                  "symbol": "ETH",
+                  "slug": "ethereum"
+                }
+              }
+            },
+            {
+              "contract_address": "0xCE7de646e7208a4Ef112cb6ed5038FA6cC6b12e3",
+              "platform": {
+                "name": "BNB Smart Chain (BEP20)",
+                "coin": {
+                  "id": "1839",
+                  "name": "BNB",
+                  "symbol": "BNB",
+                  "slug": "bnb"
+                }
+              }
+            },
+            {
+              "contract_address": "0",
+              "platform": {
+                "name": "Tron20",
+                "coin": {
+                  "id": "1958",
+                  "name": "TRON",
+                  "symbol": "TRX",
+                  "slug": "tron"
+                }
+              }
+            }
+          ],
+          "self_reported_circulating_supply": 94667886298.43,
+          "self_reported_tags": [
+            "DPoS",
+            "Platform",
+            "DeFi",
+            "Smart Contracts",
+            "Staking",
+            "DAO",
+            "TRON Ecosystem",
+            "Governance",
+            "Web3",
+            "Layer 1"
+          ],
+          "self_reported_market_cap": 31908189423.353386,
+          "infinite_supply": true
+        }
+      },
+      "status": {
+        "timestamp": "2026-09-26T08:07:41.048Z",
+        "error_code": 0,
+        "error_message": null,
+        "elapsed": 8,
+        "credit_count": 1,
+        "notice": null
+      }
+    }
+  }
+}

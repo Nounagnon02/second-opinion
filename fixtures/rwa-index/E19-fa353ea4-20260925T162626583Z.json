@@ -1,0 +1,1561 @@
+{
+  "label": "E19-fa353ea4-20260925T162626583Z",
+  "recordedAt": "2026-09-25T16:26:26.583Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v5/real-world-assets/issuers?issuer_id=6878977dcbbf471de3366e85&limit=250&start=251",
+    "path": "/v5/real-world-assets/issuers",
+    "query": {
+      "issuer_id": "6878977dcbbf471de3366e85",
+      "limit": "250",
+      "start": "251"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 208,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Fri, 25 Sep 2026 16:26:26 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 b635e2b1f0ae92160e68ba87d10e2754.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "U169Q4oWvIJKhXVxdrzY6joo6gSoI88B9wa7Q693IByZLm7c7uBDNA==",
+      "x-amz-cf-pop": "CDG55-P3",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "8",
+      "x-server-traceid": "8ffd9492ca02d7b318c46d88a29c2084"
+    },
+    "body": {
+      "data": {
+        "name": "Backed Assets",
+        "website": "https://assets.backed.fi/",
+        "tokens": [
+          {
+            "name": "ENN Energy Tokenized Stock (xStock)",
+            "symbol": "ENNHLx",
+            "crypto_id": 41042,
+            "rwa_id": null
+          },
+          {
+            "name": "Geely Automobile Tokenized Stock (xStock)",
+            "symbol": "GEELx",
+            "crypto_id": 41043,
+            "rwa_id": null
+          },
+          {
+            "name": "Power Assets Tokenized Stock (xStock)",
+            "symbol": "PWAHLx",
+            "crypto_id": 41044,
+            "rwa_id": null
+          },
+          {
+            "name": "Swire Properties Tokenized Stock (xStock)",
+            "symbol": "SWPRPx",
+            "crypto_id": 41045,
+            "rwa_id": null
+          },
+          {
+            "name": "COSCO SHIPPING Tokenized Stock (xStock)",
+            "symbol": "COSCx",
+            "crypto_id": 41046,
+            "rwa_id": null
+          },
+          {
+            "name": "China Overseas Land & Investment Tokenized Stock (xStock)",
+            "symbol": "COVELx",
+            "crypto_id": 41047,
+            "rwa_id": null
+          },
+          {
+            "name": "China Resources Power Tokenized Stock (xStock)",
+            "symbol": "CRESPx",
+            "crypto_id": 41048,
+            "rwa_id": null
+          },
+          {
+            "name": "Sinotruk Tokenized Stock (xStock)",
+            "symbol": "SINOTx",
+            "crypto_id": 41049,
+            "rwa_id": null
+          },
+          {
+            "name": "Tencent Tokenized Stock (xStock)",
+            "symbol": "TCENTx",
+            "crypto_id": 41050,
+            "rwa_id": null
+          },
+          {
+            "name": "WuXi XDC Cayman Tokenized Stock (xStock)",
+            "symbol": "WXXDCx",
+            "crypto_id": 41051,
+            "rwa_id": null
+          },
+          {
+            "name": "Chery Automobile Tokenized Stock (xStock)",
+            "symbol": "CRAUTx",
+            "crypto_id": 41052,
+            "rwa_id": null
+          },
+          {
+            "name": "China Taiping Insurance Tokenized Stock (xStock)",
+            "symbol": "CTINSx",
+            "crypto_id": 41053,
+            "rwa_id": null
+          },
+          {
+            "name": "Hong Kong Exchanges and Clearing Tokenized Stock (xStock)",
+            "symbol": "HKEXCx",
+            "crypto_id": 41054,
+            "rwa_id": null
+          },
+          {
+            "name": "Horizon Robotics Tokenized Stock (xStock)",
+            "symbol": "HRZRBx",
+            "crypto_id": 41055,
+            "rwa_id": null
+          },
+          {
+            "name": "China Longyuan Power Tokenized Stock (xStock)",
+            "symbol": "CLONPx",
+            "crypto_id": 41056,
+            "rwa_id": null
+          },
+          {
+            "name": "Mixue Tokenized Stock (xStock)",
+            "symbol": "MIXUx",
+            "crypto_id": 41057,
+            "rwa_id": null
+          },
+          {
+            "name": "PICC Property and Casualty Tokenized Stock (xStock)",
+            "symbol": "PICCx",
+            "crypto_id": 41058,
+            "rwa_id": null
+          },
+          {
+            "name": "Smoore International Tokenized Stock (xStock)",
+            "symbol": "SMOIHx",
+            "crypto_id": 41059,
+            "rwa_id": null
+          },
+          {
+            "name": "China Mengniu Dairy Tokenized Stock (xStock)",
+            "symbol": "CMENDx",
+            "crypto_id": 41060,
+            "rwa_id": null
+          },
+          {
+            "name": "China Merchants Port Tokenized Stock (xStock)",
+            "symbol": "CMERPx",
+            "crypto_id": 41061,
+            "rwa_id": null
+          },
+          {
+            "name": "China Resources Land Tokenized Stock (xStock)",
+            "symbol": "CRESLx",
+            "crypto_id": 41062,
+            "rwa_id": null
+          },
+          {
+            "name": "Meituan Tokenized Stock (xStock)",
+            "symbol": "MEITx",
+            "crypto_id": 41063,
+            "rwa_id": null
+          },
+          {
+            "name": "MTR Tokenized Stock (xStock)",
+            "symbol": "MTRCPx",
+            "crypto_id": 41064,
+            "rwa_id": null
+          },
+          {
+            "name": "Sands China Tokenized Stock (xStock)",
+            "symbol": "SNDSCx",
+            "crypto_id": 41065,
+            "rwa_id": null
+          },
+          {
+            "name": "Sunny Optical Technology Group Tokenized Stock (xStock)",
+            "symbol": "SUOPTx",
+            "crypto_id": 41066,
+            "rwa_id": null
+          },
+          {
+            "name": "Zijin Gold International Tokenized Stock (xStock)",
+            "symbol": "ZJGLDx",
+            "crypto_id": 41067,
+            "rwa_id": null
+          },
+          {
+            "name": "Bank Of China Tokenized Stock (xStock)",
+            "symbol": "BANKx",
+            "crypto_id": 41070,
+            "rwa_id": null
+          },
+          {
+            "name": "Wrapped Arista Networks, Inc. Tokenized Stock (xStock)",
+            "symbol": "wANETx",
+            "crypto_id": 41081,
+            "rwa_id": 66
+          },
+          {
+            "name": "Wrapped American Electric Power Tokenized Stock (xStock)",
+            "symbol": "wAEPx",
+            "crypto_id": 41082,
+            "rwa_id": 293
+          },
+          {
+            "name": "Wrapped Adobe Tokenized Stock (xStock)",
+            "symbol": "wADBEx",
+            "crypto_id": 41083,
+            "rwa_id": 138
+          },
+          {
+            "name": "Wrapped Airbnb Tokenized Stock (xStock)",
+            "symbol": "wABNBx",
+            "crypto_id": 41084,
+            "rwa_id": 193
+          },
+          {
+            "name": "Wrapped Archer-Daniels-Midland Tokenized Stock (xStock)",
+            "symbol": "wADMx",
+            "crypto_id": 41085,
+            "rwa_id": 337
+          },
+          {
+            "name": "Wrapped Alcoa Tokenized Stock (xStock)",
+            "symbol": "wAAx",
+            "crypto_id": 41086,
+            "rwa_id": 828
+          },
+          {
+            "name": "Wrapped Boston Scientific Tokenized Stock (xStock)",
+            "symbol": "wBSXx",
+            "crypto_id": 41087,
+            "rwa_id": 291
+          },
+          {
+            "name": "Wrapped Ameren Tokenized Stock (xStock)",
+            "symbol": "wAEEx",
+            "crypto_id": 41088,
+            "rwa_id": 492
+          },
+          {
+            "name": "Wrapped AIA Tokenized Stock (xStock)",
+            "symbol": "wAIAGRx",
+            "crypto_id": 41089,
+            "rwa_id": null
+          },
+          {
+            "name": "Wrapped Applied Optoelectronics Tokenized Stock (xStock)",
+            "symbol": "wAAOIx",
+            "crypto_id": 41090,
+            "rwa_id": 191
+          },
+          {
+            "name": "Wrapped Analog Devices Tokenized Stock (xStock)",
+            "symbol": "wADIx",
+            "crypto_id": 41091,
+            "rwa_id": 74
+          },
+          {
+            "name": "Wrapped Alnylam Pharmaceuticals Tokenized Stock (xStock)",
+            "symbol": "wALNYx",
+            "crypto_id": 41092,
+            "rwa_id": 467
+          },
+          {
+            "name": "Wrapped Agilent Technologies Tokenized Stock (xStock)",
+            "symbol": "wAx",
+            "crypto_id": 41093,
+            "rwa_id": 342
+          },
+          {
+            "name": "Wrapped Applied Materials, Inc. Tokenized Stock (xStock)",
+            "symbol": "wAMATx",
+            "crypto_id": 41094,
+            "rwa_id": 22
+          },
+          {
+            "name": "Wrapped Astera Labs Tokenized Stock (xStock)",
+            "symbol": "wALABx",
+            "crypto_id": 41095,
+            "rwa_id": 255
+          },
+          {
+            "name": "Wrapped Akamai Technologies Tokenized Stock (xStock)",
+            "symbol": "wAKAMx",
+            "crypto_id": 41097,
+            "rwa_id": 561
+          },
+          {
+            "name": "Wrapped American Tower Tokenized Stock (xStock)",
+            "symbol": "wAMTx",
+            "crypto_id": 41098,
+            "rwa_id": 270
+          },
+          {
+            "name": "Wrapped AST SpaceMobile Tokenized Stock (xStock)",
+            "symbol": "wASTSx",
+            "crypto_id": 41099,
+            "rwa_id": 511
+          },
+          {
+            "name": "Wrapped Becton Dickinson Tokenized Stock (xStock)",
+            "symbol": "wBDXx",
+            "crypto_id": 41100,
+            "rwa_id": 333
+          },
+          {
+            "name": "Wrapped BJ's Wholesale Club Tokenized Stock (xStock)",
+            "symbol": "wBJx",
+            "crypto_id": 41101,
+            "rwa_id": 901
+          },
+          {
+            "name": "Wrapped Bank of New York Mellon Tokenized Stock (xStock)",
+            "symbol": "wBNYx",
+            "crypto_id": 41102,
+            "rwa_id": 1582
+          },
+          {
+            "name": "Wrapped Blackstone Tokenized Stock (xStock)",
+            "symbol": "wBXx",
+            "crypto_id": 41103,
+            "rwa_id": 257
+          },
+          {
+            "name": "Wrapped CBRE Tokenized Stock (xStock)",
+            "symbol": "wCBREx",
+            "crypto_id": 41104,
+            "rwa_id": 464
+          },
+          {
+            "name": "Wrapped China Construction Bank Tokenized Stock (xStock)",
+            "symbol": "wCCONBx",
+            "crypto_id": 41105,
+            "rwa_id": null
+          },
+          {
+            "name": "Wrapped China Merchants Port Tokenized Stock (xStock)",
+            "symbol": "wCMERPx",
+            "crypto_id": 41106,
+            "rwa_id": null
+          },
+          {
+            "name": "Wrapped CME Tokenized Stock (xStock)",
+            "symbol": "wCMEx",
+            "crypto_id": 41107,
+            "rwa_id": 267
+          },
+          {
+            "name": "Wrapped Cencora Tokenized Stock (xStock)",
+            "symbol": "wCORx",
+            "crypto_id": 41108,
+            "rwa_id": 441
+          },
+          {
+            "name": "Wrapped China Resources Power Tokenized Stock (xStock)",
+            "symbol": "wCRESPx",
+            "crypto_id": 41109,
+            "rwa_id": null
+          },
+          {
+            "name": "Wrapped Carpenter Technology Tokenized Stock (xStock)",
+            "symbol": "wCRSx",
+            "crypto_id": 41110,
+            "rwa_id": 512
+          },
+          {
+            "name": "Wrapped Citigroup Tokenized Stock (xStock)",
+            "symbol": "wCx",
+            "crypto_id": 41111,
+            "rwa_id": 62
+          },
+          {
+            "name": "Wrapped Dow Tokenized Stock (xStock)",
+            "symbol": "wDOWx",
+            "crypto_id": 41112,
+            "rwa_id": 521
+          },
+          {
+            "name": "Wrapped DexCom Tokenized Stock (xStock)",
+            "symbol": "wDXCMx",
+            "crypto_id": 41113,
+            "rwa_id": 368
+          },
+          {
+            "name": "Wrapped Aflac Tokenized Stock (xStock)",
+            "symbol": "wAFLx",
+            "crypto_id": 41114,
+            "rwa_id": 304
+          },
+          {
+            "name": "Wrapped AMD Tokenized Stock (xStock)",
+            "symbol": "wAMDx",
+            "crypto_id": 41115,
+            "rwa_id": 25
+          },
+          {
+            "name": "Wrapped ASMPT Tokenized Stock (xStock)",
+            "symbol": "wASMPTx",
+            "crypto_id": 41116,
+            "rwa_id": null
+          },
+          {
+            "name": "Wrapped American Water Works Tokenized Stock (xStock)",
+            "symbol": "wAWKx",
+            "crypto_id": 41117,
+            "rwa_id": 776
+          },
+          {
+            "name": "Wrapped Boeing Tokenized Stock (xStock)",
+            "symbol": "wBAx",
+            "crypto_id": 41119,
+            "rwa_id": 106
+          },
+          {
+            "name": "Wrapped Cadence Design Systems Tokenized Stock (xStock)",
+            "symbol": "wCDNSx",
+            "crypto_id": 41120,
+            "rwa_id": 263
+          },
+          {
+            "name": "Wrapped CK Hutchison Tokenized Stock (xStock)",
+            "symbol": "wCKHUTx",
+            "crypto_id": 41121,
+            "rwa_id": null
+          },
+          {
+            "name": "Wrapped Healthpeak Properties Tokenized Stock (xStock)",
+            "symbol": "wDOCx",
+            "crypto_id": 41122,
+            "rwa_id": 860
+          },
+          {
+            "name": "Wrapped Devon Energy Tokenized Stock (xStock)",
+            "symbol": "wDVNx",
+            "crypto_id": 41123,
+            "rwa_id": 442
+          },
+          {
+            "name": "Wrapped Bitmine Tokenized Stock (xStock)",
+            "symbol": "wBMNRx",
+            "crypto_id": 41124,
+            "rwa_id": 219
+          },
+          {
+            "name": "Wrapped Cardinal Health Tokenized Stock (xStock)",
+            "symbol": "wCAHx",
+            "crypto_id": 41125,
+            "rwa_id": 446
+          },
+          {
+            "name": "Wrapped Carrier Global Tokenized Stock (xStock)",
+            "symbol": "wCARRx",
+            "crypto_id": 41126,
+            "rwa_id": 311
+          },
+          {
+            "name": "Wrapped China Hongqiao Tokenized Stock (xStock)",
+            "symbol": "wCHONGx",
+            "crypto_id": 41127,
+            "rwa_id": null
+          },
+          {
+            "name": "Wrapped The Cigna Tokenized Stock (xStock)",
+            "symbol": "wCIx",
+            "crypto_id": 41128,
+            "rwa_id": 408
+          },
+          {
+            "name": "Wrapped CleanSpark Tokenized Stock (xStock)",
+            "symbol": "wCLSKx",
+            "crypto_id": 41129,
+            "rwa_id": 1791
+          },
+          {
+            "name": "Wrapped Copart Tokenized Stock (xStock)",
+            "symbol": "wCPRTx",
+            "crypto_id": 41130,
+            "rwa_id": 494
+          },
+          {
+            "name": "Wrapped Chow Tai Fook Jewellery Tokenized Stock (xStock)",
+            "symbol": "wCTFJWx",
+            "crypto_id": 41131,
+            "rwa_id": null
+          },
+          {
+            "name": "Wrapped Dollar General Tokenized Stock (xStock)",
+            "symbol": "wDGx",
+            "crypto_id": 41132,
+            "rwa_id": 780
+          },
+          {
+            "name": "Wrapped Dollar Tree Tokenized Stock (xStock)",
+            "symbol": "wDLTRx",
+            "crypto_id": 41133,
+            "rwa_id": 544
+          },
+          {
+            "name": "Wrapped Dover Tokenized Stock (xStock)",
+            "symbol": "wDOVx",
+            "crypto_id": 41134,
+            "rwa_id": 496
+          },
+          {
+            "name": "Wrapped Ares Management Tokenized Stock (xStock)",
+            "symbol": "wARESx",
+            "crypto_id": 41135,
+            "rwa_id": 495
+          },
+          {
+            "name": "Wrapped AvalonBay Communities Tokenized Stock (xStock)",
+            "symbol": "wAVBx",
+            "crypto_id": 41136,
+            "rwa_id": 382
+          },
+          {
+            "name": "Wrapped Avery Dennison Tokenized Stock (xStock)",
+            "symbol": "wAVYx",
+            "crypto_id": 41137,
+            "rwa_id": 642
+          },
+          {
+            "name": "Wrapped AutoZone Tokenized Stock (xStock)",
+            "symbol": "wAZOx",
+            "crypto_id": 41138,
+            "rwa_id": 317
+          },
+          {
+            "name": "Wrapped Ball Tokenized Stock (xStock)",
+            "symbol": "wBALLx",
+            "crypto_id": 41139,
+            "rwa_id": 855
+          },
+          {
+            "name": "Wrapped Cboe Global Markets Tokenized Stock (xStock)",
+            "symbol": "wCBOEx",
+            "crypto_id": 41140,
+            "rwa_id": 359
+          },
+          {
+            "name": "Wrapped Charter Communications Tokenized Stock (xStock)",
+            "symbol": "wCHTRx",
+            "crypto_id": 41141,
+            "rwa_id": 576
+          },
+          {
+            "name": "Wrapped Dell Technologies Inc. Tokenized Stock (xStock)",
+            "symbol": "wDELLx",
+            "crypto_id": 41142,
+            "rwa_id": 44
+          },
+          {
+            "name": "Wrapped Dominion Energy Tokenized Stock (xStock)",
+            "symbol": "wDx",
+            "crypto_id": 41143,
+            "rwa_id": 433
+          },
+          {
+            "name": "Wrapped Allstate Tokenized Stock (xStock)",
+            "symbol": "wALLx",
+            "crypto_id": 41144,
+            "rwa_id": 308
+          },
+          {
+            "name": "Wrapped Amber Tokenized Stock (xStock)",
+            "symbol": "wAMBRx",
+            "crypto_id": 41145,
+            "rwa_id": 117
+          },
+          {
+            "name": "Wrapped Amphenol Tokenized Stock (xStock)",
+            "symbol": "wAPHx",
+            "crypto_id": 41146,
+            "rwa_id": 71
+          },
+          {
+            "name": "Wrapped Bristol-Myers Squibb Tokenized Stock (xStock)",
+            "symbol": "wBMYx",
+            "crypto_id": 41147,
+            "rwa_id": 389
+          },
+          {
+            "name": "Wrapped Centene Tokenized Stock (xStock)",
+            "symbol": "wCNCx",
+            "crypto_id": 41148,
+            "rwa_id": 357
+          },
+          {
+            "name": "Wrapped Coherent Tokenized Stock (xStock)",
+            "symbol": "wCOHRx",
+            "crypto_id": 41149,
+            "rwa_id": 188
+          },
+          {
+            "name": "Wrapped CoStar Tokenized Stock (xStock)",
+            "symbol": "wCSGPx",
+            "crypto_id": 41150,
+            "rwa_id": 607
+          },
+          {
+            "name": "Wrapped China Shenhua Energy Tokenized Stock (xStock)",
+            "symbol": "wCSHEEx",
+            "crypto_id": 41151,
+            "rwa_id": null
+          },
+          {
+            "name": "Wrapped CSX Tokenized Stock (xStock)",
+            "symbol": "wCSXx",
+            "crypto_id": 41152,
+            "rwa_id": 402
+          },
+          {
+            "name": "Wrapped Datadog Tokenized Stock (xStock)",
+            "symbol": "wDDOGx",
+            "crypto_id": 41153,
+            "rwa_id": 278
+          },
+          {
+            "name": "Wrapped Electronic Arts Tokenized Stock (xStock)",
+            "symbol": "wEAx",
+            "crypto_id": 41154,
+            "rwa_id": 444
+          },
+          {
+            "name": "Wrapped Autodesk Tokenized Stock (xStock)",
+            "symbol": "wADSKx",
+            "crypto_id": 41155,
+            "rwa_id": 325
+          },
+          {
+            "name": "Wrapped Arthur J. Gallagher Tokenized Stock (xStock)",
+            "symbol": "wAJGx",
+            "crypto_id": 41156,
+            "rwa_id": 310
+          },
+          {
+            "name": "Wrapped Align Technology Tokenized Stock (xStock)",
+            "symbol": "wALGNx",
+            "crypto_id": 41157,
+            "rwa_id": 636
+          },
+          {
+            "name": "Wrapped Ameriprise Financial Tokenized Stock (xStock)",
+            "symbol": "wAMPx",
+            "crypto_id": 41158,
+            "rwa_id": 461
+          },
+          {
+            "name": "Wrapped Atmos Energy Tokenized Stock (xStock)",
+            "symbol": "wATOx",
+            "crypto_id": 41159,
+            "rwa_id": 372
+          },
+          {
+            "name": "Wrapped Best Buy Tokenized Stock (xStock)",
+            "symbol": "wBBYx",
+            "crypto_id": 41160,
+            "rwa_id": 842
+          },
+          {
+            "name": "Wrapped Baker Hughes Tokenized Stock (xStock)",
+            "symbol": "wBKRx",
+            "crypto_id": 41162,
+            "rwa_id": 300
+          },
+          {
+            "name": "Wrapped Brown & Brown Tokenized Stock (xStock)",
+            "symbol": "wBROx",
+            "crypto_id": 41163,
+            "rwa_id": 805
+          },
+          {
+            "name": "Wrapped Church & Dwight Tokenized Stock (xStock)",
+            "symbol": "wCHDx",
+            "crypto_id": 41164,
+            "rwa_id": 529
+          },
+          {
+            "name": "Wrapped Corpay Tokenized Stock (xStock)",
+            "symbol": "wCPAYx",
+            "crypto_id": 41165,
+            "rwa_id": 788
+          },
+          {
+            "name": "Wrapped Cintas Tokenized Stock (xStock)",
+            "symbol": "wCTASx",
+            "crypto_id": 41166,
+            "rwa_id": 289
+          },
+          {
+            "name": "Wrapped Digital Realty Trust Tokenized Stock (xStock)",
+            "symbol": "wDLRx",
+            "crypto_id": 41167,
+            "rwa_id": 426
+          },
+          {
+            "name": "Wrapped Elanco Animal Health Tokenized Stock (xStock)",
+            "symbol": "wELANx",
+            "crypto_id": 41168,
+            "rwa_id": 653
+          },
+          {
+            "name": "Wrapped Applied Digital Corporation Tokenized Stock (xStock)",
+            "symbol": "wAPLDx",
+            "crypto_id": 41169,
+            "rwa_id": 912
+          },
+          {
+            "name": "Wrapped ASML Tokenized Stock (xStock)",
+            "symbol": "wASMLx",
+            "crypto_id": 41170,
+            "rwa_id": 26
+          },
+          {
+            "name": "Wrapped ATI Tokenized Stock (xStock)",
+            "symbol": "wATIx",
+            "crypto_id": 41171,
+            "rwa_id": 774
+          },
+          {
+            "name": "Wrapped Brookfield Asset Management Tokenized Stock (xStock)",
+            "symbol": "wBAMx",
+            "crypto_id": 41173,
+            "rwa_id": 287
+          },
+          {
+            "name": "Wrapped Bloom Energy Tokenized Stock (xStock)",
+            "symbol": "wBEx",
+            "crypto_id": 41174,
+            "rwa_id": 190
+          },
+          {
+            "name": "Wrapped BWX Technologies Tokenized Stock (xStock)",
+            "symbol": "wBWXTx",
+            "crypto_id": 41175,
+            "rwa_id": 835
+          },
+          {
+            "name": "Wrapped COSCO SHIPPING Tokenized Stock (xStock)",
+            "symbol": "wCOSCx",
+            "crypto_id": 41176,
+            "rwa_id": null
+          },
+          {
+            "name": "Wrapped CSPC Pharmaceutical Tokenized Stock (xStock)",
+            "symbol": "wCSPCx",
+            "crypto_id": 41177,
+            "rwa_id": null
+          },
+          {
+            "name": "Wrapped DoorDash Tokenized Stock (xStock)",
+            "symbol": "wDASHx",
+            "crypto_id": 41178,
+            "rwa_id": 199
+          },
+          {
+            "name": "Wrapped DFDV Tokenized Stock (xStock)",
+            "symbol": "wDFDVx",
+            "crypto_id": 41179,
+            "rwa_id": 85
+          },
+          {
+            "name": "Wrapped DTE Energy Tokenized Stock (xStock)",
+            "symbol": "wDTEx",
+            "crypto_id": 41180,
+            "rwa_id": 364
+          },
+          {
+            "name": "Wrapped Assurant Tokenized Stock (xStock)",
+            "symbol": "wAIZx",
+            "crypto_id": 41181,
+            "rwa_id": 626
+          },
+          {
+            "name": "Wrapped Aramark Tokenized Stock (xStock)",
+            "symbol": "wARMKx",
+            "crypto_id": 41182,
+            "rwa_id": 862
+          },
+          {
+            "name": "Wrapped ARM Tokenized Stock (xStock)",
+            "symbol": "wARMx",
+            "crypto_id": 41183,
+            "rwa_id": 54
+          },
+          {
+            "name": "Wrapped Caterpillar Tokenized Stock (xStock)",
+            "symbol": "wCATx",
+            "crypto_id": 41184,
+            "rwa_id": 30
+          },
+          {
+            "name": "Wrapped Constellation Energy Tokenized Stock (xStock)",
+            "symbol": "wCEGx",
+            "crypto_id": 41185,
+            "rwa_id": 157
+          },
+          {
+            "name": "Wrapped Citizens Financial Tokenized Stock (xStock)",
+            "symbol": "wCFGx",
+            "crypto_id": 41186,
+            "rwa_id": 377
+          },
+          {
+            "name": "Wrapped Capital One Financial Tokenized Stock (xStock)",
+            "symbol": "wCOFx",
+            "crypto_id": 41187,
+            "rwa_id": 159
+          },
+          {
+            "name": "Wrapped China Resources Land Tokenized Stock (xStock)",
+            "symbol": "wCRESLx",
+            "crypto_id": 41188,
+            "rwa_id": null
+          },
+          {
+            "name": "Wrapped Corteva Tokenized Stock (xStock)",
+            "symbol": "wCTVAx",
+            "crypto_id": 41189,
+            "rwa_id": 320
+          },
+          {
+            "name": "Wrapped Curtiss-Wright Tokenized Stock (xStock)",
+            "symbol": "wCWx",
+            "crypto_id": 41190,
+            "rwa_id": 381
+          },
+          {
+            "name": "Wrapped Deere Tokenized Stock (xStock)",
+            "symbol": "wDEx",
+            "crypto_id": 41191,
+            "rwa_id": 81
+          },
+          {
+            "name": "Wrapped Apollo Global Management Tokenized Stock (xStock)",
+            "symbol": "wAPOx",
+            "crypto_id": 41192,
+            "rwa_id": 133
+          },
+          {
+            "name": "Wrapped Arrow Electronics Tokenized Stock (xStock)",
+            "symbol": "wARWx",
+            "crypto_id": 41193,
+            "rwa_id": 915
+          },
+          {
+            "name": "Wrapped American International Tokenized Stock (xStock)",
+            "symbol": "wAIGx",
+            "crypto_id": 41194,
+            "rwa_id": 463
+          },
+          {
+            "name": "Wrapped APA Tokenized Stock (xStock)",
+            "symbol": "wAPAx",
+            "crypto_id": 41195,
+            "rwa_id": 869
+          },
+          {
+            "name": "Wrapped BYD Tokenized Stock (xStock)",
+            "symbol": "wBYDCOx",
+            "crypto_id": 41196,
+            "rwa_id": null
+          },
+          {
+            "name": "Wrapped CDW Tokenized Stock (xStock)",
+            "symbol": "wCDWx",
+            "crypto_id": 41197,
+            "rwa_id": 581
+          },
+          {
+            "name": "Wrapped BOC Hong Kong Tokenized Stock (xStock)",
+            "symbol": "wBOCHKx",
+            "crypto_id": 41198,
+            "rwa_id": null
+          },
+          {
+            "name": "Wrapped Bank of Communications Tokenized Stock (xStock)",
+            "symbol": "wBOCOMx",
+            "crypto_id": 41199,
+            "rwa_id": null
+          },
+          {
+            "name": "Wrapped C.H. Robinson Worldwide Tokenized Stock (xStock)",
+            "symbol": "wCHRWx",
+            "crypto_id": 41200,
+            "rwa_id": 541
+          },
+          {
+            "name": "Wrapped Ciena Tokenized Stock (xStock)",
+            "symbol": "wCIENx",
+            "crypto_id": 41201,
+            "rwa_id": 302
+          },
+          {
+            "name": "Wrapped Bit Digital Tokenized Stock (xStock)",
+            "symbol": "wBTBTx",
+            "crypto_id": 41202,
+            "rwa_id": 3450
+          },
+          {
+            "name": "Wrapped Cincinnati Financial Tokenized Stock (xStock)",
+            "symbol": "wCINFx",
+            "crypto_id": 41203,
+            "rwa_id": 769
+          },
+          {
+            "name": "Wrapped Axon Enterprise Tokenized Stock (xStock)",
+            "symbol": "wAXONx",
+            "crypto_id": 41204,
+            "rwa_id": 472
+          },
+          {
+            "name": "Wrapped Volatility Shares 2x Tokenized ETF (xStock)",
+            "symbol": "wBITXx",
+            "crypto_id": 41205,
+            "rwa_id": 4586
+          },
+          {
+            "name": "Wrapped Cummins Tokenized Stock (xStock)",
+            "symbol": "wCMIx",
+            "crypto_id": 41206,
+            "rwa_id": 274
+          },
+          {
+            "name": "Wrapped The Cooper Companies Tokenized Stock (xStock)",
+            "symbol": "wCOOx",
+            "crypto_id": 41207,
+            "rwa_id": 876
+          },
+          {
+            "name": "Wrapped CITIC Tokenized Stock (xStock)",
+            "symbol": "wCITICx",
+            "crypto_id": 41208,
+            "rwa_id": null
+          },
+          {
+            "name": "Wrapped Global X Copper Miners Tokenized ETF (xStock)",
+            "symbol": "wCOPXx",
+            "crypto_id": 41209,
+            "rwa_id": 160
+          },
+          {
+            "name": "Wrapped RoboStrategy Tokenized Stock (xStock)",
+            "symbol": "wBOTx",
+            "crypto_id": 41211,
+            "rwa_id": null
+          },
+          {
+            "name": "Wrapped Carlisle Companies Tokenized Stock (xStock)",
+            "symbol": "wCSLx",
+            "crypto_id": 41212,
+            "rwa_id": 874
+          },
+          {
+            "name": "Wrapped DraftKings Tokenized Stock (xStock)",
+            "symbol": "wDKNGx",
+            "crypto_id": 41213,
+            "rwa_id": 859
+          },
+          {
+            "name": "Wrapped China Overseas Land Tokenized Stock (xStock)",
+            "symbol": "wCOVELx",
+            "crypto_id": 41214,
+            "rwa_id": null
+          },
+          {
+            "name": "Wrapped China Petroleum & Chemical Tokenized Stock (xStock)",
+            "symbol": "wCPETCx",
+            "crypto_id": 41215,
+            "rwa_id": null
+          },
+          {
+            "name": "Wrapped Everest Tokenized Stock (xStock)",
+            "symbol": "wEGx",
+            "crypto_id": 41216,
+            "rwa_id": 617
+          },
+          {
+            "name": "Wrapped China Resources Beer Holdings Tokenized Stock (xStock)",
+            "symbol": "wCRESBx",
+            "crypto_id": 41217,
+            "rwa_id": null
+          },
+          {
+            "name": "Wrapped Ecolab Tokenized Stock (xStock)",
+            "symbol": "wECLx",
+            "crypto_id": 41218,
+            "rwa_id": 416
+          },
+          {
+            "name": "Wrapped Casey's General Stores Tokenized Stock (xStock)",
+            "symbol": "wCASYx",
+            "crypto_id": 41219,
+            "rwa_id": 478
+          },
+          {
+            "name": "Wrapped The Carlyle Tokenized Stock (xStock)",
+            "symbol": "wCGx",
+            "crypto_id": 41220,
+            "rwa_id": 588
+          },
+          {
+            "name": "Wrapped ConocoPhillips Tokenized Stock (xStock)",
+            "symbol": "wCOPx",
+            "crypto_id": 41221,
+            "rwa_id": 223
+          },
+          {
+            "name": "Wrapped Cathay Pacific Airways Tokenized Stock (xStock)",
+            "symbol": "wCTPCAx",
+            "crypto_id": 41223,
+            "rwa_id": null
+          },
+          {
+            "name": "Wrapped Deckers Outdoor Tokenized Stock (xStock)",
+            "symbol": "wDECKx",
+            "crypto_id": 41224,
+            "rwa_id": 593
+          },
+          {
+            "name": "Wrapped Quest Diagnostics Tokenized Stock (xStock)",
+            "symbol": "wDGXx",
+            "crypto_id": 41225,
+            "rwa_id": 791
+          },
+          {
+            "name": "Wrapped BorgWarner Tokenized Stock (xStock)",
+            "symbol": "wBWAx",
+            "crypto_id": 41226,
+            "rwa_id": 599
+          },
+          {
+            "name": "Wrapped CenterPoint Energy Tokenized Stock (xStock)",
+            "symbol": "wCNPx",
+            "crypto_id": 41227,
+            "rwa_id": 501
+          },
+          {
+            "name": "Wrapped Coupang Tokenized Stock (xStock)",
+            "symbol": "wCPNGx",
+            "crypto_id": 41229,
+            "rwa_id": 224
+          },
+          {
+            "name": "Wrapped Carvana Tokenized Stock (xStock)",
+            "symbol": "wCVNAx",
+            "crypto_id": 41230,
+            "rwa_id": 161
+          },
+          {
+            "name": "Wrapped The Walt Disney Tokenized Stock (xStock)",
+            "symbol": "wDISx",
+            "crypto_id": 41231,
+            "rwa_id": 110
+          },
+          {
+            "name": "Wrapped Automatic Data Processing Tokenized Stock (xStock)",
+            "symbol": "wADPx",
+            "crypto_id": 41233,
+            "rwa_id": 396
+          },
+          {
+            "name": "Wrapped Amgen Tokenized Stock (xStock)",
+            "symbol": "wAMGNx",
+            "crypto_id": 41234,
+            "rwa_id": 101
+          },
+          {
+            "name": "Wrapped Bitgo Tokenized Stock (xStock)",
+            "symbol": "wBTGOx",
+            "crypto_id": 41235,
+            "rwa_id": 2469
+          },
+          {
+            "name": "Wrapped Crown Castle Tokenized Stock (xStock)",
+            "symbol": "wCCIx",
+            "crypto_id": 41236,
+            "rwa_id": 460
+          },
+          {
+            "name": "Wrapped CK Asset Tokenized Stock (xStock)",
+            "symbol": "wCKAHx",
+            "crypto_id": 41237,
+            "rwa_id": null
+          },
+          {
+            "name": "Wrapped CK Infrastructure Tokenized Stock (xStock)",
+            "symbol": "wCKINFx",
+            "crypto_id": 41238,
+            "rwa_id": null
+          },
+          {
+            "name": "Wrapped Clean Harbors Tokenized Stock (xStock)",
+            "symbol": "wCLHx",
+            "crypto_id": 41239,
+            "rwa_id": 850
+          },
+          {
+            "name": "Wrapped Colgate-Palmolive Tokenized Stock (xStock)",
+            "symbol": "wCLx",
+            "crypto_id": 41240,
+            "rwa_id": null
+          },
+          {
+            "name": "Wrapped China Mengniu Dairy Tokenized Stock (xStock)",
+            "symbol": "wCMENDx",
+            "crypto_id": 41241,
+            "rwa_id": null
+          },
+          {
+            "name": "Wrapped Chipotle Mexican Grill Tokenized Stock (xStock)",
+            "symbol": "wCMGx",
+            "crypto_id": 41242,
+            "rwa_id": 130
+          },
+          {
+            "name": "Wrapped Core Scientific Tokenized Stock (xStock)",
+            "symbol": "wCORZx",
+            "crypto_id": 41243,
+            "rwa_id": 980
+          },
+          {
+            "name": "Wrapped Cognizant Technology Solutions Tokenized Stock (xStock)",
+            "symbol": "wCTSHx",
+            "crypto_id": 41244,
+            "rwa_id": 522
+          },
+          {
+            "name": "Wrapped Delta Air Lines Tokenized Stock (xStock)",
+            "symbol": "wDALx",
+            "crypto_id": 41245,
+            "rwa_id": 447
+          },
+          {
+            "name": "Wrapped D.R. Horton Tokenized Stock (xStock)",
+            "symbol": "wDHIx",
+            "crypto_id": 41246,
+            "rwa_id": 459
+          },
+          {
+            "name": "Wrapped Dick's Sporting Goods Tokenized Stock (xStock)",
+            "symbol": "wDKSx",
+            "crypto_id": 41247,
+            "rwa_id": 559
+          },
+          {
+            "name": "Wrapped Darden Restaurants Tokenized Stock (xStock)",
+            "symbol": "wDRIx",
+            "crypto_id": 41248,
+            "rwa_id": 784
+          },
+          {
+            "name": "Wrapped Dynatrace Tokenized Stock (xStock)",
+            "symbol": "wDTx",
+            "crypto_id": 41249,
+            "rwa_id": 900
+          },
+          {
+            "name": "Wrapped ANTA Sports Products Tokenized Stock (xStock)",
+            "symbol": "wANTASx",
+            "crypto_id": 41250,
+            "rwa_id": null
+          },
+          {
+            "name": "Wrapped Biogen Tokenized Stock (xStock)",
+            "symbol": "wBIIBx",
+            "crypto_id": 41251,
+            "rwa_id": 369
+          },
+          {
+            "name": "Wrapped Bending Spoons Tokenized ETF (xStock)",
+            "symbol": "wBSPx",
+            "crypto_id": 41252,
+            "rwa_id": null
+          },
+          {
+            "name": "Wrapped CF Industries Tokenized Stock (xStock)",
+            "symbol": "wCFx",
+            "crypto_id": 41253,
+            "rwa_id": 579
+          },
+          {
+            "name": "Wrapped China Life Insurance Tokenized Stock (xStock)",
+            "symbol": "wCLINSx",
+            "crypto_id": 41254,
+            "rwa_id": null
+          },
+          {
+            "name": "Wrapped CMS Energy Tokenized Stock (xStock)",
+            "symbol": "wCMSx",
+            "crypto_id": 41255,
+            "rwa_id": 534
+          },
+          {
+            "name": "Wrapped Chery Automobile Tokenized Stock (xStock)",
+            "symbol": "wCRAUTx",
+            "crypto_id": 41256,
+            "rwa_id": null
+          },
+          {
+            "name": "Wrapped CoreWeave Tokenized Stock (xStock)",
+            "symbol": "wCRWVx",
+            "crypto_id": 41257,
+            "rwa_id": 443
+          },
+          {
+            "name": "Wrapped Applied Industrial Tokenized Stock (xStock)",
+            "symbol": "wAITx",
+            "crypto_id": 41258,
+            "rwa_id": 906
+          },
+          {
+            "name": "Wrapped Ally Financial Tokenized Stock (xStock)",
+            "symbol": "wALLYx",
+            "crypto_id": 41259,
+            "rwa_id": 879
+          },
+          {
+            "name": "Wrapped Air Products and Chemicals Tokenized Stock (xStock)",
+            "symbol": "wAPDx",
+            "crypto_id": 41260,
+            "rwa_id": 429
+          },
+          {
+            "name": "Wrapped APi Tokenized Stock (xStock)",
+            "symbol": "wAPGx",
+            "crypto_id": 41261,
+            "rwa_id": 822
+          },
+          {
+            "name": "Wrapped Budweiser Brewing Co APAC Tokenized Stock (xStock)",
+            "symbol": "wBDWAPx",
+            "crypto_id": 41262,
+            "rwa_id": null
+          },
+          {
+            "name": "Wrapped Burlington Stores Tokenized Stock (xStock)",
+            "symbol": "wBURLx",
+            "crypto_id": 41263,
+            "rwa_id": 548
+          },
+          {
+            "name": "Wrapped China Longyuan Power Tokenized Stock (xStock)",
+            "symbol": "wCLONPx",
+            "crypto_id": 41264,
+            "rwa_id": null
+          },
+          {
+            "name": "Wrapped CLP Tokenized Stock (xStock)",
+            "symbol": "wCLPHDx",
+            "crypto_id": 41265,
+            "rwa_id": null
+          },
+          {
+            "name": "Wrapped Clorox Tokenized Stock (xStock)",
+            "symbol": "wCLXx",
+            "crypto_id": 41266,
+            "rwa_id": 896
+          },
+          {
+            "name": "Wrapped Camden Property Trust Tokenized Stock (xStock)",
+            "symbol": "wCPTx",
+            "crypto_id": 41267,
+            "rwa_id": 908
+          },
+          {
+            "name": "Wrapped Circle Tokenized Stock (xStock)",
+            "symbol": "wCRCLx",
+            "crypto_id": 41268,
+            "rwa_id": 115
+          },
+          {
+            "name": "Wrapped Global X DAX Germany Tokenized ETF (xStock)",
+            "symbol": "wDAXx",
+            "crypto_id": 41269,
+            "rwa_id": 6776
+          },
+          {
+            "name": "Wrapped Albemarle Tokenized Stock (xStock)",
+            "symbol": "wALBx",
+            "crypto_id": 41270,
+            "rwa_id": 827
+          },
+          {
+            "name": "Wrapped AMETEK Tokenized Stock (xStock)",
+            "symbol": "wAMEx",
+            "crypto_id": 41271,
+            "rwa_id": 445
+          },
+          {
+            "name": "Wrapped Broadridge Financial Solutions Tokenized Stock (xStock)",
+            "symbol": "wBRx",
+            "crypto_id": 41272,
+            "rwa_id": 832
+          },
+          {
+            "name": "Wrapped Cerebras Systems Tokenized Stock (xStock)",
+            "symbol": "wCBRSx",
+            "crypto_id": 41273,
+            "rwa_id": 251
+          },
+          {
+            "name": "Wrapped China Resources Mixc Lifestyle Tokenized Stock (xStock)",
+            "symbol": "wCRESMx",
+            "crypto_id": 41274,
+            "rwa_id": null
+          },
+          {
+            "name": "Wrapped China Taiping Insurance Tokenized Stock (xStock)",
+            "symbol": "wCTINSx",
+            "crypto_id": 41275,
+            "rwa_id": null
+          },
+          {
+            "name": "Wrapped CVS Health Tokenized Stock (xStock)",
+            "symbol": "wCVSx",
+            "crypto_id": 41276,
+            "rwa_id": 386
+          },
+          {
+            "name": "Wrapped Duke Energy Tokenized Stock (xStock)",
+            "symbol": "wDUKx",
+            "crypto_id": 41277,
+            "rwa_id": 394
+          },
+          {
+            "name": "Wrapped Consolidated Edison Tokenized Stock (xStock)",
+            "symbol": "wEDx",
+            "crypto_id": 41278,
+            "rwa_id": 336
+          },
+          {
+            "name": "Wrapped Equifax Tokenized Stock (xStock)",
+            "symbol": "wEFXx",
+            "crypto_id": 41279,
+            "rwa_id": 555
+          },
+          {
+            "name": "Wrapped Edison International Tokenized Stock (xStock)",
+            "symbol": "wEIXx",
+            "crypto_id": 41280,
+            "rwa_id": 504
+          },
+          {
+            "name": "Wrapped iShares MSCI France Tokenized ETF (xStock)",
+            "symbol": "wEWQx",
+            "crypto_id": 41281,
+            "rwa_id": 4876
+          },
+          {
+            "name": "Wrapped Equitable Tokenized Stock (xStock)",
+            "symbol": "wEQHx",
+            "crypto_id": 41282,
+            "rwa_id": 646
+          },
+          {
+            "name": "Wrapped Enhanced Group Tokenized Stock (xStock)",
+            "symbol": "wENHAx",
+            "crypto_id": 41283,
+            "rwa_id": null
+          },
+          {
+            "name": "Wrapped ENN Energy Tokenized Stock (xStock)",
+            "symbol": "wENNHLx",
+            "crypto_id": 41284,
+            "rwa_id": null
+          },
+          {
+            "name": "Wrapped Entegris Tokenized Stock (xStock)",
+            "symbol": "wENTGx",
+            "crypto_id": 41285,
+            "rwa_id": 812
+          },
+          {
+            "name": "Wrapped Fastenal Tokenized Stock (xStock)",
+            "symbol": "wFASTx",
+            "crypto_id": 41286,
+            "rwa_id": 315
+          },
+          {
+            "name": "Wrapped F5 Tokenized Stock (xStock)",
+            "symbol": "wFFIVx",
+            "crypto_id": 41287,
+            "rwa_id": 539
+          },
+          {
+            "name": "Wrapped Liberty Media Tokenized Stock (xStock)",
+            "symbol": "wFWONKx",
+            "crypto_id": 41288,
+            "rwa_id": 793
+          },
+          {
+            "name": "Wrapped The Hartford Insurance Tokenized Stock (xStock)",
+            "symbol": "wHIGx",
+            "crypto_id": 41289,
+            "rwa_id": 347
+          },
+          {
+            "name": "Wrapped HP Tokenized Stock (xStock)",
+            "symbol": "wHPQx",
+            "crypto_id": 41290,
+            "rwa_id": 790
+          },
+          {
+            "name": "Wrapped IREN Tokenized Stock (xStock)",
+            "symbol": "wIRENx",
+            "crypto_id": 41291,
+            "rwa_id": 229
+          },
+          {
+            "name": "Wrapped Lattice Semiconductor Tokenized Stock (xStock)",
+            "symbol": "wLSCCx",
+            "crypto_id": 41292,
+            "rwa_id": 565
+          },
+          {
+            "name": "Wrapped MongoDB Tokenized Stock (xStock)",
+            "symbol": "wMDBx",
+            "crypto_id": 41293,
+            "rwa_id": 373
+          },
+          {
+            "name": "Wrapped Mixue Tokenized Stock (xStock)",
+            "symbol": "wMIXUx",
+            "crypto_id": 41294,
+            "rwa_id": null
+          },
+          {
+            "name": "Wrapped Martin Marietta Materials Tokenized Stock (xStock)",
+            "symbol": "wMLMx",
+            "crypto_id": 41295,
+            "rwa_id": 354
+          },
+          {
+            "name": "Wrapped MMG Tokenized Stock (xStock)",
+            "symbol": "wMMGx",
+            "crypto_id": 41296,
+            "rwa_id": null
+          },
+          {
+            "name": "Wrapped VanEck Agribusiness ETF Tokenized ETF (xStock)",
+            "symbol": "wMOOx",
+            "crypto_id": 41297,
+            "rwa_id": 7410
+          },
+          {
+            "name": "Wrapped EQT Tokenized Stock (xStock)",
+            "symbol": "wEQTx",
+            "crypto_id": 41298,
+            "rwa_id": 356
+          },
+          {
+            "name": "Wrapped Global Payments Tokenized Stock (xStock)",
+            "symbol": "wGPNx",
+            "crypto_id": 41299,
+            "rwa_id": 830
+          },
+          {
+            "name": "Wrapped Halliburton Tokenized Stock (xStock)",
+            "symbol": "wHALx",
+            "crypto_id": 41300,
+            "rwa_id": 482
+          },
+          {
+            "name": "Wrapped IDEX Tokenized Stock (xStock)",
+            "symbol": "wIEXx",
+            "crypto_id": 41301,
+            "rwa_id": 844
+          },
+          {
+            "name": "Wrapped International Flavors Tokenized Stock (xStock)",
+            "symbol": "wIFFx",
+            "crypto_id": 41302,
+            "rwa_id": 816
+          },
+          {
+            "name": "Wrapped International Paper Tokenized Stock (xStock)",
+            "symbol": "wIPx",
+            "crypto_id": 41303,
+            "rwa_id": 833
+          },
+          {
+            "name": "Wrapped Lennox International Tokenized Stock (xStock)",
+            "symbol": "wLIIx",
+            "crypto_id": 41304,
+            "rwa_id": 569
+          },
+          {
+            "name": "Wrapped EOG Resources Tokenized Stock (xStock)",
+            "symbol": "wEOGx",
+            "crypto_id": 41305,
+            "rwa_id": 413
+          },
+          {
+            "name": "Wrapped Fidelity AAA CLO Tokenized ETF (xStock)",
+            "symbol": "wFAAAx",
+            "crypto_id": 41306,
+            "rwa_id": 6932
+          },
+          {
+            "name": "Wrapped FTAI Aviation Tokenized Stock (xStock)",
+            "symbol": "wFTAIx",
+            "crypto_id": 41307,
+            "rwa_id": 530
+          },
+          {
+            "name": "Wrapped Heico Tokenized Stock (xStock)",
+            "symbol": "wHEIx",
+            "crypto_id": 41308,
+            "rwa_id": 326
+          },
+          {
+            "name": "Wrapped Intuit Tokenized Stock (xStock)",
+            "symbol": "wINTUx",
+            "crypto_id": 41309,
+            "rwa_id": 201
+          },
+          {
+            "name": "Wrapped J&T Global Express Tokenized Stock (xStock)",
+            "symbol": "wJTGEXx",
+            "crypto_id": 41310,
+            "rwa_id": null
+          },
+          {
+            "name": "Wrapped KeyCorp Tokenized Stock (xStock)",
+            "symbol": "wKEYx",
+            "crypto_id": 41311,
+            "rwa_id": 526
+          }
+        ],
+        "issuer_id": "6878977dcbbf471de3366e85",
+        "num_tokens": 1176,
+        "total_size": 1176,
+        "has_more": true
+      },
+      "status": {
+        "timestamp": "2026-09-25T16:26:26.460Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 4,
+        "credit_count": 1
+      }
+    }
+  }
+}

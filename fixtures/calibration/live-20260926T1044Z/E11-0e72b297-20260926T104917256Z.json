@@ -1,0 +1,328 @@
+{
+  "label": "E11-0e72b297-20260926T104917256Z",
+  "recordedAt": "2026-09-26T10:49:17.256Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v1/dex/token/pools?address=0xe343167631d89B6Ffc58B88d6b7fB0228795491D&platform=ethereum&size=10",
+    "path": "/v1/dex/token/pools",
+    "query": {
+      "address": "0xe343167631d89B6Ffc58B88d6b7fB0228795491D",
+      "platform": "ethereum",
+      "size": "10"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 1566,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 10:49:16 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 8ea525de0a543f72f5e5f9278e2150b4.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "XfV7l_vI8FIeesCRqxDoFD9subKrXHm4OIK1pt1yEZzCNSCIsM28aQ==",
+      "x-amz-cf-pop": "IAD55-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "297",
+      "x-server-traceid": "5038cb89ee15568921ce757dc8b3da1b"
+    },
+    "body": {
+      "data": [
+        {
+          "addr": "0xeda62d2906d0edf26d40c793d581609552a44a87f618a98ff76ebe8dde4b7edb",
+          "v24": "8969253.319612866484310722",
+          "pubAt": "1789051187000",
+          "t0": {
+            "addr": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/3408.png",
+            "n": "USD Coin",
+            "sym": "USDC",
+            "liq": "1554012.05866",
+            "liqUsd": "1553867.525393173787014073"
+          },
+          "t1": {
+            "addr": "0xe343167631d89b6ffc58b88d6b7fb0228795491d",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/33793.png",
+            "n": "Global Dollar",
+            "sym": "USDG",
+            "liq": "827772.602049",
+            "liqUsd": "827742.918165819563783316"
+          },
+          "bidx": 1,
+          "exid": 11955,
+          "exn": "Uniswap v4 (Ethereum)",
+          "liqUsd": "2381610.443558993350797389",
+          "fa": "0x000000000004444c5dc75cb358380d2e3de08a90",
+          "top": true,
+          "mi": false
+        },
+        {
+          "addr": "0x397fb17f2f23d2618574ab0cff0320b424d9ab0b31d036096b2ee9c02e649e22",
+          "v24": "188394.537791950460603936",
+          "pubAt": "1773438863000",
+          "t0": {
+            "addr": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/825.png",
+            "n": "Tether USD",
+            "sym": "USDT",
+            "liq": "63723.939679",
+            "liqUsd": "63710.165101140844659624"
+          },
+          "t1": {
+            "addr": "0xe343167631d89b6ffc58b88d6b7fb0228795491d",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/33793.png",
+            "n": "Global Dollar",
+            "sym": "USDG",
+            "liq": "203186.029458",
+            "liqUsd": "203168.374734484775346667"
+          },
+          "bidx": 1,
+          "exid": 11955,
+          "exn": "Uniswap v4 (Ethereum)",
+          "liqUsd": "266878.53983562562000629",
+          "fa": "0x000000000004444c5dc75cb358380d2e3de08a90",
+          "top": true,
+          "mi": false
+        },
+        {
+          "addr": "0xb90d11907f96a9d5fd8979ef271d3bb9b90052d9299d1f95faa5168c55bcb716",
+          "v24": "428858.912570413364550924",
+          "pubAt": "1787847551000",
+          "t0": {
+            "addr": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/3408.png",
+            "n": "USD Coin",
+            "sym": "USDC",
+            "liq": "145942.813361",
+            "liqUsd": "145926.467799453485706681"
+          },
+          "t1": {
+            "addr": "0xe343167631d89b6ffc58b88d6b7fb0228795491d",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/33793.png",
+            "n": "Global Dollar",
+            "sym": "USDG",
+            "liq": "120791.675375",
+            "liqUsd": "120803.724376621117773635"
+          },
+          "bidx": 1,
+          "exid": 11955,
+          "exn": "Uniswap v4 (Ethereum)",
+          "liqUsd": "266730.192176074603480315",
+          "fa": "0x000000000004444c5dc75cb358380d2e3de08a90",
+          "top": true,
+          "mi": false
+        },
+        {
+          "addr": "0x0d3d26ec61a6c96d74153f62f67fbdcbb8cd9bca49e7901017e22d2b371efd02",
+          "v24": "41680.732593671155011001",
+          "pubAt": "1750678799000",
+          "t0": {
+            "addr": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/3408.png",
+            "n": "USD Coin",
+            "sym": "USDC",
+            "liq": "113047.430132",
+            "liqUsd": "113020.592897768538592242"
+          },
+          "t1": {
+            "addr": "0xe343167631d89b6ffc58b88d6b7fb0228795491d",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/33793.png",
+            "n": "Global Dollar",
+            "sym": "USDG",
+            "liq": "101746.359507",
+            "liqUsd": "101746.213155218001946676"
+          },
+          "bidx": 1,
+          "exid": 11955,
+          "exn": "Uniswap v4 (Ethereum)",
+          "liqUsd": "214766.806052986540538918",
+          "fa": "0x000000000004444c5dc75cb358380d2e3de08a90",
+          "top": true,
+          "mi": false
+        },
+        {
+          "addr": "0x817097ff6bfbf3e76097fc481e17be155cfd9bd4",
+          "v24": "12764.784910908906203592",
+          "pubAt": "1769625515000",
+          "t0": {
+            "addr": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/3408.png",
+            "n": "USD Coin",
+            "sym": "USDC",
+            "liq": "27283.652642",
+            "liqUsd": "27279.204443939096271189"
+          },
+          "t1": {
+            "addr": "0xe343167631d89b6ffc58b88d6b7fb0228795491d",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/33793.png",
+            "n": "Global Dollar",
+            "sym": "USDG",
+            "liq": "31588.536958",
+            "liqUsd": "31589.899169615257540145"
+          },
+          "bidx": 1,
+          "exid": 1348,
+          "exn": "Uniswap v3 (Ethereum)",
+          "liqUsd": "58869.103613554353811333",
+          "fa": "0x1f98431c8ad98523631ae4a59f267346ea31f984",
+          "top": true,
+          "mi": false
+        },
+        {
+          "addr": "0x7da1afe9de05528e6559b5845188b98d013843e630b20cd511b974a425267427",
+          "v24": "36088.817018799112437176",
+          "pubAt": "1785833543000",
+          "t0": {
+            "addr": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/3408.png",
+            "n": "USD Coin",
+            "sym": "USDC",
+            "liq": "14537.130267",
+            "liqUsd": "14535.636855787283338688"
+          },
+          "t1": {
+            "addr": "0xe343167631d89b6ffc58b88d6b7fb0228795491d",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/33793.png",
+            "n": "Global Dollar",
+            "sym": "USDG",
+            "liq": "23521.714005",
+            "liqUsd": "23524.057893218236559065"
+          },
+          "bidx": 1,
+          "exid": 11955,
+          "exn": "Uniswap v4 (Ethereum)",
+          "liqUsd": "38059.694749005519897753",
+          "fa": "0x000000000004444c5dc75cb358380d2e3de08a90",
+          "top": true,
+          "mi": false
+        },
+        {
+          "addr": "0xe22b28c9bee610f6763a3d0a11d1415fa4db63fdb7f2e3db843e21a5a8c174f4",
+          "v24": "1354.040756740279095847",
+          "pubAt": "1779790739000",
+          "t0": {
+            "addr": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/3408.png",
+            "n": "USD Coin",
+            "sym": "USDC",
+            "liq": "5719.221682",
+            "liqUsd": "5718.493019008383517321"
+          },
+          "t1": {
+            "addr": "0xe343167631d89b6ffc58b88d6b7fb0228795491d",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/33793.png",
+            "n": "Global Dollar",
+            "sym": "USDG",
+            "liq": "5679.9157",
+            "liqUsd": "5679.100167806615164952"
+          },
+          "bidx": 1,
+          "exid": 11955,
+          "exn": "Uniswap v4 (Ethereum)",
+          "liqUsd": "11397.593186814998682272",
+          "fa": "0x000000000004444c5dc75cb358380d2e3de08a90",
+          "top": true,
+          "mi": false
+        },
+        {
+          "addr": "0xc061caa073f3d95f80f8e5428d32d2d76f5e1622-0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48-0xe343167631d89b6ffc58b88d6b7fb0228795491d",
+          "v24": "3287886.333170904285895106",
+          "t0": {
+            "addr": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/3408.png",
+            "n": "USD Coin",
+            "sym": "USDC",
+            "liq": "11670498.192162",
+            "liqUsd": "11669207.969672605519243683"
+          },
+          "t1": {
+            "addr": "0xe343167631d89b6ffc58b88d6b7fb0228795491d",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/33793.png",
+            "n": "Global Dollar",
+            "sym": "USDG",
+            "liq": "8362836.450881",
+            "liqUsd": "8362021.748203381518093029"
+          },
+          "bidx": 1,
+          "exid": 1063,
+          "exn": "Curve (Ethereum)",
+          "liqUsd": "20031229.717875987037336712",
+          "fa": "0xe64608e223433e8a03a1daaefd8cb638c14b552c",
+          "mi": false
+        },
+        {
+          "addr": "0x7a52ba9092e364c766820ed007fd0fc13be21290d329eaade1948c984c821f2d",
+          "v24": "88607.874733985846952433",
+          "pubAt": "1784572091000",
+          "t0": {
+            "addr": "0x87b65c4aaffa76881f9e96f3e7ed945ddfc3cd7a",
+            "n": "syrupUSDG",
+            "sym": "syrupUSDG",
+            "liq": "380099.493812",
+            "liqUsd": "384834.604491151118214133"
+          },
+          "t1": {
+            "addr": "0xe343167631d89b6ffc58b88d6b7fb0228795491d",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/33793.png",
+            "n": "Global Dollar",
+            "sym": "USDG",
+            "liq": "1595154.312485",
+            "liqUsd": "1595356.212655505255876013"
+          },
+          "bidx": 0,
+          "exid": 11955,
+          "exn": "Uniswap v4 (Ethereum)",
+          "liqUsd": "1980190.817146656374090146",
+          "fa": "0x000000000004444c5dc75cb358380d2e3de08a90",
+          "mi": false
+        },
+        {
+          "addr": "0xdc6d88c9dd22c0e797d8e552b3242567b18aefa0",
+          "v24": "0",
+          "pubAt": "1784622671000",
+          "t0": {
+            "addr": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/3408.png",
+            "n": "USD Coin",
+            "sym": "USDC",
+            "liq": "43602.92696",
+            "liqUsd": "43590.845978580119092515"
+          },
+          "t1": {
+            "addr": "0xe343167631d89b6ffc58b88d6b7fb0228795491d",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/33793.png",
+            "n": "Global Dollar",
+            "sym": "USDG",
+            "liq": "135097.245181",
+            "liqUsd": "135069.734474874172762671"
+          },
+          "bidx": 1,
+          "exid": 7070,
+          "exn": "Maverick Protocol",
+          "liqUsd": "178660.580453454291855185",
+          "fa": "0xeb6625d65a0553c9dbc64449e56abfe519bd9c9b",
+          "mi": false
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-26T10:49:16.871Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 293,
+        "credit_count": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "label": "E05-0240323b-20260926T105126332Z",
+  "recordedAt": "2026-09-26T10:51:26.332Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v2/cryptocurrency/info?id=24478",
+    "path": "/v2/cryptocurrency/info",
+    "query": {
+      "id": "24478"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 925,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 10:51:26 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 ec6ab86695d018f9e87cce7df2ae9964.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "yvTfyP13kK6PnWHUg9Ah8_PdUfu1LeKsZUixhFhXBH8knxx9cH3q-w==",
+      "x-amz-cf-pop": "IAD55-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "12",
+      "x-server-traceid": "ead9d91c741a9c377be37ce74fa0382c"
+    },
+    "body": {
+      "data": {
+        "24478": {
+          "id": 24478,
+          "name": "Pepe",
+          "symbol": "PEPE",
+          "category": "token",
+          "description": "Pepe (PEPE) is a cryptocurrency launched in 2023and operates on the Ethereum platform. Pepe has a current supply of 413,772,355,107,943.95603845. The last known price of Pepe is 0.00000443 USD and is down -1.04 over the last 24 hours. It is currently trading on 716 active market(s) with $313,927,190.90 traded over the last 24 hours. More information can be found at https://www.pepe.vip/.",
+          "slug": "pepe",
+          "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/24478.png",
+          "subreddit": "",
+          "notice": "",
+          "tags": [
+            "memes",
+            "ethereum-ecosystem",
+            "solana-ecosystem",
+            "binance-ecosystem",
+            "binance-listing",
+            "etherlink-ecosystem"
+          ],
+          "tag-names": [
+            "Memes",
+            "Ethereum Ecosystem",
+            "Solana Ecosystem",
+            "Binance Ecosystem",
+            "Binance Listing",
+            "Etherlink Ecosystem"
+          ],
+          "tag-groups": [
+            "INDUSTRY",
+            "PLATFORM",
+            "PLATFORM",
+            "CATEGORY",
+            "CATEGORY",
+            "PLATFORM"
+          ],
+          "urls": {
+            "website": [
+              "https://www.pepe.vip/"
+            ],
+            "twitter": [
+              "https://twitter.com/pepecoineth"
+            ],
+            "message_board": [],
+            "chat": [],
+            "facebook": [],
+            "explorer": [
+              "https://etherscan.io/token/0x6982508145454ce325ddbe47a25d4ec3d2311933",
+              "https://solscan.io/token/PEPEqnuuCDbBC89p1u9vpnP1KQ2oj1xTcQBsjt9X55m",
+              "https://www.oklink.com/eth/token/0x6982508145454ce325ddbe47a25d4ec3d2311933"
+            ],
+            "reddit": [],
+            "technical_doc": [],
+            "source_code": [],
+            "announcement": []
+          },
+          "platform": {
+            "id": "1027",
+            "name": "Ethereum",
+            "symbol": "ETH",
+            "slug": "ethereum",
+            "token_address": "0x6982508145454ce325ddbe47a25d4ec3d2311933"
+          },
+          "date_added": "2023-04-17T06:18:08.000Z",
+          "twitter_username": "pepecoineth",
+          "is_hidden": 0,
+          "date_launched": "2023-04-14T00:00:00.000Z",
+          "contract_address": [
+            {
+              "contract_address": "0x6982508145454ce325ddbe47a25d4ec3d2311933",
+              "platform": {
+                "name": "Ethereum",
+                "coin": {
+                  "id": "1027",
+                  "name": "Ethereum",
+                  "symbol": "ETH",
+                  "slug": "ethereum"
+                }
+              }
+            },
+            {
+              "contract_address": "PEPEqnuuCDbBC89p1u9vpnP1KQ2oj1xTcQBsjt9X55m",
+              "platform": {
+                "name": "Solana",
+                "coin": {
+                  "id": "5426",
+                  "name": "Solana",
+                  "symbol": "SOL",
+                  "slug": "solana"
+                }
+              }
+            }
+          ],
+          "self_reported_tags": [
+            "Art",
+            "Store Of Value"
+          ],
+          "infinite_supply": false
+        }
+      },
+      "status": {
+        "timestamp": "2026-09-26T10:51:26.146Z",
+        "error_code": 0,
+        "error_message": null,
+        "elapsed": 7,
+        "credit_count": 1,
+        "notice": null
+      }
+    }
+  }
+}

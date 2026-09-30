@@ -1,0 +1,184 @@
+{
+  "label": "E02-4fb19140-20260925T220007365Z",
+  "recordedAt": "2026-09-25T22:00:07.365Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v3/cryptocurrency/quotes/latest?convert=USD&id=22974",
+    "path": "/v3/cryptocurrency/quotes/latest",
+    "query": {
+      "convert": "USD",
+      "id": "22974"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 238,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Fri, 25 Sep 2026 22:00:07 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 0302c871dcf97d5203274aac0be06aae.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "pRv3wnXKPwlvVGhE6u92DzyVqfEycMIwXR8g-0PFOMKlNPZ-YqjfPA==",
+      "x-amz-cf-pop": "CDG55-P3",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "8",
+      "x-server-traceid": "30baf913435ff6d93eb3280a5002b832"
+    },
+    "body": {
+      "data": [
+        {
+          "tags": [
+            {
+              "slug": "ai-big-data",
+              "name": "AI & Big Data",
+              "category": "INDUSTRY"
+            },
+            {
+              "slug": "distributed-computing",
+              "name": "Distributed Computing",
+              "category": "INDUSTRY"
+            },
+            {
+              "slug": "oracles",
+              "name": "Oracles",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "dao",
+              "name": "DAO",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "polychain-capital-portfolio",
+              "name": "Polychain Capital Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "dcg-portfolio",
+              "name": "DCG Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "open-source",
+              "name": "Opensource",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "generative-ai",
+              "name": "Generative AI",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "layer-1",
+              "name": "Layer 1",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "depin",
+              "name": "DePIN",
+              "category": "INDUSTRY"
+            },
+            {
+              "slug": "cmc-crypto-yearbook-2024-2025",
+              "name": "CMC Crypto Yearbook 2024-25",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-ecosystem",
+              "name": "Binance Ecosystem",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-listing",
+              "name": "Binance Listing",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "bittensor-ecosystem",
+              "name": "Bittensor Ecosystem",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "robotics",
+              "name": "Robotics",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "robinhood-ecosystem",
+              "name": "Robinhood Ecosystem",
+              "category": "CATEGORY"
+            }
+          ],
+          "id": 22974,
+          "name": "Bittensor",
+          "symbol": "TAO",
+          "slug": "bittensor",
+          "is_active": 1,
+          "infinite_supply": false,
+          "is_fiat": 0,
+          "circulating_supply": 11552415.49233826,
+          "total_supply": 21000000,
+          "max_supply": 21000000,
+          "date_added": "2023-03-06T05:20:00.000Z",
+          "num_market_pairs": 332,
+          "cmc_rank": 29,
+          "last_updated": "2026-09-25T21:59:00.000Z",
+          "tvl_ratio": null,
+          "platform": {
+            "id": 22974,
+            "slug": "bittensor",
+            "name": "Bittensor",
+            "symbol": "TAO",
+            "token_address": "0"
+          },
+          "self_reported_circulating_supply": null,
+          "self_reported_market_cap": null,
+          "minted_market_cap": 6518948609.69,
+          "quote": [
+            {
+              "id": 2781,
+              "symbol": "USD",
+              "price": 310.42612427105934,
+              "volume_24h": 370721314.5761051,
+              "volume_change_24h": 3.2542,
+              "cex_volume_24h": 344775899.363002,
+              "dex_volume_24h": 25945415.2131032,
+              "percent_change_1h": 0.06342565,
+              "percent_change_24h": 4.53239145,
+              "percent_change_7d": 24.30709124,
+              "percent_change_30d": 34.09073853,
+              "percent_change_60d": 61.19258247,
+              "percent_change_90d": 48.58279447,
+              "market_cap": 3586171567.255508,
+              "market_cap_dominance": 0.1248,
+              "fully_diluted_market_cap": 6518948609.69,
+              "minted_market_cap": 6518948609.69,
+              "tvl": null,
+              "last_updated": "2026-09-25T21:59:04.000Z"
+            }
+          ]
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-25T22:00:07.289Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 3,
+        "credit_count": 1
+      }
+    }
+  }
+}

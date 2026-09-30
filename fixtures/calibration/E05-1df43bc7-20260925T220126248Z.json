@@ -1,0 +1,214 @@
+{
+  "label": "E05-1df43bc7-20260925T220126248Z",
+  "recordedAt": "2026-09-25T22:01:26.248Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v2/cryptocurrency/info?id=27772",
+    "path": "/v2/cryptocurrency/info",
+    "query": {
+      "id": "27772"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 1724,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Fri, 25 Sep 2026 22:01:25 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 79ad08577b07b3acecc0482b08983240.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "LI1stQVoaXtbot70Vf4m0FQcL8lJgB9DjHD-SiRbnh9q9Rwtsm2Lcg==",
+      "x-amz-cf-pop": "LOS50-P4",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "12",
+      "x-server-traceid": "e9108f440e373bf5bf8c3de2300c79c9"
+    },
+    "body": {
+      "data": {
+        "27772": {
+          "id": 27772,
+          "name": "PayPal USD",
+          "symbol": "PYUSD",
+          "category": "token",
+          "description": "PayPal USD (PYUSD) is a cryptocurrency launched in 2023and operates on the Ethereum platform. PayPal USD has a current supply of 2,704,800,998.6937225. The last known price of PayPal USD is 0.99968905 USD and is up -0.00 over the last 24 hours. It is currently trading on 177 active market(s) with $56,437,609.46 traded over the last 24 hours. More information can be found at https://www.paypal.com/pyusd.",
+          "slug": "paypal-usd",
+          "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/27772.png",
+          "subreddit": "",
+          "notice": "",
+          "tags": [
+            "stablecoin",
+            "asset-backed-stablecoin",
+            "stellar-ecosystem",
+            "usd-stablecoin",
+            "fiat-stablecoin"
+          ],
+          "tag-names": [
+            "Stablecoin",
+            "Asset-Backed Stablecoin",
+            "Stellar Ecosystem",
+            "USD Stablecoin",
+            "Fiat Stablecoin"
+          ],
+          "tag-groups": [
+            "CATEGORY",
+            "CATEGORY",
+            "PLATFORM",
+            "CATEGORY",
+            "CATEGORY"
+          ],
+          "urls": {
+            "website": [
+              "https://www.paypal.com/pyusd"
+            ],
+            "twitter": [
+              "https://twitter.com/PayPal"
+            ],
+            "message_board": [
+              "https://newsroom.paypal-corp.com/2024-05-29-PayPal-USD-Stablecoin-Now-Available-on-Solana-Blockchain,-Providing-Faster,-Cheaper-Transactions-for-Consumers",
+              "https://newsroom.paypal-corp.com/2023-08-07-PayPal-Launches-U-S-Dollar-Stablecoin"
+            ],
+            "chat": [
+              "https://www.paypal.com/us/cshelp/article/how-do-i-contact-paypal-customer-service--help378"
+            ],
+            "facebook": [],
+            "explorer": [
+              "https://etherscan.io/token/0x6c3ea9036406852006290770bedfcaba0e23a0e8",
+              "https://polygonscan.com/token/0x99aF3EeA856556646C98c8B9b2548Fe815240750",
+              "https://solscan.io/token/2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo",
+              "https://arbiscan.io/token/0x46850ad61c2b7d64d08c9c754f45254596696984",
+              "https://stellar.expert/explorer/public/asset/PYUSD-GDQE7IXJ4HUHV6RQHIUPRJSEZE4DRS5WY577O2FY6YQ5LVWZ7JZTU2V5"
+            ],
+            "reddit": [],
+            "technical_doc": [
+              "https://www.paypalobjects.com/devdoc/community/PYUSD-Solana-White-Paper.pdf"
+            ],
+            "source_code": [
+              "https://github.com/paxosglobal/pyusd-contract"
+            ],
+            "announcement": [
+              "https://newsroom.paypal-corp.com/2023-08-07-PayPal-Launches-U-S-Dollar-Stablecoin"
+            ]
+          },
+          "platform": {
+            "id": "1027",
+            "name": "Ethereum",
+            "symbol": "ETH",
+            "slug": "ethereum",
+            "token_address": "0x6c3ea9036406852006290770bedfcaba0e23a0e8"
+          },
+          "date_added": "2023-08-21T14:30:00.000Z",
+          "twitter_username": "PayPal",
+          "is_hidden": 0,
+          "date_launched": "2023-08-07T00:00:00.000Z",
+          "contract_address": [
+            {
+              "contract_address": "0x6c3ea9036406852006290770bedfcaba0e23a0e8",
+              "platform": {
+                "name": "Ethereum",
+                "coin": {
+                  "id": "1027",
+                  "name": "Ethereum",
+                  "symbol": "ETH",
+                  "slug": "ethereum"
+                }
+              }
+            },
+            {
+              "contract_address": "2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo",
+              "platform": {
+                "name": "Solana",
+                "coin": {
+                  "id": "5426",
+                  "name": "Solana",
+                  "symbol": "SOL",
+                  "slug": "solana"
+                }
+              }
+            },
+            {
+              "contract_address": "CCCRWH6Q3FNP3I2I57BDLM5AFAT7O6OF6GKQOC6SSJNDAVRZ57SPHGU2",
+              "platform": {
+                "name": "Stellar",
+                "coin": {
+                  "id": "512",
+                  "name": "Stellar",
+                  "symbol": "XLM",
+                  "slug": "stellar"
+                }
+              }
+            },
+            {
+              "contract_address": "0x46850ad61c2b7d64d08c9c754f45254596696984",
+              "platform": {
+                "name": "Arbitrum",
+                "coin": {
+                  "id": "11841",
+                  "name": "Arbitrum",
+                  "symbol": "ARB",
+                  "slug": "arbitrum"
+                }
+              }
+            },
+            {
+              "contract_address": "0x87b4a8176b3df6b71e26cc095edcaf4db07506b4",
+              "platform": {
+                "name": "X Layer",
+                "coin": {
+                  "id": "3897",
+                  "name": "OKB",
+                  "symbol": "OKB",
+                  "slug": "okb"
+                }
+              }
+            },
+            {
+              "contract_address": "0x99aF3EeA856556646C98c8B9b2548Fe815240750",
+              "platform": {
+                "name": "Polygon",
+                "coin": {
+                  "id": "28321",
+                  "name": "Polygon (prev. MATIC)",
+                  "symbol": "POL",
+                  "slug": "polygon-ecosystem-token"
+                }
+              }
+            }
+          ],
+          "self_reported_tags": [
+            "Medium of Exchange",
+            "E-commerce",
+            "Payments",
+            "Stablecoin",
+            "Asset-Backed Stablecoin",
+            "Ethereum Ecosystem",
+            "Solana Ecosystem",
+            "USD Stablecoin",
+            "Fiat Stablecoin"
+          ],
+          "infinite_supply": false
+        }
+      },
+      "status": {
+        "timestamp": "2026-09-25T22:01:25.956Z",
+        "error_code": 0,
+        "error_message": null,
+        "elapsed": 7,
+        "credit_count": 1,
+        "notice": null
+      }
+    }
+  }
+}

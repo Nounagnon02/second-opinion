@@ -1,0 +1,65 @@
+{
+  "label": "E06-6e67515f-20260926T080741187Z",
+  "recordedAt": "2026-09-26T08:07:41.187Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v2/simple/price?id=1958&include_last_updated=true",
+    "path": "/v2/simple/price",
+    "query": {
+      "id": "1958",
+      "include_last_updated": "true"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 225,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 08:07:41 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 1fa1875b2f656fdf295eee39e2e48938.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "SNtViid-Ni65WTGNiwCP_WmIuZYx7rY7KxRH491oRUvkN2zlzeQYTw==",
+      "x-amz-cf-pop": "CDG55-P3",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "12",
+      "x-server-traceid": "4f4f3600db8ca06ac5d4d74189c9eb33"
+    },
+    "body": {
+      "data": [
+        {
+          "id": 1958,
+          "name": "TRON",
+          "symbol": "TRX",
+          "slug": "tron",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "price": 0.3370539965661255,
+              "last_updated": "2026-09-26T08:06:02.000Z"
+            }
+          ]
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-26T08:07:41.048Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 5,
+        "credit_count": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "label": "E05-9793b19e-20260926T104919523Z",
+  "recordedAt": "2026-09-26T10:49:19.523Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v2/cryptocurrency/info?id=30171",
+    "path": "/v2/cryptocurrency/info",
+    "query": {
+      "id": "30171"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 2265,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 10:49:19 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 0e373c2690d6d18d0c88347ad35ba498.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "Gvy-cpPnWIh76rlvcUJbQ9lM7v-wuV9QY8k4cuGtVSe0vxa1QDKK-Q==",
+      "x-amz-cf-pop": "IAD55-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "16",
+      "x-server-traceid": "b853225c6b4777308dbcb703a2949c68"
+    },
+    "body": {
+      "data": {
+        "30171": {
+          "id": 30171,
+          "name": "Ethena",
+          "symbol": "ENA",
+          "category": "token",
+          "description": "Ethena (ENA) is a cryptocurrency and operates on the Ethereum platform. Ethena has a current supply of 15,000,000,000 with 10,095,312,500 in circulation. The last known price of Ethena is 0.28279886 USD and is up 24.86 over the last 24 hours. It is currently trading on 481 active market(s) with $1,290,527,200.48 traded over the last 24 hours. More information can be found at https://www.ethena.fi/.",
+          "slug": "ethena",
+          "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/30171.png",
+          "subreddit": "",
+          "notice": "",
+          "tags": [
+            "defi",
+            "ethereum-ecosystem",
+            "binance-labs-portfolio",
+            "okx-ventures-portfolio",
+            "cmc-crypto-yearbook-2024-2025",
+            "world-liberty-financial-portfolio",
+            "binance-ecosystem",
+            "binance-listing",
+            "amber-group-portfolio"
+          ],
+          "tag-names": [
+            "DeFi",
+            "Ethereum Ecosystem",
+            "YZi Labs Portfolio",
+            "OKX Ventures Portfolio",
+            "CMC Crypto Yearbook 2024-25",
+            "World Liberty Financial Portfolio",
+            "Binance Ecosystem",
+            "Binance Listing",
+            "Amber Group Portfolio"
+          ],
+          "tag-groups": [
+            "CATEGORY",
+            "PLATFORM",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY"
+          ],
+          "urls": {
+            "website": [
+              "https://www.ethena.fi/"
+            ],
+            "twitter": [
+              "https://twitter.com/ethena_labs"
+            ],
+            "message_board": [
+              "https://mirror.xyz/0xF99d0E4E3435cc9C9868D1C6274DfaB3e2721341"
+            ],
+            "chat": [
+              "https://t.me/ethena_labs",
+              "https://discord.com/ethena"
+            ],
+            "facebook": [],
+            "explorer": [
+              "https://etherscan.io/token/0x57e114B691Db790C35207b2e685D4A43181e6061",
+              "https://www.okx.com/web3/explorer/eth/token/0x57e114B691Db790C35207b2e685D4A43181e6061"
+            ],
+            "reddit": [],
+            "technical_doc": [
+              "https://ethena-labs.gitbook.io/ethena-labs/"
+            ],
+            "source_code": [
+              "https://github.com/ethena-labs"
+            ],
+            "announcement": []
+          },
+          "platform": {
+            "id": "1027",
+            "name": "Ethereum",
+            "symbol": "ETH",
+            "slug": "ethereum",
+            "token_address": "0x57e114B691Db790C35207b2e685D4A43181e6061"
+          },
+          "date_added": "2024-03-29T04:42:08.000Z",
+          "twitter_username": "ethena_labs",
+          "is_hidden": 0,
+          "contract_address": [
+            {
+              "contract_address": "0x57e114B691Db790C35207b2e685D4A43181e6061",
+              "platform": {
+                "name": "Ethereum",
+                "coin": {
+                  "id": "1027",
+                  "name": "Ethereum",
+                  "symbol": "ETH",
+                  "slug": "ethereum"
+                }
+              }
+            }
+          ],
+          "self_reported_circulating_supply": 1479139274,
+          "self_reported_market_cap": 418373721.7757827,
+          "infinite_supply": false
+        }
+      },
+      "status": {
+        "timestamp": "2026-09-26T10:49:19.270Z",
+        "error_code": 0,
+        "error_message": null,
+        "elapsed": 9,
+        "credit_count": 1,
+        "notice": null
+      }
+    }
+  }
+}

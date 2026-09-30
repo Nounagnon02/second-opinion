@@ -1,0 +1,333 @@
+{
+  "label": "E11-eb811725-20260925T215601457Z",
+  "recordedAt": "2026-09-25T21:56:01.457Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v1/dex/token/pools?address=0xdac17f958d2ee523a2206206994597c13d831ec7&platform=ethereum&size=10",
+    "path": "/v1/dex/token/pools",
+    "query": {
+      "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "platform": "ethereum",
+      "size": "10"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 6847,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Fri, 25 Sep 2026 21:56:01 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 bdc6f46d528af5e15c27d2e41fd4f658.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "a5mL1-hZ0ibvEMmkzwp7jVNikKKPaaQ5dxexFnsMv2QZSnNfQY5oGA==",
+      "x-amz-cf-pop": "LOS50-P4",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "209",
+      "x-server-traceid": "9006de562f017e67fcce771bd5b7de7b"
+    },
+    "body": {
+      "data": [
+        {
+          "addr": "0x4e68ccd3e89f51c3074ca5072bbac773960dfa36",
+          "v24": "44110611.399056542718473534",
+          "pubAt": "1620232628000",
+          "t0": {
+            "addr": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/2396.png",
+            "n": "Wrapped Ether",
+            "sym": "WETH",
+            "liq": "20155.337244630648536906",
+            "liqUsd": "54078475.883155690373892003"
+          },
+          "t1": {
+            "addr": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/825.png",
+            "n": "Tether USD",
+            "sym": "USDT",
+            "liq": "54306558.8646",
+            "liqUsd": "54435946.045366832413404096"
+          },
+          "bidx": 0,
+          "exid": 1348,
+          "exn": "Uniswap v3 (Ethereum)",
+          "liqUsd": "108514421.928522522787296098",
+          "fa": "0x1f98431c8ad98523631ae4a59f267346ea31f984",
+          "top": true,
+          "mi": false
+        },
+        {
+          "addr": "0x147d15e009a63ebed5196ea029679329204f98fd",
+          "v24": "1418065.961466638662664426",
+          "pubAt": "1720250075000",
+          "t0": {
+            "addr": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/2396.png",
+            "n": "Wrapped Ether",
+            "sym": "WETH",
+            "liq": "11436.874829811992558439",
+            "liqUsd": "30684592.432555914513018834"
+          },
+          "t1": {
+            "addr": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/825.png",
+            "n": "Tether USD",
+            "sym": "USDT",
+            "liq": "30705307.930236",
+            "liqUsd": "30772688.496876965417855967"
+          },
+          "bidx": 0,
+          "exid": 32396,
+          "exn": "Ring Exchange (Ethereum)",
+          "liqUsd": "61457280.929432879930874801",
+          "fa": "0xeb2a625b704d73e82946d8d026e1f588eed06416",
+          "top": true,
+          "mi": false
+        },
+        {
+          "addr": "0x3b1b1f2e775a6db1664f8e7d59ad568605ea2406312c11aef03146c0cf89d5b9",
+          "v24": "90870091.553987890576353716",
+          "pubAt": "1768358735000",
+          "t0": {
+            "addr": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/825.png",
+            "n": "Tether USD",
+            "sym": "USDT",
+            "liq": "29321168.402029",
+            "liqUsd": "29314964.148779203128694168"
+          },
+          "t1": {
+            "addr": "0xdc035d45d973e3ec169d2276ddab16f1e407384f",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/33039.png",
+            "n": "USDS Stablecoin",
+            "sym": "USDS",
+            "liq": "20880337.943692724099726733",
+            "liqUsd": "20878454.719360980752711282"
+          },
+          "bidx": 1,
+          "exid": 11955,
+          "exn": "Uniswap v4 (Ethereum)",
+          "liqUsd": "50193418.86814018388140545",
+          "fa": "0x000000000004444c5dc75cb358380d2e3de08a90",
+          "top": true,
+          "mi": false
+        },
+        {
+          "addr": "0x3416cf6c708da44db2624d63ea0aaef7113527c6",
+          "v24": "12825413.858189816329171844",
+          "pubAt": "1636825557000",
+          "t0": {
+            "addr": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/3408.png",
+            "n": "USD Coin",
+            "sym": "USDC",
+            "liq": "20788081.01002",
+            "liqUsd": "20789160.465547891702539362"
+          },
+          "t1": {
+            "addr": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/825.png",
+            "n": "Tether USD",
+            "sym": "USDT",
+            "liq": "13540707.711325",
+            "liqUsd": "13537949.390825879364929698"
+          },
+          "bidx": 0,
+          "exid": 1348,
+          "exn": "Uniswap v3 (Ethereum)",
+          "liqUsd": "34327109.856373771067469059",
+          "fa": "0x1f98431c8ad98523631ae4a59f267346ea31f984",
+          "top": true,
+          "mi": false
+        },
+        {
+          "addr": "0x50b00c1a5a8e582ec808e97e71598cd135206a9f9c548eab2ed73659e7ee5fa8",
+          "v24": "9691048.017282657770033086",
+          "pubAt": "1738173587000",
+          "t0": {
+            "addr": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png",
+            "n": "Ethereum",
+            "sym": "ETH",
+            "liq": "4358.12799411721853619",
+            "liqUsd": "11684797.465749722162646194"
+          },
+          "t1": {
+            "addr": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/825.png",
+            "n": "Tether USD",
+            "sym": "USDT",
+            "liq": "19816485.676859",
+            "liqUsd": "19849386.214838921851204224"
+          },
+          "bidx": 0,
+          "exid": 11955,
+          "exn": "Uniswap v4 (Ethereum)",
+          "liqUsd": "31534183.680588644013850417",
+          "fa": "0x000000000004444c5dc75cb358380d2e3de08a90",
+          "top": true,
+          "mi": false
+        },
+        {
+          "addr": "0x56534741cd8b152df6d48adf7ac51f75169a83b2",
+          "v24": "36033974.536470255728964606",
+          "pubAt": "1623262870000",
+          "t0": {
+            "addr": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/3717.png",
+            "n": "Wrapped BTC",
+            "sym": "WBTC",
+            "liq": "122.40456707",
+            "liqUsd": "10264795.397552823653075877"
+          },
+          "t1": {
+            "addr": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/825.png",
+            "n": "Tether USD",
+            "sym": "USDT",
+            "liq": "19397537.780064",
+            "liqUsd": "19394075.830858667553718979"
+          },
+          "bidx": 0,
+          "exid": 1348,
+          "exn": "Uniswap v3 (Ethereum)",
+          "liqUsd": "29658871.228411491206794856",
+          "fa": "0x1f98431c8ad98523631ae4a59f267346ea31f984",
+          "top": true,
+          "mi": false
+        },
+        {
+          "addr": "0x9db9e0e53058c89e5b94e29621a205198648425b",
+          "v24": "2285930.14204021302204126",
+          "pubAt": "1620242513000",
+          "t0": {
+            "addr": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/3717.png",
+            "n": "Wrapped BTC",
+            "sym": "WBTC",
+            "liq": "110.73230137",
+            "liqUsd": "9258454.232569788690727979"
+          },
+          "t1": {
+            "addr": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/825.png",
+            "n": "Tether USD",
+            "sym": "USDT",
+            "liq": "16082817.73837",
+            "liqUsd": "16079048.893736495828847075"
+          },
+          "bidx": 0,
+          "exid": 1348,
+          "exn": "Uniswap v3 (Ethereum)",
+          "liqUsd": "25337503.126306284519575054",
+          "fa": "0x1f98431c8ad98523631ae4a59f267346ea31f984",
+          "top": true,
+          "mi": false
+        },
+        {
+          "addr": "0x4a25dbdf9629b1782c3e2c7de3bdce41f1c7f801",
+          "v24": "1459735.183940629818897748",
+          "pubAt": "1699358015000",
+          "t0": {
+            "addr": "0xbbaec992fc2d637151daf40451f160bf85f3c8c1",
+            "lg": "https://bin.bnbstatic.com/images/web3-data/public/token/logos/58E9BE53C28F12CB204896C089AA8656.jpg",
+            "n": "USD Mapped Token",
+            "sym": "USDM",
+            "liq": "12007901.422596",
+            "liqUsd": "12008255.398487860424492823"
+          },
+          "t1": {
+            "addr": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/825.png",
+            "n": "Tether USD",
+            "sym": "USDT",
+            "liq": "8083514.276685",
+            "liqUsd": "8081295.180695037809585577"
+          },
+          "bidx": 0,
+          "exid": 1348,
+          "exn": "Uniswap v3 (Ethereum)",
+          "liqUsd": "20089550.579182898234078399",
+          "fa": "0x1f98431c8ad98523631ae4a59f267346ea31f984",
+          "top": true,
+          "mi": false
+        },
+        {
+          "addr": "0x04c8577958ccc170eb3d2cca76f9d51bc6e42d8f",
+          "v24": "228404.338840134559600792",
+          "pubAt": "1680360167000",
+          "t0": {
+            "addr": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/3408.png",
+            "n": "USD Coin",
+            "sym": "USDC",
+            "liq": "8632369.882105",
+            "liqUsd": "8630738.067636750275078304"
+          },
+          "t1": {
+            "addr": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/825.png",
+            "n": "Tether USD",
+            "sym": "USDT",
+            "liq": "8978620.915594",
+            "liqUsd": "8976411.72707749374286401"
+          },
+          "bidx": 0,
+          "exid": 6707,
+          "exn": "PancakeSwap v3 (Ethereum)",
+          "liqUsd": "17607149.794714244017942313",
+          "fa": "0x0bfbcf9fa4f9c56b0f40a671ad40e0805a091865",
+          "top": true,
+          "mi": false
+        },
+        {
+          "addr": "0x7f215d54255e79df9089205c1c8e01ba460015e7",
+          "v24": "212185.219341232247717796",
+          "pubAt": "1736393351000",
+          "t0": {
+            "addr": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/3717.png",
+            "n": "Wrapped BTC",
+            "sym": "WBTC",
+            "liq": "95.0321061",
+            "liqUsd": "7945005.606055884697317328"
+          },
+          "t1": {
+            "addr": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/825.png",
+            "n": "Tether USD",
+            "sym": "USDT",
+            "liq": "7970595.782072",
+            "liqUsd": "7968897.668198071092162933"
+          },
+          "bidx": 0,
+          "exid": 32396,
+          "exn": "Ring Exchange (Ethereum)",
+          "liqUsd": "15913903.274253955789480261",
+          "fa": "0xeb2a625b704d73e82946d8d026e1f588eed06416",
+          "top": true,
+          "mi": false
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-25T21:56:01.172Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 206,
+        "credit_count": 1
+      }
+    }
+  }
+}

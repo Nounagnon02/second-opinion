@@ -1,0 +1,64 @@
+{
+  "label": "E10-789ee2e6-20260926T105031277Z",
+  "recordedAt": "2026-09-26T10:50:31.277Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v1/dex/token/price?address=pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn&platform=solana",
+    "path": "/v1/dex/token/price",
+    "query": {
+      "address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+      "platform": "solana"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 408,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 10:50:31 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 71b24e89f6f9e648d6cc206b3f6cc3da.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "hESq-iQv4x1LGIuXYE4nIanosRe3aihZTBaaaF0OMjhkgISZN6xYUw==",
+      "x-amz-cf-pop": "IAD55-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "173",
+      "x-server-traceid": "c2797a25a3ca482d6d60484fe60768df"
+    },
+    "body": {
+      "data": {
+        "pid": 16,
+        "pdex": "Solana",
+        "a": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+        "p": 0.004467520600976097,
+        "pc24h": 0.0694,
+        "pc7d": 0.0668,
+        "v24h": 26118093.601075456,
+        "l": 37086128.55734974,
+        "ts": "1790419756000",
+        "fpt": "1752511812000",
+        "fpct": "1752511934000",
+        "mc": 3715755242.696043
+      },
+      "status": {
+        "timestamp": "2026-09-26T10:50:31.109Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 170,
+        "credit_count": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,1117 @@
+{
+  "label": "E19-rwa-issuer-backed-start1001-limit250",
+  "recordedAt": "2026-09-25T15:48:25.397Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v5/real-world-assets/issuers?issuer_id=6878977dcbbf471de3366e85&start=1001&limit=250",
+    "path": "/v5/real-world-assets/issuers",
+    "query": {
+      "issuer_id": "6878977dcbbf471de3366e85",
+      "start": "1001",
+      "limit": "250"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 6072,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Fri, 25 Sep 2026 15:48:25 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 95ebccdd644180b3fb6c9f7e96608aac.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "2bxVgJzGAh4pdSfvat-ZnBOjp1xr2QjJ2e_pGJcVyFATkv386Ey2jw==",
+      "x-amz-cf-pop": "LHR86-P3",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "8",
+      "x-server-traceid": "feb497606d99565c3773caf0017c3f87"
+    },
+    "body": {
+      "data": {
+        "name": "Backed Assets",
+        "website": "https://assets.backed.fi/",
+        "tokens": [
+          {
+            "name": "Industria De Diseno Textil Tokenized Stock (xStock)",
+            "symbol": "ITX.ESx",
+            "crypto_id": 42071,
+            "rwa_id": null
+          },
+          {
+            "name": "Dassault Systemes Tokenized Stock (xStock)",
+            "symbol": "DSY.FRx",
+            "crypto_id": 42072,
+            "rwa_id": null
+          },
+          {
+            "name": "Societe Generale Tokenized Stock (xStock)",
+            "symbol": "GLE.FRx",
+            "crypto_id": 42073,
+            "rwa_id": null
+          },
+          {
+            "name": "Telefonica Tokenized Stock (xStock)",
+            "symbol": "TEFx",
+            "crypto_id": 42074,
+            "rwa_id": null
+          },
+          {
+            "name": "Auto Trader Tokenized Stock (xStock)",
+            "symbol": "AUTO.GBx",
+            "crypto_id": 42075,
+            "rwa_id": null
+          },
+          {
+            "name": "Games Workshop Tokenized Stock (xStock)",
+            "symbol": "GAWx",
+            "crypto_id": 42076,
+            "rwa_id": null
+          },
+          {
+            "name": "Hikma Pharmaceuticals Tokenized Stock (xStock)",
+            "symbol": "HIK.GBx",
+            "crypto_id": 42077,
+            "rwa_id": null
+          },
+          {
+            "name": "IG Tokenized Stock (xStock)",
+            "symbol": "IGGx",
+            "crypto_id": 42078,
+            "rwa_id": null
+          },
+          {
+            "name": "Taylor Wimpey Tokenized Stock (xStock)",
+            "symbol": "TW.GBx",
+            "crypto_id": 42079,
+            "rwa_id": null
+          },
+          {
+            "name": "Koninklijke Ahold Delhaize Tokenized Stock (xStock)",
+            "symbol": "AD.NLx",
+            "crypto_id": 42080,
+            "rwa_id": null
+          },
+          {
+            "name": "Aena SME Tokenized Stock (xStock)",
+            "symbol": "AENAx",
+            "crypto_id": 42081,
+            "rwa_id": null
+          },
+          {
+            "name": "Snam Tokenized Stock (xStock)",
+            "symbol": "SRG.ITx",
+            "crypto_id": 42082,
+            "rwa_id": null
+          },
+          {
+            "name": "Lion Finance Tokenized Stock (xStock)",
+            "symbol": "BGEOx",
+            "crypto_id": 42083,
+            "rwa_id": null
+          },
+          {
+            "name": "Greggs Tokenized Stock (xStock)",
+            "symbol": "GRG.GBx",
+            "crypto_id": 42084,
+            "rwa_id": null
+          },
+          {
+            "name": "Standard Chartered Tokenized Stock (xStock)",
+            "symbol": "STANx",
+            "crypto_id": 42085,
+            "rwa_id": null
+          },
+          {
+            "name": "Unilever Tokenized Stock (xStock)",
+            "symbol": "ULVRx",
+            "crypto_id": 42086,
+            "rwa_id": null
+          },
+          {
+            "name": "ASM International Tokenized Stock (xStock)",
+            "symbol": "ASM.NLx",
+            "crypto_id": 42087,
+            "rwa_id": null
+          },
+          {
+            "name": "Banco BPM Tokenized Stock (xStock)",
+            "symbol": "BAMIx",
+            "crypto_id": 42088,
+            "rwa_id": null
+          },
+          {
+            "name": "Deutsche Post Tokenized Stock (xStock)",
+            "symbol": "DHLx",
+            "crypto_id": 42089,
+            "rwa_id": null
+          },
+          {
+            "name": "AJ Bell Tokenized Stock (xStock)",
+            "symbol": "AJBx",
+            "crypto_id": 42090,
+            "rwa_id": null
+          },
+          {
+            "name": "Harbour Energy Tokenized Stock (xStock)",
+            "symbol": "HBR.GBx",
+            "crypto_id": 42091,
+            "rwa_id": null
+          },
+          {
+            "name": "Mondi Tokenized Stock (xStock)",
+            "symbol": "MNDIx",
+            "crypto_id": 42092,
+            "rwa_id": null
+          },
+          {
+            "name": "Severn Trent Tokenized Stock (xStock)",
+            "symbol": "SVTx",
+            "crypto_id": 42093,
+            "rwa_id": null
+          },
+          {
+            "name": "Anheuser-Busch InBev SA/NV Tokenized Stock (xStock)",
+            "symbol": "ABI.BEx",
+            "crypto_id": 42094,
+            "rwa_id": null
+          },
+          {
+            "name": "Siemens Energy Tokenized Stock (xStock)",
+            "symbol": "ENR.DEx",
+            "crypto_id": 42095,
+            "rwa_id": 3206
+          },
+          {
+            "name": "Iberdrola Tokenized Stock (xStock)",
+            "symbol": "IBEx",
+            "crypto_id": 42096,
+            "rwa_id": null
+          },
+          {
+            "name": "TotalEnergies Tokenized Stock (xStock)",
+            "symbol": "TTEx",
+            "crypto_id": 42097,
+            "rwa_id": null
+          },
+          {
+            "name": "Credit Agricole Tokenized Stock (xStock)",
+            "symbol": "ACA.FRx",
+            "crypto_id": 42098,
+            "rwa_id": null
+          },
+          {
+            "name": "ArcelorMittal Tokenized Stock (xStock)",
+            "symbol": "MTx",
+            "crypto_id": 42099,
+            "rwa_id": 3447
+          },
+          {
+            "name": "Rheinmetall Tokenized Stock (xStock)",
+            "symbol": "RHMx",
+            "crypto_id": 42100,
+            "rwa_id": null
+          },
+          {
+            "name": "SHEIN Tokenized Stock (xStock)",
+            "symbol": "SHEINx",
+            "crypto_id": 42101,
+            "rwa_id": null
+          },
+          {
+            "name": "Balfour Beatty Tokenized Stock (xStock)",
+            "symbol": "BBY.GBx",
+            "crypto_id": 42102,
+            "rwa_id": null
+          },
+          {
+            "name": "Bunzl Tokenized Stock (xStock)",
+            "symbol": "BNZLx",
+            "crypto_id": 42103,
+            "rwa_id": null
+          },
+          {
+            "name": "Burberry Tokenized Stock (xStock)",
+            "symbol": "BRBYx",
+            "crypto_id": 42104,
+            "rwa_id": null
+          },
+          {
+            "name": "Investec Tokenized Stock (xStock)",
+            "symbol": "INVPx",
+            "crypto_id": 42105,
+            "rwa_id": null
+          },
+          {
+            "name": "Kingfisher Tokenized Stock (xStock)",
+            "symbol": "KGFx",
+            "crypto_id": 42106,
+            "rwa_id": null
+          },
+          {
+            "name": "Lloyds Banking Tokenized Stock (xStock)",
+            "symbol": "LLOYx",
+            "crypto_id": 42107,
+            "rwa_id": null
+          },
+          {
+            "name": "Marks & Spencer Tokenized Stock (xStock)",
+            "symbol": "MKS.GBx",
+            "crypto_id": 42108,
+            "rwa_id": null
+          },
+          {
+            "name": "Rightmove Tokenized Stock (xStock)",
+            "symbol": "RMVx",
+            "crypto_id": 42109,
+            "rwa_id": null
+          },
+          {
+            "name": "Smith & Nephew Tokenized Stock (xStock)",
+            "symbol": "SN.GBx",
+            "crypto_id": 42110,
+            "rwa_id": null
+          },
+          {
+            "name": "Deutsche Telekom Tokenized Stock (xStock)",
+            "symbol": "DTE.DEx",
+            "crypto_id": 42111,
+            "rwa_id": null
+          },
+          {
+            "name": "Amadeus IT Tokenized Stock (xStock)",
+            "symbol": "AMS.ESx",
+            "crypto_id": 42112,
+            "rwa_id": null
+          },
+          {
+            "name": "Munchener Ruckversicherungs Tokenized Stock (xStock)",
+            "symbol": "MUV2x",
+            "crypto_id": 42113,
+            "rwa_id": null
+          },
+          {
+            "name": "RWE Class A Tokenized Stock (xStock)",
+            "symbol": "RWEx",
+            "crypto_id": 42114,
+            "rwa_id": null
+          },
+          {
+            "name": "STMicroelectronics Tokenized Stock (xStock)",
+            "symbol": "STMMIx",
+            "crypto_id": 42115,
+            "rwa_id": null
+          },
+          {
+            "name": "Aberdeen Tokenized Stock (xStock)",
+            "symbol": "ABDNx",
+            "crypto_id": 42116,
+            "rwa_id": null
+          },
+          {
+            "name": "GSK Tokenized Stock (xStock)",
+            "symbol": "GSKx",
+            "crypto_id": 42117,
+            "rwa_id": null
+          },
+          {
+            "name": "Shell Tokenized Stock (xStock)",
+            "symbol": "SHELx",
+            "crypto_id": 42118,
+            "rwa_id": null
+          },
+          {
+            "name": "Associated British Foods Tokenized Stock (xStock)",
+            "symbol": "ABFx",
+            "crypto_id": 42119,
+            "rwa_id": 4472
+          },
+          {
+            "name": "ConvaTec Tokenized Stock (xStock)",
+            "symbol": "CTEC.GBx",
+            "crypto_id": 42120,
+            "rwa_id": null
+          },
+          {
+            "name": "Halma Tokenized Stock (xStock)",
+            "symbol": "HLMAx",
+            "crypto_id": 42121,
+            "rwa_id": null
+          },
+          {
+            "name": "Pearson Tokenized Stock (xStock)",
+            "symbol": "PSONx",
+            "crypto_id": 42122,
+            "rwa_id": null
+          },
+          {
+            "name": "Banco Bilbao Vizcaya Argentaria Tokenized Stock (xStock)",
+            "symbol": "BBVAx",
+            "crypto_id": 42123,
+            "rwa_id": null
+          },
+          {
+            "name": "BNP Paribas Tokenized Stock (xStock)",
+            "symbol": "BNPx",
+            "crypto_id": 42124,
+            "rwa_id": null
+          },
+          {
+            "name": "Sanofi Tokenized Stock (xStock)",
+            "symbol": "SAN.FRx",
+            "crypto_id": 42125,
+            "rwa_id": null
+          },
+          {
+            "name": "Deutsche Boerse Tokenized Stock (xStock)",
+            "symbol": "DB1x",
+            "crypto_id": 42126,
+            "rwa_id": null
+          },
+          {
+            "name": "Michelin Tokenized Stock (xStock)",
+            "symbol": "MLx",
+            "crypto_id": 42127,
+            "rwa_id": 2690
+          },
+          {
+            "name": "Compagnie de Saint-Gobain Tokenized Stock (xStock)",
+            "symbol": "SGOx",
+            "crypto_id": 42128,
+            "rwa_id": null
+          },
+          {
+            "name": "Siemens Healthineers Tokenized Stock (xStock)",
+            "symbol": "SHLx",
+            "crypto_id": 42129,
+            "rwa_id": 7712
+          },
+          {
+            "name": "Terna Tokenized Stock (xStock)",
+            "symbol": "TRN.ITx",
+            "crypto_id": 42130,
+            "rwa_id": null
+          },
+          {
+            "name": "Volkswagen Tokenized Stock (xStock)",
+            "symbol": "VOW3x",
+            "crypto_id": 42131,
+            "rwa_id": null
+          },
+          {
+            "name": "Antofagasta Tokenized Stock (xStock)",
+            "symbol": "ANTOx",
+            "crypto_id": 42132,
+            "rwa_id": null
+          },
+          {
+            "name": "Aviva Tokenized Stock (xStock)",
+            "symbol": "AV.GBx",
+            "crypto_id": 42133,
+            "rwa_id": 4538
+          },
+          {
+            "name": "Barclays Tokenized Stock (xStock)",
+            "symbol": "BARCx",
+            "crypto_id": 42134,
+            "rwa_id": null
+          },
+          {
+            "name": "JD Sports Fashion Tokenized Stock (xStock)",
+            "symbol": "JD.GBx",
+            "crypto_id": 42135,
+            "rwa_id": null
+          },
+          {
+            "name": "M&G Tokenized Stock (xStock)",
+            "symbol": "MNGx",
+            "crypto_id": 42136,
+            "rwa_id": null
+          },
+          {
+            "name": "National Grid Tokenized Stock (xStock)",
+            "symbol": "NG.GBx",
+            "crypto_id": 42137,
+            "rwa_id": null
+          },
+          {
+            "name": "Relx Tokenized Stock (xStock)",
+            "symbol": "REL.GBx",
+            "crypto_id": 42138,
+            "rwa_id": 3848
+          },
+          {
+            "name": "Safran Tokenized Stock (xStock)",
+            "symbol": "SAFx",
+            "crypto_id": 42139,
+            "rwa_id": null
+          },
+          {
+            "name": "AIB Tokenized Stock (xStock)",
+            "symbol": "A5Gx",
+            "crypto_id": 42140,
+            "rwa_id": null
+          },
+          {
+            "name": "ABN AMRO Bank Tokenized Stock (xStock)",
+            "symbol": "ABNx",
+            "crypto_id": 42141,
+            "rwa_id": null
+          },
+          {
+            "name": "E.ON Tokenized Stock (xStock)",
+            "symbol": "EOANx",
+            "crypto_id": 42142,
+            "rwa_id": null
+          },
+          {
+            "name": "Fresenius Tokenized Stock (xStock)",
+            "symbol": "FRE.DEx",
+            "crypto_id": 42143,
+            "rwa_id": null
+          },
+          {
+            "name": "Poste Italiane Tokenized Stock (xStock)",
+            "symbol": "PST.ITx",
+            "crypto_id": 42144,
+            "rwa_id": null
+          },
+          {
+            "name": "Vonovia Tokenized Stock (xStock)",
+            "symbol": "VNAx",
+            "crypto_id": 42145,
+            "rwa_id": null
+          },
+          {
+            "name": "Centrica Tokenized Stock (xStock)",
+            "symbol": "CNA.GBx",
+            "crypto_id": 42146,
+            "rwa_id": null
+          },
+          {
+            "name": "Next Tokenized Stock (xStock)",
+            "symbol": "NXT.GBx",
+            "crypto_id": 42147,
+            "rwa_id": null
+          },
+          {
+            "name": "WPP Tokenized Stock (xStock)",
+            "symbol": "WPPx",
+            "crypto_id": 42148,
+            "rwa_id": null
+          },
+          {
+            "name": "Hiscox Tokenized Stock (xStock)",
+            "symbol": "HSXx",
+            "crypto_id": 42149,
+            "rwa_id": null
+          },
+          {
+            "name": "CaixaBank Tokenized Stock (xStock)",
+            "symbol": "CABKx",
+            "crypto_id": 42150,
+            "rwa_id": null
+          },
+          {
+            "name": "adidas Tokenized Stock (xStock)",
+            "symbol": "ADSx",
+            "crypto_id": 42151,
+            "rwa_id": null
+          },
+          {
+            "name": "Adyen Tokenized Stock (xStock)",
+            "symbol": "ADYENx",
+            "crypto_id": 42152,
+            "rwa_id": null
+          },
+          {
+            "name": "Essilorluxottica Tokenized Stock (xStock)",
+            "symbol": "EL.FRx",
+            "crypto_id": 42153,
+            "rwa_id": null
+          },
+          {
+            "name": "Endesa, S.A. Tokenized Stock (xStock)",
+            "symbol": "ELE.ESx",
+            "crypto_id": 42154,
+            "rwa_id": null
+          },
+          {
+            "name": "Thales Tokenized Stock (xStock)",
+            "symbol": "HOx",
+            "crypto_id": 42155,
+            "rwa_id": null
+          },
+          {
+            "name": "Kering Tokenized Stock (xStock)",
+            "symbol": "KERx",
+            "crypto_id": 42156,
+            "rwa_id": null
+          },
+          {
+            "name": "KONE Class B Tokenized Stock (xStock)",
+            "symbol": "KNEBVx",
+            "crypto_id": 42157,
+            "rwa_id": null
+          },
+          {
+            "name": "Veolia Environnement Tokenized Stock (xStock)",
+            "symbol": "VIEx",
+            "crypto_id": 42158,
+            "rwa_id": null
+          },
+          {
+            "name": "BT Tokenized Stock (xStock)",
+            "symbol": "BT.Ax",
+            "crypto_id": 42159,
+            "rwa_id": null
+          },
+          {
+            "name": "Croda International Tokenized Stock (xStock)",
+            "symbol": "CRDAx",
+            "crypto_id": 42160,
+            "rwa_id": null
+          },
+          {
+            "name": "Berkeley Tokenized Stock (xStock)",
+            "symbol": "BKG.GBx",
+            "crypto_id": 42161,
+            "rwa_id": null
+          },
+          {
+            "name": "Rolls-Royce Tokenized Stock (xStock)",
+            "symbol": "RR.GBx",
+            "crypto_id": 42162,
+            "rwa_id": null
+          },
+          {
+            "name": "SSE Tokenized Stock (xStock)",
+            "symbol": "SSEx",
+            "crypto_id": 42163,
+            "rwa_id": null
+          },
+          {
+            "name": "Airbus Tokenized Stock (xStock)",
+            "symbol": "AIR.FRx",
+            "crypto_id": 42164,
+            "rwa_id": null
+          },
+          {
+            "name": "ACS Actividades de Construccion Tokenized Stock (xStock)",
+            "symbol": "ACS.ESx",
+            "crypto_id": 42165,
+            "rwa_id": null
+          },
+          {
+            "name": "Infineon Technologies Tokenized Stock (xStock)",
+            "symbol": "IFXx",
+            "crypto_id": 42166,
+            "rwa_id": null
+          },
+          {
+            "name": "KBC Tokenized Stock (xStock)",
+            "symbol": "KBCx",
+            "crypto_id": 42167,
+            "rwa_id": null
+          },
+          {
+            "name": "Koninklijke Philips Tokenized Stock (xStock)",
+            "symbol": "PHIAx",
+            "crypto_id": 42168,
+            "rwa_id": null
+          },
+          {
+            "name": "Publicis Groupe Tokenized Stock (xStock)",
+            "symbol": "PUB.FRx",
+            "crypto_id": 42169,
+            "rwa_id": null
+          },
+          {
+            "name": "Repsol Tokenized Stock (xStock)",
+            "symbol": "REPx",
+            "crypto_id": 42170,
+            "rwa_id": null
+          },
+          {
+            "name": "UCB Tokenized Stock (xStock)",
+            "symbol": "UCB.BEx",
+            "crypto_id": 42171,
+            "rwa_id": null
+          },
+          {
+            "name": "Endeavour Mining Tokenized Stock (xStock)",
+            "symbol": "EDV.GBx",
+            "crypto_id": 42172,
+            "rwa_id": null
+          },
+          {
+            "name": "Entain Tokenized Stock (xStock)",
+            "symbol": "ENTx",
+            "crypto_id": 42173,
+            "rwa_id": null
+          },
+          {
+            "name": "Currys Tokenized Stock (xStock)",
+            "symbol": "CURYx",
+            "crypto_id": 42174,
+            "rwa_id": null
+          },
+          {
+            "name": "Hill & Smith Tokenized Stock (xStock)",
+            "symbol": "HILSx",
+            "crypto_id": 42175,
+            "rwa_id": null
+          },
+          {
+            "name": "Howden Joinery Tokenized Stock (xStock)",
+            "symbol": "HWDNx",
+            "crypto_id": 42176,
+            "rwa_id": null
+          },
+          {
+            "name": "Melrose Industries Tokenized Stock (xStock)",
+            "symbol": "MROx",
+            "crypto_id": 42177,
+            "rwa_id": null
+          },
+          {
+            "name": "Sainsbury Tokenized Stock (xStock)",
+            "symbol": "SBRYx",
+            "crypto_id": 42178,
+            "rwa_id": null
+          },
+          {
+            "name": "TP Icap Tokenized Stock (xStock)",
+            "symbol": "TCAPx",
+            "crypto_id": 42179,
+            "rwa_id": null
+          },
+          {
+            "name": "UniCredit Tokenized Stock (xStock)",
+            "symbol": "UCGx",
+            "crypto_id": 42180,
+            "rwa_id": null
+          },
+          {
+            "name": "Basf Tokenized Stock (xStock)",
+            "symbol": "BASx",
+            "crypto_id": 42181,
+            "rwa_id": null
+          },
+          {
+            "name": "Danone Tokenized Stock (xStock)",
+            "symbol": "BN.FRx",
+            "crypto_id": 42182,
+            "rwa_id": null
+          },
+          {
+            "name": "Hannover Rueck Tokenized Stock (xStock)",
+            "symbol": "HNR1x",
+            "crypto_id": 42183,
+            "rwa_id": null
+          },
+          {
+            "name": "ING Groep Tokenized Stock (xStock)",
+            "symbol": "INGAx",
+            "crypto_id": 42184,
+            "rwa_id": null
+          },
+          {
+            "name": "Prysmian Tokenized Stock (xStock)",
+            "symbol": "PRYx",
+            "crypto_id": 42185,
+            "rwa_id": null
+          },
+          {
+            "name": "Tesco Tokenized Stock (xStock)",
+            "symbol": "TSCO.GBx",
+            "crypto_id": 42186,
+            "rwa_id": null
+          },
+          {
+            "name": "Diageo Tokenized Stock (xStock)",
+            "symbol": "DGEx",
+            "crypto_id": 42187,
+            "rwa_id": null
+          },
+          {
+            "name": "Fresnillo Tokenized Stock (xStock)",
+            "symbol": "FRESx",
+            "crypto_id": 42188,
+            "rwa_id": null
+          },
+          {
+            "name": "HSBC Tokenized Stock (xStock)",
+            "symbol": "HSBAx",
+            "crypto_id": 42189,
+            "rwa_id": null
+          },
+          {
+            "name": "St. James's Place Tokenized Stock (xStock)",
+            "symbol": "STJ.GBx",
+            "crypto_id": 42190,
+            "rwa_id": null
+          },
+          {
+            "name": "LVMH Moet Hennessy Louis Vuitton Tokenized Stock (xStock)",
+            "symbol": "MC.FRx",
+            "crypto_id": 42191,
+            "rwa_id": null
+          },
+          {
+            "name": "Hermes International Tokenized Stock (xStock)",
+            "symbol": "RMSx",
+            "crypto_id": 42192,
+            "rwa_id": null
+          },
+          {
+            "name": "AXA Tokenized Stock (xStock)",
+            "symbol": "CSx",
+            "crypto_id": 42193,
+            "rwa_id": null
+          },
+          {
+            "name": "Deutsche Bank Tokenized Stock (xStock)",
+            "symbol": "DBKx",
+            "crypto_id": 42194,
+            "rwa_id": null
+          },
+          {
+            "name": "Merck KGaA Tokenized Stock (xStock)",
+            "symbol": "MRK.DEx",
+            "crypto_id": 42195,
+            "rwa_id": null
+          },
+          {
+            "name": "Neste Tokenized Stock (xStock)",
+            "symbol": "NESTEx",
+            "crypto_id": 42196,
+            "rwa_id": null
+          },
+          {
+            "name": "Nokia Tokenized Stock (xStock)",
+            "symbol": "NOKIAx",
+            "crypto_id": 42197,
+            "rwa_id": null
+          },
+          {
+            "name": "Glencore Tokenized Stock (xStock)",
+            "symbol": "GLENx",
+            "crypto_id": 42198,
+            "rwa_id": null
+          },
+          {
+            "name": "Inchcape Tokenized Stock (xStock)",
+            "symbol": "INCHx",
+            "crypto_id": 42199,
+            "rwa_id": null
+          },
+          {
+            "name": "QinetiQ Tokenized Stock (xStock)",
+            "symbol": "QQ.GBx",
+            "crypto_id": 42200,
+            "rwa_id": null
+          },
+          {
+            "name": "Softcat Tokenized Stock (xStock)",
+            "symbol": "SCT.GBx",
+            "crypto_id": 42201,
+            "rwa_id": null
+          },
+          {
+            "name": "United Utilities Tokenized Stock (xStock)",
+            "symbol": "UU.GBx",
+            "crypto_id": 42202,
+            "rwa_id": null
+          },
+          {
+            "name": "Weir Tokenized Stock (xStock)",
+            "symbol": "WEIRx",
+            "crypto_id": 42203,
+            "rwa_id": null
+          },
+          {
+            "name": "Allianz Tokenized Stock (xStock)",
+            "symbol": "ALV.DEx",
+            "crypto_id": 42204,
+            "rwa_id": null
+          },
+          {
+            "name": "Siemens Tokenized Stock (xStock)",
+            "symbol": "SIEx",
+            "crypto_id": 42205,
+            "rwa_id": null
+          },
+          {
+            "name": "BPER Banca Tokenized Stock (xStock)",
+            "symbol": "BPEx",
+            "crypto_id": 42206,
+            "rwa_id": null
+          },
+          {
+            "name": "Vinci Tokenized Stock (xStock)",
+            "symbol": "DG.FRx",
+            "crypto_id": 42207,
+            "rwa_id": null
+          },
+          {
+            "name": "Daimler Truck Tokenized Stock (xStock)",
+            "symbol": "DTG.DEx",
+            "crypto_id": 42208,
+            "rwa_id": null
+          },
+          {
+            "name": "Erste Group Bank Tokenized Stock (xStock)",
+            "symbol": "EBS.ATx",
+            "crypto_id": 42209,
+            "rwa_id": null
+          },
+          {
+            "name": "EDP-Energias De Portugal Tokenized Stock (xStock)",
+            "symbol": "EDPx",
+            "crypto_id": 42210,
+            "rwa_id": null
+          },
+          {
+            "name": "Leonardo Tokenized Stock (xStock)",
+            "symbol": "LDOx",
+            "crypto_id": 42211,
+            "rwa_id": null
+          },
+          {
+            "name": "Legrand Tokenized Stock (xStock)",
+            "symbol": "LRx",
+            "crypto_id": 42212,
+            "rwa_id": null
+          },
+          {
+            "name": "Persimmon Tokenized Stock (xStock)",
+            "symbol": "PSN.GBx",
+            "crypto_id": 42213,
+            "rwa_id": 2301
+          },
+          {
+            "name": "Beazley Tokenized Stock (xStock)",
+            "symbol": "BEZ.GBx",
+            "crypto_id": 42214,
+            "rwa_id": null
+          },
+          {
+            "name": "BP Tokenized Stock (xStock)",
+            "symbol": "BPx",
+            "crypto_id": 42215,
+            "rwa_id": null
+          },
+          {
+            "name": "Diploma Tokenized Stock (xStock)",
+            "symbol": "DPLMx",
+            "crypto_id": 42216,
+            "rwa_id": null
+          },
+          {
+            "name": "Man Tokenized Stock (xStock)",
+            "symbol": "EMGx",
+            "crypto_id": 42217,
+            "rwa_id": null
+          },
+          {
+            "name": "London Stock Exchange Tokenized Stock (xStock)",
+            "symbol": "LSEGx",
+            "crypto_id": 42218,
+            "rwa_id": null
+          },
+          {
+            "name": "Smiths Tokenized Stock (xStock)",
+            "symbol": "SMIN.GBx",
+            "crypto_id": 42219,
+            "rwa_id": null
+          },
+          {
+            "name": "Whitbread Tokenized Stock (xStock)",
+            "symbol": "WTBx",
+            "crypto_id": 42220,
+            "rwa_id": null
+          },
+          {
+            "name": "Banco Santander Tokenized Stock (xStock)",
+            "symbol": "SAN.ESx",
+            "crypto_id": 42221,
+            "rwa_id": null
+          },
+          {
+            "name": "Enel Tokenized Stock (xStock)",
+            "symbol": "ENELx",
+            "crypto_id": 42222,
+            "rwa_id": null
+          },
+          {
+            "name": "Bayerische Motoren Werke Tokenized Stock (xStock)",
+            "symbol": "BMWx",
+            "crypto_id": 42223,
+            "rwa_id": null
+          },
+          {
+            "name": "Eni Tokenized Stock (xStock)",
+            "symbol": "ENIx",
+            "crypto_id": 42224,
+            "rwa_id": null
+          },
+          {
+            "name": "Bouygues Tokenized Stock (xStock)",
+            "symbol": "ENx",
+            "crypto_id": 42225,
+            "rwa_id": null
+          },
+          {
+            "name": "Drax Tokenized Stock (xStock)",
+            "symbol": "DRXx",
+            "crypto_id": 42226,
+            "rwa_id": null
+          },
+          {
+            "name": "Sage Tokenized Stock (xStock)",
+            "symbol": "SGE.GBx",
+            "crypto_id": 42227,
+            "rwa_id": null
+          },
+          {
+            "name": "Schneider Electric Tokenized Stock (xStock)",
+            "symbol": "SU.FRx",
+            "crypto_id": 42228,
+            "rwa_id": null
+          },
+          {
+            "name": "Air Liquide Tokenized Stock (xStock)",
+            "symbol": "AI.FRx",
+            "crypto_id": 42229,
+            "rwa_id": 3089
+          },
+          {
+            "name": "Engie Tokenized Stock (xStock)",
+            "symbol": "ENGIx",
+            "crypto_id": 42230,
+            "rwa_id": null
+          },
+          {
+            "name": "Heineken Tokenized Stock (xStock)",
+            "symbol": "HEIAx",
+            "crypto_id": 42231,
+            "rwa_id": null
+          },
+          {
+            "name": "Cranswick Tokenized Stock (xStock)",
+            "symbol": "CWK.GBx",
+            "crypto_id": 42232,
+            "rwa_id": null
+          },
+          {
+            "name": "Babcock International Tokenized Stock (xStock)",
+            "symbol": "BAB.GBx",
+            "crypto_id": 42233,
+            "rwa_id": null
+          },
+          {
+            "name": "Experian Tokenized Stock (xStock)",
+            "symbol": "EXPNx",
+            "crypto_id": 42234,
+            "rwa_id": null
+          },
+          {
+            "name": "Bellway Tokenized Stock (xStock)",
+            "symbol": "BWYx",
+            "crypto_id": 42235,
+            "rwa_id": null
+          },
+          {
+            "name": "Legal & General Tokenized Stock (xStock)",
+            "symbol": "LGENx",
+            "crypto_id": 42236,
+            "rwa_id": null
+          },
+          {
+            "name": "Spirax Tokenized Stock (xStock)",
+            "symbol": "SPX.GBx",
+            "crypto_id": 42237,
+            "rwa_id": 5727
+          },
+          {
+            "name": "SAP Tokenized Stock (xStock)",
+            "symbol": "SAPx",
+            "crypto_id": 42238,
+            "rwa_id": null
+          },
+          {
+            "name": "Bayer Tokenized Stock (xStock)",
+            "symbol": "BAYNx",
+            "crypto_id": 42239,
+            "rwa_id": null
+          },
+          {
+            "name": "Generali Tokenized Stock (xStock)",
+            "symbol": "G.ITx",
+            "crypto_id": 42240,
+            "rwa_id": null
+          },
+          {
+            "name": "MTU Aero Engines Tokenized Stock (xStock)",
+            "symbol": "MTX.DEx",
+            "crypto_id": 42241,
+            "rwa_id": null
+          },
+          {
+            "name": "Nordea Bank Abp Tokenized Stock (xStock)",
+            "symbol": "NDA.FIx",
+            "crypto_id": 42242,
+            "rwa_id": null
+          },
+          {
+            "name": "NN Tokenized Stock (xStock)",
+            "symbol": "NN.NLx",
+            "crypto_id": 42243,
+            "rwa_id": null
+          },
+          {
+            "name": "Orange Tokenized Stock (xStock)",
+            "symbol": "ORA.FRx",
+            "crypto_id": 42244,
+            "rwa_id": null
+          },
+          {
+            "name": "Sampo Class A Tokenized Stock (xStock)",
+            "symbol": "SAMPOx",
+            "crypto_id": 42245,
+            "rwa_id": null
+          },
+          {
+            "name": "Universal Music Tokenized Stock (xStock)",
+            "symbol": "UMGx",
+            "crypto_id": 42246,
+            "rwa_id": null
+          }
+        ],
+        "issuer_id": "6878977dcbbf471de3366e85",
+        "num_tokens": 1176,
+        "total_size": 1176,
+        "has_more": false
+      },
+      "status": {
+        "timestamp": "2026-09-25T15:48:25.241Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 3,
+        "credit_count": 1
+      }
+    }
+  }
+}

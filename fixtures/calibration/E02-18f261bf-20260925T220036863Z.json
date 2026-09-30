@@ -1,0 +1,124 @@
+{
+  "label": "E02-18f261bf-20260925T220036863Z",
+  "recordedAt": "2026-09-25T22:00:36.863Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v3/cryptocurrency/quotes/latest?convert=USD&id=33793",
+    "path": "/v3/cryptocurrency/quotes/latest",
+    "query": {
+      "convert": "USD",
+      "id": "33793"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 247,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Fri, 25 Sep 2026 22:00:36 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 3f2c7b5ab7f3a5cae01ceaf64249f48c.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "jIT-xHLgzDy2QazfVSnWFfZurtg_yQly9_G1ABCC_dA3ZzU5gggcGg==",
+      "x-amz-cf-pop": "LHR86-P3",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "12",
+      "x-server-traceid": "a7f2d0b94f140ade935a5ba349bc1654"
+    },
+    "body": {
+      "data": [
+        {
+          "tags": [
+            {
+              "slug": "stablecoin",
+              "name": "Stablecoin",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "asset-backed-stablecoin",
+              "name": "Asset-Backed Stablecoin",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "usd-stablecoin",
+              "name": "USD Stablecoin",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "robinhood-ecosystem",
+              "name": "Robinhood Ecosystem",
+              "category": "CATEGORY"
+            }
+          ],
+          "id": 33793,
+          "name": "Global Dollar",
+          "symbol": "USDG",
+          "slug": "global-dollar-usdg",
+          "is_active": 1,
+          "infinite_supply": false,
+          "is_fiat": 0,
+          "circulating_supply": 3245247890.04586,
+          "total_supply": 3245247890.04586,
+          "max_supply": null,
+          "date_added": "2024-11-05T04:54:47.000Z",
+          "num_market_pairs": 2937,
+          "cmc_rank": 31,
+          "last_updated": "2026-09-25T21:58:00.000Z",
+          "tvl_ratio": null,
+          "platform": {
+            "id": 1027,
+            "slug": "ethereum",
+            "name": "Ethereum",
+            "symbol": "ETH",
+            "token_address": "0xe343167631d89B6Ffc58B88d6b7fB0228795491D"
+          },
+          "self_reported_circulating_supply": 10750140,
+          "self_reported_market_cap": 10751368.11916858,
+          "minted_market_cap": 3245618634.16,
+          "quote": [
+            {
+              "id": 2781,
+              "symbol": "USD",
+              "price": 1.000114242155784,
+              "volume_24h": 718637632.0527315,
+              "volume_change_24h": -11.4259,
+              "cex_volume_24h": 46157727.13456292,
+              "dex_volume_24h": 672479904.9181684,
+              "percent_change_1h": -0.03702447,
+              "percent_change_24h": 0.00942662,
+              "percent_change_7d": 0.01413364,
+              "percent_change_30d": 0.02441806,
+              "percent_change_60d": 0.04509412,
+              "percent_change_90d": 0.03099788,
+              "market_cap": 3245618634.1608725,
+              "market_cap_dominance": 0.1129,
+              "fully_diluted_market_cap": 3245618634.16,
+              "minted_market_cap": 3245618634.16,
+              "tvl": null,
+              "last_updated": "2026-09-25T21:59:04.000Z"
+            }
+          ]
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-25T22:00:36.782Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 5,
+        "credit_count": 1
+      }
+    }
+  }
+}

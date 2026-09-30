@@ -1,0 +1,188 @@
+{
+  "label": "E02-486d1743-20260926T080657500Z",
+  "recordedAt": "2026-09-26T08:06:57.500Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v3/cryptocurrency/quotes/latest?convert=USD&id=52",
+    "path": "/v3/cryptocurrency/quotes/latest",
+    "query": {
+      "convert": "USD",
+      "id": "52"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 513,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 08:06:57 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 0c0000caf216dfd5ed78c55839495dd4.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "jPGzNLMMOYg5PldvjSJ_qgDxavoXNu4-ZsOFMmYfZcZ6MAJHCihFww==",
+      "x-amz-cf-pop": "LOS50-P4",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "9",
+      "x-server-traceid": "4195f7d149030bbe434999070ee872b4"
+    },
+    "body": {
+      "data": [
+        {
+          "tags": [
+            {
+              "slug": "medium-of-exchange",
+              "name": "Medium of Exchange",
+              "category": "INDUSTRY"
+            },
+            {
+              "slug": "enterprise-solutions",
+              "name": "Enterprise Solutions",
+              "category": "INDUSTRY"
+            },
+            {
+              "slug": "xrp-ecosystem",
+              "name": "XRP Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "solana-ecosystem",
+              "name": "Solana Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "arrington-xrp-capital-portfolio",
+              "name": "Arrington XRP Capital Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "galaxy-digital-portfolio",
+              "name": "Galaxy Digital Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "a16z-portfolio",
+              "name": "a16z Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "pantera-capital-portfolio",
+              "name": "Pantera Capital Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "ftx-bankruptcy-estate",
+              "name": "FTX Bankruptcy Estate ",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "2017-2018-alt-season",
+              "name": "2017/18 Alt season",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "klaytn-ecosystem",
+              "name": "Klaytn Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "made-in-america",
+              "name": "Made in America",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "us-strategic-crypto-reserve",
+              "name": "US Strategic Crypto Reserve",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-ecosystem",
+              "name": "Binance Ecosystem",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-listing",
+              "name": "Binance Listing",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "iso-20022",
+              "name": "ISO 20022",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "sec-cftc-token-taxonomy",
+              "name": "SEC/CFTC Token Taxonomy",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "sec-cftc-digital-commodities",
+              "name": "SEC/CFTC Digital Commodities",
+              "category": "CATEGORY"
+            }
+          ],
+          "id": 52,
+          "name": "XRP",
+          "symbol": "XRP",
+          "slug": "xrp",
+          "is_active": 1,
+          "infinite_supply": false,
+          "is_fiat": 0,
+          "circulating_supply": 62879209849,
+          "total_supply": 99985622230,
+          "max_supply": 100000000000,
+          "date_added": "2013-08-04T00:00:00.000Z",
+          "num_market_pairs": 1886,
+          "cmc_rank": 5,
+          "last_updated": "2026-09-26T08:04:00.000Z",
+          "tvl_ratio": null,
+          "platform": null,
+          "self_reported_circulating_supply": null,
+          "self_reported_market_cap": null,
+          "minted_market_cap": 155134281000.91,
+          "quote": [
+            {
+              "id": 2781,
+              "symbol": "USD",
+              "price": 1.551565890584247,
+              "volume_24h": 6807860036.602406,
+              "volume_change_24h": 38.0039,
+              "cex_volume_24h": 6804001161.285361,
+              "dex_volume_24h": 3858875.31704318,
+              "percent_change_1h": 0.16709587,
+              "percent_change_24h": 1.07261012,
+              "percent_change_7d": 10.02587118,
+              "percent_change_30d": 9.49516918,
+              "percent_change_60d": 47.02710917,
+              "percent_change_90d": 47.74583137,
+              "market_cap": 97561237228.59744,
+              "market_cap_dominance": 3.3808,
+              "fully_diluted_market_cap": 155156589058.42,
+              "minted_market_cap": 155134281000.91,
+              "tvl": null,
+              "last_updated": "2026-09-26T08:06:02.000Z"
+            }
+          ]
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-26T08:06:57.188Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 4,
+        "credit_count": 1
+      }
+    }
+  }
+}

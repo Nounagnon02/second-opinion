@@ -1,0 +1,347 @@
+{
+  "label": "E05-515134b8-20260926T105026497Z",
+  "recordedAt": "2026-09-26T10:50:26.497Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v2/cryptocurrency/info?id=6636",
+    "path": "/v2/cryptocurrency/info",
+    "query": {
+      "id": "6636"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 962,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 10:50:26 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 f5be520a0e05096cc6c019d4cccce3a2.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "sBdoGKKKoWCPjyuMBB11H_tLhNMu2Rrw7yaMVz4WTAUel_huB9UO0Q==",
+      "x-amz-cf-pop": "IAD55-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "13",
+      "x-server-traceid": "b490649961097de43bf6d6e9f34947ff"
+    },
+    "body": {
+      "data": {
+        "6636": {
+          "id": 6636,
+          "name": "Polkadot",
+          "symbol": "DOT",
+          "category": "coin",
+          "description": "Polkadot (DOT) is a cryptocurrency . Polkadot has a current supply of 1,704,548,599.02502039. The last known price of Polkadot is 1.23032979 USD and is up 5.28 over the last 24 hours. It is currently trading on 1070 active market(s) with $214,706,456.48 traded over the last 24 hours. More information can be found at https://polkadot.com.",
+          "slug": "polkadot-new",
+          "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/6636.png",
+          "subreddit": "Polkadot",
+          "notice": "",
+          "tags": [
+            "defi",
+            "ethereum-ecosystem",
+            "substrate",
+            "polkadot",
+            "polkadot-ecosystem",
+            "three-arrows-capital-portfolio",
+            "polychain-capital-portfolio",
+            "heco-ecosystem",
+            "arrington-xrp-capital-portfolio",
+            "blockchain-capital-portfolio",
+            "boostvc-portfolio",
+            "cms-holdings-portfolio",
+            "coinfund-portfolio",
+            "fabric-ventures-portfolio",
+            "fenbushi-capital-portfolio",
+            "hashkey-capital-portfolio",
+            "kenetic-capital-portfolio",
+            "1confirmation-portfolio",
+            "placeholder-ventures-portfolio",
+            "pantera-capital-portfolio",
+            "exnetwork-capital-portfolio",
+            "web3",
+            "arbitrum-ecosystem",
+            "spartan-group",
+            "optimism-ecosystem",
+            "osmosis-ecosystem",
+            "base-ecosystem",
+            "gnosis-chain-ecosystem",
+            "binance-ecosystem",
+            "binance-listing",
+            "sec-cftc-token-taxonomy",
+            "sec-cftc-digital-commodities"
+          ],
+          "tag-names": [
+            "DeFi",
+            "Ethereum Ecosystem",
+            "Substrate",
+            "Polkadot",
+            "Polkadot Ecosystem",
+            "Three Arrows Capital Portfolio",
+            "Polychain Capital Portfolio",
+            "HECO Ecosystem",
+            "Arrington XRP Capital Portfolio",
+            "Blockchain Capital Portfolio",
+            "BoostVC Portfolio",
+            "CMS Holdings Portfolio",
+            "Coinfund Portfolio",
+            "Fabric Ventures Portfolio",
+            "Fenbushi Capital Portfolio",
+            "Hashkey Capital Portfolio",
+            "Kenetic Capital Portfolio",
+            "1Confirmation Portfolio",
+            "Placeholder Ventures Portfolio",
+            "Pantera Capital Portfolio",
+            "Exnetwork Capital Portfolio",
+            "Web3",
+            "Arbitrum Ecosystem",
+            "Spartan Group",
+            "Optimism Ecosystem",
+            "Osmosis Ecosystem",
+            "Base Ecosystem",
+            "Gnosis Chain Ecosystem",
+            "Binance Ecosystem",
+            "Binance Listing",
+            "SEC/CFTC Token Taxonomy",
+            "SEC/CFTC Digital Commodities"
+          ],
+          "tag-groups": [
+            "CATEGORY",
+            "PLATFORM",
+            "CATEGORY",
+            "PLATFORM",
+            "PLATFORM",
+            "CATEGORY",
+            "CATEGORY",
+            "PLATFORM",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "INDUSTRY",
+            "PLATFORM",
+            "CATEGORY",
+            "PLATFORM",
+            "PLATFORM",
+            "PLATFORM",
+            "PLATFORM",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY"
+          ],
+          "urls": {
+            "website": [
+              "https://polkadot.com",
+              "https://wiki.polkadot.network/"
+            ],
+            "twitter": [
+              "https://twitter.com/Polkadot"
+            ],
+            "message_board": [
+              "https://forum.polkadot.network/",
+              "https://medium.com/polkadot-network"
+            ],
+            "chat": [
+              "https://polkadot-discord.w3f.tools/",
+              "https://t.me/PolkadotOfficial",
+              "https://support.polkadot.network/"
+            ],
+            "facebook": [],
+            "explorer": [
+              "https://polkadot.subscan.io/",
+              "https://polkadot.statescan.io/",
+              "https://3xpl.com/polkadot",
+              "https://blockchair.com/polkadot"
+            ],
+            "reddit": [
+              "https://reddit.com/r/Polkadot"
+            ],
+            "technical_doc": [
+              "https://polkadot.com/papers/Polkadot-whitepaper.pdf"
+            ],
+            "source_code": [
+              "https://github.com/paritytech/polkadot-sdk"
+            ],
+            "announcement": []
+          },
+          "platform": {
+            "id": "1839",
+            "name": "BNB",
+            "symbol": "BNB",
+            "slug": "bnb",
+            "token_address": "0x7083609fce4d1d8dc0c979aab8c869ea2c873402"
+          },
+          "date_added": "2020-08-19T00:00:00.000Z",
+          "twitter_username": "Polkadot",
+          "is_hidden": 0,
+          "contract_address": [
+            {
+              "contract_address": "0x7083609fce4d1d8dc0c979aab8c869ea2c873402",
+              "platform": {
+                "name": "BNB Smart Chain (BEP20)",
+                "coin": {
+                  "id": "1839",
+                  "name": "BNB",
+                  "symbol": "BNB",
+                  "slug": "bnb"
+                }
+              }
+            },
+            {
+              "contract_address": "0xa2c49cee16a5e5bdefde931107dc1fae9f7773e3",
+              "platform": {
+                "name": "HECO",
+                "coin": {
+                  "id": "2502",
+                  "name": "Huobi Token",
+                  "symbol": "HT",
+                  "slug": "htx-token"
+                }
+              }
+            },
+            {
+              "contract_address": "ibc/3FF92D26B407FD61AE95D975712A7C319CDE28DE4D80BDC9978D935932B991D7",
+              "platform": {
+                "name": "Osmosis",
+                "coin": {
+                  "id": "12220",
+                  "name": "Osmosis",
+                  "symbol": "OSMO",
+                  "slug": "osmosis"
+                }
+              }
+            },
+            {
+              "contract_address": "0x8d010bf9c26881788b4e6bf5fd1bdc358c8f90b8",
+              "platform": {
+                "name": "Ethereum",
+                "coin": {
+                  "id": "1027",
+                  "name": "Ethereum",
+                  "symbol": "ETH",
+                  "slug": "ethereum"
+                }
+              }
+            },
+            {
+              "contract_address": "0x8d010bf9c26881788b4e6bf5fd1bdc358c8f90b8",
+              "platform": {
+                "name": "Base",
+                "coin": {
+                  "id": "27716",
+                  "name": "Base",
+                  "symbol": "-",
+                  "slug": "base"
+                }
+              }
+            },
+            {
+              "contract_address": "0x8d010bf9c26881788b4e6bf5fd1bdc358c8f90b8",
+              "platform": {
+                "name": "Arbitrum",
+                "coin": {
+                  "id": "11841",
+                  "name": "Arbitrum",
+                  "symbol": "ARB",
+                  "slug": "arbitrum"
+                }
+              }
+            },
+            {
+              "contract_address": "0x8d010bf9c26881788b4e6bf5fd1bdc358c8f90b8",
+              "platform": {
+                "name": "Optimism",
+                "coin": {
+                  "id": "11840",
+                  "name": "Optimism",
+                  "symbol": "OP",
+                  "slug": "optimism-ethereum"
+                }
+              }
+            },
+            {
+              "contract_address": "0x8d010bf9c26881788b4e6bf5fd1bdc358c8f90b8",
+              "platform": {
+                "name": "Gnosis Chain",
+                "coin": {
+                  "id": "1659",
+                  "name": "Gnosis",
+                  "symbol": "GNO",
+                  "slug": "gnosis-gno"
+                }
+              }
+            }
+          ],
+          "self_reported_tags": [
+            "PoS",
+            "Platform",
+            "Enterprise Solutions",
+            "Distributed Computing",
+            "Interoperability",
+            "Scaling",
+            "Sharding",
+            "Smart Contracts",
+            "Staking",
+            "DApp",
+            "Substrate",
+            "Polkadot",
+            "Polkadot Ecosystem",
+            "Three Arrows Capital Portfolio",
+            "Polychain Capital Portfolio",
+            "Software",
+            "Layer 2",
+            "Governance",
+            "Arrington XRP Capital Portfolio",
+            "Blockchain Capital Portfolio",
+            "BoostVC Portfolio",
+            "CMS Holdings Portfolio",
+            "Coinfund Portfolio",
+            "Fabric Ventures Portfolio",
+            "Fenbushi Capital Portfolio",
+            "Hashkey Capital Portfolio",
+            "Kenetic Capital Portfolio",
+            "1Confirmation Portfolio",
+            "Placeholder Ventures Portfolio",
+            "Pantera Capital Portfolio",
+            "Exnetwork Capital Portfolio",
+            "Web3",
+            "Cross-Chain",
+            "Spartan Group",
+            "Opensource",
+            "Layer 1"
+          ],
+          "infinite_supply": false
+        }
+      },
+      "status": {
+        "timestamp": "2026-09-26T10:50:26.147Z",
+        "error_code": 0,
+        "error_message": null,
+        "elapsed": 8,
+        "credit_count": 1,
+        "notice": null
+      }
+    }
+  }
+}

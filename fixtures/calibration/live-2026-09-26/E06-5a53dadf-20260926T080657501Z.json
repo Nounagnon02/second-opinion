@@ -1,0 +1,65 @@
+{
+  "label": "E06-5a53dadf-20260926T080657501Z",
+  "recordedAt": "2026-09-26T08:06:57.501Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v2/simple/price?id=52&include_last_updated=true",
+    "path": "/v2/simple/price",
+    "query": {
+      "id": "52",
+      "include_last_updated": "true"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 514,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 08:06:57 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 3dc26a281a472748d3db174c871a20c4.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "qF9wgpRcK_aOHRMK-OAm0QoV55OZCUap_4rlC7g27s2WejkNHpIsJQ==",
+      "x-amz-cf-pop": "LOS50-P4",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "10",
+      "x-server-traceid": "90685951c7f0ceba40d86480724658d6"
+    },
+    "body": {
+      "data": [
+        {
+          "id": 52,
+          "name": "XRP",
+          "symbol": "XRP",
+          "slug": "xrp",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "price": 1.551565890584247,
+              "last_updated": "2026-09-26T08:06:02.000Z"
+            }
+          ]
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-26T08:06:57.189Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 3,
+        "credit_count": 1
+      }
+    }
+  }
+}

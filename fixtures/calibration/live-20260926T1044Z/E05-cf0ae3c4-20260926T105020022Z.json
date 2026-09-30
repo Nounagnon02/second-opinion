@@ -1,0 +1,215 @@
+{
+  "label": "E05-cf0ae3c4-20260926T105020022Z",
+  "recordedAt": "2026-09-26T10:50:20.022Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v2/cryptocurrency/info?id=34387",
+    "path": "/v2/cryptocurrency/info",
+    "query": {
+      "id": "34387"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 2455,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 10:50:19 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 f5be520a0e05096cc6c019d4cccce3a2.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "sdw-x6kOZHHOAxQgjFJHN1CggHoRYm2R3IUlnYR0LP7V6v_dfYoEAw==",
+      "x-amz-cf-pop": "IAD55-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "11",
+      "x-server-traceid": "5a6e20a55308c24d851a7a7e63ccdea6"
+    },
+    "body": {
+      "data": {
+        "34387": {
+          "id": 34387,
+          "name": "Ripple USD",
+          "symbol": "RLUSD",
+          "category": "token",
+          "description": "Ripple USD (RLUSD) is a cryptocurrency launched in 2024and operates on the Ethereum platform. Ripple USD has a current supply of 2,491,272,908.01719966. The last known price of Ripple USD is 0.99996922 USD and is up -0.00 over the last 24 hours. It is currently trading on 104 active market(s) with $388,495,422.19 traded over the last 24 hours. More information can be found at https://ripple.com/solutions/stablecoin/.",
+          "slug": "ripple-usd",
+          "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/34387.png",
+          "subreddit": "Ripple/",
+          "notice": "",
+          "tags": [
+            "stablecoin",
+            "asset-backed-stablecoin",
+            "usd-stablecoin",
+            "fiat-stablecoin",
+            "binance-ecosystem",
+            "binance-listing",
+            "unichain-ecosystem"
+          ],
+          "tag-names": [
+            "Stablecoin",
+            "Asset-Backed Stablecoin",
+            "USD Stablecoin",
+            "Fiat Stablecoin",
+            "Binance Ecosystem",
+            "Binance Listing",
+            "Unichain Ecosystem"
+          ],
+          "tag-groups": [
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "PLATFORM"
+          ],
+          "urls": {
+            "website": [
+              "https://ripple.com/solutions/stablecoin/"
+            ],
+            "twitter": [
+              "https://twitter.com/Ripple"
+            ],
+            "message_board": [
+              "https://ripple.com/solutions/stablecoin/"
+            ],
+            "chat": [
+              "https://www.linkedin.com/company/rippleofficial"
+            ],
+            "facebook": [
+              "https://www.facebook.com/rippleofficial"
+            ],
+            "explorer": [
+              "https://xrpscan.com/token/524C555344000000000000000000000000000000.rMxCKbEDwqr76QuheSUMdEGf4B9xJ8m5De",
+              "https://livenet.xrpl.org/accounts/rMxCKbEDwqr76QuheSUMdEGf4B9xJ8m5De/transactions",
+              "https://etherscan.io/token/0x8292bb45bf1ee4d140127049757c2e0ff06317ed"
+            ],
+            "reddit": [
+              "https://reddit.com/r/Ripple/"
+            ],
+            "technical_doc": [
+              "https://ripple.com/reports/rlusd-whitepaper.pdf"
+            ],
+            "source_code": [
+              "https://github.com/ripple/RLUSD-Implementation/blob/main/doc/rlusd-xrpl-settings.md"
+            ],
+            "announcement": [
+              "https://ripple.com/solutions/stablecoin/"
+            ]
+          },
+          "platform": {
+            "id": "1027",
+            "name": "Ethereum",
+            "symbol": "ETH",
+            "slug": "ethereum",
+            "token_address": "0x8292bb45bf1ee4d140127049757c2e0ff06317ed"
+          },
+          "date_added": "2024-12-18T07:22:18.000Z",
+          "twitter_username": "Ripple",
+          "is_hidden": 0,
+          "date_launched": "2024-12-17T00:00:00.000Z",
+          "contract_address": [
+            {
+              "contract_address": "0x8292bb45bf1ee4d140127049757c2e0ff06317ed",
+              "platform": {
+                "name": "Ethereum",
+                "coin": {
+                  "id": "1027",
+                  "name": "Ethereum",
+                  "symbol": "ETH",
+                  "slug": "ethereum"
+                }
+              }
+            },
+            {
+              "contract_address": "0x8d58c0c60b8d6b88fa98b291a646db34d0f98258",
+              "platform": {
+                "name": "Optimism",
+                "coin": {
+                  "id": "11840",
+                  "name": "Optimism",
+                  "symbol": "OP",
+                  "slug": "optimism-ethereum"
+                }
+              }
+            },
+            {
+              "contract_address": "524C555344000000000000000000000000000000.rMxCKbEDwqr76QuheSUMdEGf4B9xJ8m5De",
+              "platform": {
+                "name": "XRP Ledger",
+                "coin": {
+                  "id": "52",
+                  "name": "XRP",
+                  "symbol": "XRP",
+                  "slug": "xrp"
+                }
+              }
+            },
+            {
+              "contract_address": "0x8d58c0c60b8d6b88fa98b291a646db34d0f98258",
+              "platform": {
+                "name": "Base",
+                "coin": {
+                  "id": "27716",
+                  "name": "Base",
+                  "symbol": "-",
+                  "slug": "base"
+                }
+              }
+            },
+            {
+              "contract_address": "0x8d58c0c60b8d6b88fa98b291a646db34d0f98258",
+              "platform": {
+                "name": "Unichain",
+                "coin": {
+                  "id": "7083",
+                  "name": "Uniswap",
+                  "symbol": "UNI",
+                  "slug": "uniswap"
+                }
+              }
+            },
+            {
+              "contract_address": "0x8d58c0c60b8d6b88fa98b291a646db34d0f98258",
+              "platform": {
+                "name": "Ink",
+                "coin": {
+                  "id": "36851",
+                  "name": "INK",
+                  "symbol": "INK",
+                  "slug": "ink-token"
+                }
+              }
+            }
+          ],
+          "self_reported_circulating_supply": 53100129.55,
+          "self_reported_tags": [
+            "Stablecoin"
+          ],
+          "self_reported_market_cap": 53096058.862911016,
+          "infinite_supply": true
+        }
+      },
+      "status": {
+        "timestamp": "2026-09-26T10:50:19.597Z",
+        "error_code": 0,
+        "error_message": null,
+        "elapsed": 7,
+        "credit_count": 1,
+        "notice": null
+      }
+    }
+  }
+}

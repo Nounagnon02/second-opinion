@@ -1,0 +1,69 @@
+{
+  "label": "E01-a119856f-20260925T205137282Z",
+  "recordedAt": "2026-09-25T20:51:37.282Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v1/cryptocurrency/map?symbol=PAXG",
+    "path": "/v1/cryptocurrency/map",
+    "query": {
+      "symbol": "PAXG"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 4688,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Fri, 25 Sep 2026 20:51:36 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 8fc1a69e56806655ab21ee8b64e4c32c.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "SgwDjxuQruDw4UQgksJMKzJcNulR-ujR_rNIB28xHu4qK5-iNuTKrg==",
+      "x-amz-cf-pop": "LHR86-P3",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "1",
+      "x-server-traceid": "e33b1a6b700a46e7637f56f0ccc2e064"
+    },
+    "body": {
+      "data": [
+        {
+          "id": 4705,
+          "name": "PAX Gold",
+          "symbol": "PAXG",
+          "slug": "pax-gold",
+          "rank": 45,
+          "is_active": 1,
+          "first_historical_data": "2019-09-26T02:25:00.000Z",
+          "last_historical_data": "2026-09-25T20:45:00.000Z",
+          "platform": {
+            "id": 1,
+            "name": "Ethereum",
+            "symbol": "ETH",
+            "slug": "ethereum",
+            "token_address": "0x45804880de22913dafe09f4980848ece6ecbaf78"
+          }
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-25T20:51:36.657Z",
+        "error_code": 0,
+        "error_message": null,
+        "elapsed": 1,
+        "credit_count": 0,
+        "notice": null
+      }
+    }
+  }
+}

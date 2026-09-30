@@ -1,0 +1,65 @@
+{
+  "label": "E06-9b9986ac-20260925T215554581Z",
+  "recordedAt": "2026-09-25T21:55:54.581Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v2/simple/price?id=825&include_last_updated=true",
+    "path": "/v2/simple/price",
+    "query": {
+      "id": "825",
+      "include_last_updated": "true"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 6543,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Fri, 25 Sep 2026 21:55:54 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 5c9ff8ead1952d3f0c15a7b2b5d8b0c8.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "C2ckknKTVahAh44KwJkUXMomVHr01fBoMVP8LFxIdTFMeeudELLyMw==",
+      "x-amz-cf-pop": "LOS50-P4",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "11",
+      "x-server-traceid": "572cad66ae234de1f4c3ba4f5fbae61f"
+    },
+    "body": {
+      "data": [
+        {
+          "id": 825,
+          "name": "Tether USDt",
+          "symbol": "USDT",
+          "slug": "tether",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "price": 0.9997797011887773,
+              "last_updated": "2026-09-25T21:54:03.000Z"
+            }
+          ]
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-25T21:55:54.288Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 5,
+        "credit_count": 1
+      }
+    }
+  }
+}

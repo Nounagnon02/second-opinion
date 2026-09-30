@@ -1,0 +1,65 @@
+{
+  "label": "E19-rwa-issuer-paxos",
+  "recordedAt": "2026-09-24T16:05:13.995Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v5/real-world-assets/issuers?issuer_id=68904c24abae9b5b9fb35815",
+    "path": "/v5/real-world-assets/issuers",
+    "query": {
+      "issuer_id": "68904c24abae9b5b9fb35815"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 721,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Thu, 24 Sep 2026 16:05:13 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 f640364d7be020197429cb899e094c00.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "doCF-AmPAaeKsq5NX3QWeK4zq1dwGZfn0tQsQxFF08SImUH-QukUJA==",
+      "x-amz-cf-pop": "MAD53-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "9",
+      "x-server-traceid": "9b991d8c267a751654f030010fd0c1ba"
+    },
+    "body": {
+      "data": {
+        "name": "Paxos",
+        "website": "https://www.paxos.com/",
+        "tokens": [
+          {
+            "name": "PAX Gold",
+            "symbol": "PAXG",
+            "crypto_id": 4705,
+            "rwa_id": 1
+          }
+        ],
+        "issuer_id": "68904c24abae9b5b9fb35815",
+        "num_tokens": 1,
+        "total_size": 1,
+        "has_more": false
+      },
+      "status": {
+        "timestamp": "2026-09-24T16:05:13.853Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 4,
+        "credit_count": 1
+      }
+    }
+  }
+}

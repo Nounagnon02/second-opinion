@@ -1,0 +1,139 @@
+{
+  "label": "E02-c8ea6410-20260926T105120881Z",
+  "recordedAt": "2026-09-26T10:51:20.881Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v3/cryptocurrency/quotes/latest?convert=USD&id=4705",
+    "path": "/v3/cryptocurrency/quotes/latest",
+    "query": {
+      "convert": "USD",
+      "id": "4705"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 350,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 10:51:20 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 ec6ab86695d018f9e87cce7df2ae9964.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "JzFIuW7t0b1Duqp7OAZlSnxZ4v8qkrRCzYTqIyaDKlaTf5kbTuXgjA==",
+      "x-amz-cf-pop": "IAD55-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "9",
+      "x-server-traceid": "2728caf5356bdb25e624036a754abf7d"
+    },
+    "body": {
+      "data": [
+        {
+          "tags": [
+            {
+              "slug": "ethereum-ecosystem",
+              "name": "Ethereum Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "tokenized-gold",
+              "name": "Tokenized Gold",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "real-world-assets-protocols",
+              "name": "Real World Assets Protocols",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-ecosystem",
+              "name": "Binance Ecosystem",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-listing",
+              "name": "Binance Listing",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "tokenized-assets",
+              "name": "Tokenized Assets",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "tokenized-commodities",
+              "name": "Tokenized commodities",
+              "category": "CATEGORY"
+            }
+          ],
+          "id": 4705,
+          "name": "PAX Gold",
+          "symbol": "PAXG",
+          "slug": "pax-gold",
+          "is_active": 1,
+          "infinite_supply": true,
+          "is_fiat": 0,
+          "circulating_supply": 434898.623539,
+          "total_supply": 434898.623539,
+          "max_supply": null,
+          "date_added": "2019-09-26T00:00:00.000Z",
+          "num_market_pairs": 424,
+          "cmc_rank": 46,
+          "last_updated": "2026-09-26T10:49:00.000Z",
+          "tvl_ratio": null,
+          "platform": {
+            "id": 1027,
+            "slug": "ethereum",
+            "name": "Ethereum",
+            "symbol": "ETH",
+            "token_address": "0x45804880de22913dafe09f4980848ece6ecbaf78"
+          },
+          "self_reported_circulating_supply": null,
+          "self_reported_market_cap": null,
+          "minted_market_cap": 1861115692.57,
+          "quote": [
+            {
+              "id": 2781,
+              "symbol": "USD",
+              "price": 4279.424196426274,
+              "volume_24h": 123946039.41031574,
+              "volume_change_24h": -35.2837,
+              "cex_volume_24h": 121449382.87191692,
+              "dex_volume_24h": 2496656.53839881,
+              "percent_change_1h": 0.03375689,
+              "percent_change_24h": -0.4432246,
+              "percent_change_7d": -1.96223972,
+              "percent_change_30d": -6.52431857,
+              "percent_change_60d": 6.52954507,
+              "percent_change_90d": 5.11171904,
+              "market_cap": 1861115692.5652778,
+              "market_cap_dominance": 0.0645,
+              "fully_diluted_market_cap": 1861115692.57,
+              "minted_market_cap": 1861115692.57,
+              "tvl": null,
+              "last_updated": "2026-09-26T10:50:02.000Z"
+            }
+          ]
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-26T10:51:20.735Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 4,
+        "credit_count": 1
+      }
+    }
+  }
+}

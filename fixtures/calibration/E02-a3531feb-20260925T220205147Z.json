@@ -1,0 +1,129 @@
+{
+  "label": "E02-a3531feb-20260925T220205147Z",
+  "recordedAt": "2026-09-25T22:02:05.147Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v3/cryptocurrency/quotes/latest?convert=USD&id=3897",
+    "path": "/v3/cryptocurrency/quotes/latest",
+    "query": {
+      "convert": "USD",
+      "id": "3897"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 1015,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Fri, 25 Sep 2026 22:02:04 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 1146d9293f189a66b4c0e732ccfdd246.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "q54_kJvdl2wrqcN-sW2Z6iY_cyxTgJZZtglz58UV5wNBxbGb_dn5Kw==",
+      "x-amz-cf-pop": "LOS50-P4",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "8",
+      "x-server-traceid": "55ec9365bb66d29babca84750ae0078d"
+    },
+    "body": {
+      "data": [
+        {
+          "tags": [
+            {
+              "slug": "layer-2",
+              "name": "Layer 2",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "alameda-research-portfolio",
+              "name": "Alameda Research Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "x-layer-ecosystem",
+              "name": "X Layer Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "xlayer-ecosystem",
+              "name": "Xlayer Ecosystem",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "made-in-china",
+              "name": "Made in China",
+              "category": "CATEGORY"
+            }
+          ],
+          "id": 3897,
+          "name": "OKB",
+          "symbol": "OKB",
+          "slug": "okb",
+          "is_active": 1,
+          "infinite_supply": false,
+          "is_fiat": 0,
+          "circulating_supply": 21000000,
+          "total_supply": 21000000,
+          "max_supply": 21000000,
+          "date_added": "2019-04-30T00:00:00.000Z",
+          "num_market_pairs": 214,
+          "cmc_rank": 38,
+          "last_updated": "2026-09-25T22:00:00.000Z",
+          "tvl_ratio": null,
+          "platform": {
+            "id": 3897,
+            "slug": "okb",
+            "name": "X Layer",
+            "symbol": "OKB",
+            "token_address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+          },
+          "self_reported_circulating_supply": 246638974,
+          "self_reported_market_cap": 29634691873.62824,
+          "minted_market_cap": 2523236775,
+          "quote": [
+            {
+              "id": 2781,
+              "symbol": "USD",
+              "price": 120.15413214307418,
+              "volume_24h": 30038028.02985928,
+              "volume_change_24h": -18.3624,
+              "cex_volume_24h": 30031193.92446656,
+              "dex_volume_24h": 6834.10539272,
+              "percent_change_1h": -0.22679704,
+              "percent_change_24h": 0.23584454,
+              "percent_change_7d": 2.66318737,
+              "percent_change_30d": 6.93051366,
+              "percent_change_60d": 39.89574249,
+              "percent_change_90d": 52.69704726,
+              "market_cap": 2523236775.0045576,
+              "market_cap_dominance": 0.0878,
+              "fully_diluted_market_cap": 2523236775,
+              "minted_market_cap": 2523236775,
+              "tvl": null,
+              "last_updated": "2026-09-25T22:01:02.000Z"
+            }
+          ]
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-25T22:02:04.855Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 3,
+        "credit_count": 1
+      }
+    }
+  }
+}

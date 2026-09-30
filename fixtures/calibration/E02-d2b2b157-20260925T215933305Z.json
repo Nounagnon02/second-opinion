@@ -1,0 +1,168 @@
+{
+  "label": "E02-d2b2b157-20260925T215933305Z",
+  "recordedAt": "2026-09-25T21:59:33.305Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v3/cryptocurrency/quotes/latest?convert=USD&id=5805",
+    "path": "/v3/cryptocurrency/quotes/latest",
+    "query": {
+      "convert": "USD",
+      "id": "5805"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 326,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Fri, 25 Sep 2026 21:59:33 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 62adf6efa9de9ec639541ac293f53aa0.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "zSwzPkEVRW50WAkmRrFMJvPWsiVxSwuplS8Euj_qtdw127jXWWSoVg==",
+      "x-amz-cf-pop": "FRA60-P13",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "8",
+      "x-server-traceid": "6536f3799fb71269c4b2abb60e907943"
+    },
+    "body": {
+      "data": [
+        {
+          "tags": [
+            {
+              "slug": "smart-contracts",
+              "name": "Smart Contracts",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "three-arrows-capital-portfolio",
+              "name": "Three Arrows Capital Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "polychain-capital-portfolio",
+              "name": "Polychain Capital Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "avalanche-ecosystem",
+              "name": "Avalanche Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "cms-holdings-portfolio",
+              "name": "CMS Holdings Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "dragonfly-capital-portfolio",
+              "name": "DragonFly Capital Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "real-world-assets-protocols",
+              "name": "Real World Assets Protocols",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "layer-1",
+              "name": "Layer 1",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "made-in-america",
+              "name": "Made in America",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "world-liberty-financial-portfolio",
+              "name": "World Liberty Financial Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-ecosystem",
+              "name": "Binance Ecosystem",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-listing",
+              "name": "Binance Listing",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "sec-cftc-token-taxonomy",
+              "name": "SEC/CFTC Token Taxonomy",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "sec-cftc-digital-commodities",
+              "name": "SEC/CFTC Digital Commodities",
+              "category": "CATEGORY"
+            }
+          ],
+          "id": 5805,
+          "name": "Avalanche",
+          "symbol": "AVAX",
+          "slug": "avalanche",
+          "is_active": 1,
+          "infinite_supply": false,
+          "is_fiat": 0,
+          "circulating_supply": 443070002.7720959,
+          "total_supply": 469738802.7720959,
+          "max_supply": 715748719,
+          "date_added": "2020-07-13T00:00:00.000Z",
+          "num_market_pairs": 1125,
+          "cmc_rank": 24,
+          "last_updated": "2026-09-25T21:57:00.000Z",
+          "tvl_ratio": null,
+          "platform": null,
+          "self_reported_circulating_supply": null,
+          "self_reported_market_cap": null,
+          "minted_market_cap": 4916295601.61,
+          "quote": [
+            {
+              "id": 2781,
+              "symbol": "USD",
+              "price": 10.466019780766885,
+              "volume_24h": 662247246.3273298,
+              "volume_change_24h": 35.3642,
+              "cex_volume_24h": 620055847.1596582,
+              "dex_volume_24h": 42191399.1676717,
+              "percent_change_1h": -0.72038498,
+              "percent_change_24h": -1.28657192,
+              "percent_change_7d": 26.77732249,
+              "percent_change_30d": 42.60690228,
+              "percent_change_60d": 59.42966111,
+              "percent_change_90d": 63.94269269,
+              "market_cap": 4637179413.277194,
+              "market_cap_dominance": 0.1613,
+              "fully_diluted_market_cap": 7491040251.11,
+              "minted_market_cap": 4916295601.61,
+              "tvl": null,
+              "last_updated": "2026-09-25T21:58:02.000Z"
+            }
+          ]
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-25T21:59:33.145Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 3,
+        "credit_count": 1
+      }
+    }
+  }
+}

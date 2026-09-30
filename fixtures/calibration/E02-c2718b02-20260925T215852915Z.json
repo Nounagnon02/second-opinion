@@ -1,0 +1,218 @@
+{
+  "label": "E02-c2718b02-20260925T215852915Z",
+  "recordedAt": "2026-09-25T21:58:52.915Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v3/cryptocurrency/quotes/latest?convert=USD&id=6535",
+    "path": "/v3/cryptocurrency/quotes/latest",
+    "query": {
+      "convert": "USD",
+      "id": "6535"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 502,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Fri, 25 Sep 2026 21:58:52 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 ddcf546dc6ebb5644c611f71496d6444.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "ivbU7cgLbrdlpPG0-ChXe6vUg7dsaGC0d0IeFdx51j_i-enXnFIwKA==",
+      "x-amz-cf-pop": "MAD53-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "9",
+      "x-server-traceid": "269972fa922de83bde9dea0eb19189d6"
+    },
+    "body": {
+      "data": [
+        {
+          "tags": [
+            {
+              "slug": "platform",
+              "name": "Platform",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "ai-big-data",
+              "name": "AI & Big Data",
+              "category": "INDUSTRY"
+            },
+            {
+              "slug": "staking",
+              "name": "Staking",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "coinbase-ventures-portfolio",
+              "name": "Coinbase Ventures Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "three-arrows-capital-portfolio",
+              "name": "Three Arrows Capital Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "arrington-xrp-capital-portfolio",
+              "name": "Arrington XRP Capital Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "coinfund-portfolio",
+              "name": "Coinfund Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "electric-capital-portfolio",
+              "name": "Electric Capital Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "fabric-ventures-portfolio",
+              "name": "Fabric Ventures Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "kenetic-capital-portfolio",
+              "name": "Kenetic Capital Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "near-protocol-ecosystem",
+              "name": "Near Protocol Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "cross-chain",
+              "name": "Cross-Chain",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "circle-ventures-portfolio",
+              "name": "Circle Ventures Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "layer-1",
+              "name": "Layer 1",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "alleged-sec-securities",
+              "name": "Alleged SEC Securities",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "modular-blockchain",
+              "name": "Modular Blockchain",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "account-abstraction",
+              "name": "Account Abstraction",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "data-availability",
+              "name": "Data Availability",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "cmc-crypto-yearbook-2024-2025",
+              "name": "CMC Crypto Yearbook 2024-25",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "made-in-america",
+              "name": "Made in America",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-ecosystem",
+              "name": "Binance Ecosystem",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-listing",
+              "name": "Binance Listing",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "coinlist-launchpad",
+              "name": "Coinlist Launchpad",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "amber-group-portfolio",
+              "name": "Amber Group Portfolio",
+              "category": "CATEGORY"
+            }
+          ],
+          "id": 6535,
+          "name": "NEAR Protocol",
+          "symbol": "NEAR",
+          "slug": "near-protocol",
+          "is_active": 1,
+          "infinite_supply": true,
+          "is_fiat": 0,
+          "circulating_supply": 1307294697,
+          "total_supply": 1307294697,
+          "max_supply": null,
+          "date_added": "2020-08-11T00:00:00.000Z",
+          "num_market_pairs": 676,
+          "cmc_rank": 18,
+          "last_updated": "2026-09-25T21:56:00.000Z",
+          "tvl_ratio": null,
+          "platform": null,
+          "self_reported_circulating_supply": 1209202633,
+          "self_reported_market_cap": 5922782238.51478,
+          "minted_market_cap": 6403245908.16,
+          "quote": [
+            {
+              "id": 2781,
+              "symbol": "USD",
+              "price": 4.898089101758332,
+              "volume_24h": 1826297262.879912,
+              "volume_change_24h": 3.7608,
+              "cex_volume_24h": 1825016018.028564,
+              "dex_volume_24h": 1281244.85134803,
+              "percent_change_1h": -3.92907282,
+              "percent_change_24h": 5.23767035,
+              "percent_change_7d": 30.6185801,
+              "percent_change_30d": 162.28756394,
+              "percent_change_60d": 183.10197515,
+              "percent_change_90d": 161.94154735,
+              "market_cap": 6403245908.162161,
+              "market_cap_dominance": 0.2228,
+              "fully_diluted_market_cap": 6403245908.16,
+              "minted_market_cap": 6403245908.16,
+              "tvl": null,
+              "last_updated": "2026-09-25T21:57:03.000Z"
+            }
+          ]
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-25T21:58:52.794Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 4,
+        "credit_count": 1
+      }
+    }
+  }
+}

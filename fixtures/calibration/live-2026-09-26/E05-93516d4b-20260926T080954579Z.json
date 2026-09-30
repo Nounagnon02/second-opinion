@@ -1,0 +1,146 @@
+{
+  "label": "E05-93516d4b-20260926T080954579Z",
+  "recordedAt": "2026-09-26T08:09:54.579Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v2/cryptocurrency/info?id=37263",
+    "path": "/v2/cryptocurrency/info",
+    "query": {
+      "id": "37263"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 5534,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 08:09:54 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 4de8cc07f214b77e50bb78828ddb1362.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "imVan97fc4pHOWXC0kBoE8V5yIjVnemVnb4aygMIFxmtpf-xv1Cj-A==",
+      "x-amz-cf-pop": "CDG55-P3",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "11",
+      "x-server-traceid": "9c6d17ddd915ffa9fe4bdaf3ec3f7936"
+    },
+    "body": {
+      "data": {
+        "37263": {
+          "id": 37263,
+          "name": "Canton",
+          "symbol": "CC",
+          "category": "coin",
+          "description": "Canton (CC) is a cryptocurrency launched in 2024. Canton has a current supply of 39,688,466,814.15198579. The last known price of Canton is 0.13715251 USD and is up 16.81 over the last 24 hours. It is currently trading on 119 active market(s) with $66,134,586.61 traded over the last 24 hours. More information can be found at https://sync.global.",
+          "slug": "canton-network",
+          "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/37263.png",
+          "subreddit": "",
+          "notice": "",
+          "tags": [
+            "proof-of-authority",
+            "store-of-value",
+            "enterprise-solutions",
+            "privacy",
+            "interoperability",
+            "scaling",
+            "smart-contracts",
+            "layer-1",
+            "binance-ecosystem",
+            "binance-listing",
+            "privacy-blockchain"
+          ],
+          "tag-names": [
+            "Proof-of-Authority",
+            "Store Of Value",
+            "Enterprise Solutions",
+            "Privacy",
+            "Interoperability",
+            "Scaling",
+            "Smart Contracts",
+            "Layer 1",
+            "Binance Ecosystem",
+            "Binance Listing",
+            "Privacy Blockchain"
+          ],
+          "tag-groups": [
+            "ALGORITHM",
+            "CATEGORY",
+            "INDUSTRY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY"
+          ],
+          "urls": {
+            "website": [
+              "https://sync.global",
+              "https://canton.network"
+            ],
+            "twitter": [
+              "https://twitter.com/CantonNetwork"
+            ],
+            "message_board": [
+              "https://lists.sync.global/",
+              "https://discuss.daml.com"
+            ],
+            "chat": [
+              "https://app.slack.com/client/T03T53E10/C08AP9QR7K4"
+            ],
+            "facebook": [],
+            "explorer": [
+              "https://www.cantonscan.com/",
+              "https://explorer.canton.nodefortress.io/",
+              "https://lighthouse.fivenorth.io/",
+              "https://cc.modo.link/mainnet/home"
+            ],
+            "reddit": [],
+            "technical_doc": [
+              "https://www.digitalasset.com/hubfs/Canton%20Coin%20A%20Responsible%20Approach%20to%20Digital%20Tokens.pdf?_gl=1*1yyxs1l*_gcl_au*MTI4OTIwNjAzLjE3Mzg1NzY4ODc."
+            ],
+            "source_code": [
+              "https://github.com/hyperledger-labs/splice"
+            ],
+            "announcement": [
+              "https://sync.global/press/2024/leading-market-participants-partner-with-the-linux-foundation-to-form-the-global-synchronizer-foundation/"
+            ]
+          },
+          "platform": null,
+          "date_added": "2025-07-08T04:07:45.000Z",
+          "twitter_username": "CantonNetwork",
+          "is_hidden": 0,
+          "date_launched": "2024-06-24T00:00:00.000Z",
+          "self_reported_circulating_supply": 39687529545.86,
+          "self_reported_tags": [
+            "Layer 1"
+          ],
+          "self_reported_market_cap": 5411455824.303626,
+          "infinite_supply": true
+        }
+      },
+      "status": {
+        "timestamp": "2026-09-26T08:09:54.439Z",
+        "error_code": 0,
+        "error_message": null,
+        "elapsed": 6,
+        "credit_count": 1,
+        "notice": null
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "label": "E10-48172a1d-20260926T104727185Z",
+  "recordedAt": "2026-09-26T10:47:27.185Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v1/dex/token/price?address=FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z&platform=avalanche",
+    "path": "/v1/dex/token/price",
+    "query": {
+      "address": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z",
+      "platform": "avalanche"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 696,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 10:47:26 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 b61a4be0aa9880eabf6cbea18ec105b2.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "ZOHhxxw9hjlMX28jY5MFB4or5kJLBzOYFBm8h2ttmP7WKwpXaF79lg==",
+      "x-amz-cf-pop": "IAD55-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "190",
+      "x-server-traceid": "098fef2589821a50c9b350a505ae53f2"
+    },
+    "body": {
+      "data": {},
+      "status": {
+        "timestamp": "2026-09-26T10:47:26.756Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 186,
+        "credit_count": 1
+      }
+    }
+  }
+}

@@ -2,7 +2,7 @@
 
 ## 1. Avant de lancer la boucle (à faire vous-même)
 1. Créez un compte sur https://coinmarketcap.com/api et inscrivez-vous au hackathon sur DoraHacks avec **le même e-mail**.
-2. `cp .env.example .env` puis collez votre clé dans `CMC_API_KEY`.
+2. `cp .env.example .env` puis collez votre clé dans `CMC_API_KEY`. Vérifiez avec `npm run check:env` (la clé n'est jamais affichée).
 3. Installez Node.js 20+ et Claude Code, et connectez-vous (`claude` une première fois).
 
 ## 2. Lancer la boucle

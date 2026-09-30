@@ -1,0 +1,1062 @@
+{
+  "label": "E05-138a8aab-20260926T104525121Z",
+  "recordedAt": "2026-09-26T10:45:25.121Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v2/cryptocurrency/info?id=1975",
+    "path": "/v2/cryptocurrency/info",
+    "query": {
+      "id": "1975"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 429,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 10:45:24 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 48850a600c11c704f12260094c298d3a.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "bC3I_TP4NnV6xs6H9W2ztsW0gTvvU191unzmhdgWeoJRczLhH3mbfg==",
+      "x-amz-cf-pop": "IAD55-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "12",
+      "x-server-traceid": "e235439067bc87be4fa50a5304544a20"
+    },
+    "body": {
+      "data": {
+        "1975": {
+          "id": 1975,
+          "name": "Chainlink",
+          "symbol": "LINK",
+          "category": "token",
+          "description": "Chainlink (LINK) is a cryptocurrency launched in 2017and operates on the Ethereum platform. Chainlink has a current supply of 1,000,000,000 with 748,099,970.42488396 in circulation. The last known price of Chainlink is 14.10300383 USD and is up 1.28 over the last 24 hours. It is currently trading on 2299 active market(s) with $694,719,476.11 traded over the last 24 hours. More information can be found at https://chain.link/.",
+          "slug": "chainlink",
+          "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/1975.png",
+          "subreddit": "chainlink",
+          "notice": "",
+          "tags": [
+            "platform",
+            "cosmos-ecosystem",
+            "defi",
+            "privacy",
+            "interoperability",
+            "iot",
+            "oracles",
+            "smart-contracts",
+            "ethereum-ecosystem",
+            "tron-ecosystem",
+            "polkadot",
+            "polkadot-ecosystem",
+            "heco-ecosystem",
+            "avalanche-ecosystem",
+            "solana-ecosystem",
+            "framework-ventures-portfolio",
+            "hedera-hashgraph-ecosystem",
+            "polygon-ecosystem",
+            "fantom-ecosystem",
+            "cardano-ecosystem",
+            "terra-ecosystem",
+            "web3",
+            "near-protocol-ecosystem",
+            "arbitrum-ecosystem",
+            "celo-ecosystem",
+            "defi-2",
+            "cross-chain",
+            "moonriver-ecosystem",
+            "cronos-ecosystem",
+            "cardano",
+            "injective-ecosystem",
+            "bnb-chain-ecosystem",
+            "oasis-ecosystem",
+            "moonbeam-ecosystem",
+            "xdc-ecosystem",
+            "metisdao-ecosystem",
+            "velas-ecosystem",
+            "doge-chain-ecosystem",
+            "aptos-ecosystem",
+            "sui-ecosystem",
+            "optimism-ecosystem",
+            "bitcoin-ecosystem",
+            "real-world-assets-protocols",
+            "zksync-era-ecosystem",
+            "treasure-ecosystem",
+            "kadena-ecosystem",
+            "base-ecosystem",
+            "linea-ecosystem",
+            "sei-ecosystem",
+            "toncoin-ecosystem",
+            "paal-ecosystem",
+            "blast-ecosystem",
+            "atomicals-ecosystem",
+            "move-vm",
+            "eigenlayer-ecosystem",
+            "hyperliquid-ecosystem",
+            "gnosis-chain-ecosystem",
+            "ronin-ecosystem",
+            "rootstock-rsk-ecosystem",
+            "astar-ecosystem",
+            "wemix-ecosystem",
+            "core-ecosystem",
+            "starknet-ecosystem",
+            "mantle-ecosystem",
+            "opbnb-ecosystem",
+            "shibarium-ecosystem",
+            "scroll-ecosystem",
+            "merlin-ecosystem",
+            "b²-network-ecosystem",
+            "mode-ecosystem",
+            "taiko-ecosystem",
+            "metal-ecosystem",
+            "world-chain-mainnet-ecosystem",
+            "made-in-america",
+            "btcfi",
+            "world-liberty-financial-portfolio",
+            "corn-ecosystem",
+            "bonk-fun-ecosystem",
+            "sonic-ecosystem",
+            "binance-ecosystem",
+            "binance-listing",
+            "bittensor-ecosystem",
+            "hyperevm-ecosystem",
+            "etherlink-ecosystem",
+            "bera-chain-ecosystem",
+            "abstract-chain-ecosystem",
+            "unichain-ecosystem",
+            "soneium-ecosystem",
+            "fraxtal-ecosystem",
+            "monad-ecosystem",
+            "hashkey-chain-ecosystem",
+            "wlfi-ecosystem",
+            "plasma-ecosystem",
+            "x402-ecosystem",
+            "iso-20022",
+            "megaeth-ecosystem",
+            "sec-cftc-token-taxonomy",
+            "sec-cftc-digital-commodities",
+            "robinhood-ecosystem",
+            "arc-ecosystem"
+          ],
+          "tag-names": [
+            "Platform",
+            "Cosmos Ecosystem",
+            "DeFi",
+            "Privacy",
+            "Interoperability",
+            "IoT",
+            "Oracles",
+            "Smart Contracts",
+            "Ethereum Ecosystem",
+            "TRON Ecosystem",
+            "Polkadot",
+            "Polkadot Ecosystem",
+            "HECO Ecosystem",
+            "Avalanche Ecosystem",
+            "Solana Ecosystem",
+            "Framework Ventures Portfolio",
+            "Hedera Hashgraph Ecosystem",
+            "Polygon Ecosystem",
+            "Fantom Ecosystem",
+            "Cardano Ecosystem",
+            "Terra Ecosystem",
+            "Web3",
+            "Near Protocol Ecosystem",
+            "Arbitrum Ecosystem",
+            "Celo Ecosystem",
+            "DeFi 2.0",
+            "Cross-Chain",
+            "Moonriver Ecosystem",
+            "Cronos Ecosystem",
+            "Cardano",
+            "Injective Ecosystem",
+            "BNB Chain Ecosystem",
+            "Oasis Ecosystem",
+            "Moonbeam Ecosystem",
+            "XDC Ecosystem",
+            "MetisDAO Ecosystem",
+            "Velas Ecosystem",
+            "Doge Chain Ecosystem",
+            "Aptos Ecosystem",
+            "Sui Ecosystem",
+            "Optimism Ecosystem",
+            "Bitcoin Ecosystem",
+            "Real World Assets Protocols",
+            "zkSync Era Ecosystem",
+            "Treasure Ecosystem",
+            "Kadena Ecosystem",
+            "Base Ecosystem",
+            "Linea Ecosystem",
+            "Sei Ecosystem",
+            "Toncoin Ecosystem",
+            "Paal Ecosystem",
+            "Blast Ecosystem",
+            "Atomicals Ecosystem",
+            "MoveVM (MVM)",
+            "EigenLayer Ecosystem",
+            "Hyperliquid Ecosystem",
+            "Gnosis Chain Ecosystem",
+            "Ronin Ecosystem",
+            "Rootstock RSK Ecosystem",
+            "Astar Ecosystem",
+            "Wemix Ecosystem",
+            "Core Ecosystem",
+            "Starknet Ecosystem",
+            "Mantle Ecosystem",
+            "opBNB Ecosystem",
+            "Shibarium Ecosystem",
+            "Scroll Ecosystem",
+            "Merlin Ecosystem",
+            "B² Network Ecosystem",
+            "Mode Ecosystem",
+            "Taiko Ecosystem",
+            "Metal Ecosystem",
+            "World Chain Mainnet Ecosystem",
+            "Made in America",
+            "BTCfi",
+            "World Liberty Financial Portfolio",
+            "Corn Ecosystem",
+            "Bonk Fun Ecosystem",
+            "Sonic Ecosystem",
+            "Binance Ecosystem",
+            "Binance Listing",
+            "Bittensor Ecosystem",
+            "HyperEVM Ecosystem",
+            "Etherlink Ecosystem",
+            "Bera Chain Ecosystem",
+            "Abstract Chain Ecosystem",
+            "Unichain Ecosystem",
+            "Soneium Ecosystem",
+            "Fraxtal Ecosystem",
+            "Monad Ecosystem",
+            "Hashkey Chain Ecosystem",
+            "WLFI Ecosystem",
+            "Plasma Ecosystem",
+            "x402 Ecosystem",
+            "ISO 20022",
+            "MegaETH Ecosystem",
+            "SEC/CFTC Token Taxonomy",
+            "SEC/CFTC Digital Commodities",
+            "Robinhood Ecosystem",
+            "Arc Ecosystem"
+          ],
+          "tag-groups": [
+            "CATEGORY",
+            "PLATFORM",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "INDUSTRY",
+            "CATEGORY",
+            "CATEGORY",
+            "PLATFORM",
+            "PLATFORM",
+            "PLATFORM",
+            "PLATFORM",
+            "PLATFORM",
+            "PLATFORM",
+            "PLATFORM",
+            "CATEGORY",
+            "PLATFORM",
+            "PLATFORM",
+            "PLATFORM",
+            "PLATFORM",
+            "PLATFORM",
+            "INDUSTRY",
+            "PLATFORM",
+            "PLATFORM",
+            "PLATFORM",
+            "CATEGORY",
+            "CATEGORY",
+            "PLATFORM",
+            "PLATFORM",
+            "PLATFORM",
+            "PLATFORM",
+            "PLATFORM",
+            "PLATFORM",
+            "PLATFORM",
+            "PLATFORM",
+            "PLATFORM",
+            "PLATFORM",
+            "PLATFORM",
+            "PLATFORM",
+            "PLATFORM",
+            "PLATFORM",
+            "PLATFORM",
+            "CATEGORY",
+            "PLATFORM",
+            "PLATFORM",
+            "PLATFORM",
+            "PLATFORM",
+            "PLATFORM",
+            "PLATFORM",
+            "PLATFORM",
+            "PLATFORM",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "PLATFORM",
+            "CATEGORY",
+            "PLATFORM",
+            "PLATFORM",
+            "PLATFORM",
+            "PLATFORM",
+            "PLATFORM",
+            "PLATFORM",
+            "PLATFORM",
+            "PLATFORM",
+            "PLATFORM",
+            "PLATFORM",
+            "PLATFORM",
+            "PLATFORM",
+            "PLATFORM",
+            "PLATFORM",
+            "PLATFORM",
+            "PLATFORM",
+            "PLATFORM",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "PLATFORM",
+            "PLATFORM",
+            "PLATFORM",
+            "PLATFORM",
+            "PLATFORM",
+            "PLATFORM",
+            "PLATFORM",
+            "PLATFORM",
+            "PLATFORM",
+            "CATEGORY",
+            "PLATFORM",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "PLATFORM"
+          ],
+          "urls": {
+            "website": [
+              "https://chain.link/"
+            ],
+            "twitter": [
+              "https://twitter.com/Chainlink"
+            ],
+            "message_board": [
+              "https://blog.chain.link/"
+            ],
+            "chat": [
+              "https://t.me/chainlinkofficial"
+            ],
+            "facebook": [
+              "https://www.facebook.com/chainlink.smartcontract"
+            ],
+            "explorer": [
+              "https://etherscan.io/token/0x514910771af9ca656af840dff83e8264ecf986ca",
+              "https://bscscan.com/token/0xf8a0bf9cf54bb92f17374d9e9a321e6a111a51bd",
+              "https://solscan.io/token/LinkhB3afbBKb2EQQu7s7umdZceV3wcvAUJhQAfQ23L"
+            ],
+            "reddit": [
+              "https://reddit.com/r/chainlink"
+            ],
+            "technical_doc": [
+              "https://chain.link/whitepaper"
+            ],
+            "source_code": [
+              "https://github.com/smartcontractkit/chainlink"
+            ],
+            "announcement": [
+              "https://blog.chain.link/"
+            ]
+          },
+          "platform": {
+            "id": "1027",
+            "name": "Ethereum",
+            "symbol": "ETH",
+            "slug": "ethereum",
+            "token_address": "0x514910771af9ca656af840dff83e8264ecf986ca"
+          },
+          "date_added": "2017-09-20T00:00:00.000Z",
+          "twitter_username": "Chainlink",
+          "is_hidden": 0,
+          "date_launched": "2017-09-12T00:00:00.000Z",
+          "contract_address": [
+            {
+              "contract_address": "0x514910771af9ca656af840dff83e8264ecf986ca",
+              "platform": {
+                "name": "Ethereum",
+                "coin": {
+                  "id": "1027",
+                  "name": "Ethereum",
+                  "symbol": "ETH",
+                  "slug": "ethereum"
+                }
+              }
+            },
+            {
+              "contract_address": "0xf8a0bf9cf54bb92f17374d9e9a321e6a111a51bd",
+              "platform": {
+                "name": "BNB Smart Chain (BEP20)",
+                "coin": {
+                  "id": "1839",
+                  "name": "BNB",
+                  "symbol": "BNB",
+                  "slug": "bnb"
+                }
+              }
+            },
+            {
+              "contract_address": "LinkhB3afbBKb2EQQu7s7umdZceV3wcvAUJhQAfQ23L",
+              "platform": {
+                "name": "Solana",
+                "coin": {
+                  "id": "5426",
+                  "name": "Solana",
+                  "symbol": "SOL",
+                  "slug": "solana"
+                }
+              }
+            },
+            {
+              "contract_address": "0xE2e73A1c69ecF83F464EFCE6A5be353a37cA09b2",
+              "platform": {
+                "name": "Gnosis Chain",
+                "coin": {
+                  "id": "1659",
+                  "name": "Gnosis",
+                  "symbol": "GNO",
+                  "slug": "gnosis-gno"
+                }
+              }
+            },
+            {
+              "contract_address": "0x53e0bca35ec356bd5dddfebbd1fc0fd03fabad39",
+              "platform": {
+                "name": "Polygon",
+                "coin": {
+                  "id": "28321",
+                  "name": "Polygon (prev. MATIC)",
+                  "symbol": "POL",
+                  "slug": "polygon-ecosystem-token"
+                }
+              }
+            },
+            {
+              "contract_address": "0x5947bb275c521040051d82396192181b413227a3",
+              "platform": {
+                "name": "Avalanche C-Chain",
+                "coin": {
+                  "id": "5805",
+                  "name": "Avalanche",
+                  "symbol": "AVAX",
+                  "slug": "avalanche"
+                }
+              }
+            },
+            {
+              "contract_address": "0xd07294e6E917e07dfDcee882dd1e2565085C2ae0",
+              "platform": {
+                "name": "Celo",
+                "coin": {
+                  "id": "5567",
+                  "name": "Celo",
+                  "symbol": "CELO",
+                  "slug": "celo"
+                }
+              }
+            },
+            {
+              "contract_address": "0x350a791bfc2c21f9ed5d10980dad2e2638ffa7f6",
+              "platform": {
+                "name": "Optimism",
+                "coin": {
+                  "id": "11840",
+                  "name": "Optimism",
+                  "symbol": "OP",
+                  "slug": "optimism-ethereum"
+                }
+              }
+            },
+            {
+              "contract_address": "0xf97f4df75117a78c1A5a0DBb814Af92458539FB4",
+              "platform": {
+                "name": "Arbitrum",
+                "coin": {
+                  "id": "11841",
+                  "name": "Arbitrum",
+                  "symbol": "ARB",
+                  "slug": "arbitrum"
+                }
+              }
+            },
+            {
+              "contract_address": "0x8c80A01F461f297Df7F9DA3A4f740D7297C8Ac85",
+              "platform": {
+                "name": "Cronos",
+                "coin": {
+                  "id": "3635",
+                  "name": "Cronos",
+                  "symbol": "CRO",
+                  "slug": "cronos"
+                }
+              }
+            },
+            {
+              "contract_address": "0x31efb841d5e0b4082f7e1267dab8de1b853f2a9d",
+              "platform": {
+                "name": "Astar",
+                "coin": {
+                  "id": "12885",
+                  "name": "Astar",
+                  "symbol": "ASTR",
+                  "slug": "astar"
+                }
+              }
+            },
+            {
+              "contract_address": "0x80f1FcdC96B55e459BF52b998aBBE2c364935d69",
+              "platform": {
+                "name": "Wemix",
+                "coin": {
+                  "id": "7548",
+                  "name": "WEMIX",
+                  "symbol": "WEMIX",
+                  "slug": "wemix"
+                }
+              }
+            },
+            {
+              "contract_address": "0xE27dd9BF01B55ce6803c0d81386A04212c718b95",
+              "platform": {
+                "name": "XDC Network",
+                "coin": {
+                  "id": "2634",
+                  "name": "XDC Network",
+                  "symbol": "XDC",
+                  "slug": "xdc-network"
+                }
+              }
+            },
+            {
+              "contract_address": "0x3902228D6A3d2Dc44731fD9d45FeE6a61c722D0b",
+              "platform": {
+                "name": "Core",
+                "coin": {
+                  "id": "23254",
+                  "name": "Core",
+                  "symbol": "CORE",
+                  "slug": "core-dao"
+                }
+              }
+            },
+            {
+              "contract_address": "0xa18152629128738a5c081eb226335FEd4B9C95e9",
+              "platform": {
+                "name": "Linea",
+                "coin": {
+                  "id": "27657",
+                  "name": "Linea",
+                  "symbol": "LINEA",
+                  "slug": "linea"
+                }
+              }
+            },
+            {
+              "contract_address": "0x88Fb150BDc53A65fe94Dea0c9BA0a6dAf8C6e196",
+              "platform": {
+                "name": "Base",
+                "coin": {
+                  "id": "27716",
+                  "name": "Base",
+                  "symbol": "-",
+                  "slug": "base"
+                }
+              }
+            },
+            {
+              "contract_address": "0x99f0d88B81b758AB07E22C7AbA00E0121a882dEA",
+              "platform": {
+                "name": "opBNB",
+                "coin": {
+                  "id": "1839",
+                  "name": "BNB",
+                  "symbol": "BNB",
+                  "slug": "bnb"
+                }
+              }
+            },
+            {
+              "contract_address": "0x93202eC683288a9EA75BB829c6baCFb2BfeA9013",
+              "platform": {
+                "name": "Blast",
+                "coin": {
+                  "id": "28480",
+                  "name": "Blast",
+                  "symbol": "BLAST",
+                  "slug": "blast"
+                }
+              }
+            },
+            {
+              "contract_address": "0x71052BAe71C25C78E37fD12E5ff1101A71d9018F",
+              "platform": {
+                "name": "Merlin",
+                "coin": {
+                  "id": "30712",
+                  "name": "Merlin Chain",
+                  "symbol": "MERL",
+                  "slug": "merlin-chain"
+                }
+              }
+            },
+            {
+              "contract_address": "0x8aF9711B44695a5A081F25AB9903DDB73aCf8FA9",
+              "platform": {
+                "name": "X Layer",
+                "coin": {
+                  "id": "3897",
+                  "name": "OKB",
+                  "symbol": "OKB",
+                  "slug": "okb"
+                }
+              }
+            },
+            {
+              "contract_address": "0x183E3691EfF3524B2315D3703D94F922CbE51F54",
+              "platform": {
+                "name": "Mode",
+                "coin": {
+                  "id": "31016",
+                  "name": "Mode",
+                  "symbol": "MODE",
+                  "slug": "mode"
+                }
+              }
+            },
+            {
+              "contract_address": "0x587d19DDF735D6B536aAdB1a2A92938eB23B8d5C",
+              "platform": {
+                "name": "Metal",
+                "coin": {
+                  "id": "1788",
+                  "name": "Metal DAO",
+                  "symbol": "MTL",
+                  "slug": "metal"
+                }
+              }
+            },
+            {
+              "contract_address": "0x61170ca9fB9cF98d4c7d684e07be6D969D59667E",
+              "platform": {
+                "name": "Cronos zkEVM Mainnet",
+                "coin": {
+                  "id": "3635",
+                  "name": "Cronos",
+                  "symbol": "CRO",
+                  "slug": "cronos"
+                }
+              }
+            },
+            {
+              "contract_address": "0x915b648e994d5f31059B38223b9fbe98ae185473",
+              "platform": {
+                "name": "World Chain Mainnet",
+                "coin": {
+                  "id": "13502",
+                  "name": "Worldcoin",
+                  "symbol": "WLD",
+                  "slug": "worldcoin-org"
+                }
+              }
+            },
+            {
+              "contract_address": "0xf575731b78981B86d34321d875A3D25a48479be6",
+              "platform": {
+                "name": "ApeChain",
+                "coin": {
+                  "id": "18876",
+                  "name": "ApeCoin",
+                  "symbol": "APE",
+                  "slug": "apecoin-ape"
+                }
+              }
+            },
+            {
+              "contract_address": "0x71052BAe71C25C78E37fD12E5ff1101A71d9018F",
+              "platform": {
+                "name": "Bera Chain",
+                "coin": {
+                  "id": "24647",
+                  "name": "Berachain",
+                  "symbol": "BERA",
+                  "slug": "berachain"
+                }
+              }
+            },
+            {
+              "contract_address": "0xd6A6ba37fAaC229B9665E86739ca501401f5a940",
+              "platform": {
+                "name": "Fraxtal",
+                "coin": {
+                  "id": "6953",
+                  "name": "Frax (prev. FXS)",
+                  "symbol": "FRAX",
+                  "slug": "frax-share"
+                }
+              }
+            },
+            {
+              "contract_address": "0xC74eAEf00bE07C6C8A28feAa54e50942efEDF02A",
+              "platform": {
+                "name": "Treasure",
+                "coin": {
+                  "id": "14783",
+                  "name": "Treasure",
+                  "symbol": "MAGIC",
+                  "slug": "magic-token"
+                }
+              }
+            },
+            {
+              "contract_address": "0xEF66491eab4bbB582c57b14778afd8dFb70D8A1A",
+              "platform": {
+                "name": "Unichain",
+                "coin": {
+                  "id": "7083",
+                  "name": "Uniswap",
+                  "symbol": "UNI",
+                  "slug": "uniswap"
+                }
+              }
+            },
+            {
+              "contract_address": "0x1AC2EE68b8d038C982C1E1f73F596927dd70De59",
+              "platform": {
+                "name": "HyperEVM",
+                "coin": {
+                  "id": "32196",
+                  "name": "Hyperliquid",
+                  "symbol": "HYPE",
+                  "slug": "hyperliquid"
+                }
+              }
+            },
+            {
+              "contract_address": "0x76f257B1DDA5cC71bee4eF637Fbdde4C801310A9",
+              "platform": {
+                "name": "Monad",
+                "coin": {
+                  "id": "30495",
+                  "name": "Monad",
+                  "symbol": "MON",
+                  "slug": "monad"
+                }
+              }
+            },
+            {
+              "contract_address": "0x8ce7618E8f8E514d13889283F58FF03B794e6CC3",
+              "platform": {
+                "name": "Etherlink",
+                "coin": {
+                  "id": "2011",
+                  "name": "Tezos",
+                  "symbol": "XTZ",
+                  "slug": "tezos"
+                }
+              }
+            },
+            {
+              "contract_address": "0x7311DED199CC28D80E58e81e8589aa160199FCD2",
+              "platform": {
+                "name": "Corn",
+                "coin": {
+                  "id": "36164",
+                  "name": "Corn",
+                  "symbol": "CORN",
+                  "slug": "use-corn"
+                }
+              }
+            },
+            {
+              "contract_address": "0x71052BAe71C25C78E37fD12E5ff1101A71d9018F",
+              "platform": {
+                "name": "Hashkey Chain",
+                "coin": {
+                  "id": "33849",
+                  "name": "HashKey Platform Token",
+                  "symbol": "HSK",
+                  "slug": "hashkey-platform-token"
+                }
+              }
+            },
+            {
+              "contract_address": "0x76a443768A5e3B8d1AED0105FC250877841Deb40",
+              "platform": {
+                "name": "Plasma",
+                "coin": {
+                  "id": "36645",
+                  "name": "Plasma",
+                  "symbol": "XPL",
+                  "slug": "plasma-xpl"
+                }
+              }
+            },
+            {
+              "contract_address": "0x71052BAe71C25C78E37fD12E5ff1101A71d9018F",
+              "platform": {
+                "name": "Ink",
+                "coin": {
+                  "id": "36851",
+                  "name": "INK",
+                  "symbol": "INK",
+                  "slug": "ink-token"
+                }
+              }
+            },
+            {
+              "contract_address": "0xb549B375dA0c76f8b3877B9aDfDD28378f087A64",
+              "platform": {
+                "name": "Plume",
+                "coin": {
+                  "id": "35364",
+                  "name": "Plume",
+                  "symbol": "PLUME",
+                  "slug": "plume"
+                }
+              }
+            },
+            {
+              "contract_address": "0xc2C447b04e0ED3476DdbDae8E9E39bE7159d27b6",
+              "platform": {
+                "name": "Katana",
+                "coin": {
+                  "id": "38769",
+                  "name": "Katana",
+                  "symbol": "KAT",
+                  "slug": "katana-network"
+                }
+              }
+            },
+            {
+              "contract_address": "0x5aB885CDa7216b163fb6F813DEC1E1532516c833",
+              "platform": {
+                "name": "BOB",
+                "coin": {
+                  "id": "38970",
+                  "name": "BOB (Build on Bitcoin)",
+                  "symbol": "BOB",
+                  "slug": "bob-build-on-bitcoin"
+                }
+              }
+            },
+            {
+              "contract_address": "0x56B275c0Ec034a229a1deD8DB17089544bc276D9",
+              "platform": {
+                "name": "Bitlayer",
+                "coin": {
+                  "id": "36277",
+                  "name": "Bitlayer",
+                  "symbol": "BTR",
+                  "slug": "bitlayer"
+                }
+              }
+            },
+            {
+              "contract_address": "0x76a443768A5e3B8d1AED0105FC250877841Deb40",
+              "platform": {
+                "name": "Morph",
+                "coin": {
+                  "id": "11092",
+                  "name": "Bitget Token",
+                  "symbol": "BGB",
+                  "slug": "bitget-token-new"
+                }
+              }
+            },
+            {
+              "contract_address": "0x492641f648a4986844848e0befe66d14817bce34",
+              "platform": {
+                "name": "Robinhood Chain",
+                "coin": {
+                  "id": "40670",
+                  "name": "Robinhood",
+                  "symbol": "-",
+                  "slug": "robinhood-placeholder"
+                }
+              }
+            },
+            {
+              "contract_address": "0x51e2A24742Db77604B881d6781Ee16B5b8fcBE29",
+              "platform": {
+                "name": "Pharos",
+                "coin": {
+                  "id": "39682",
+                  "name": "Pharos",
+                  "symbol": "PROS",
+                  "slug": "pharos"
+                }
+              }
+            },
+            {
+              "contract_address": "0x63dbE12A6381D64adE47bc3D92aBF4393DFF4BC8",
+              "platform": {
+                "name": "Hemi",
+                "coin": {
+                  "id": "38159",
+                  "name": "Hemi",
+                  "symbol": "HEMI",
+                  "slug": "hemi"
+                }
+              }
+            },
+            {
+              "contract_address": "0x76a443768A5e3B8d1AED0105FC250877841Deb40",
+              "platform": {
+                "name": "AB",
+                "coin": {
+                  "id": "3871",
+                  "name": "AB",
+                  "symbol": "AB",
+                  "slug": "newton"
+                }
+              }
+            },
+            {
+              "contract_address": "0x71052BAe71C25C78E37fD12E5ff1101A71d9018F",
+              "platform": {
+                "name": "Lisk",
+                "coin": {
+                  "id": "1214",
+                  "name": "Lisk",
+                  "symbol": "LSK",
+                  "slug": "lisk"
+                }
+              }
+            },
+            {
+              "contract_address": "0x5D6d033B4FbD2190D99D930719fAbAcB64d2439a",
+              "platform": {
+                "name": "Zircuit",
+                "coin": {
+                  "id": "29711",
+                  "name": "Zircuit",
+                  "symbol": "ZRC",
+                  "slug": "zircuit"
+                }
+              }
+            },
+            {
+              "contract_address": "0x76a443768a5e3b8d1aed0105fc250877841deb40",
+              "platform": {
+                "name": "Arc",
+                "coin": {
+                  "id": "40977",
+                  "name": "Arc",
+                  "symbol": "-",
+                  "slug": "arc-token"
+                }
+              }
+            }
+          ],
+          "self_reported_tags": [
+            "Asset Management",
+            "Platform",
+            "Cosmos Ecosystem",
+            "Sports",
+            "AI & Big Data",
+            "Distributed Computing",
+            "DeFi",
+            "Zero Knowledge Proofs",
+            "Gaming",
+            "Identity",
+            "Interoperability",
+            "Oracles",
+            "Payments",
+            "Research",
+            "Smart Contracts",
+            "Staking",
+            "Insurance",
+            "Ethereum Ecosystem",
+            "Horizon",
+            "Stellar Ecosystem",
+            "Cosmos",
+            "TRON Ecosystem",
+            "Polkadot",
+            "Solana Ecosystem",
+            "Aave Tokens",
+            "Hedera Hashgraph Ecosystem",
+            "Polygon Ecosystem",
+            "Cardano Ecosystem",
+            "Web3",
+            "Token",
+            "Arbitrum Ecosystem",
+            "Celo Ecosystem",
+            "Zilliqa Ecosystem",
+            "DeFi 2.0",
+            "Cross-Chain",
+            "Moonriver Ecosystem",
+            "Injective Ecosystem",
+            "BNB Chain Ecosystem",
+            "Oasis Ecosystem",
+            "Moonbeam Ecosystem",
+            "MetisDAO Ecosystem",
+            "Opensource",
+            "Aptos Ecosystem",
+            "Canto Ecosystem",
+            "Real World Assets Protocols",
+            "Filecoin Ecosystem",
+            "Pulsechain Ecosystem",
+            "Base Ecosystem",
+            "Linea Ecosystem",
+            "Sei Ecosystem",
+            "Toncoin Ecosystem",
+            "Blast Ecosystem",
+            "DePIN",
+            "Pump Fun Ecosystem",
+            "Hyperliquid Ecosystem",
+            "Cocos Ecosystem",
+            "Ronin Ecosystem",
+            "Astar Ecosystem",
+            "Polygon zkEVM Ecosystem",
+            "Ordinals - BRC20 Ecosystem",
+            "Starknet Ecosystem",
+            "Mantle Ecosystem",
+            "Shibarium Ecosystem",
+            "Mode Ecosystem",
+            "World Chain Mainnet Ecosystem",
+            "Made in America",
+            "World Liberty Financial Portfolio"
+          ],
+          "infinite_supply": false
+        }
+      },
+      "status": {
+        "timestamp": "2026-09-26T10:45:24.768Z",
+        "error_code": 0,
+        "error_message": null,
+        "elapsed": 7,
+        "credit_count": 1,
+        "notice": null
+      }
+    }
+  }
+}

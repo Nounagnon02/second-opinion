@@ -1,0 +1,144 @@
+{
+  "label": "E02-c93fc71e-20260925T215711590Z",
+  "recordedAt": "2026-09-25T21:57:11.590Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v3/cryptocurrency/quotes/latest?convert=USD&id=32196",
+    "path": "/v3/cryptocurrency/quotes/latest",
+    "query": {
+      "convert": "USD",
+      "id": "32196"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 518,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Fri, 25 Sep 2026 21:57:11 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 715cc2fe99ad4f311de46e74c166c5a2.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "rbmFz-yNWRNhyoc-cf4rISriPQv7quAWKZm05IgPlQ8If_PucRnB2g==",
+      "x-amz-cf-pop": "LOS50-P4",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "12",
+      "x-server-traceid": "0a9e3ec12d3c9a1e2438877ab9d48f39"
+    },
+    "body": {
+      "data": [
+        {
+          "tags": [
+            {
+              "slug": "decentralized-exchange-dex-token",
+              "name": "Decentralized Exchange (DEX) Token",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "defi",
+              "name": "DeFi",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "derivatives",
+              "name": "Derivatives",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "layer-1",
+              "name": "Layer 1",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "hyperliquid-ecosystem",
+              "name": "Hyperliquid Ecosystem",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-ecosystem",
+              "name": "Binance Ecosystem",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-listing",
+              "name": "Binance Listing",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "perpetuals",
+              "name": "Perpetuals",
+              "category": "CATEGORY"
+            }
+          ],
+          "id": 32196,
+          "name": "Hyperliquid",
+          "symbol": "HYPE",
+          "slug": "hyperliquid",
+          "is_active": 1,
+          "infinite_supply": false,
+          "is_fiat": 0,
+          "circulating_supply": 251214324.41464028,
+          "total_supply": 951407007.7850032,
+          "max_supply": 951407358.9934124,
+          "date_added": "2024-07-15T10:14:50.000Z",
+          "num_market_pairs": 332,
+          "cmc_rank": 10,
+          "last_updated": "2026-09-25T21:56:00.000Z",
+          "tvl_ratio": null,
+          "platform": {
+            "id": 32196,
+            "slug": "hyperliquid",
+            "name": "Hyperliquid",
+            "symbol": "HYPE",
+            "token_address": "0x0d01dc56dcaaca66ad901c959b4011ec"
+          },
+          "self_reported_circulating_supply": 333931719,
+          "self_reported_market_cap": 30620885134.834473,
+          "minted_market_cap": 87242160730.05,
+          "quote": [
+            {
+              "id": 2781,
+              "symbol": "USD",
+              "price": 91.69804302068853,
+              "volume_24h": 1070138301.8030843,
+              "volume_change_24h": -11.9103,
+              "cex_volume_24h": 1001820359.4644129,
+              "dex_volume_24h": 68317942.33867134,
+              "percent_change_1h": 0.03643236,
+              "percent_change_24h": -1.50660092,
+              "percent_change_7d": 0.25137575,
+              "percent_change_30d": 11.74335226,
+              "percent_change_60d": 61.71570753,
+              "percent_change_90d": 47.04432186,
+              "market_cap": 23035861927.586887,
+              "market_cap_dominance": 0.8014,
+              "fully_diluted_market_cap": 87242192935.18,
+              "minted_market_cap": 87242160730.05,
+              "tvl": null,
+              "last_updated": "2026-09-25T21:56:03.000Z"
+            }
+          ]
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-25T21:57:11.336Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 6,
+        "credit_count": 1
+      }
+    }
+  }
+}

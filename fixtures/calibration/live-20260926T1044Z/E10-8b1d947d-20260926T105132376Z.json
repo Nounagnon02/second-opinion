@@ -1,0 +1,46 @@
+{
+  "label": "E10-8b1d947d-20260926T105132376Z",
+  "recordedAt": "2026-09-26T10:51:32.376Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v1/dex/token/price?address=ryjl3-tyaaa-aaaaa-aaaba-cai&platform=internet-computer",
+    "path": "/v1/dex/token/price",
+    "query": {
+      "address": "ryjl3-tyaaa-aaaaa-aaaba-cai",
+      "platform": "internet-computer"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 500,
+    "statusText": "Internal Server Error",
+    "latencyMs": 734,
+    "headers": {
+      "age": "1",
+      "connection": "keep-alive",
+      "content-length": "163",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 10:51:31 GMT",
+      "server": "nginx",
+      "via": "1.1 df2f03f1e32bc36cc15af726be2891aa.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "dbJWmZKwa_nhbus9u0tFvh-SuMjmdKBjSULwzAhDFFTPE1h8zYah4A==",
+      "x-amz-cf-pop": "IAD55-P7",
+      "x-cache": "Error from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "170",
+      "x-server-traceid": "f3e47a3a493ca724ab009396c8bf0e4c"
+    },
+    "body": {
+      "status": {
+        "timestamp": "2026-09-26T10:51:31.115Z",
+        "error_code": "500",
+        "error_message": "The system is busy, please try again later!",
+        "elapsed": 166,
+        "credit_count": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "label": "E10-b3a529ed-20260925T215611457Z",
+  "recordedAt": "2026-09-25T21:56:11.457Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v1/dex/token/price?address=So11111111111111111111111111111111111111111&platform=solana",
+    "path": "/v1/dex/token/price",
+    "query": {
+      "address": "So11111111111111111111111111111111111111111",
+      "platform": "solana"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 688,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Fri, 25 Sep 2026 21:56:11 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 4211ff6411664b7619653768d1a4a490.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "oUFhT0Cn0qlZTns-2ib6PtKPedN_s2R1SPyZiW4Cveqxo849eMjTGw==",
+      "x-amz-cf-pop": "LOS50-P4",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "176",
+      "x-server-traceid": "971d8edcbad74f60238e78d3af5e104c"
+    },
+    "body": {
+      "data": {
+        "pid": 16,
+        "pdex": "Solana",
+        "a": "So11111111111111111111111111111111111111111",
+        "p": 121.01066345458172,
+        "pc24h": 0.0341,
+        "pc7d": 0.0682,
+        "v24h": 70766.05459660909,
+        "l": 12805.543448362896,
+        "ts": "1790373324000",
+        "fpct": "1705237032000"
+      },
+      "status": {
+        "timestamp": "2026-09-25T21:56:11.199Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 171,
+        "credit_count": 1
+      }
+    }
+  }
+}

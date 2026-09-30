@@ -1,0 +1,159 @@
+{
+  "label": "E02-2d557c50-20260925T220017322Z",
+  "recordedAt": "2026-09-25T22:00:17.322Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v3/cryptocurrency/quotes/latest?convert=USD&id=5994",
+    "path": "/v3/cryptocurrency/quotes/latest",
+    "query": {
+      "convert": "USD",
+      "id": "5994"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 3790,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Fri, 25 Sep 2026 22:00:17 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 39e519d65c07d4d8d73d1f22f04f931a.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "c0E_Zk-iQraoRzKXV1B3GNoA2-8yoXlVrr8BHM6zafXlEon5KdGaww==",
+      "x-amz-cf-pop": "CDG55-P3",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "6",
+      "x-server-traceid": "0e910315971d9418f051f48faa45c7c0"
+    },
+    "body": {
+      "data": [
+        {
+          "tags": [
+            {
+              "slug": "memes",
+              "name": "Memes",
+              "category": "INDUSTRY"
+            },
+            {
+              "slug": "ethereum-ecosystem",
+              "name": "Ethereum Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "doggone-doggerel",
+              "name": "Doggone Doggerel",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "bnb-chain-ecosystem",
+              "name": "BNB Chain Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "base-ecosystem",
+              "name": "Base Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "animal-memes",
+              "name": "Animal Memes",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-ecosystem",
+              "name": "Binance Ecosystem",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-listing",
+              "name": "Binance Listing",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "etherlink-ecosystem",
+              "name": "Etherlink Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "sec-cftc-token-taxonomy",
+              "name": "SEC/CFTC Token Taxonomy",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "sec-cftc-digital-commodities",
+              "name": "SEC/CFTC Digital Commodities",
+              "category": "CATEGORY"
+            }
+          ],
+          "id": 5994,
+          "name": "Shiba Inu",
+          "symbol": "SHIB",
+          "slug": "shiba-inu",
+          "is_active": 1,
+          "infinite_supply": false,
+          "is_fiat": 0,
+          "circulating_supply": 589238965129231,
+          "total_supply": 589496067239083.8,
+          "max_supply": 589552695333683,
+          "date_added": "2020-08-01T00:00:00.000Z",
+          "num_market_pairs": 1102,
+          "cmc_rank": 30,
+          "last_updated": "2026-09-25T21:58:00.000Z",
+          "tvl_ratio": null,
+          "platform": {
+            "id": 1027,
+            "slug": "ethereum",
+            "name": "Ethereum",
+            "symbol": "ETH",
+            "token_address": "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce"
+          },
+          "self_reported_circulating_supply": 589551575078137,
+          "self_reported_market_cap": 3439527492.4115243,
+          "minted_market_cap": 3439203651.81,
+          "quote": [
+            {
+              "id": 2781,
+              "symbol": "USD",
+              "price": 0.000005834141808468,
+              "volume_24h": 93867008.65205903,
+              "volume_change_24h": -0.9598,
+              "cex_volume_24h": 93610443.58182311,
+              "dex_volume_24h": 256565.07023591,
+              "percent_change_1h": -0.90601463,
+              "percent_change_24h": 0.11593369,
+              "percent_change_7d": 5.93724997,
+              "percent_change_30d": 10.17923934,
+              "percent_change_60d": 15.53478988,
+              "percent_change_90d": 38.54936973,
+              "market_cap": 3437703681.6388693,
+              "market_cap_dominance": 0.1196,
+              "fully_diluted_market_cap": 3439534028.14,
+              "minted_market_cap": 3439203651.81,
+              "tvl": null,
+              "last_updated": "2026-09-25T21:59:04.000Z"
+            }
+          ]
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-25T22:00:17.226Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 3,
+        "credit_count": 1
+      }
+    }
+  }
+}

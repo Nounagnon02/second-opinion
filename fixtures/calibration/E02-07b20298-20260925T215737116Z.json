@@ -1,0 +1,163 @@
+{
+  "label": "E02-07b20298-20260925T215737116Z",
+  "recordedAt": "2026-09-25T21:57:37.116Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v3/cryptocurrency/quotes/latest?convert=USD&id=328",
+    "path": "/v3/cryptocurrency/quotes/latest",
+    "query": {
+      "convert": "USD",
+      "id": "328"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 1036,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Fri, 25 Sep 2026 21:57:36 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 715cc2fe99ad4f311de46e74c166c5a2.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "nbzKlbL6_WJRGkNvVfKF-VR93jL44iuSa0wESgZK-LCyNOL-OW87bA==",
+      "x-amz-cf-pop": "LOS50-P4",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "10",
+      "x-server-traceid": "43f416f252018ab89be433c9b0a1b435"
+    },
+    "body": {
+      "data": [
+        {
+          "tags": [
+            {
+              "slug": "mineable",
+              "name": "Mineable",
+              "category": "OTHERS"
+            },
+            {
+              "slug": "pow",
+              "name": "PoW",
+              "category": "ALGORITHM"
+            },
+            {
+              "slug": "medium-of-exchange",
+              "name": "Medium of Exchange",
+              "category": "INDUSTRY"
+            },
+            {
+              "slug": "privacy",
+              "name": "Privacy",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "ringct",
+              "name": "RingCT",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "boostvc-portfolio",
+              "name": "BoostVC Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "electric-capital-portfolio",
+              "name": "Electric Capital Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "galaxy-digital-portfolio",
+              "name": "Galaxy Digital Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "layer-1",
+              "name": "Layer 1",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "2017-2018-alt-season",
+              "name": "2017/18 Alt season",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-ecosystem",
+              "name": "Binance Ecosystem",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-listing",
+              "name": "Binance Listing",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "privacy-coins",
+              "name": "Privacy Coins",
+              "category": "CATEGORY"
+            }
+          ],
+          "id": 328,
+          "name": "Monero",
+          "symbol": "XMR",
+          "slug": "monero",
+          "is_active": 1,
+          "infinite_supply": true,
+          "is_fiat": 0,
+          "circulating_supply": 18809461.88989584,
+          "total_supply": 18809461.88989584,
+          "max_supply": null,
+          "date_added": "2014-05-21T00:00:00.000Z",
+          "num_market_pairs": 377,
+          "cmc_rank": 12,
+          "last_updated": "2026-09-25T21:56:00.000Z",
+          "tvl_ratio": null,
+          "platform": null,
+          "self_reported_circulating_supply": null,
+          "self_reported_market_cap": null,
+          "minted_market_cap": 10384957747.42,
+          "quote": [
+            {
+              "id": 2781,
+              "symbol": "USD",
+              "price": 552.11349522947,
+              "volume_24h": 118086472.4324157,
+              "volume_change_24h": -13.823,
+              "cex_volume_24h": 118086472.4324157,
+              "dex_volume_24h": 0,
+              "percent_change_1h": -1.33917532,
+              "percent_change_24h": -3.22760078,
+              "percent_change_7d": -2.82341196,
+              "percent_change_30d": 26.97312559,
+              "percent_change_60d": 58.40250817,
+              "percent_change_90d": 76.93037247,
+              "market_cap": 10384957747.415905,
+              "market_cap_dominance": 0.3613,
+              "fully_diluted_market_cap": 10384957747.42,
+              "minted_market_cap": 10384957747.42,
+              "tvl": null,
+              "last_updated": "2026-09-25T21:56:03.000Z"
+            }
+          ]
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-25T21:57:36.810Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 4,
+        "credit_count": 1
+      }
+    }
+  }
+}

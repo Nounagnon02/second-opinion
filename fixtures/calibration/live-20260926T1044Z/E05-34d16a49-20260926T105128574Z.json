@@ -1,0 +1,190 @@
+{
+  "label": "E05-34d16a49-20260926T105128574Z",
+  "recordedAt": "2026-09-26T10:51:28.574Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v2/cryptocurrency/info?id=13502",
+    "path": "/v2/cryptocurrency/info",
+    "query": {
+      "id": "13502"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 1305,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 10:51:28 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 8ea525de0a543f72f5e5f9278e2150b4.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "TU_8TzLzNiCwxTqIGe__dDGDlMSBesrNjNECfxzT2l4gw5u1Uor8tg==",
+      "x-amz-cf-pop": "IAD55-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "12",
+      "x-server-traceid": "7245d700c031161b2c1cea82dd9f938b"
+    },
+    "body": {
+      "data": {
+        "13502": {
+          "id": 13502,
+          "name": "Worldcoin",
+          "symbol": "WLD",
+          "category": "token",
+          "description": "Worldcoin (WLD) is a cryptocurrency launched in 2023and operates on the Ethereum platform. Worldcoin has a current supply of 10,000,000,000 with 3,715,161,619.1244993 in circulation. The last known price of Worldcoin is 0.48613269 USD and is up 7.85 over the last 24 hours. It is currently trading on 583 active market(s) with $483,142,588.23 traded over the last 24 hours. More information can be found at https://worldcoin.org/.",
+          "slug": "worldcoin-org",
+          "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/13502.png",
+          "subreddit": "",
+          "notice": "Please note that 'Holders' and 'Addresses by Holdings' under Analytics only account for WLD tokens on the Ethereum and Optimism chains and does not include tokens on the World Chain.",
+          "tags": [
+            "defi",
+            "zero-knowledge-proofs",
+            "identity",
+            "ethereum-ecosystem",
+            "governance",
+            "blockchain-capital-portfolio",
+            "a16z-portfolio",
+            "token",
+            "optimism-ecosystem",
+            "world-chain-mainnet-ecosystem",
+            "made-in-america",
+            "binance-ecosystem",
+            "binance-listing"
+          ],
+          "tag-names": [
+            "DeFi",
+            "Zero Knowledge Proofs",
+            "Identity",
+            "Ethereum Ecosystem",
+            "Governance",
+            "Blockchain Capital Portfolio",
+            "a16z Portfolio",
+            "Token",
+            "Optimism Ecosystem",
+            "World Chain Mainnet Ecosystem",
+            "Made in America",
+            "Binance Ecosystem",
+            "Binance Listing"
+          ],
+          "tag-groups": [
+            "CATEGORY",
+            "CATEGORY",
+            "INDUSTRY",
+            "PLATFORM",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "PLATFORM",
+            "PLATFORM",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY"
+          ],
+          "urls": {
+            "website": [
+              "https://worldcoin.org/"
+            ],
+            "twitter": [
+              "https://twitter.com/worldnetwork"
+            ],
+            "message_board": [
+              "https://worldcoin.org/blog"
+            ],
+            "chat": [
+              "https://discord.com/invite/worldnetwork"
+            ],
+            "facebook": [],
+            "explorer": [
+              "https://etherscan.io/token/0x163f8c2467924be0ae7b5347228cabf260318753",
+              "https://optimistic.etherscan.io/token/0xdc6ff44d5d932cbd77b52e5612ba0529dc6226f1",
+              "https://www.okx.com/web3/explorer/eth/token/0x163f8c2467924be0ae7b5347228cabf260318753"
+            ],
+            "reddit": [],
+            "technical_doc": [
+              "https://whitepaper.worldcoin.org/"
+            ],
+            "source_code": [
+              "https://github.com/worldcoin"
+            ],
+            "announcement": [
+              "https://worldcoin.org/blog/announcements/worldcoin-project-launches"
+            ]
+          },
+          "platform": {
+            "id": "1027",
+            "name": "Ethereum",
+            "symbol": "ETH",
+            "slug": "ethereum",
+            "token_address": "0x163f8c2467924be0ae7b5347228cabf260318753"
+          },
+          "date_added": "2021-10-28T15:31:43.000Z",
+          "twitter_username": "worldnetwork",
+          "is_hidden": 0,
+          "date_launched": "2023-07-24T00:00:00.000Z",
+          "contract_address": [
+            {
+              "contract_address": "0x163f8c2467924be0ae7b5347228cabf260318753",
+              "platform": {
+                "name": "Ethereum",
+                "coin": {
+                  "id": "1027",
+                  "name": "Ethereum",
+                  "symbol": "ETH",
+                  "slug": "ethereum"
+                }
+              }
+            },
+            {
+              "contract_address": "0xdc6ff44d5d932cbd77b52e5612ba0529dc6226f1",
+              "platform": {
+                "name": "Optimism",
+                "coin": {
+                  "id": "11840",
+                  "name": "Optimism",
+                  "symbol": "OP",
+                  "slug": "optimism-ethereum"
+                }
+              }
+            },
+            {
+              "contract_address": "0x2cFc85d8E48F8EAB294be644d9E25C3030863003",
+              "platform": {
+                "name": "World Chain Mainnet",
+                "coin": {
+                  "id": "13502",
+                  "name": "Worldcoin",
+                  "symbol": "WLD",
+                  "slug": "worldcoin-org"
+                }
+              }
+            }
+          ],
+          "self_reported_circulating_supply": 3715160393.13,
+          "self_reported_market_cap": 1802217840.3406143,
+          "infinite_supply": false
+        }
+      },
+      "status": {
+        "timestamp": "2026-09-26T10:51:28.177Z",
+        "error_code": 0,
+        "error_message": null,
+        "elapsed": 6,
+        "credit_count": 1,
+        "notice": null
+      }
+    }
+  }
+}

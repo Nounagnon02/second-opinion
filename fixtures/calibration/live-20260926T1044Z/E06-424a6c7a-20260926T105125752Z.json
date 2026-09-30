@@ -1,0 +1,65 @@
+{
+  "label": "E06-424a6c7a-20260926T105125752Z",
+  "recordedAt": "2026-09-26T10:51:25.752Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v2/simple/price?id=24478&include_last_updated=true",
+    "path": "/v2/simple/price",
+    "query": {
+      "id": "24478",
+      "include_last_updated": "true"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 344,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 10:51:25 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 df2f03f1e32bc36cc15af726be2891aa.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "Eu9g8OXYTn9GGhIOxmRb_BUhE4h1ctPQAam3zb0lDyyFUHRaKc0QoA==",
+      "x-amz-cf-pop": "IAD55-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "11",
+      "x-server-traceid": "eb70cf00e8b7eaf1ca90f20861c14d9d"
+    },
+    "body": {
+      "data": [
+        {
+          "id": 24478,
+          "name": "Pepe",
+          "symbol": "PEPE",
+          "slug": "pepe",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "price": 0.000004432134135158,
+              "last_updated": "2026-09-26T10:50:02.000Z"
+            }
+          ]
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-26T10:51:25.609Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 4,
+        "credit_count": 1
+      }
+    }
+  }
+}

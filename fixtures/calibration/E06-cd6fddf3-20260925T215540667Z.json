@@ -1,0 +1,65 @@
+{
+  "label": "E06-cd6fddf3-20260925T215540667Z",
+  "recordedAt": "2026-09-25T21:55:40.667Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v2/simple/price?id=1027&include_last_updated=true",
+    "path": "/v2/simple/price",
+    "query": {
+      "id": "1027",
+      "include_last_updated": "true"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 7360,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Fri, 25 Sep 2026 21:55:40 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 57a4f221d5f0d6794b4bdac6b2e05528.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "UWK32_Cx4_kLUt9ulqAhUC_srpbkaByvXP0I1ifHbeicpyjYM4HynQ==",
+      "x-amz-cf-pop": "LOS50-P4",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "9",
+      "x-server-traceid": "16fcbd25e86cb9d143e9383ff92626f7"
+    },
+    "body": {
+      "data": [
+        {
+          "id": 1027,
+          "name": "Ethereum",
+          "symbol": "ETH",
+          "slug": "ethereum",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "price": 2681.2964810418744,
+              "last_updated": "2026-09-25T21:54:03.000Z"
+            }
+          ]
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-25T21:55:40.370Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 4,
+        "credit_count": 1
+      }
+    }
+  }
+}

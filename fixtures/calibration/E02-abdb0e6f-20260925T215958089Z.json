@@ -1,0 +1,149 @@
+{
+  "label": "E02-abdb0e6f-20260925T215958089Z",
+  "recordedAt": "2026-09-25T21:59:58.089Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v3/cryptocurrency/quotes/latest?convert=USD&id=36148",
+    "path": "/v3/cryptocurrency/quotes/latest",
+    "query": {
+      "convert": "USD",
+      "id": "36148"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 252,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Fri, 25 Sep 2026 21:59:57 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 0302c871dcf97d5203274aac0be06aae.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "VBU-NwA0g2RiPqfFv32BMLCN-xhjsseqIx-3B8HumykH6oo1op1WSw==",
+      "x-amz-cf-pop": "CDG55-P3",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "9",
+      "x-server-traceid": "0000a478ee8825e9efabc6aea4ef4529"
+    },
+    "body": {
+      "data": [
+        {
+          "tags": [
+            {
+              "slug": "stablecoin",
+              "name": "Stablecoin",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "asset-backed-stablecoin",
+              "name": "Asset-Backed Stablecoin",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "usd-stablecoin",
+              "name": "USD Stablecoin",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "tron20-ecosystem",
+              "name": "Tron20 Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "made-in-america",
+              "name": "Made in America",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "world-liberty-financial-portfolio",
+              "name": "World Liberty Financial Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-ecosystem",
+              "name": "Binance Ecosystem",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-listing",
+              "name": "Binance Listing",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "wlfi-ecosystem",
+              "name": "WLFI Ecosystem",
+              "category": "CATEGORY"
+            }
+          ],
+          "id": 36148,
+          "name": "World Liberty Financial USD",
+          "symbol": "USD1",
+          "slug": "usd1",
+          "is_active": 1,
+          "infinite_supply": false,
+          "is_fiat": 0,
+          "circulating_supply": 4396162117.494871,
+          "total_supply": 4396162117.494871,
+          "max_supply": null,
+          "date_added": "2025-04-13T05:37:56.000Z",
+          "num_market_pairs": 1805,
+          "cmc_rank": 26,
+          "last_updated": "2026-09-25T21:59:00.000Z",
+          "tvl_ratio": null,
+          "platform": {
+            "id": 1027,
+            "slug": "ethereum",
+            "name": "Ethereum",
+            "symbol": "ETH",
+            "token_address": "0x8d0D000Ee44948FC98c9B98A4FA4921476f08B0d"
+          },
+          "self_reported_circulating_supply": null,
+          "self_reported_market_cap": null,
+          "minted_market_cap": 4394122276.06,
+          "quote": [
+            {
+              "id": 2781,
+              "symbol": "USD",
+              "price": 0.9995359949477287,
+              "volume_24h": 1035753105.4123027,
+              "volume_change_24h": -2.86,
+              "cex_volume_24h": 1018093659.6612887,
+              "dex_volume_24h": 17659445.75101382,
+              "percent_change_1h": 0.00310546,
+              "percent_change_24h": 0.04040943,
+              "percent_change_7d": -0.01175342,
+              "percent_change_30d": -0.01862008,
+              "percent_change_60d": 0.07222087,
+              "percent_change_90d": 0.0552467,
+              "market_cap": 4394122276.061749,
+              "market_cap_dominance": 0.1529,
+              "fully_diluted_market_cap": 4394122276.06,
+              "minted_market_cap": 4394122276.06,
+              "tvl": null,
+              "last_updated": "2026-09-25T21:59:04.000Z"
+            }
+          ]
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-25T21:59:57.980Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 4,
+        "credit_count": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "label": "E05-116c8a4f-20260926T104618033Z",
+  "recordedAt": "2026-09-26T10:46:18.033Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v2/cryptocurrency/info?id=2010",
+    "path": "/v2/cryptocurrency/info",
+    "query": {
+      "id": "2010"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 435,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 10:46:17 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 24eb88cb96b9676eb6757c142361d0e2.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "i1wPZbNlLbQZqsB4hsTvHIsd8-V86tDj9n1mK6Tl--NCrolEDcrc5g==",
+      "x-amz-cf-pop": "IAD55-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "12",
+      "x-server-traceid": "d4ddafe612c5ea983c92dce3d9e3ace1"
+    },
+    "body": {
+      "data": {
+        "2010": {
+          "id": 2010,
+          "name": "Cardano",
+          "symbol": "ADA",
+          "category": "coin",
+          "description": "Cardano (ADA) is a cryptocurrency launched in 2017. Cardano has a current supply of 44,994,754,748.600826 with 36,767,374,068.33432 in circulation. The last known price of Cardano is 0.25683854 USD and is up 1.77 over the last 24 hours. It is currently trading on 1742 active market(s) with $814,234,593.03 traded over the last 24 hours. More information can be found at https://www.cardano.org.",
+          "slug": "cardano",
+          "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/2010.png",
+          "subreddit": "cardano",
+          "notice": "",
+          "tags": [
+            "dpos",
+            "pos",
+            "platform",
+            "research",
+            "smart-contracts",
+            "staking",
+            "cardano-ecosystem",
+            "cardano",
+            "layer-1",
+            "alleged-sec-securities",
+            "2017-2018-alt-season",
+            "made-in-america",
+            "us-strategic-crypto-reserve",
+            "binance-ecosystem",
+            "binance-listing",
+            "iso-20022",
+            "sec-cftc-token-taxonomy",
+            "sec-cftc-digital-commodities"
+          ],
+          "tag-names": [
+            "DPoS",
+            "PoS",
+            "Platform",
+            "Research",
+            "Smart Contracts",
+            "Staking",
+            "Cardano Ecosystem",
+            "Cardano",
+            "Layer 1",
+            "Alleged SEC Securities",
+            "2017/18 Alt season",
+            "Made in America",
+            "US Strategic Crypto Reserve",
+            "Binance Ecosystem",
+            "Binance Listing",
+            "ISO 20022",
+            "SEC/CFTC Token Taxonomy",
+            "SEC/CFTC Digital Commodities"
+          ],
+          "tag-groups": [
+            "ALGORITHM",
+            "ALGORITHM",
+            "CATEGORY",
+            "INDUSTRY",
+            "CATEGORY",
+            "CATEGORY",
+            "PLATFORM",
+            "PLATFORM",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY"
+          ],
+          "urls": {
+            "website": [
+              "https://www.cardano.org"
+            ],
+            "twitter": [
+              "https://twitter.com/cardano"
+            ],
+            "message_board": [
+              "https://cardano.org/news/atom.xml",
+              "https://forum.cardano.org/"
+            ],
+            "chat": [
+              "https://t.me/Cardano"
+            ],
+            "facebook": [
+              "https://www.facebook.com/groups/CardanoCommunity/"
+            ],
+            "explorer": [
+              "https://explorer.cardano.org",
+              "https://cardanoscan.io/",
+              "https://blockchair.com/cardano",
+              "https://bscscan.com/token/0x3ee2200efb3400fabb9aacf31297cbdd1d435d47"
+            ],
+            "reddit": [
+              "https://reddit.com/r/cardano"
+            ],
+            "technical_doc": [
+              "https://developers.cardano.org/"
+            ],
+            "source_code": [
+              "https://cardanoupdates.com/"
+            ],
+            "announcement": [
+              "https://t.me/CardanoAnnouncements"
+            ]
+          },
+          "platform": null,
+          "date_added": "2017-10-01T00:00:00.000Z",
+          "twitter_username": "cardano",
+          "is_hidden": 0,
+          "date_launched": "2017-09-01T00:00:00.000Z",
+          "contract_address": [
+            {
+              "contract_address": "0x3ee2200efb3400fabb9aacf31297cbdd1d435d47",
+              "platform": {
+                "name": "BNB Smart Chain (BEP20)",
+                "coin": {
+                  "id": "1839",
+                  "name": "BNB",
+                  "symbol": "BNB",
+                  "slug": "bnb"
+                }
+              }
+            }
+          ],
+          "self_reported_circulating_supply": 37997904336,
+          "self_reported_tags": [
+            "Communications & Social Media"
+          ],
+          "self_reported_market_cap": 9753461829.65107,
+          "infinite_supply": false
+        }
+      },
+      "status": {
+        "timestamp": "2026-09-26T10:46:17.680Z",
+        "error_code": 0,
+        "error_message": null,
+        "elapsed": 7,
+        "credit_count": 1,
+        "notice": null
+      }
+    }
+  }
+}

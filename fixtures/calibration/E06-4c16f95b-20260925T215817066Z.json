@@ -1,0 +1,65 @@
+{
+  "label": "E06-4c16f95b-20260925T215817066Z",
+  "recordedAt": "2026-09-25T21:58:17.066Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v2/simple/price?id=3957&include_last_updated=true",
+    "path": "/v2/simple/price",
+    "query": {
+      "id": "3957",
+      "include_last_updated": "true"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 12052,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Fri, 25 Sep 2026 21:58:16 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 f9168f8ea6b6eed7ed879d30ca87664a.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "gNhfnujNYtMafJb5EEx4v3JQYs1xZQR014CA0uoit3vZsXSKTeNIcQ==",
+      "x-amz-cf-pop": "LOS50-P4",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "9",
+      "x-server-traceid": "353ab904d636cd257c0d7c29541ee90b"
+    },
+    "body": {
+      "data": [
+        {
+          "id": 3957,
+          "name": "UNUS SED LEO",
+          "symbol": "LEO",
+          "slug": "unus-sed-leo",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "price": 8.842310356985548,
+              "last_updated": "2026-09-25T21:57:03.000Z"
+            }
+          ]
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-25T21:58:16.798Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 4,
+        "credit_count": 1
+      }
+    }
+  }
+}

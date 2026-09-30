@@ -1,0 +1,134 @@
+{
+  "label": "E19-85e7da66-20260925T162628890Z",
+  "recordedAt": "2026-09-25T16:26:28.890Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v5/real-world-assets/issuers?issuer_id=699ed38db54c9320b15928e3&limit=250&start=1",
+    "path": "/v5/real-world-assets/issuers",
+    "query": {
+      "issuer_id": "699ed38db54c9320b15928e3",
+      "limit": "250",
+      "start": "1"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 201,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Fri, 25 Sep 2026 16:26:28 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 b635e2b1f0ae92160e68ba87d10e2754.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "Tvs0k4E7GTldnChcdXD92DYsgwABDdxk5MTqL_NM4JsxotPfhFcj-g==",
+      "x-amz-cf-pop": "CDG55-P3",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "7",
+      "x-server-traceid": "550a73e0eab9ffe541276feedb1c94f6"
+    },
+    "body": {
+      "data": {
+        "name": "Hyperliquid Assets",
+        "website": "https://app.hyperliquid.xyz/trade",
+        "logo": "https://s2.coinmarketcap.com/static/img/issuer/hyperliquid.png",
+        "tokens": [
+          {
+            "name": "Meta Platforms Tokenized Stock (Hyperliquid)",
+            "symbol": "META",
+            "crypto_id": 39615,
+            "rwa_id": 10
+          },
+          {
+            "name": "Microsoft Tokenized Stock (Hyperliquid)",
+            "symbol": "MSFT",
+            "crypto_id": 39616,
+            "rwa_id": 7
+          },
+          {
+            "name": "SPDR Gold Shares Tokenized ETF (Hyperliquid)",
+            "symbol": "GLD",
+            "crypto_id": 39617,
+            "rwa_id": 87
+          },
+          {
+            "name": "Tesla Tokenized Stock (Hyperliquid)",
+            "symbol": "TSLA",
+            "crypto_id": 39618,
+            "rwa_id": 14
+          },
+          {
+            "name": "Amazon Tokenized Stock (Hyperliquid)",
+            "symbol": "AMZN",
+            "crypto_id": 39619,
+            "rwa_id": 6
+          },
+          {
+            "name": "iShares Silver Trust Tokenized (Hyperliquid)",
+            "symbol": "SLV",
+            "crypto_id": 39620,
+            "rwa_id": 205
+          },
+          {
+            "name": "SPDR S&P 500 ETF Trust Tokenized ETF (Hyperliquid)",
+            "symbol": "SPY",
+            "crypto_id": 39621,
+            "rwa_id": 86
+          },
+          {
+            "name": "Alphabet Tokenized Stock (Hyperliquid)",
+            "symbol": "GOOGL",
+            "crypto_id": 39622,
+            "rwa_id": 4
+          },
+          {
+            "name": "Invesco QQQ Trust Tokenized ETF (Hyperliquid)",
+            "symbol": "QQQ",
+            "crypto_id": 39623,
+            "rwa_id": 118
+          },
+          {
+            "name": "Apple Tokenized Stock (Hyperliquid)",
+            "symbol": "AAPL",
+            "crypto_id": 39624,
+            "rwa_id": 3
+          },
+          {
+            "name": "Robinhood Tokenized Stock (Hyperliquid)",
+            "symbol": "HOOD",
+            "crypto_id": 39625,
+            "rwa_id": 84
+          },
+          {
+            "name": "SPDR Gold Shares Tokenized ETF (Derivatives)",
+            "symbol": "GLD",
+            "crypto_id": 41957,
+            "rwa_id": 87
+          }
+        ],
+        "issuer_id": "699ed38db54c9320b15928e3",
+        "num_tokens": 12,
+        "total_size": 12,
+        "has_more": false
+      },
+      "status": {
+        "timestamp": "2026-09-25T16:26:28.774Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 3,
+        "credit_count": 1
+      }
+    }
+  }
+}

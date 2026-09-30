@@ -1,0 +1,193 @@
+{
+  "label": "E02-60d60c5e-20260925T215610228Z",
+  "recordedAt": "2026-09-25T21:56:10.228Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v3/cryptocurrency/quotes/latest?convert=USD&id=5426",
+    "path": "/v3/cryptocurrency/quotes/latest",
+    "query": {
+      "convert": "USD",
+      "id": "5426"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 528,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Fri, 25 Sep 2026 21:56:09 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 4211ff6411664b7619653768d1a4a490.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "P9eSVafE3wHkTeDZyebQyJIEzH5PYdLfDq2c9i4OHnB9y4OJkG1ZTQ==",
+      "x-amz-cf-pop": "LOS50-P4",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "9",
+      "x-server-traceid": "b57b767e1af3b94f93f04e5c8a97a6bd"
+    },
+    "body": {
+      "data": [
+        {
+          "tags": [
+            {
+              "slug": "pos",
+              "name": "PoS",
+              "category": "ALGORITHM"
+            },
+            {
+              "slug": "platform",
+              "name": "Platform",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "solana-ecosystem",
+              "name": "Solana Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "cms-holdings-portfolio",
+              "name": "CMS Holdings Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "kenetic-capital-portfolio",
+              "name": "Kenetic Capital Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "alameda-research-portfolio",
+              "name": "Alameda Research Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "multicoin-capital-portfolio",
+              "name": "Multicoin Capital Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "okx-ventures-portfolio",
+              "name": "OKX Ventures Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "layer-1",
+              "name": "Layer 1",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "ftx-bankruptcy-estate",
+              "name": "FTX Bankruptcy Estate ",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "alleged-sec-securities",
+              "name": "Alleged SEC Securities",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "cmc-crypto-awards-2024",
+              "name": "CMC Crypto Awards 2024",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "made-in-america",
+              "name": "Made in America",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "us-strategic-crypto-reserve",
+              "name": "US Strategic Crypto Reserve",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-ecosystem",
+              "name": "Binance Ecosystem",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-listing",
+              "name": "Binance Listing",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "sec-cftc-token-taxonomy",
+              "name": "SEC/CFTC Token Taxonomy",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "sec-cftc-digital-commodities",
+              "name": "SEC/CFTC Digital Commodities",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "coinlist-launchpad",
+              "name": "Coinlist Launchpad",
+              "category": "CATEGORY"
+            }
+          ],
+          "id": 5426,
+          "name": "Solana",
+          "symbol": "SOL",
+          "slug": "solana",
+          "is_active": 1,
+          "infinite_supply": true,
+          "is_fiat": 0,
+          "circulating_supply": 587641999.6712695,
+          "total_supply": 634685757.0917786,
+          "max_supply": null,
+          "date_added": "2020-04-10T00:00:00.000Z",
+          "num_market_pairs": 1181,
+          "cmc_rank": 7,
+          "last_updated": "2026-09-25T21:55:00.000Z",
+          "tvl_ratio": null,
+          "platform": null,
+          "self_reported_circulating_supply": 525236893.3,
+          "self_reported_market_cap": 63562795221.25978,
+          "minted_market_cap": 76808010485.34,
+          "quote": [
+            {
+              "id": 2781,
+              "symbol": "USD",
+              "price": 121.01738478784765,
+              "volume_24h": 6123010777.605128,
+              "volume_change_24h": 55.916,
+              "cex_volume_24h": 6108513385.055756,
+              "dex_volume_24h": 14497392.5493743,
+              "percent_change_1h": -0.83363681,
+              "percent_change_24h": 3.3719442,
+              "percent_change_7d": 6.82894265,
+              "percent_change_30d": 23.36710198,
+              "percent_change_60d": 60.28751553,
+              "percent_change_90d": 70.71149059,
+              "market_cap": 71114897991.71826,
+              "market_cap_dominance": 2.4739,
+              "fully_diluted_market_cap": 76808010485.34,
+              "minted_market_cap": 76808010485.34,
+              "tvl": null,
+              "last_updated": "2026-09-25T21:55:02.000Z"
+            }
+          ]
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-25T21:56:09.972Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 3,
+        "credit_count": 1
+      }
+    }
+  }
+}

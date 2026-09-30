@@ -1,0 +1,47 @@
+{
+  "label": "E12-dex-token-liquidity-paxg",
+  "recordedAt": "2026-09-24T16:07:20.697Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v1/dex/token-liquidity/query?platform=ethereum&address=0x45804880de22913dafe09f4980848ece6ecbaf78&limit=5&needLatest=true",
+    "path": "/v1/dex/token-liquidity/query",
+    "query": {
+      "platform": "ethereum",
+      "address": "0x45804880de22913dafe09f4980848ece6ecbaf78",
+      "limit": "5",
+      "needLatest": "true"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 400,
+    "statusText": "Bad Request",
+    "latencyMs": 1506,
+    "headers": {
+      "connection": "keep-alive",
+      "content-length": "135",
+      "content-type": "application/json",
+      "date": "Thu, 24 Sep 2026 16:07:20 GMT",
+      "server": "nginx",
+      "via": "1.1 500dd27a29c16a186d1b5c347c341348.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "iUxh1hEwMNQ_TG7pLHMErkwOYksw5kaV5wtCWjUI1O566hkvbvKABA==",
+      "x-amz-cf-pop": "BRU50-P1",
+      "x-cache": "Error from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "180",
+      "x-server-traceid": "1e52070eb53c4a1dbdc49aa96079ace2"
+    },
+    "body": {
+      "status": {
+        "timestamp": "2026-09-24T16:07:20.071Z",
+        "error_code": "400",
+        "error_message": "Parameter error",
+        "elapsed": 174,
+        "credit_count": 0
+      }
+    }
+  }
+}

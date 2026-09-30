@@ -1,0 +1,149 @@
+{
+  "label": "E14-626f8f59-20260925T205139334Z",
+  "recordedAt": "2026-09-25T20:51:39.334Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v5/real-world-assets/quotes/latest?rwa_id=1",
+    "path": "/v5/real-world-assets/quotes/latest",
+    "query": {
+      "rwa_id": "1"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 2043,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Fri, 25 Sep 2026 20:51:39 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 d4f06dd05faa4dc18f8a04c15ebb58da.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "dBIC5RloD5LBp_Eg6u79oYxR0bllXswAHFGYzvLluP8XNNrNlyBgZQ==",
+      "x-amz-cf-pop": "LHR86-P3",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "10",
+      "x-server-traceid": "f2a7d15c5d286b674c8a5cceaeee2cfb"
+    },
+    "body": {
+      "data": {
+        "rwa_assets": [
+          {
+            "name": "Gold",
+            "symbol": "GOLD",
+            "slug": "gold",
+            "quotes": [
+              {
+                "symbol": "USD",
+                "crypto_id": 2781,
+                "average_tokenized_price": 4282.988833234991,
+                "tokenized_market_cap": 4620954123.617083,
+                "tokenized_volume_24h": 421046724.2081376,
+                "last_updated": "2026-09-25T20:50:02.000Z"
+              }
+            ],
+            "rwa_id": 1,
+            "asset_type": "commodity",
+            "rwa_rank": 1,
+            "has_tokens": true,
+            "average_tokenized_price": 4282.988833234991,
+            "tokenized_market_cap": 4620954123.617083,
+            "tokenized_volume_24h": 421046724.2081376,
+            "last_updated": "2026-09-25T20:50:42.941Z",
+            "tokens": [
+              {
+                "symbol": "PAXG",
+                "name": "PAX Gold",
+                "price": 4281.190282126297,
+                "crypto_id": 4705,
+                "issuer_id": "68904c24abae9b5b9fb35815",
+                "issuer_name": "Paxos",
+                "market_cap": 1861883760.81,
+                "volume_24h": 168391505.09012917
+              },
+              {
+                "symbol": "XAUt",
+                "name": "Tether Gold",
+                "price": 4286.035217872811,
+                "crypto_id": 5176,
+                "issuer_id": "68904e9cabae9b5b9fb358ac",
+                "issuer_name": "Tether Holdings",
+                "market_cap": 2669444139.28,
+                "volume_24h": 250540054.830311
+              },
+              {
+                "symbol": "XAUM",
+                "name": "Matrixdock Gold",
+                "price": 4276.362932234493,
+                "crypto_id": 34212,
+                "issuer_id": "68905a7babae9b5b9fb35a8d",
+                "issuer_name": "Matrixdock",
+                "market_cap": 46934481.37,
+                "volume_24h": 615967.15675423
+              },
+              {
+                "symbol": "CGO",
+                "name": "Comtech Gold",
+                "price": 137.9098327165739,
+                "crypto_id": 20245,
+                "issuer_id": "68904cceabae9b5b9fb35839",
+                "issuer_name": "Comtech Gold",
+                "market_cap": 19445286.41,
+                "volume_24h": 906841.4980445
+              },
+              {
+                "symbol": "VNXAU",
+                "name": "VNX Gold",
+                "price": 137.82709732088762,
+                "crypto_id": 22492,
+                "issuer_id": "68905b43abae9b5b9fb35a95",
+                "issuer_name": "VNX",
+                "market_cap": 5802520.8,
+                "volume_24h": 2098.4103775
+              },
+              {
+                "symbol": "XAUT0",
+                "name": "Tether Gold Tokens",
+                "price": 4280.916067498678,
+                "crypto_id": 37082,
+                "issuer_id": "68904e9cabae9b5b9fb358ac",
+                "issuer_name": "Tether Holdings",
+                "market_cap": 17784980.33,
+                "volume_24h": 276986.28127425
+              },
+              {
+                "symbol": "XAU",
+                "name": "Gold (Derivatives)",
+                "price": 4289.314125636362,
+                "crypto_id": 39344,
+                "issuer_id": "695e11f774b54210f3b95dc3",
+                "issuer_name": "NA (Derivatives)",
+                "market_cap": 0,
+                "volume_24h": 0
+              }
+            ],
+            "tradfi_markets": []
+          }
+        ]
+      },
+      "status": {
+        "timestamp": "2026-09-25T20:51:39.141Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 6,
+        "credit_count": 1
+      }
+    }
+  }
+}

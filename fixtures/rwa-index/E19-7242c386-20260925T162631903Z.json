@@ -1,0 +1,486 @@
+{
+  "label": "E19-7242c386-20260925T162631903Z",
+  "recordedAt": "2026-09-25T16:26:31.903Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v5/real-world-assets/issuers?issuer_id=6a43600c282e7240b76c8bbb&limit=250&start=1",
+    "path": "/v5/real-world-assets/issuers",
+    "query": {
+      "issuer_id": "6a43600c282e7240b76c8bbb",
+      "limit": "250",
+      "start": "1"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 201,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Fri, 25 Sep 2026 16:26:31 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 b635e2b1f0ae92160e68ba87d10e2754.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "s16DkzQ1Z9LoQeIWPDgRZNkw71ui27G9SVg9MzKaYbdG6URg6ZSKdg==",
+      "x-amz-cf-pop": "CDG55-P3",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "8",
+      "x-server-traceid": "02878cfb164ced1b0b000ce8c5e635fe"
+    },
+    "body": {
+      "data": {
+        "name": "Reality",
+        "tokens": [
+          {
+            "name": "Apple Tokenized Stock (Reality)",
+            "symbol": "rAAPL",
+            "crypto_id": 40598,
+            "rwa_id": 3
+          },
+          {
+            "name": "Super Micro Tokenized Stock (Reality)",
+            "symbol": "rSMCI",
+            "crypto_id": 40599,
+            "rwa_id": 127
+          },
+          {
+            "name": "Direxion Semiconductor Bull 3X Tokenized Stock (Reality)",
+            "symbol": "rSOXL",
+            "crypto_id": 40600,
+            "rwa_id": 7750
+          },
+          {
+            "name": "AMD Tokenized Stock (Reality)",
+            "symbol": "rAMD",
+            "crypto_id": 40601,
+            "rwa_id": 25
+          },
+          {
+            "name": "Meta Tokenized Stock (Reality)",
+            "symbol": "rMETA",
+            "crypto_id": 40602,
+            "rwa_id": 10
+          },
+          {
+            "name": "Amazon Tokenized Stock (Reality)",
+            "symbol": "rAMZN",
+            "crypto_id": 40603,
+            "rwa_id": 6
+          },
+          {
+            "name": "Broadcom Tokenized Stock (Reality)",
+            "symbol": "rAVGO",
+            "crypto_id": 40604,
+            "rwa_id": 13
+          },
+          {
+            "name": "NVIDIA Tokenized Stock (Reality)",
+            "symbol": "rNVDA",
+            "crypto_id": 40605,
+            "rwa_id": 2
+          },
+          {
+            "name": "Invesco QQQ Tokenized Stock (Reality)",
+            "symbol": "rQQQ",
+            "crypto_id": 40606,
+            "rwa_id": 118
+          },
+          {
+            "name": "TSMC Tokenized Stock (Reality)",
+            "symbol": "rTSM",
+            "crypto_id": 40607,
+            "rwa_id": 8
+          },
+          {
+            "name": "Eli Lilly Tokenized Stock (Reality)",
+            "symbol": "rLLY",
+            "crypto_id": 40608,
+            "rwa_id": 11
+          },
+          {
+            "name": "Microsoft Tokenized Stock (Reality)",
+            "symbol": "rMSFT",
+            "crypto_id": 40609,
+            "rwa_id": 7
+          },
+          {
+            "name": "IBM Tokenized Stock (Reality)",
+            "symbol": "rIBM",
+            "crypto_id": 40610,
+            "rwa_id": 42
+          },
+          {
+            "name": "Western Digital Tokenized Stock (Reality)",
+            "symbol": "rWDC",
+            "crypto_id": 40611,
+            "rwa_id": 75
+          },
+          {
+            "name": "Oklo Tokenized Stock (Reality)",
+            "symbol": "rOKLO",
+            "crypto_id": 40612,
+            "rwa_id": 171
+          },
+          {
+            "name": "Google Tokenized Stock (Reality)",
+            "symbol": "rGOOGL",
+            "crypto_id": 40613,
+            "rwa_id": 4
+          },
+          {
+            "name": "Marvell Tokenized Stock (Reality)",
+            "symbol": "rMRVL",
+            "crypto_id": 40614,
+            "rwa_id": 70
+          },
+          {
+            "name": "Rigetti Computing Tokenized Stock (Reality)",
+            "symbol": "rRGTI",
+            "crypto_id": 40615,
+            "rwa_id": 241
+          },
+          {
+            "name": "Micron Tokenized Stock (Reality)",
+            "symbol": "rMU",
+            "crypto_id": 40616,
+            "rwa_id": 12
+          },
+          {
+            "name": "Dell Tokenized Stock (Reality)",
+            "symbol": "rDELL",
+            "crypto_id": 40617,
+            "rwa_id": 44
+          },
+          {
+            "name": "Intel Tokenized Stock (Reality)",
+            "symbol": "rINTC",
+            "crypto_id": 40618,
+            "rwa_id": 20
+          },
+          {
+            "name": "ProShares UltraPro Short QQQ Tokenized Stock (Reality)",
+            "symbol": "rSQQQ",
+            "crypto_id": 40619,
+            "rwa_id": 181
+          },
+          {
+            "name": "Robinhood Tokenized Stock (Reality)",
+            "symbol": "rHOOD",
+            "crypto_id": 40620,
+            "rwa_id": 84
+          },
+          {
+            "name": "Direxion Semiconductor Bear 3X Tokenized Stock (Reality)",
+            "symbol": "rSOXS",
+            "crypto_id": 40621,
+            "rwa_id": 7751
+          },
+          {
+            "name": "Silicon Motion Tokenized Stock (Reality)",
+            "symbol": "rSIMO",
+            "crypto_id": 40622,
+            "rwa_id": 1135
+          },
+          {
+            "name": "IREN Tokenized Stock (Reality)",
+            "symbol": "rIREN",
+            "crypto_id": 40623,
+            "rwa_id": 229
+          },
+          {
+            "name": "Tesla Tokenized Stock (Reality)",
+            "symbol": "rTSLA",
+            "crypto_id": 40624,
+            "rwa_id": 14
+          },
+          {
+            "name": "SPDR S&P 500 Tokenized Stock (Reality)",
+            "symbol": "rSPY",
+            "crypto_id": 40625,
+            "rwa_id": 86
+          },
+          {
+            "name": "Coherent Tokenized Stock (Reality)",
+            "symbol": "rCOHR",
+            "crypto_id": 40626,
+            "rwa_id": 188
+          },
+          {
+            "name": "Futu Tokenized Stock (Reality)",
+            "symbol": "rFUTU",
+            "crypto_id": 40627,
+            "rwa_id": 194
+          },
+          {
+            "name": "Ciena Tokenized Stock (Reality)",
+            "symbol": "rCIEN",
+            "crypto_id": 40628,
+            "rwa_id": 302
+          },
+          {
+            "name": "Credo Technology Tokenized Stock (Reality)",
+            "symbol": "rCRDO",
+            "crypto_id": 40629,
+            "rwa_id": 252
+          },
+          {
+            "name": "Applied Optoelectronics Tokenized Stock (Reality)",
+            "symbol": "rAAOI",
+            "crypto_id": 40630,
+            "rwa_id": 191
+          },
+          {
+            "name": "CBRS Tokenized Stock (Reality)",
+            "symbol": "rCBRS",
+            "crypto_id": 40631,
+            "rwa_id": 251
+          },
+          {
+            "name": "MicroStrategy Tokenized Stock (Reality)",
+            "symbol": "rMSTR",
+            "crypto_id": 40632,
+            "rwa_id": 114
+          },
+          {
+            "name": "ProShares UltraPro QQQ Tokenized Stock (Reality)",
+            "symbol": "rTQQQ",
+            "crypto_id": 40633,
+            "rwa_id": 211
+          },
+          {
+            "name": "IonQ Tokenized Stock (Reality)",
+            "symbol": "rIONQ",
+            "crypto_id": 40634,
+            "rwa_id": 545
+          },
+          {
+            "name": "Circle Tokenized Stock (Reality)",
+            "symbol": "rCRCL",
+            "crypto_id": 40635,
+            "rwa_id": 115
+          },
+          {
+            "name": "Global X DRAM ETF Tokenized Stock (Reality)",
+            "symbol": "rDRAM",
+            "crypto_id": 40636,
+            "rwa_id": 4789
+          },
+          {
+            "name": "CoreWeave Tokenized Stock (Reality)",
+            "symbol": "rCRWV",
+            "crypto_id": 40637,
+            "rwa_id": 443
+          },
+          {
+            "name": "MP Materials Tokenized Stock (Reality)",
+            "symbol": "rMP",
+            "crypto_id": 40638,
+            "rwa_id": 168
+          },
+          {
+            "name": "Applied Materials Tokenized Stock (Reality)",
+            "symbol": "rAMAT",
+            "crypto_id": 40639,
+            "rwa_id": 22
+          },
+          {
+            "name": "AXT Tokenized Stock (Reality)",
+            "symbol": "rAXTI",
+            "crypto_id": 40640,
+            "rwa_id": 1164
+          },
+          {
+            "name": "Clearwater Paper Tokenized Stock (Reality)",
+            "symbol": "rCLW",
+            "crypto_id": 40641,
+            "rwa_id": 3831
+          },
+          {
+            "name": "Lam Research Tokenized Stock (Reality)",
+            "symbol": "rLRCX",
+            "crypto_id": 40642,
+            "rwa_id": 32
+          },
+          {
+            "name": "ServiceNow Tokenized Stock (Reality)",
+            "symbol": "rNOW",
+            "crypto_id": 40644,
+            "rwa_id": 203
+          },
+          {
+            "name": "iShares MSCI South Korea ETF Tokenized Stock (Reality)",
+            "symbol": "rEWY",
+            "crypto_id": 40645,
+            "rwa_id": 1062
+          },
+          {
+            "name": "D-Wave Quantum Tokenized Stock (Reality)",
+            "symbol": "rQBTS",
+            "crypto_id": 40646,
+            "rwa_id": 88
+          },
+          {
+            "name": "USA Rare Earth ETF Tokenized Stock (Reality)",
+            "symbol": "rUSAR",
+            "crypto_id": 40647,
+            "rwa_id": 1682
+          },
+          {
+            "name": "SanDisk Tokenized Stock (Reality)",
+            "symbol": "rSNDK",
+            "crypto_id": 40648,
+            "rwa_id": 48
+          },
+          {
+            "name": "Qualcomm Tokenized Stock (Reality)",
+            "symbol": "rQCOM",
+            "crypto_id": 40649,
+            "rwa_id": 103
+          },
+          {
+            "name": "Nebius Tokenized Stock (Reality)",
+            "symbol": "rNBIS",
+            "crypto_id": 40650,
+            "rwa_id": 254
+          },
+          {
+            "name": "Coinbase Tokenized Stock (Reality)",
+            "symbol": "rCOIN",
+            "crypto_id": 40651,
+            "rwa_id": 82
+          },
+          {
+            "name": "ASML Tokenized Stock (Reality)",
+            "symbol": "rASML",
+            "crypto_id": 40652,
+            "rwa_id": 26
+          },
+          {
+            "name": "Seagate Tokenized Stock (Reality)",
+            "symbol": "rSTX",
+            "crypto_id": 40653,
+            "rwa_id": 73
+          },
+          {
+            "name": "Oracle Tokenized Stock (Reality)",
+            "symbol": "rORCL",
+            "crypto_id": 40654,
+            "rwa_id": 24
+          },
+          {
+            "name": "Palantir Tokenized Stock (Reality)",
+            "symbol": "rPLTR",
+            "crypto_id": 40655,
+            "rwa_id": 53
+          },
+          {
+            "name": "Alibaba Tokenized Stock (Reality)",
+            "symbol": "rBABA",
+            "crypto_id": 40656,
+            "rwa_id": 63
+          },
+          {
+            "name": "Bloom Energy Tokenized Stock (Reality)",
+            "symbol": "rBE",
+            "crypto_id": 40657,
+            "rwa_id": 190
+          },
+          {
+            "name": "Joby Aviation Tokenized Stock (Reality)",
+            "symbol": "rJOBY",
+            "crypto_id": 40658,
+            "rwa_id": 712
+          },
+          {
+            "name": "Ondas Tokenized Stock (Reality)",
+            "symbol": "rONDS",
+            "crypto_id": 40660,
+            "rwa_id": 235
+          },
+          {
+            "name": "Nokia Tokenized Stock (Reality)",
+            "symbol": "rNOK",
+            "crypto_id": 40661,
+            "rwa_id": 1588
+          },
+          {
+            "name": "SoFi Tokenized Stock (Reality)",
+            "symbol": "rSOFI",
+            "crypto_id": 40662,
+            "rwa_id": 243
+          },
+          {
+            "name": "Arm Tokenized Stock (Reality)",
+            "symbol": "rARM",
+            "crypto_id": 40663,
+            "rwa_id": 54
+          },
+          {
+            "name": "Lumentum Tokenized Stock (Reality)",
+            "symbol": "rLITE",
+            "crypto_id": 40664,
+            "rwa_id": 189
+          },
+          {
+            "name": "AST SpaceMobile Tokenized Stock (Reality)",
+            "symbol": "rASTS",
+            "crypto_id": 40665,
+            "rwa_id": 511
+          },
+          {
+            "name": "Rocket Lab Tokenized Stock (Reality)",
+            "symbol": "rRKLB",
+            "crypto_id": 40666,
+            "rwa_id": 297
+          },
+          {
+            "name": "Redwire Tokenized Stock (Reality)",
+            "symbol": "rRDW",
+            "crypto_id": 40667,
+            "rwa_id": 1945
+          },
+          {
+            "name": "SpaceX Tokenized Stock (Reality)",
+            "symbol": "rSPCX",
+            "crypto_id": 40668,
+            "rwa_id": 9
+          },
+          {
+            "name": "Arista Networks Tokenized Stock (Reality)",
+            "symbol": "rANET",
+            "crypto_id": 40669,
+            "rwa_id": 66
+          },
+          {
+            "name": "Cisco Systems Tokenized Stock (Reality)",
+            "symbol": "rCSCO",
+            "crypto_id": 40893,
+            "rwa_id": 29
+          }
+        ],
+        "issuer_id": "6a43600c282e7240b76c8bbb",
+        "num_tokens": 71,
+        "total_size": 71,
+        "has_more": false
+      },
+      "status": {
+        "timestamp": "2026-09-25T16:26:31.786Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 4,
+        "credit_count": 1
+      }
+    }
+  }
+}

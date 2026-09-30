@@ -1,0 +1,110 @@
+{
+  "label": "E19-e152ce02-20260925T162627635Z",
+  "recordedAt": "2026-09-25T16:26:27.635Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v5/real-world-assets/issuers?issuer_id=6a2d54b697c45356b1a634f4&limit=250&start=1",
+    "path": "/v5/real-world-assets/issuers",
+    "query": {
+      "issuer_id": "6a2d54b697c45356b1a634f4",
+      "limit": "250",
+      "start": "1"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 201,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Fri, 25 Sep 2026 16:26:27 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 b635e2b1f0ae92160e68ba87d10e2754.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "YbVs2oRpOnJuspjjsckyhEUOHlvwel1YVqRD9zB5Xmye9N5leuzpaw==",
+      "x-amz-cf-pop": "CDG55-P3",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "9",
+      "x-server-traceid": "4ddbfe0abc8e8239b85fa9cce88de893"
+    },
+    "body": {
+      "data": {
+        "name": "Backpack",
+        "website": "https://backpack.exchange",
+        "logo": "https://s2.coinmarketcap.com/static/img/issuer/M7sS2GzR_400x400.png",
+        "tokens": [
+          {
+            "name": "SpaceX tokenized stock (Backpack)",
+            "symbol": "SPCX",
+            "crypto_id": 40238,
+            "rwa_id": 9
+          },
+          {
+            "name": "SanDisk Corp tokenized stock (Backpack)",
+            "symbol": "SNDK",
+            "crypto_id": 40815,
+            "rwa_id": 48
+          },
+          {
+            "name": "RoboStrategy Inc tokenized stock (Backpack)",
+            "symbol": "BOT",
+            "crypto_id": 40816,
+            "rwa_id": null
+          },
+          {
+            "name": "Micron Technology Inc tokenized stock (Backpack)",
+            "symbol": "MU",
+            "crypto_id": 40817,
+            "rwa_id": 12
+          },
+          {
+            "name": "SK Hynix tokenized stock (Backpack)",
+            "symbol": "SKHY",
+            "crypto_id": 40833,
+            "rwa_id": 8065
+          },
+          {
+            "name": "AMC Entertainment Holdings Tokenized Stock (Backpack Securities)",
+            "symbol": "AMC",
+            "crypto_id": 42024,
+            "rwa_id": 153
+          },
+          {
+            "name": "1-800-Flowers.Com tokenized stock (Backpack)",
+            "symbol": "FLWS",
+            "crypto_id": 42305,
+            "rwa_id": null
+          },
+          {
+            "name": "Southwest Airlines Co tokenized stock (Backpack)",
+            "symbol": "LUV",
+            "crypto_id": 42364,
+            "rwa_id": 807
+          }
+        ],
+        "issuer_id": "6a2d54b697c45356b1a634f4",
+        "num_tokens": 8,
+        "total_size": 8,
+        "has_more": false
+      },
+      "status": {
+        "timestamp": "2026-09-25T16:26:27.518Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 2,
+        "credit_count": 1
+      }
+    }
+  }
+}

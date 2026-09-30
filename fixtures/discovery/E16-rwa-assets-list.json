@@ -1,0 +1,516 @@
+{
+  "label": "E16-rwa-assets-list",
+  "recordedAt": "2026-09-24T16:05:11.593Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v5/real-world-assets/assets/list?limit=20&sort=tokenized_volume_24h",
+    "path": "/v5/real-world-assets/assets/list",
+    "query": {
+      "limit": "20",
+      "sort": "tokenized_volume_24h"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 1064,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Thu, 24 Sep 2026 16:05:11 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 e99fb41a4b0b0129140530df3aae3346.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "wZpVPyZyD2luN60wG_9CVmFroWJziv-cEPovBUfQj8DMs7jBa5PoQA==",
+      "x-amz-cf-pop": "MAD53-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "19",
+      "x-server-traceid": "8fb2731f3d7851cb9feb518448443faf"
+    },
+    "body": {
+      "data": {
+        "total_size": 7942,
+        "has_more": true,
+        "rwa_assets": [
+          {
+            "name": "iShares Russell 2000 Value ETF",
+            "symbol": "IWN",
+            "slug": "iwn",
+            "quotes": [
+              {
+                "symbol": "USD",
+                "crypto_id": 2781,
+                "average_tokenized_price": 219.10223278486023,
+                "tokenized_market_cap": 5413935.726001306,
+                "tokenized_volume_24h": 0,
+                "last_updated": "2026-09-24T16:04:03.000Z"
+              }
+            ],
+            "rwa_id": 119,
+            "asset_type": "etf",
+            "rwa_rank": 7808,
+            "has_tokens": true,
+            "average_tokenized_price": 219.10223278486023,
+            "tokenized_market_cap": 5413935.726001306,
+            "tokenized_volume_24h": 0,
+            "last_updated": "2026-09-24T16:04:18.000Z"
+          },
+          {
+            "name": "iShares iBoxx $ High Yield Corporate Bond ETF",
+            "symbol": "HYG",
+            "slug": "ishares-iboxx",
+            "quotes": [
+              {
+                "symbol": "USD",
+                "crypto_id": 2781,
+                "average_tokenized_price": 82.65502452637176,
+                "tokenized_market_cap": 1002328.6368865615,
+                "tokenized_volume_24h": 0,
+                "last_updated": "2026-09-24T16:04:03.000Z"
+              }
+            ],
+            "rwa_id": 121,
+            "asset_type": "etf",
+            "rwa_rank": 7805,
+            "has_tokens": true,
+            "average_tokenized_price": 82.65502452637176,
+            "tokenized_market_cap": 1002328.6368865615,
+            "tokenized_volume_24h": 0,
+            "last_updated": "2026-09-24T16:02:40.000Z"
+          },
+          {
+            "name": "Apollo Global Management Ord Shs",
+            "symbol": "APO",
+            "slug": "apollo-global-management",
+            "quotes": [
+              {
+                "symbol": "USD",
+                "crypto_id": 2781,
+                "average_tokenized_price": 124.30743483877482,
+                "tokenized_market_cap": 763062.6195923326,
+                "tokenized_volume_24h": 0,
+                "last_updated": "2026-09-24T16:04:03.000Z"
+              }
+            ],
+            "rwa_id": 133,
+            "asset_type": "stock",
+            "rwa_rank": 240,
+            "has_tokens": true,
+            "average_tokenized_price": 124.30743483877482,
+            "tokenized_market_cap": 763062.6195923326,
+            "tokenized_volume_24h": 0,
+            "last_updated": "2026-09-24T16:04:33.000Z"
+          },
+          {
+            "name": "iShares Core S&P Mid-Cap ETF",
+            "symbol": "IJH",
+            "slug": "IJH",
+            "quotes": [
+              {
+                "symbol": "USD",
+                "crypto_id": 2781,
+                "average_tokenized_price": 73.91789257698706,
+                "tokenized_market_cap": 2992949.0174194686,
+                "tokenized_volume_24h": 0,
+                "last_updated": "2026-09-24T16:04:03.000Z"
+              }
+            ],
+            "rwa_id": 200,
+            "asset_type": "etf",
+            "rwa_rank": 7799,
+            "has_tokens": true,
+            "average_tokenized_price": 73.91789257698706,
+            "tokenized_market_cap": 2992949.0174194686,
+            "tokenized_volume_24h": 0,
+            "last_updated": "2026-09-24T16:02:40.000Z"
+          },
+          {
+            "name": "abrdn Physical Palladium Shares ETF",
+            "symbol": "PALL",
+            "slug": "pall",
+            "quotes": [
+              {
+                "symbol": "USD",
+                "crypto_id": 2781,
+                "average_tokenized_price": 114.18904974191747,
+                "tokenized_market_cap": 471685.18160683993,
+                "tokenized_volume_24h": 0,
+                "last_updated": "2026-09-24T16:04:03.000Z"
+              }
+            ],
+            "rwa_id": 214,
+            "asset_type": "etf",
+            "rwa_rank": 7788,
+            "has_tokens": true,
+            "average_tokenized_price": 114.18904974191747,
+            "tokenized_market_cap": 471685.18160683993,
+            "tokenized_volume_24h": 0,
+            "last_updated": "2026-09-24T16:04:32.000Z"
+          },
+          {
+            "name": "Kanzhun",
+            "symbol": "BZ",
+            "slug": "kanzhun",
+            "quotes": [
+              {
+                "symbol": "USD",
+                "crypto_id": 2781,
+                "average_tokenized_price": 14.39719060243862,
+                "tokenized_market_cap": 17560.35446982778,
+                "tokenized_volume_24h": 0,
+                "last_updated": "2026-09-24T16:04:03.000Z"
+              }
+            ],
+            "rwa_id": 220,
+            "asset_type": "stock",
+            "rwa_rank": 1154,
+            "has_tokens": true,
+            "average_tokenized_price": 14.39719060243862,
+            "tokenized_market_cap": 17560.35446982778,
+            "tokenized_volume_24h": 0,
+            "last_updated": "2026-09-24T16:04:24.000Z"
+          },
+          {
+            "name": "VanEck CLO ETF",
+            "symbol": "CLOI",
+            "slug": "vaneck-clo-etf",
+            "quotes": [
+              {
+                "symbol": "USD",
+                "crypto_id": 2781,
+                "average_tokenized_price": 54.099329197333596,
+                "tokenized_market_cap": 4222.300830855287,
+                "tokenized_volume_24h": 0,
+                "last_updated": "2026-09-24T16:04:03.000Z"
+              }
+            ],
+            "rwa_id": 222,
+            "asset_type": "etf",
+            "rwa_rank": 7783,
+            "has_tokens": true,
+            "average_tokenized_price": 54.099329197333596,
+            "tokenized_market_cap": 4222.300830855287,
+            "tokenized_volume_24h": 0,
+            "last_updated": "2026-09-24T16:04:21.000Z"
+          },
+          {
+            "name": "Figure Technology Solutions Inc",
+            "symbol": "FIGR",
+            "slug": "figure-technology-solutions",
+            "quotes": [
+              {
+                "symbol": "USD",
+                "crypto_id": 2781,
+                "average_tokenized_price": 35.019167033729886,
+                "tokenized_market_cap": 106178.25570448385,
+                "tokenized_volume_24h": 0,
+                "last_updated": "2026-09-24T16:04:03.000Z"
+              }
+            ],
+            "rwa_id": 163,
+            "asset_type": "stock",
+            "rwa_rank": 1091,
+            "has_tokens": true,
+            "average_tokenized_price": 35.019167033729886,
+            "tokenized_market_cap": 106178.25570448385,
+            "tokenized_volume_24h": 0,
+            "last_updated": "2026-09-24T16:04:20.000Z"
+          },
+          {
+            "name": "Janus Henderson AAA CLO ETF",
+            "symbol": "JAAA",
+            "slug": "janus-henderson-aaa-clo-etf",
+            "quotes": [
+              {
+                "symbol": "USD",
+                "crypto_id": 2781,
+                "average_tokenized_price": 51.79901731509371,
+                "tokenized_market_cap": 87408.86651028655,
+                "tokenized_volume_24h": 0,
+                "last_updated": "2026-09-24T16:04:03.000Z"
+              }
+            ],
+            "rwa_id": 230,
+            "asset_type": "etf",
+            "rwa_rank": 7778,
+            "has_tokens": true,
+            "average_tokenized_price": 51.79901731509371,
+            "tokenized_market_cap": 87408.86651028655,
+            "tokenized_volume_24h": 0,
+            "last_updated": "2026-09-24T16:04:25.000Z"
+          },
+          {
+            "name": "Lowe's Companies Inc",
+            "symbol": "LOW",
+            "slug": "lowes-companies",
+            "quotes": [
+              {
+                "symbol": "USD",
+                "crypto_id": 2781,
+                "average_tokenized_price": 194.5711243281297,
+                "tokenized_market_cap": 469.8523337073245,
+                "tokenized_volume_24h": 0,
+                "last_updated": "2026-09-24T16:04:03.000Z"
+              }
+            ],
+            "rwa_id": 231,
+            "asset_type": "stock",
+            "rwa_rank": 151,
+            "has_tokens": true,
+            "average_tokenized_price": 194.5711243281297,
+            "tokenized_market_cap": 469.8523337073245,
+            "tokenized_volume_24h": 0,
+            "last_updated": "2026-09-24T16:02:40.000Z"
+          },
+          {
+            "name": "MasTec Inc",
+            "symbol": "MTZ",
+            "slug": "mastec",
+            "quotes": [
+              {
+                "symbol": "USD",
+                "crypto_id": 2781,
+                "average_tokenized_price": 212.43707361608696,
+                "tokenized_market_cap": 2282.693051211061,
+                "tokenized_volume_24h": 0,
+                "last_updated": "2026-09-24T16:04:03.000Z"
+              }
+            ],
+            "rwa_id": 169,
+            "asset_type": "stock",
+            "rwa_rank": 650,
+            "has_tokens": true,
+            "average_tokenized_price": 212.43707361608696,
+            "tokenized_market_cap": 2282.693051211061,
+            "tokenized_volume_24h": 0,
+            "last_updated": "2026-09-24T16:02:34.000Z"
+          },
+          {
+            "name": "Sprott Nickel Miners ETF",
+            "symbol": "NIKL",
+            "slug": "sprott-nickel-miners-etf",
+            "quotes": [
+              {
+                "symbol": "USD",
+                "crypto_id": 2781,
+                "average_tokenized_price": 14.223738054722702,
+                "tokenized_market_cap": 18218.59834161483,
+                "tokenized_volume_24h": 0,
+                "last_updated": "2026-09-24T16:04:03.000Z"
+              }
+            ],
+            "rwa_id": 233,
+            "asset_type": "etf",
+            "rwa_rank": 7777,
+            "has_tokens": true,
+            "average_tokenized_price": 14.223738054722702,
+            "tokenized_market_cap": 18218.59834161483,
+            "tokenized_volume_24h": 0,
+            "last_updated": "2026-09-24T16:02:42.000Z"
+          },
+          {
+            "name": "Nio Inc",
+            "symbol": "NIO",
+            "slug": "nio",
+            "quotes": [
+              {
+                "symbol": "USD",
+                "crypto_id": 2781,
+                "average_tokenized_price": 3.5923345712563997,
+                "tokenized_market_cap": 214639.78382307664,
+                "tokenized_volume_24h": 0,
+                "last_updated": "2026-09-24T16:04:03.000Z"
+              }
+            ],
+            "rwa_id": 170,
+            "asset_type": "stock",
+            "rwa_rank": 976,
+            "has_tokens": true,
+            "average_tokenized_price": 3.5923345712563997,
+            "tokenized_market_cap": 214639.78382307664,
+            "tokenized_volume_24h": 0,
+            "last_updated": "2026-09-24T16:04:33.000Z"
+          },
+          {
+            "name": "Opera Ltd",
+            "symbol": "OPRA",
+            "slug": "opera",
+            "quotes": [
+              {
+                "symbol": "USD",
+                "crypto_id": 2781,
+                "average_tokenized_price": 18.680277531191305,
+                "tokenized_market_cap": 320.61270195227326,
+                "tokenized_volume_24h": 0,
+                "last_updated": "2026-09-24T16:04:03.000Z"
+              }
+            ],
+            "rwa_id": 236,
+            "asset_type": "stock",
+            "rwa_rank": 2186,
+            "has_tokens": true,
+            "average_tokenized_price": 18.680277531191305,
+            "tokenized_market_cap": 320.61270195227326,
+            "tokenized_volume_24h": 0,
+            "last_updated": "2026-09-24T16:02:35.000Z"
+          },
+          {
+            "name": "Oscar Health Inc",
+            "symbol": "OSCR",
+            "slug": "oscar-health",
+            "quotes": [
+              {
+                "symbol": "USD",
+                "crypto_id": 2781,
+                "average_tokenized_price": 30.249280490300656,
+                "tokenized_market_cap": 308420.30359406874,
+                "tokenized_volume_24h": 0,
+                "last_updated": "2026-09-24T16:04:03.000Z"
+              }
+            ],
+            "rwa_id": 173,
+            "asset_type": "stock",
+            "rwa_rank": 985,
+            "has_tokens": true,
+            "average_tokenized_price": 30.249280490300656,
+            "tokenized_market_cap": 308420.30359406874,
+            "tokenized_volume_24h": 0,
+            "last_updated": "2026-09-24T16:04:19.000Z"
+          },
+          {
+            "name": "Invesco Optimum Yld Dvsfd Cmd Str No K-1 ETF",
+            "symbol": "PDBC",
+            "slug": "pdbc",
+            "quotes": [
+              {
+                "symbol": "USD",
+                "crypto_id": 2781,
+                "average_tokenized_price": 19.477084717860976,
+                "tokenized_market_cap": 35512.05982442832,
+                "tokenized_volume_24h": 0,
+                "last_updated": "2026-09-24T16:04:03.000Z"
+              }
+            ],
+            "rwa_id": 238,
+            "asset_type": "etf",
+            "rwa_rank": 7776,
+            "has_tokens": true,
+            "average_tokenized_price": 19.477084717860976,
+            "tokenized_market_cap": 35512.05982442832,
+            "tokenized_volume_24h": 0,
+            "last_updated": "2026-09-24T16:02:41.000Z"
+          },
+          {
+            "name": "Pinterest Inc",
+            "symbol": "PINS",
+            "slug": "pinterest",
+            "quotes": [
+              {
+                "symbol": "USD",
+                "crypto_id": 2781,
+                "average_tokenized_price": 18.258632224925073,
+                "tokenized_market_cap": 11892.355216178636,
+                "tokenized_volume_24h": 0,
+                "last_updated": "2026-09-24T16:04:03.000Z"
+              }
+            ],
+            "rwa_id": 239,
+            "asset_type": "stock",
+            "rwa_rank": 887,
+            "has_tokens": true,
+            "average_tokenized_price": 18.258632224925073,
+            "tokenized_market_cap": 11892.355216178636,
+            "tokenized_volume_24h": 0,
+            "last_updated": "2026-09-24T16:04:24.000Z"
+          },
+          {
+            "name": "ProShares Short QQQ",
+            "symbol": "PSQ",
+            "slug": "proshares-short-qqq",
+            "quotes": [
+              {
+                "symbol": "USD",
+                "crypto_id": 2781,
+                "average_tokenized_price": 25.433485244947835,
+                "tokenized_market_cap": 7546.507344518359,
+                "tokenized_volume_24h": 0,
+                "last_updated": "2026-09-24T16:04:03.000Z"
+              }
+            ],
+            "rwa_id": 240,
+            "asset_type": "etf",
+            "rwa_rank": 7775,
+            "has_tokens": true,
+            "average_tokenized_price": 25.433485244947835,
+            "tokenized_market_cap": 7546.507344518359,
+            "tokenized_volume_24h": 0,
+            "last_updated": "2026-09-24T16:04:24.000Z"
+          },
+          {
+            "name": "Charles Schwab Corporation",
+            "symbol": "SCHW",
+            "slug": "charles-schwab",
+            "quotes": [
+              {
+                "symbol": "USD",
+                "crypto_id": 2781,
+                "average_tokenized_price": 100.96411688585044,
+                "tokenized_market_cap": 3959.487547690988,
+                "tokenized_volume_24h": 0,
+                "last_updated": "2026-09-24T16:04:03.000Z"
+              }
+            ],
+            "rwa_id": 76,
+            "asset_type": "stock",
+            "rwa_rank": 92,
+            "has_tokens": true,
+            "average_tokenized_price": 100.96411688585044,
+            "tokenized_market_cap": 3959.487547690988,
+            "tokenized_volume_24h": 0,
+            "last_updated": "2026-09-24T16:04:29.000Z"
+          },
+          {
+            "name": "Trip.com Group Ltd",
+            "symbol": "TCOM",
+            "slug": "trip-com-group",
+            "quotes": [
+              {
+                "symbol": "USD",
+                "crypto_id": 2781,
+                "average_tokenized_price": 40.01903496991801,
+                "tokenized_market_cap": 133766.26649046195,
+                "tokenized_volume_24h": 0,
+                "last_updated": "2026-09-24T16:04:03.000Z"
+              }
+            ],
+            "rwa_id": 245,
+            "asset_type": "stock",
+            "rwa_rank": 511,
+            "has_tokens": true,
+            "average_tokenized_price": 40.01903496991801,
+            "tokenized_market_cap": 133766.26649046195,
+            "tokenized_volume_24h": 0,
+            "last_updated": "2026-09-24T16:04:32.000Z"
+          }
+        ]
+      },
+      "status": {
+        "timestamp": "2026-09-24T16:05:11.448Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 13,
+        "credit_count": 1
+      }
+    }
+  }
+}

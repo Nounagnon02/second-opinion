@@ -1,0 +1,8 @@
+
+> second-opinion@0.1.0 calibrate
+> npm run build && node dist/cli/calibrate.js --record=fixtures/calibration/live-2026-09-26 --write --per-minute=40
+
+
+> second-opinion@0.1.0 build
+> tsc -p tsconfig.build.json
+

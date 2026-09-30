@@ -1,0 +1,109 @@
+{
+  "label": "E02-28e6bd6d-20260926T190050689Z",
+  "recordedAt": "2026-09-26T19:00:50.689Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v3/cryptocurrency/quotes/latest?convert=USD&id=37470",
+    "path": "/v3/cryptocurrency/quotes/latest",
+    "query": {
+      "convert": "USD",
+      "id": "37470"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 396,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 19:00:50 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 ab6ec3bb809b5202a1adff9495ec59ca.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "Y2R29d39o45TFJAO4OWfOtWsPtz2zbhybcH8nnOrEQHkDg2jeSbMrA==",
+      "x-amz-cf-pop": "CDG55-P3",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "8",
+      "x-server-traceid": "a53d04617148e0f3824aa729ec35bf7a"
+    },
+    "body": {
+      "data": [
+        {
+          "tags": [
+            {
+              "slug": "ethereum-ecosystem",
+              "name": "Ethereum Ecosystem",
+              "category": "PLATFORM"
+            }
+          ],
+          "id": 37470,
+          "name": "XAU9999 Meme",
+          "symbol": "XAU",
+          "slug": "xau9999-meme",
+          "is_active": 1,
+          "infinite_supply": false,
+          "is_fiat": 0,
+          "circulating_supply": 0,
+          "total_supply": 1000000000000000,
+          "max_supply": 1000000000000000,
+          "date_added": "2025-07-23T03:25:23.000Z",
+          "num_market_pairs": 1,
+          "cmc_rank": 5132,
+          "last_updated": "2026-09-26T18:58:00.000Z",
+          "tvl_ratio": null,
+          "platform": {
+            "id": 1027,
+            "slug": "ethereum",
+            "name": "Ethereum",
+            "symbol": "ETH",
+            "token_address": "0x999903502C1C7fea3591FB17315544C6BdDe7699"
+          },
+          "self_reported_circulating_supply": 1000000000000000,
+          "self_reported_market_cap": 9614.444201187456,
+          "minted_market_cap": 9614.44,
+          "quote": [
+            {
+              "id": 2781,
+              "symbol": "USD",
+              "price": 9.614444201187e-12,
+              "volume_24h": 263.82907871,
+              "volume_change_24h": 0,
+              "cex_volume_24h": 0,
+              "dex_volume_24h": 263.82907871,
+              "percent_change_1h": -1.58713536,
+              "percent_change_24h": 1.53799758,
+              "percent_change_7d": 1.81707237,
+              "percent_change_30d": 3.64068598,
+              "percent_change_60d": 29.42929228,
+              "percent_change_90d": 64.57082748,
+              "market_cap": 0,
+              "market_cap_dominance": 0,
+              "fully_diluted_market_cap": 9614.44,
+              "minted_market_cap": 9614.44,
+              "tvl": null,
+              "last_updated": "2026-09-26T18:59:59.000Z"
+            }
+          ]
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-26T19:00:50.548Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 4,
+        "credit_count": 1
+      }
+    }
+  }
+}

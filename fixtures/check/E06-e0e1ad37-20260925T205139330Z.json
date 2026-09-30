@@ -1,0 +1,65 @@
+{
+  "label": "E06-e0e1ad37-20260925T205139330Z",
+  "recordedAt": "2026-09-25T20:51:39.330Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v2/simple/price?id=4705&include_last_updated=true",
+    "path": "/v2/simple/price",
+    "query": {
+      "id": "4705",
+      "include_last_updated": "true"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 2042,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Fri, 25 Sep 2026 20:51:39 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 c3d216af46e738d4422328d5f05835e8.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "gF9C-1052GsOPhZLIz1ujBfF8YHoD2z0B0HdiisJ2upUHM0URF3V9w==",
+      "x-amz-cf-pop": "LHR86-P3",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "8",
+      "x-server-traceid": "e19838505ad560c943a2de3698a671de"
+    },
+    "body": {
+      "data": [
+        {
+          "id": 4705,
+          "name": "PAX Gold",
+          "symbol": "PAXG",
+          "slug": "pax-gold",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "price": 4280.561179225801,
+              "last_updated": "2026-09-25T20:50:02.000Z"
+            }
+          ]
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-25T20:51:39.138Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 4,
+        "credit_count": 1
+      }
+    }
+  }
+}

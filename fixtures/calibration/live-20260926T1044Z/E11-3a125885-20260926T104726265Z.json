@@ -1,0 +1,337 @@
+{
+  "label": "E11-3a125885-20260926T104726265Z",
+  "recordedAt": "2026-09-26T10:47:26.265Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v1/dex/token/pools?address=suifhC9gU1VbJAPYPTBkHJyyyStKGLLYPVDTmPoqbvA&platform=solana&size=10",
+    "path": "/v1/dex/token/pools",
+    "query": {
+      "address": "suifhC9gU1VbJAPYPTBkHJyyyStKGLLYPVDTmPoqbvA",
+      "platform": "solana",
+      "size": "10"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 1069,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 10:47:25 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 cf29f50e3abcfc5226af6f36cb760c56.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "9w5rW5xP2TGvtvaRkYaROSvWel3aRGyNja-RAM7Y1iMuQ592Y_lv2g==",
+      "x-amz-cf-pop": "IAD55-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "221",
+      "x-server-traceid": "2990ab95ed3bc760c652ff30fc293733"
+    },
+    "body": {
+      "data": [
+        {
+          "addr": "6DjZConYnJSc7La2xppPABQmEX1iHhW8q5mkCkcMVTWV",
+          "v24": "454108.348788793319214984",
+          "pubAt": "1775060080000",
+          "t0": {
+            "addr": "So11111111111111111111111111111111111111112",
+            "lg": "https://dex-static.sintral.io/token-logo/16/So11111111111111111111111111111111111111112/1766048405124.jpeg",
+            "n": "Wrapped SOL",
+            "sym": "wSOL",
+            "liq": "347.995533405",
+            "liqUsd": "41946.39929456955378298"
+          },
+          "t1": {
+            "addr": "suifhC9gU1VbJAPYPTBkHJyyyStKGLLYPVDTmPoqbvA",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/20947.png",
+            "n": "Sui",
+            "sym": "SUI",
+            "liq": "11765.2451968",
+            "liqUsd": "13932.477505157021861573"
+          },
+          "bidx": 1,
+          "exid": 1426,
+          "exn": "Orca",
+          "liqUsd": "55878.876799726575644552",
+          "fa": "whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc",
+          "top": true,
+          "mi": false
+        },
+        {
+          "addr": "4gtQKQWbH3vBrQqQzYAHmTvGHj18yrofDCzCWh1W5XhK",
+          "v24": "43374.068598824697005718",
+          "pubAt": "1783986365000",
+          "t0": {
+            "addr": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/3408.png",
+            "n": "USD Coin",
+            "sym": "USDC",
+            "liq": "25808.343091",
+            "liqUsd": "25804.812272382966091241"
+          },
+          "t1": {
+            "addr": "suifhC9gU1VbJAPYPTBkHJyyyStKGLLYPVDTmPoqbvA",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/20947.png",
+            "n": "Sui",
+            "sym": "SUI",
+            "liq": "941.79431649",
+            "liqUsd": "1114.81462481719707626"
+          },
+          "bidx": 1,
+          "exid": 9882,
+          "exn": "Meteora DLMM",
+          "liqUsd": "26919.626897200163167501",
+          "fa": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+          "top": true,
+          "mi": false
+        },
+        {
+          "addr": "2AsusAS7VM9L1PV8QEJJk74eM667HH7NPq4rNr1Fde8y",
+          "v24": "116576.826101735540227719",
+          "pubAt": "1775123170000",
+          "t0": {
+            "addr": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/3408.png",
+            "n": "USD Coin",
+            "sym": "USDC",
+            "liq": "17657.278",
+            "liqUsd": "17655.436826862712885649"
+          },
+          "t1": {
+            "addr": "suifhC9gU1VbJAPYPTBkHJyyyStKGLLYPVDTmPoqbvA",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/20947.png",
+            "n": "Sui",
+            "sym": "SUI",
+            "liq": "4609.29197644",
+            "liqUsd": "5463.064533695358939512"
+          },
+          "bidx": 1,
+          "exid": 33200,
+          "exn": "Byreal",
+          "liqUsd": "23118.501360558071825161",
+          "fa": "REALQqNEomY6cQGZJUGwywTBD2UmDT32rZcNnfxQ5N2",
+          "top": true,
+          "mi": false
+        },
+        {
+          "addr": "6YpUxTGXuNfqmkbJugPw14yT7oNahTv5udhGpXB4MguW",
+          "v24": "26258.566263710092959145",
+          "pubAt": "1789989182000",
+          "t0": {
+            "addr": "AP5YnCZRFHayveJ1zSSWeGpB1Hps4v8pLJ6ASmXLMD6M",
+            "lg": "https://bin.bnbstatic.com/images/web3-data/public/token/logos/18FCA515166726A0ECC740D4CBE616D4.jpg",
+            "n": "SUI CAT",
+            "sym": "SUICAT",
+            "liq": "271969092.120921",
+            "liqUsd": "11300.236354719762067543"
+          },
+          "t1": {
+            "addr": "suifhC9gU1VbJAPYPTBkHJyyyStKGLLYPVDTmPoqbvA",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/20947.png",
+            "n": "Sui",
+            "sym": "SUI",
+            "liq": "9973.91174538",
+            "liqUsd": "11800.11833780071113962"
+          },
+          "bidx": 0,
+          "exid": 10403,
+          "exn": "Raydium (CPMM)",
+          "liqUsd": "23100.354692520473207162",
+          "fa": "CPMMoo8L3F4NbTegBCKVNunggL7H1ZpdTHKxQB5qKP1C",
+          "lr": "1",
+          "top": true,
+          "mi": false
+        },
+        {
+          "addr": "3o96Jio3xCmejWocATe8tDffVMVjSA9Erssx1kpQGnHP",
+          "v24": "0",
+          "pubAt": "1789232171000",
+          "t0": {
+            "addr": "9yTrjQeaV6CJLSTGRyCCkvFFWY6habrsi4wCvjpE4vPV",
+            "lg": "https://bin.bnbstatic.com/images/web3-data/public/token/logos/4989D461B8A5332ACF06E56CE7B490DA.webp",
+            "n": "SUIII",
+            "sym": "SUIII",
+            "liq": "206900000",
+            "liqUsd": "10115.563793636568715233"
+          },
+          "t1": {
+            "addr": "suifhC9gU1VbJAPYPTBkHJyyyStKGLLYPVDTmPoqbvA",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/20947.png",
+            "n": "Sui",
+            "sym": "SUI",
+            "liq": "11926.32199766",
+            "liqUsd": "10115.563793636568715233"
+          },
+          "bidx": 0,
+          "exid": 12590,
+          "exn": "Raydium LaunchLab",
+          "liqUsd": "20231.127587273137430466",
+          "fa": "LanMV9sAd7wArD4vJFi2qDdfnVhFxYSUg6eADduJ3uj",
+          "top": true,
+          "mi": true
+        },
+        {
+          "addr": "71RcxCj19cYBbH7jXftXe522QBdmxdzxJ4Zs5PWLvnRy",
+          "v24": "27599.197808791792698287",
+          "pubAt": "1789756477000",
+          "t0": {
+            "addr": "CuDP8ohRfj72Aw8bfLE5ox5Cox2wtVv51iWBbGLQDtRD",
+            "lg": "https://ipfs.sintral.me/cdn-cgi/image/width=480,quality=100,format=webp/url/https%3A%2F%2Fmetadata.j7tracker.io%2Fimages%2Fnl6MdNzoUm",
+            "n": "Ronaldinu",
+            "sym": "Ronaldinu",
+            "liq": "364772661.936554",
+            "liqUsd": "9826.215361879279925913"
+          },
+          "t1": {
+            "addr": "suifhC9gU1VbJAPYPTBkHJyyyStKGLLYPVDTmPoqbvA",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/20947.png",
+            "n": "Sui",
+            "sym": "SUI",
+            "liq": "8285.88464273",
+            "liqUsd": "9827.697006571678456042"
+          },
+          "bidx": 0,
+          "exid": 10403,
+          "exn": "Raydium (CPMM)",
+          "liqUsd": "19653.912368450958381954",
+          "fa": "CPMMoo8L3F4NbTegBCKVNunggL7H1ZpdTHKxQB5qKP1C",
+          "lr": "1",
+          "top": true,
+          "mi": false
+        },
+        {
+          "addr": "6c8DVtTRrqGNvkk2obgRaHMq6S9dxkbEc7G535t8xxWx",
+          "v24": "0",
+          "pubAt": "1789755813000",
+          "t0": {
+            "addr": "CuDP8ohRfj72Aw8bfLE5ox5Cox2wtVv51iWBbGLQDtRD",
+            "lg": "https://ipfs.sintral.me/cdn-cgi/image/width=480,quality=100,format=webp/url/https%3A%2F%2Fmetadata.j7tracker.io%2Fimages%2Fnl6MdNzoUm",
+            "n": "Ronaldinu",
+            "sym": "Ronaldinu",
+            "liq": "206900000",
+            "liqUsd": "9699.440584109947104555"
+          },
+          "t1": {
+            "addr": "suifhC9gU1VbJAPYPTBkHJyyyStKGLLYPVDTmPoqbvA",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/20947.png",
+            "n": "Sui",
+            "sym": "SUI",
+            "liq": "12066.54886173",
+            "liqUsd": "9699.440584109947104555"
+          },
+          "bidx": 0,
+          "exid": 12590,
+          "exn": "Raydium LaunchLab",
+          "liqUsd": "19398.88116821989420911",
+          "fa": "LanMV9sAd7wArD4vJFi2qDdfnVhFxYSUg6eADduJ3uj",
+          "top": true,
+          "mi": true
+        },
+        {
+          "addr": "CXKpS64FtuVMtVJyK7DuXmDoEUygLuUwkxRWj3RPsmLG",
+          "v24": "0",
+          "pubAt": "1789235863000",
+          "t0": {
+            "addr": "6zoe9bgB1yQUe3NpeKxuZcGsYsiGdAxWEN4vyQD2rx9f",
+            "lg": "https://bin.bnbstatic.com/images/web3-data/public/token/logos/872FB5A47A8BC6DBA48A24E842661790.jpg",
+            "n": "Capybara",
+            "sym": "CAPY",
+            "liq": "206900000",
+            "liqUsd": "9267.99812719205792353"
+          },
+          "t1": {
+            "addr": "suifhC9gU1VbJAPYPTBkHJyyyStKGLLYPVDTmPoqbvA",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/20947.png",
+            "n": "Sui",
+            "sym": "SUI",
+            "liq": "11912.99962941",
+            "liqUsd": "9267.99812719205792353"
+          },
+          "bidx": 0,
+          "exid": 12590,
+          "exn": "Raydium LaunchLab",
+          "liqUsd": "18535.996254384115847059",
+          "fa": "LanMV9sAd7wArD4vJFi2qDdfnVhFxYSUg6eADduJ3uj",
+          "top": true,
+          "mi": true
+        },
+        {
+          "addr": "8L4XSPHdTNXkLvgEwGTa2187DE98ruKWQeqFmCj7ddfE",
+          "v24": "483.76243484437919272",
+          "pubAt": "1789238591000",
+          "t0": {
+            "addr": "6zoe9bgB1yQUe3NpeKxuZcGsYsiGdAxWEN4vyQD2rx9f",
+            "lg": "https://bin.bnbstatic.com/images/web3-data/public/token/logos/872FB5A47A8BC6DBA48A24E842661790.jpg",
+            "n": "Capybara",
+            "sym": "CAPY",
+            "liq": "694241837.086681",
+            "liqUsd": "4293.748689474631549677"
+          },
+          "t1": {
+            "addr": "suifhC9gU1VbJAPYPTBkHJyyyStKGLLYPVDTmPoqbvA",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/20947.png",
+            "n": "Sui",
+            "sym": "SUI",
+            "liq": "3769.30233162",
+            "liqUsd": "4369.886066937214698122"
+          },
+          "bidx": 0,
+          "exid": 10403,
+          "exn": "Raydium (CPMM)",
+          "liqUsd": "8663.634756411846247798",
+          "fa": "CPMMoo8L3F4NbTegBCKVNunggL7H1ZpdTHKxQB5qKP1C",
+          "lr": "1",
+          "top": true,
+          "mi": false
+        },
+        {
+          "addr": "CPX15Wh3d95BEw2BEAtZC8AxjDRQCS4YUT6ewzdJfZ5q",
+          "v24": "20.807068324055022583",
+          "pubAt": "1789995278000",
+          "t0": {
+            "addr": "3upuiJiqCpt9EqR74a29Su11nmxnNBK94Tp7QMJkhF8E",
+            "lg": "https://bin.bnbstatic.com/images/web3-data/public/token/logos/10C35DEECFFEBEC6CA6D3C0D4A5FE501.jpg",
+            "n": "SIU",
+            "sym": "SIU",
+            "liq": "695883358.763667",
+            "liqUsd": "3337.508662956249506849"
+          },
+          "t1": {
+            "addr": "suifhC9gU1VbJAPYPTBkHJyyyStKGLLYPVDTmPoqbvA",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/20947.png",
+            "n": "Sui",
+            "sym": "SUI",
+            "liq": "2933.09893753",
+            "liqUsd": "3397.621997109058026236"
+          },
+          "bidx": 0,
+          "exid": 10403,
+          "exn": "Raydium (CPMM)",
+          "liqUsd": "6735.130660065307533085",
+          "fa": "CPMMoo8L3F4NbTegBCKVNunggL7H1ZpdTHKxQB5qKP1C",
+          "lr": "1",
+          "top": true,
+          "mi": false
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-26T10:47:25.495Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 217,
+        "credit_count": 1
+      }
+    }
+  }
+}

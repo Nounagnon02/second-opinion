@@ -1,0 +1,325 @@
+{
+  "label": "E11-d1f7e4ef-20260926T105025533Z",
+  "recordedAt": "2026-09-26T10:50:25.533Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v1/dex/token/pools?address=0x3c3a81e81dc49a522a592e7622a7e711c06bf354&platform=ethereum&size=10",
+    "path": "/v1/dex/token/pools",
+    "query": {
+      "address": "0x3c3a81e81dc49a522a592e7622a7e711c06bf354",
+      "platform": "ethereum",
+      "size": "10"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 738,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 10:50:25 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 f5be520a0e05096cc6c019d4cccce3a2.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "Fzi2Kp3NW3br2h5N8DQfJEDWtvuE9tEJrSYOUM1mKIbqAoLrBlT53w==",
+      "x-amz-cf-pop": "IAD55-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "281",
+      "x-server-traceid": "3f64700613d72f01b61cfefef1d54520"
+    },
+    "body": {
+      "data": [
+        {
+          "addr": "0x9aac67deef711d438ad711ae495b8cb43a6ee1a8",
+          "v24": "638857.841275876748244803",
+          "pubAt": "1740386435000",
+          "t0": {
+            "addr": "0x3c3a81e81dc49a522a592e7622a7e711c06bf354",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/27075.png",
+            "n": "Mantle",
+            "sym": "MNT",
+            "liq": "2433430.174326981254841294",
+            "liqUsd": "1704790.177411418592425088"
+          },
+          "t1": {
+            "addr": "0x4c9edd5852cd905f086c759e8383e09bff1e68b3",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/29470.png",
+            "n": "USDe",
+            "sym": "USDe",
+            "liq": "2232056.187627674830446334",
+            "liqUsd": "2231319.004162817505239128"
+          },
+          "bidx": 0,
+          "exid": 1348,
+          "exn": "Uniswap v3 (Ethereum)",
+          "liqUsd": "3936109.181574236097664215",
+          "fa": "0x1f98431c8ad98523631ae4a59f267346ea31f984",
+          "top": true,
+          "mi": false
+        },
+        {
+          "addr": "0x5dd8a6f3cc661f09e962d54ff570b3f4a9e1ef9a",
+          "v24": "49717.421439511887009707",
+          "pubAt": "1757540603000",
+          "t0": {
+            "addr": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/2396.png",
+            "n": "Wrapped Ether",
+            "sym": "WETH",
+            "liq": "278.723672607383545313",
+            "liqUsd": "748873.562949001882690722"
+          },
+          "t1": {
+            "addr": "0x3c3a81e81dc49a522a592e7622a7e711c06bf354",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/27075.png",
+            "n": "Mantle",
+            "sym": "MNT",
+            "liq": "1065628.072658632046202562",
+            "liqUsd": "746919.843761646108908194"
+          },
+          "bidx": 1,
+          "exid": 32396,
+          "exn": "Ring Exchange (Ethereum)",
+          "liqUsd": "1495793.406710647991598915",
+          "fa": "0xeb2a625b704d73e82946d8d026e1f588eed06416",
+          "top": true,
+          "mi": false
+        },
+        {
+          "addr": "0xf4c5e0f4590b6679b3030d29a84857f226087fef",
+          "v24": "5088.822309228634168372",
+          "pubAt": "1689592967000",
+          "t0": {
+            "addr": "0x3c3a81e81dc49a522a592e7622a7e711c06bf354",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/27075.png",
+            "n": "Mantle",
+            "sym": "MNT",
+            "liq": "19849.859372709814687929",
+            "liqUsd": "13933.718749209500172714"
+          },
+          "t1": {
+            "addr": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/2396.png",
+            "n": "Wrapped Ether",
+            "sym": "WETH",
+            "liq": "2.346814385460191553",
+            "liqUsd": "6305.417650498168104368"
+          },
+          "bidx": 0,
+          "exid": 1348,
+          "exn": "Uniswap v3 (Ethereum)",
+          "liqUsd": "20239.136399707668277082",
+          "fa": "0x1f98431c8ad98523631ae4a59f267346ea31f984",
+          "top": true,
+          "mi": false
+        },
+        {
+          "addr": "0x9daaa6eaa8e36e75b1f928c3f998fc68c68de099e2450a877a788dc6a7448da7",
+          "v24": "247.811155422094803963",
+          "t0": {
+            "addr": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png",
+            "n": "Ethereum",
+            "sym": "ETH",
+            "liq": "1.348117464243799789",
+            "liqUsd": "3627.669497215345847629"
+          },
+          "t1": {
+            "addr": "0x3c3a81e81dc49a522a592e7622a7e711c06bf354",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/27075.png",
+            "n": "Mantle",
+            "sym": "MNT",
+            "liq": "5020.391463658228854507",
+            "liqUsd": "3547.458856755178094588"
+          },
+          "bidx": 1,
+          "exid": 11955,
+          "exn": "Uniswap v4 (Ethereum)",
+          "liqUsd": "7175.128353970523942216",
+          "fa": "0x000000000004444c5dc75cb358380d2e3de08a90",
+          "top": true,
+          "mi": false
+        },
+        {
+          "addr": "0xbe43a07c375ab071b5396972b66c393f8e40b357",
+          "v24": "1091.221577648810849002",
+          "pubAt": "1693372955000",
+          "t0": {
+            "addr": "0x1487bd704fa05a222b0adb50dc420f001f003045",
+            "lg": "",
+            "n": "Cross-Chain DAO",
+            "sym": "CCDAO",
+            "liq": "50545877.401979103121852806",
+            "liqUsd": "16305.92254476710957197"
+          },
+          "t1": {
+            "addr": "0x3c3a81e81dc49a522a592e7622a7e711c06bf354",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/27075.png",
+            "n": "Mantle",
+            "sym": "MNT",
+            "liq": "7743.295645677909836173",
+            "liqUsd": "5526.107107565181693557"
+          },
+          "bidx": 0,
+          "exid": 1348,
+          "exn": "Uniswap v3 (Ethereum)",
+          "liqUsd": "21832.029652332291265526",
+          "fa": "0x1f98431c8ad98523631ae4a59f267346ea31f984",
+          "mi": false
+        },
+        {
+          "addr": "0x1febfeb588abccd715a21e9b37a21498a2b329f7f62667103437bc78ed36c54d",
+          "pubAt": "1774936895000",
+          "t0": {
+            "addr": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png",
+            "n": "Ethereum",
+            "sym": "ETH",
+            "liq": "1.5",
+            "liqUsd": "3092.717137537521"
+          },
+          "t1": {
+            "addr": "0x3c3a81e81dc49a522a592e7622a7e711c06bf354",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/27075.png",
+            "n": "Mantle",
+            "sym": "MNT",
+            "liq": "0",
+            "liqUsd": "0"
+          },
+          "bidx": 1,
+          "exid": 11955,
+          "exn": "Uniswap v4 (Ethereum)",
+          "liqUsd": "3092.717137537521",
+          "fa": "0x000000000004444c5dc75cb358380d2e3de08a90",
+          "mi": false
+        },
+        {
+          "addr": "0x334e89969c72bfad2702f61d2844a091fe63c4d0",
+          "v24": "33.291002185236277334",
+          "pubAt": "1759705655000",
+          "t0": {
+            "addr": "0x3c3a81e81dc49a522a592e7622a7e711c06bf354",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/27075.png",
+            "n": "Mantle",
+            "sym": "MNT",
+            "liq": "656.112651076428447101",
+            "liqUsd": "467.130156260755684777"
+          },
+          "t1": {
+            "addr": "0xd4419c2d3daa986dc30444fa333a846be44fd1eb",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/31884.png",
+            "n": "ZIK coin",
+            "sym": "ZIK",
+            "liq": "8530570.879473771060451534",
+            "liqUsd": "0"
+          },
+          "bidx": 0,
+          "exid": 1348,
+          "exn": "Uniswap v3 (Ethereum)",
+          "liqUsd": "467.130156260755684777",
+          "fa": "0x1f98431c8ad98523631ae4a59f267346ea31f984",
+          "mi": false
+        },
+        {
+          "addr": "0x7aa6a4902cbcb75e1a44fcbd829ae250c22f093d730b354cdcb09b1bd4dd12b2",
+          "v24": "36.974115821294810189",
+          "pubAt": "1759532447000",
+          "t0": {
+            "addr": "0x3c3a81e81dc49a522a592e7622a7e711c06bf354",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/27075.png",
+            "n": "Mantle",
+            "sym": "MNT",
+            "liq": "566.775200092587838809",
+            "liqUsd": "404.314707989046274862"
+          },
+          "t1": {
+            "addr": "0xd4419c2d3daa986dc30444fa333a846be44fd1eb",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/31884.png",
+            "n": "ZIK coin",
+            "sym": "ZIK",
+            "liq": "9518728.448894823123382284",
+            "liqUsd": "0"
+          },
+          "bidx": 0,
+          "exid": 11955,
+          "exn": "Uniswap v4 (Ethereum)",
+          "liqUsd": "404.314707989046274862",
+          "fa": "0x000000000004444c5dc75cb358380d2e3de08a90",
+          "mi": false
+        },
+        {
+          "addr": "0x8fa9203374e4974a85bcebf7a830a64d5b9c6149",
+          "v24": "66.42308076473196505",
+          "pubAt": "1689595247000",
+          "t0": {
+            "addr": "0x3c3a81e81dc49a522a592e7622a7e711c06bf354",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/27075.png",
+            "n": "Mantle",
+            "sym": "MNT",
+            "liq": "332.872566211015445727",
+            "liqUsd": "0"
+          },
+          "t1": {
+            "addr": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/3408.png",
+            "n": "USD Coin",
+            "sym": "USDC",
+            "liq": "216.660556",
+            "liqUsd": "216.642662745928847245"
+          },
+          "bidx": 0,
+          "exid": 1348,
+          "exn": "Uniswap v3 (Ethereum)",
+          "liqUsd": "216.642662745928847245",
+          "fa": "0x1f98431c8ad98523631ae4a59f267346ea31f984",
+          "mi": false
+        },
+        {
+          "addr": "0x11b544c90ee643ca0256696f43b4512a4ed2d049",
+          "v24": "1.123249872061380674",
+          "pubAt": "1716288827000",
+          "t0": {
+            "addr": "0x3c3a81e81dc49a522a592e7622a7e711c06bf354",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/27075.png",
+            "n": "Mantle",
+            "sym": "MNT",
+            "liq": "49.449759514911847382",
+            "liqUsd": "35.021859324593010165"
+          },
+          "t1": {
+            "addr": "0xd5f7838f5c461feff7fe49ea5ebaf7728bb0adfa",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/29035.png",
+            "n": "mETH",
+            "sym": "mETH",
+            "liq": "0.0026064814297003",
+            "liqUsd": "0"
+          },
+          "bidx": 0,
+          "exid": 6707,
+          "exn": "PancakeSwap v3 (Ethereum)",
+          "liqUsd": "35.021859324593010165",
+          "fa": "0x0bfbcf9fa4f9c56b0f40a671ad40e0805a091865",
+          "mi": false
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-26T10:50:25.146Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 276,
+        "credit_count": 1
+      }
+    }
+  }
+}

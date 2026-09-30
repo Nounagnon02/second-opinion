@@ -1,0 +1,65 @@
+{
+  "label": "E06-67d0363d-20260925T215716700Z",
+  "recordedAt": "2026-09-25T21:57:16.700Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v2/simple/price?id=32196&include_last_updated=true",
+    "path": "/v2/simple/price",
+    "query": {
+      "id": "32196",
+      "include_last_updated": "true"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 5629,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Fri, 25 Sep 2026 21:57:16 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 9d48d29ac0d6fbcc29cb164716d39d68.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "ucUEXtnQkt2TPFzhL-ahd7xeNtBtIwQRLTLXww7TCECtn6mZu424Ew==",
+      "x-amz-cf-pop": "FRA60-P13",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "11",
+      "x-server-traceid": "fa94735d1fb98bae6b451c294f8568cf"
+    },
+    "body": {
+      "data": [
+        {
+          "id": 32196,
+          "name": "Hyperliquid",
+          "symbol": "HYPE",
+          "slug": "hyperliquid",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "price": 91.69804302068853,
+              "last_updated": "2026-09-25T21:56:03.000Z"
+            }
+          ]
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-25T21:57:16.598Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 4,
+        "credit_count": 1
+      }
+    }
+  }
+}

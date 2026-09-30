@@ -1,0 +1,175 @@
+{
+  "label": "E05-ba456469-20260925T220121939Z",
+  "recordedAt": "2026-09-25T22:01:21.939Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v2/cryptocurrency/info?id=35491",
+    "path": "/v2/cryptocurrency/info",
+    "query": {
+      "id": "35491"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 1021,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Fri, 25 Sep 2026 22:01:21 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 bdc6f46d528af5e15c27d2e41fd4f658.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "Rrla6aqeUn2lnCpuOEPcUaFAsr_MkxBc8uGZH4zpy4zLSM625VgPuA==",
+      "x-amz-cf-pop": "LOS50-P4",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "13",
+      "x-server-traceid": "38cab7ddab36a2a627abaa758c152a52"
+    },
+    "body": {
+      "data": {
+        "35491": {
+          "id": 35491,
+          "name": "MemeCore",
+          "symbol": "M",
+          "category": "coin",
+          "description": "MemeCore (M) is a cryptocurrency launched in 2025. MemeCore has a current supply of 5,418,293,227.922263 with 2,278,703,481.4606295 in circulation. The last known price of MemeCore is 1.18730131 USD and is down -2.89 over the last 24 hours. It is currently trading on 140 active market(s) with $1,270,996.87 traded over the last 24 hours. More information can be found at https://memecore.com/.",
+          "slug": "memecore",
+          "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/35491.png",
+          "subreddit": "",
+          "notice": "",
+          "tags": [
+            "memes",
+            "bnb-chain-ecosystem",
+            "layer-1",
+            "binance-alpha",
+            "binance-alpha-airdrops",
+            "binance-ecosystem",
+            "binance-listing"
+          ],
+          "tag-names": [
+            "Memes",
+            "BNB Chain Ecosystem",
+            "Layer 1",
+            "Binance Alpha",
+            "Binance Alpha Airdrops",
+            "Binance Ecosystem",
+            "Binance Listing"
+          ],
+          "tag-groups": [
+            "INDUSTRY",
+            "PLATFORM",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY"
+          ],
+          "urls": {
+            "website": [
+              "https://memecore.com/"
+            ],
+            "twitter": [
+              "https://twitter.com/MemeCore_M"
+            ],
+            "message_board": [],
+            "chat": [
+              "https://t.me/MemeCoreLabs",
+              "https://t.me/MemeCoreCommunity",
+              "https://discord.com/invite/memecore"
+            ],
+            "facebook": [],
+            "explorer": [
+              "https://memecorescan.io/",
+              "https://bscscan.com/token/0x22b1458e780f8fa71e2f84502cee8b5a3cc731fa",
+              "https://web3.okx.com/explorer/memecore"
+            ],
+            "reddit": [],
+            "technical_doc": [
+              "https://docs.memecore.com/"
+            ],
+            "source_code": [
+              "https://github.com/memecore-foundation/Go-MemeCore"
+            ],
+            "announcement": [
+              "https://x.com/MemeCore_M"
+            ]
+          },
+          "platform": {
+            "id": "35491",
+            "name": "MemeCore",
+            "symbol": "M",
+            "slug": "memecore",
+            "token_address": "0"
+          },
+          "date_added": "2025-07-03T09:16:58.000Z",
+          "twitter_username": "MemeCore_M",
+          "is_hidden": 0,
+          "date_launched": "2025-07-03T00:00:00.000Z",
+          "contract_address": [
+            {
+              "contract_address": "0",
+              "platform": {
+                "name": "MemeCore",
+                "coin": {
+                  "id": "35491",
+                  "name": "MemeCore",
+                  "symbol": "M",
+                  "slug": "memecore"
+                }
+              }
+            },
+            {
+              "contract_address": "0x22b1458e780f8fa71e2f84502cee8b5a3cc731fa",
+              "platform": {
+                "name": "BNB Smart Chain (BEP20)",
+                "coin": {
+                  "id": "1839",
+                  "name": "BNB",
+                  "symbol": "BNB",
+                  "slug": "bnb"
+                }
+              }
+            }
+          ],
+          "self_reported_tags": [
+            "Platform",
+            "Services",
+            "Communications & Social Media",
+            "Centralized Exchange (CEX) Token",
+            "Decentralized Exchange (DEX) Token",
+            "DeFi",
+            "Memes",
+            "Smart Contracts",
+            "Staking",
+            "Web3",
+            "Layer 1",
+            "Telegram Bot",
+            "AI Memes",
+            "IP Memes",
+            "Startup Memes"
+          ],
+          "infinite_supply": false
+        }
+      },
+      "status": {
+        "timestamp": "2026-09-25T22:01:21.645Z",
+        "error_code": 0,
+        "error_message": null,
+        "elapsed": 7,
+        "credit_count": 1,
+        "notice": null
+      }
+    }
+  }
+}

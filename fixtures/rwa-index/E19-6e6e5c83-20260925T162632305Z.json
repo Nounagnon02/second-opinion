@@ -1,0 +1,721 @@
+{
+  "label": "E19-6e6e5c83-20260925T162632305Z",
+  "recordedAt": "2026-09-25T16:26:32.305Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v5/real-world-assets/issuers?issuer_id=6a465832fbe3004b1a0ea2dd&limit=250&start=1",
+    "path": "/v5/real-world-assets/issuers",
+    "query": {
+      "issuer_id": "6a465832fbe3004b1a0ea2dd",
+      "limit": "250",
+      "start": "1"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 201,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Fri, 25 Sep 2026 16:26:32 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 b635e2b1f0ae92160e68ba87d10e2754.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "j9a-04f3V1DL0HB6qZp_pRysC2UJCRGsFZVa2szWPT1TnJ26hRF2Mg==",
+      "x-amz-cf-pop": "CDG55-P3",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "8",
+      "x-server-traceid": "bfa24a6f8b00e0901e5823d66c965d4c"
+    },
+    "body": {
+      "data": {
+        "name": "Robinhood",
+        "website": "https://robinhood.com/us/en/",
+        "tokens": [
+          {
+            "name": "SpaceX Tokenized Stock (Robinhood)",
+            "symbol": "SPCX",
+            "crypto_id": 37068,
+            "rwa_id": 9
+          },
+          {
+            "name": "NVIDIA Tokenized Stock (Robinhood)",
+            "symbol": "NVDA",
+            "crypto_id": 40685,
+            "rwa_id": 2
+          },
+          {
+            "name": "Invesco QQQ Tokenized ETF (Robinhood)",
+            "symbol": "QQQ",
+            "crypto_id": 40686,
+            "rwa_id": 118
+          },
+          {
+            "name": "AMD Tokenized Stock (Robinhood)",
+            "symbol": "AMD",
+            "crypto_id": 40687,
+            "rwa_id": 25
+          },
+          {
+            "name": "Netflix Tokenized ETF (Robinhood)",
+            "symbol": "NFLX",
+            "crypto_id": 40688,
+            "rwa_id": 37
+          },
+          {
+            "name": "Palantir Technologies Tokenized Stock (Robinhood)",
+            "symbol": "PLTR",
+            "crypto_id": 40689,
+            "rwa_id": 53
+          },
+          {
+            "name": "Rocket Lab Corporation Tokenized Stock (Robinhood)",
+            "symbol": "RKLB",
+            "crypto_id": 40690,
+            "rwa_id": 297
+          },
+          {
+            "name": "Tesla Tokenized Stock (Robinhood)",
+            "symbol": "TSLA",
+            "crypto_id": 40691,
+            "rwa_id": 14
+          },
+          {
+            "name": "CoreWeave Tokenized Stock (Robinhood)",
+            "symbol": "CRWV",
+            "crypto_id": 40692,
+            "rwa_id": 443
+          },
+          {
+            "name": "Arm Holdings plc Tokenized Stock (Robinhood)",
+            "symbol": "ARM",
+            "crypto_id": 40693,
+            "rwa_id": 54
+          },
+          {
+            "name": "SPDR S&P 500 Trust Tokenized ETF (Robinhood)",
+            "symbol": "SPY",
+            "crypto_id": 40694,
+            "rwa_id": 86
+          },
+          {
+            "name": "Microsoft Tokenized Stock (Robinhood)",
+            "symbol": "MSFT",
+            "crypto_id": 40695,
+            "rwa_id": 7
+          },
+          {
+            "name": "Micron Technology Tokenized Stock (Robinhood)",
+            "symbol": "MU",
+            "crypto_id": 40696,
+            "rwa_id": 12
+          },
+          {
+            "name": "Intel Tokenized Stock (Robinhood)",
+            "symbol": "INTC",
+            "crypto_id": 40697,
+            "rwa_id": 20
+          },
+          {
+            "name": "Cerebras Systems Tokenized Stock (Robinhood)",
+            "symbol": "CBRS",
+            "crypto_id": 40698,
+            "rwa_id": 251
+          },
+          {
+            "name": "Applied Optoelectronics Tokenized Stock (Robinhood)",
+            "symbol": "AAOI",
+            "crypto_id": 40699,
+            "rwa_id": 191
+          },
+          {
+            "name": "Sandisk Corporation Tokenized Stock (Robinhood)",
+            "symbol": "SNDK",
+            "crypto_id": 40700,
+            "rwa_id": 48
+          },
+          {
+            "name": "IonQ Tokenized Stock (Robinhood)",
+            "symbol": "IONQ",
+            "crypto_id": 40701,
+            "rwa_id": 545
+          },
+          {
+            "name": "Roblox Tokenized Stock (Robinhood)",
+            "symbol": "RBLX",
+            "crypto_id": 40702,
+            "rwa_id": 365
+          },
+          {
+            "name": "Apple Tokenized Stock (Robinhood)",
+            "symbol": "AAPL",
+            "crypto_id": 40703,
+            "rwa_id": 3
+          },
+          {
+            "name": "GameStop Tokenized Stock (Robinhood)",
+            "symbol": "GME",
+            "crypto_id": 40704,
+            "rwa_id": 116
+          },
+          {
+            "name": "Broadcom Tokenized Stock (Robinhood)",
+            "symbol": "AVGO",
+            "crypto_id": 40705,
+            "rwa_id": 13
+          },
+          {
+            "name": "Redwire Tokenized Stock (Robinhood)",
+            "symbol": "RDW",
+            "crypto_id": 40706,
+            "rwa_id": 1945
+          },
+          {
+            "name": "iShares Silver Trust Tokenized Commodity (Robinhood)",
+            "symbol": "SLV",
+            "crypto_id": 40707,
+            "rwa_id": 205
+          },
+          {
+            "name": "Circle Internet Group Tokenized Stock (Robinhood)",
+            "symbol": "CRCL",
+            "crypto_id": 40708,
+            "rwa_id": 115
+          },
+          {
+            "name": "Xanadu Quantum Tokenized Stock (Robinhood)",
+            "symbol": "XNDU",
+            "crypto_id": 40709,
+            "rwa_id": 1304
+          },
+          {
+            "name": "EchoStar Tokenized Stock (Robinhood)",
+            "symbol": "SATS",
+            "crypto_id": 40710,
+            "rwa_id": 353
+          },
+          {
+            "name": "Rivian Automotive Tokenized Stock (Robinhood)",
+            "symbol": "RIVN",
+            "crypto_id": 40711,
+            "rwa_id": 178
+          },
+          {
+            "name": "RVI Tokenized Stock (Robinhood)",
+            "symbol": "RVI",
+            "crypto_id": 40712,
+            "rwa_id": null
+          },
+          {
+            "name": "Corning Tokenized Stock (Robinhood)",
+            "symbol": "GLW",
+            "crypto_id": 40713,
+            "rwa_id": 256
+          },
+          {
+            "name": "D-Wave Quantum Tokenized Stock (Robinhood)",
+            "symbol": "QBTS",
+            "crypto_id": 40714,
+            "rwa_id": 88
+          },
+          {
+            "name": "Datadog Tokenized Stock (Robinhood)",
+            "symbol": "DDOG",
+            "crypto_id": 40715,
+            "rwa_id": 278
+          },
+          {
+            "name": "Futu Holdings Tokenized Stock (Robinhood)",
+            "symbol": "FUTU",
+            "crypto_id": 40716,
+            "rwa_id": 194
+          },
+          {
+            "name": "e.l.f. Beauty Tokenized Stock (Robinhood)",
+            "symbol": "ELF",
+            "crypto_id": 40717,
+            "rwa_id": 1843
+          },
+          {
+            "name": "Amazon Tokenized Stock (Robinhood)",
+            "symbol": "AMZN",
+            "crypto_id": 40718,
+            "rwa_id": 6
+          },
+          {
+            "name": "iShares Semiconductor Tokenized ETF (Robinhood)",
+            "symbol": "SOXX",
+            "crypto_id": 40719,
+            "rwa_id": 5704
+          },
+          {
+            "name": "Eli Lilly Tokenized Stock (Robinhood)",
+            "symbol": "LLY",
+            "crypto_id": 40720,
+            "rwa_id": 11
+          },
+          {
+            "name": "Carnival Corporation Tokenized Stock (Robinhood)",
+            "symbol": "CCL",
+            "crypto_id": 40721,
+            "rwa_id": 345
+          },
+          {
+            "name": "Coinbase Tokenized Stock (Robinhood)",
+            "symbol": "COIN",
+            "crypto_id": 40722,
+            "rwa_id": 82
+          },
+          {
+            "name": "Marvell Technology Tokenized Stock (Robinhood)",
+            "symbol": "MRVL",
+            "crypto_id": 40723,
+            "rwa_id": 70
+          },
+          {
+            "name": "AST SpaceMobile Tokenized Stock (Robinhood)",
+            "symbol": "ASTS",
+            "crypto_id": 40724,
+            "rwa_id": 511
+          },
+          {
+            "name": "SoFi Technologies Tokenized Stock (Robinhood)",
+            "symbol": "SOFI",
+            "crypto_id": 40725,
+            "rwa_id": 243
+          },
+          {
+            "name": "ASML Holding NV Tokenized Stock (Robinhood)",
+            "symbol": "ASML",
+            "crypto_id": 40726,
+            "rwa_id": 26
+          },
+          {
+            "name": "Shopify Tokenized Stock (Robinhood)",
+            "symbol": "SHOP",
+            "crypto_id": 40727,
+            "rwa_id": 132
+          },
+          {
+            "name": "Zoom Tokenized Stock (Robinhood)",
+            "symbol": "ZM",
+            "crypto_id": 40728,
+            "rwa_id": 376
+          },
+          {
+            "name": "Fluence Energy Tokenized Stock (Robinhood)",
+            "symbol": "FLNC",
+            "crypto_id": 40729,
+            "rwa_id": 1400
+          },
+          {
+            "name": "United Microelectronics Tokenized Stock (Robinhood)",
+            "symbol": "UMC",
+            "crypto_id": 40730,
+            "rwa_id": 1083
+          },
+          {
+            "name": "IREN Limited Tokenized Stock (Robinhood)",
+            "symbol": "IREN",
+            "crypto_id": 40731,
+            "rwa_id": 229
+          },
+          {
+            "name": "State Street Technology Sector Tokenized ETF (Robinhood)",
+            "symbol": "XLK",
+            "crypto_id": 40732,
+            "rwa_id": 5967
+          },
+          {
+            "name": "Tema Space Innovators Tokenized ETF (Robinhood)",
+            "symbol": "NASA",
+            "crypto_id": 40733,
+            "rwa_id": 7436
+          },
+          {
+            "name": "Intuit Tokenized Stock (Robinhood)",
+            "symbol": "INTU",
+            "crypto_id": 40734,
+            "rwa_id": 201
+          },
+          {
+            "name": "Innodata Tokenized Stock (Robinhood)",
+            "symbol": "INOD",
+            "crypto_id": 40735,
+            "rwa_id": 1373
+          },
+          {
+            "name": "Everpure Tokenized Stock (Robinhood)",
+            "symbol": "P",
+            "crypto_id": 40736,
+            "rwa_id": 794
+          },
+          {
+            "name": "United States Oil Fund Tokenized Commodity (Robinhood)",
+            "symbol": "USO",
+            "crypto_id": 40737,
+            "rwa_id": 183
+          },
+          {
+            "name": "USA Rare Earth Tokenized Stock (Robinhood)",
+            "symbol": "USAR",
+            "crypto_id": 40738,
+            "rwa_id": 1682
+          },
+          {
+            "name": "Alibaba Tokenized Stock (Robinhood)",
+            "symbol": "BABA",
+            "crypto_id": 40739,
+            "rwa_id": 63
+          },
+          {
+            "name": "ServiceNow Tokenized Stock (Robinhood)",
+            "symbol": "NOW",
+            "crypto_id": 40740,
+            "rwa_id": 203
+          },
+          {
+            "name": "Exxon Mobil Tokenized Stock (Robinhood)",
+            "symbol": "XOM",
+            "crypto_id": 40741,
+            "rwa_id": 27
+          },
+          {
+            "name": "Boeing Tokenized Stock (Robinhood)",
+            "symbol": "BA",
+            "crypto_id": 40742,
+            "rwa_id": 106
+          },
+          {
+            "name": "Dell Tokenized Stock (Robinhood)",
+            "symbol": "DELL",
+            "crypto_id": 40743,
+            "rwa_id": 44
+          },
+          {
+            "name": "Quantum Computing Tokenized Stock (Robinhood)",
+            "symbol": "QUBT",
+            "crypto_id": 40744,
+            "rwa_id": 2028
+          },
+          {
+            "name": "Strategy Inc. Tokenized Stock (Robinhood)",
+            "symbol": "MSTR",
+            "crypto_id": 40745,
+            "rwa_id": 114
+          },
+          {
+            "name": "Nokia Tokenized Stock (Robinhood)",
+            "symbol": "NOK",
+            "crypto_id": 40746,
+            "rwa_id": 1588
+          },
+          {
+            "name": "Applied Digital Tokenized Stock (Robinhood)",
+            "symbol": "APLD",
+            "crypto_id": 40747,
+            "rwa_id": 912
+          },
+          {
+            "name": "UPS Tokenized Stock (Robinhood)",
+            "symbol": "UPS",
+            "crypto_id": 40748,
+            "rwa_id": 401
+          },
+          {
+            "name": "Qualcomm Tokenized Stock (Robinhood)",
+            "symbol": "QCOM",
+            "crypto_id": 40749,
+            "rwa_id": 103
+          },
+          {
+            "name": "Lumentum Tokenized Stock (Robinhood)",
+            "symbol": "LITE",
+            "crypto_id": 40750,
+            "rwa_id": 189
+          },
+          {
+            "name": "CleanSpark Tokenized Stock (Robinhood)",
+            "symbol": "CLSK",
+            "crypto_id": 40751,
+            "rwa_id": 1791
+          },
+          {
+            "name": "Applied Materials Tokenized Stock (Robinhood)",
+            "symbol": "AMAT",
+            "crypto_id": 40752,
+            "rwa_id": 22
+          },
+          {
+            "name": "Take-Two Interactive Software Tokenized Stock (Robinhood)",
+            "symbol": "TTWO",
+            "crypto_id": 40753,
+            "rwa_id": 466
+          },
+          {
+            "name": "MongoDB Tokenized Stock (Robinhood)",
+            "symbol": "MDB",
+            "crypto_id": 40754,
+            "rwa_id": 373
+          },
+          {
+            "name": "Ford Motor Tokenized Stock (Robinhood)",
+            "symbol": "F",
+            "crypto_id": 40755,
+            "rwa_id": 227
+          },
+          {
+            "name": "Lululemon Tokenized Stock (Robinhood)",
+            "symbol": "LULU",
+            "crypto_id": 40756,
+            "rwa_id": 868
+          },
+          {
+            "name": "Alphabet Class A Tokenized Stock (Robinhood)",
+            "symbol": "GOOGL",
+            "crypto_id": 40757,
+            "rwa_id": 4
+          },
+          {
+            "name": "Bloom Energy Tokenized Stock (Robinhood)",
+            "symbol": "BE",
+            "crypto_id": 40758,
+            "rwa_id": 190
+          },
+          {
+            "name": "POET Technologies Tokenized Stock (Robinhood)",
+            "symbol": "POET",
+            "crypto_id": 40759,
+            "rwa_id": 2032
+          },
+          {
+            "name": "Navitas Semiconductor Tokenized Stock (Robinhood)",
+            "symbol": "NVTS",
+            "crypto_id": 40760,
+            "rwa_id": 1701
+          },
+          {
+            "name": "Penguin Solutions Tokenized Stock (Robinhood)",
+            "symbol": "PENG",
+            "crypto_id": 40761,
+            "rwa_id": 1410
+          },
+          {
+            "name": "Costco Tokenized Stock (Robinhood)",
+            "symbol": "COST",
+            "crypto_id": 40762,
+            "rwa_id": 31
+          },
+          {
+            "name": "iShares MSCI South Korea fund Tokenized ETF (Robinhood)",
+            "symbol": "EWY",
+            "crypto_id": 40763,
+            "rwa_id": 1062
+          },
+          {
+            "name": "Celsius Tokenized Stock (Robinhood)",
+            "symbol": "CELH",
+            "crypto_id": 40764,
+            "rwa_id": 751
+          },
+          {
+            "name": "Invesco S&P 500 Momentum Tokenized ETF (Robinhood)",
+            "symbol": "SPMO",
+            "crypto_id": 40765,
+            "rwa_id": 7766
+          },
+          {
+            "name": "Zscaler Tokenized Stock (Robinhood)",
+            "symbol": "ZS",
+            "crypto_id": 40766,
+            "rwa_id": 552
+          },
+          {
+            "name": "Tower Semiconductor Tokenized Stock (Robinhood)",
+            "symbol": "TSEM",
+            "crypto_id": 40767,
+            "rwa_id": 1102
+          },
+          {
+            "name": "Rigetti Computing Tokenized Stock (Robinhood)",
+            "symbol": "RGTI",
+            "crypto_id": 40768,
+            "rwa_id": 241
+          },
+          {
+            "name": "TSMC Tokenized Stock (Robinhood)",
+            "symbol": "TSM",
+            "crypto_id": 40769,
+            "rwa_id": 8
+          },
+          {
+            "name": "Nebius Group Tokenized Stock (Robinhood)",
+            "symbol": "NBIS",
+            "crypto_id": 40770,
+            "rwa_id": 254
+          },
+          {
+            "name": "Intuitive Machines Tokenized Stock (Robinhood)",
+            "symbol": "LUNR",
+            "crypto_id": 40771,
+            "rwa_id": 1847
+          },
+          {
+            "name": "MaxLinear Tokenized Stock (Robinhood)",
+            "symbol": "MXL",
+            "crypto_id": 40772,
+            "rwa_id": 1551
+          },
+          {
+            "name": "Oracle Tokenized Stock (Robinhood)",
+            "symbol": "ORCL",
+            "crypto_id": 40773,
+            "rwa_id": 24
+          },
+          {
+            "name": "Super Micro Computer Tokenized Stock (Robinhood)",
+            "symbol": "SMCI",
+            "crypto_id": 40774,
+            "rwa_id": 127
+          },
+          {
+            "name": "Nu Tokenized Stock (Robinhood)",
+            "symbol": "NU",
+            "crypto_id": 40775,
+            "rwa_id": 438
+          },
+          {
+            "name": "Permian Resources Tokenized Stock (Robinhood)",
+            "symbol": "PR",
+            "crypto_id": 40776,
+            "rwa_id": 836
+          },
+          {
+            "name": "Reddit Tokenized Stock (Robinhood)",
+            "symbol": "RDDT",
+            "crypto_id": 40777,
+            "rwa_id": 196
+          },
+          {
+            "name": "Workday Tokenized Stock (Robinhood)",
+            "symbol": "WDAY",
+            "crypto_id": 40778,
+            "rwa_id": 350
+          },
+          {
+            "name": "Nano Nuclear Energy Tokenized Stock (Robinhood)",
+            "symbol": "NNE",
+            "crypto_id": 40779,
+            "rwa_id": 3233
+          },
+          {
+            "name": "Meta Platforms Tokenized Stock (Robinhood)",
+            "symbol": "META",
+            "crypto_id": 40780,
+            "rwa_id": 10
+          },
+          {
+            "name": "iShares 0-3 Month Tokenized Treasury Bond ETF (Robinhood)",
+            "symbol": "SGOV",
+            "crypto_id": 40781,
+            "rwa_id": 242
+          },
+          {
+            "name": "Roundhill Memory Tokenized ETF (Robinhood)",
+            "symbol": "DRAM",
+            "crypto_id": 40782,
+            "rwa_id": 4789
+          },
+          {
+            "name": "CrowdStrike Holdings Tokenized Stock (Robinhood)",
+            "symbol": "CRWD",
+            "crypto_id": 40783,
+            "rwa_id": 102
+          },
+          {
+            "name": "SPDR Gold Shares Tokenized ETF (Robinhood)",
+            "symbol": "GLD",
+            "crypto_id": 41994,
+            "rwa_id": 87
+          },
+          {
+            "name": "Hims & Hers Health Tokenized Stock (Robinhood)",
+            "symbol": "HIMS",
+            "crypto_id": 41995,
+            "rwa_id": 125
+          },
+          {
+            "name": "Trump Media & Technology Group Tokenized Stock (Robinhood)",
+            "symbol": "DJT",
+            "crypto_id": 41999,
+            "rwa_id": 2023
+          },
+          {
+            "name": "WhiteFiber Tokenized Stock (Robinhood)",
+            "symbol": "WYFI",
+            "crypto_id": 42003,
+            "rwa_id": 3240
+          },
+          {
+            "name": "Moderna Tokenized Stock (Robinhood)",
+            "symbol": "MRNA",
+            "crypto_id": 42005,
+            "rwa_id": 232
+          },
+          {
+            "name": "Figma Tokenized Stock (Robinhood)",
+            "symbol": "FIG",
+            "crypto_id": 42008,
+            "rwa_id": 207
+          },
+          {
+            "name": "AMC Entertainment Holdings Tokenized Stock (Robinhood)",
+            "symbol": "AMC",
+            "crypto_id": 42009,
+            "rwa_id": 153
+          },
+          {
+            "name": "Galaxy Digital Tokenized Stock (Robinhood)",
+            "symbol": "GLXY",
+            "crypto_id": 42357,
+            "rwa_id": 212
+          },
+          {
+            "name": "IBM Tokenized Stock (Robinhood)",
+            "symbol": "IBM",
+            "crypto_id": 42358,
+            "rwa_id": 42
+          },
+          {
+            "name": "Snap Tokenized Stock (Robinhood)",
+            "symbol": "SNAP",
+            "crypto_id": 42359,
+            "rwa_id": 179
+          }
+        ],
+        "issuer_id": "6a465832fbe3004b1a0ea2dd",
+        "num_tokens": 110,
+        "total_size": 110,
+        "has_more": false
+      },
+      "status": {
+        "timestamp": "2026-09-25T16:26:32.188Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 4,
+        "credit_count": 1
+      }
+    }
+  }
+}

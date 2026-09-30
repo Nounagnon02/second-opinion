@@ -1,0 +1,333 @@
+{
+  "label": "E11-bbe75279-20260925T215611723Z",
+  "recordedAt": "2026-09-25T21:56:11.723Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v1/dex/token/pools?address=So11111111111111111111111111111111111111111&platform=solana&size=10",
+    "path": "/v1/dex/token/pools",
+    "query": {
+      "address": "So11111111111111111111111111111111111111111",
+      "platform": "solana",
+      "size": "10"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 954,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Fri, 25 Sep 2026 21:56:11 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 bdc6f46d528af5e15c27d2e41fd4f658.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "P5FO8DWmb5SpWsqZUWSeWDPSVYd9rzTa5-0Hl0yae2AiT8ujiMhHkQ==",
+      "x-amz-cf-pop": "LOS50-P4",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "424",
+      "x-server-traceid": "7a5760ceba494a81ded9394fb92dcd4c"
+    },
+    "body": {
+      "data": [
+        {
+          "addr": "B5uT3MeWF8XyYCCpz4osnZCUPCYi9oYP8StAk7pp3wpr",
+          "v24": "0.701498118026443766",
+          "pubAt": "1778543087000",
+          "t0": {
+            "addr": "4Zo28qX8Pb1w6nKhTZJ7RiVg2HPBXBYEZNqfknTXpump",
+            "lg": "https://ipfs.sintral.me/cdn-cgi/image/width=480,quality=100,format=webp/url/https%3A%2F%2Fipfs.sintral.me%2Fcdn-cgi%2Fimage%2Fwidth%3D480%2Cquality%3D100%2Cformat%3Dwebp%2Fipfs%2Fbafkreihepvr3nijzoupdo4aljk7bn6xiq3pvxj27pc44atgynfhoghwrpa",
+            "n": "LEAD",
+            "sym": "CTO",
+            "liq": "454083359.118514",
+            "liqUsd": "178837.18639250666892354"
+          },
+          "t1": {
+            "addr": "So11111111111111111111111111111111111111111",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/5426.png",
+            "n": "SOL",
+            "sym": "SOL",
+            "liq": "1467.346667147",
+            "liqUsd": "178837.18639250666892354"
+          },
+          "bidx": 0,
+          "exid": 10979,
+          "exn": "pump.fun",
+          "liqUsd": "357674.37278501333784708",
+          "fa": "6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P",
+          "top": true,
+          "mi": true
+        },
+        {
+          "addr": "4yx5LCD6pU5HSY9kWKkDnHgEut5jDCsSrkdoLvgT7Kh4",
+          "v24": "0",
+          "pubAt": "1776883452000",
+          "t0": {
+            "addr": "3UrRj6APVk3ZaGGoXWgHZqG1izUAKP9ZkyD3QH2Ypump",
+            "lg": "https://ipfs.sintral.me/cdn-cgi/image/width=480,quality=100,format=webp/url/https%3A%2F%2Faxiomtrading.sfo3.cdn.digitaloceanspaces.com%2FF3gH6PErFaeNCsirJZ5BUdQKzNiWvKVW3CkBHjompump.webp",
+            "n": "papi",
+            "sym": "papi",
+            "liq": "638917497.762294",
+            "liqUsd": "117919.292018455192095817"
+          },
+          "t1": {
+            "addr": "So11111111111111111111111111111111111111111",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/5426.png",
+            "n": "SOL",
+            "sym": "SOL",
+            "liq": "988.717408011",
+            "liqUsd": "117919.292018455192095817"
+          },
+          "bidx": 0,
+          "exid": 10979,
+          "exn": "pump.fun",
+          "liqUsd": "235838.584036910384191633",
+          "fa": "6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P",
+          "top": true,
+          "mi": true
+        },
+        {
+          "addr": "EqzpsmpbgkpGWiBkMRCvaT1nKEJ814JsKiDrDSw9i3RQ",
+          "v24": "0",
+          "pubAt": "1779056805000",
+          "t0": {
+            "addr": "GEBwwqdMCDE2WBRbfXeuMBKKGX6TwtRWTdxonNLgpump",
+            "lg": "https://bin.bnbstatic.com/images/web3-data/public/token/logos/8D9AC49C93DD07AAD1AFBE60AC3F3AEC.jpg",
+            "n": "Stargate",
+            "sym": "GATE",
+            "liq": "658009465.97723",
+            "liqUsd": "96876.030723146986173052"
+          },
+          "t1": {
+            "addr": "So11111111111111111111111111111111111111111",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/5426.png",
+            "n": "SOL",
+            "sym": "SOL",
+            "liq": "812.136486661",
+            "liqUsd": "96876.030723146986173052"
+          },
+          "bidx": 0,
+          "exid": 10979,
+          "exn": "pump.fun",
+          "liqUsd": "193752.061446293972346104",
+          "fa": "6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P",
+          "top": true,
+          "mi": true
+        },
+        {
+          "addr": "FqgBsFwwwLsLRxwSmYgnQen9vcE4wwkfDqHiuc9VJdTF",
+          "v24": "0",
+          "pubAt": "1776305651000",
+          "t0": {
+            "addr": "3LAoHH8LpP4z93REe9rcUmFjSdjR8bUpBMeU2ptcpump",
+            "lg": "https://bin.bnbstatic.com/images/web3-data/public/token/logos/F3D751D4EBC24C2C2C5917F1C1EBDBBC.jpg",
+            "n": "House Democrats",
+            "sym": "DEMOCRATS",
+            "liq": "686734892.497416",
+            "liqUsd": "75455.780599786964022598"
+          },
+          "t1": {
+            "addr": "So11111111111111111111111111111111111111111",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/5426.png",
+            "n": "SOL",
+            "sym": "SOL",
+            "liq": "632.503577906",
+            "liqUsd": "75455.780599786964022598"
+          },
+          "bidx": 0,
+          "exid": 10979,
+          "exn": "pump.fun",
+          "liqUsd": "150911.561199573928045195",
+          "fa": "6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P",
+          "top": true,
+          "mi": true
+        },
+        {
+          "addr": "844VLw9J2QFj3DWw8TAGJ7GCoydexMb9HjHhoZ6wr2vH",
+          "v24": "286.614251158125347615",
+          "pubAt": "1783055298000",
+          "t0": {
+            "addr": "3yxf2sGxVEQ6weHX4JKih88TDZvzo5omu1aLDjqXpump",
+            "lg": "https://bin.bnbstatic.com/images/web3-data/public/token/logos/80F7D79C5E5E591894DFC27A9BBF7376.webp",
+            "n": "Water Reserve USA",
+            "sym": "WRUSA",
+            "liq": "365706659.103155",
+            "liqUsd": "23514.422151410586460936"
+          },
+          "t1": {
+            "addr": "So11111111111111111111111111111111111111111",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/5426.png",
+            "n": "SOL",
+            "sym": "SOL",
+            "liq": "192.928169235",
+            "liqUsd": "23514.422151410586460936"
+          },
+          "bidx": 0,
+          "exid": 10979,
+          "exn": "pump.fun",
+          "liqUsd": "47028.844302821172921871",
+          "fa": "6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P",
+          "top": true,
+          "mi": true
+        },
+        {
+          "addr": "Hq8ih5VBeJyC6L25o9wqwQzvsYwoekAfMoMhtwggPhgW",
+          "v24": "0",
+          "pubAt": "1779812815000",
+          "t0": {
+            "addr": "HouiKAtecNPYQdvtWzdeaAohvV5LkoWn4uvHCuuVpump",
+            "lg": "https://bin.bnbstatic.com/images/web3-data/public/token/logos/7605F611CD9F1CC3A19207E9315E3C9F.jpg",
+            "n": "Tung Tung Tung Sahaur",
+            "sym": "TTT",
+            "liq": "675795473.209914",
+            "liqUsd": "20888.703550964187267625"
+          },
+          "t1": {
+            "addr": "So11111111111111111111111111111111111111111",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/5426.png",
+            "n": "SOL",
+            "sym": "SOL",
+            "liq": "175.097393662",
+            "liqUsd": "20888.703550964187267625"
+          },
+          "bidx": 0,
+          "exid": 10979,
+          "exn": "pump.fun",
+          "liqUsd": "41777.407101928374535249",
+          "fa": "6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P",
+          "top": true,
+          "mi": true
+        },
+        {
+          "addr": "55eMRmZLfxkuYyszTWMHgSSNti9zXZs36EGJESJ4KCJM",
+          "v24": "0",
+          "pubAt": "1774806149000",
+          "t0": {
+            "addr": "6xysSHRixds5BG7JwgKtmTWDprGW6jzpQmUSMXpYpump",
+            "lg": "https://bin.bnbstatic.com/images/web3-data/public/token/logos/5830BD14EE8FAFE8FC319A78A4C54A89.jpg",
+            "n": "FAP",
+            "sym": "FAP",
+            "liq": "917396627.752708",
+            "liqUsd": "20124.926599367833129752"
+          },
+          "t1": {
+            "addr": "So11111111111111111111111111111111111111111",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/5426.png",
+            "n": "SOL",
+            "sym": "SOL",
+            "liq": "168.721971916",
+            "liqUsd": "20124.926599367833129752"
+          },
+          "bidx": 0,
+          "exid": 10979,
+          "exn": "pump.fun",
+          "liqUsd": "40249.853198735666259504",
+          "fa": "6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P",
+          "top": true,
+          "mi": true
+        },
+        {
+          "addr": "8jKujiHV1Hsq5Byv8XeePqpXaFGkPubtFZZiT6GqXMVF",
+          "v24": "0",
+          "pubAt": "1708540524000",
+          "t0": {
+            "addr": "99AhZYKrwhH15f8pobvek66EqmNd4VkVV12LY6W6gZnR",
+            "lg": "https://ipfs.sintral.me/cdn-cgi/image/width=480,quality=100,format=webp/ipfs/QmTSBcVXM5SMRqpzGDSZ3joeD6jCmtuwCRgr7xpJEtK2Fz",
+            "n": "PILL",
+            "sym": "PILL",
+            "liq": "168800000",
+            "liqUsd": "12898.395411990041332946"
+          },
+          "t1": {
+            "addr": "So11111111111111111111111111111111111111111",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/5426.png",
+            "n": "SOL",
+            "sym": "SOL",
+            "liq": "117.736388793",
+            "liqUsd": "12898.395411990041332946"
+          },
+          "bidx": 0,
+          "exid": 10979,
+          "exn": "pump.fun",
+          "liqUsd": "25796.790823980082665891",
+          "fa": "6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P",
+          "top": true,
+          "mi": true
+        },
+        {
+          "addr": "Ag4MqmYktS9KqUCBUEfkhhq5zfYNKpmZWnZcByyFexkU",
+          "v24": "0",
+          "pubAt": "1710218180000",
+          "t0": {
+            "addr": "H4yk5dxwNvS8Rj9M1mdgnY8MKgLhHk8ag5nv47ued81b",
+            "lg": "https://ipfs.sintral.me/cdn-cgi/image/width=480,quality=100,format=webp/ipfs/QmSoaj5amJD2xT3F265bQmEgrLmsPVC5x1yRGdabwD8yBh",
+            "n": "Swag Monkey",
+            "sym": "SwagMonkey",
+            "liq": "168800000",
+            "liqUsd": "12563.85267676442422367"
+          },
+          "t1": {
+            "addr": "So11111111111111111111111111111111111111111",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/5426.png",
+            "n": "SOL",
+            "sym": "SOL",
+            "liq": "117.735654486",
+            "liqUsd": "12563.85267676442422367"
+          },
+          "bidx": 0,
+          "exid": 10979,
+          "exn": "pump.fun",
+          "liqUsd": "25127.70535352884844734",
+          "fa": "6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P",
+          "top": true,
+          "mi": true
+        },
+        {
+          "addr": "8DfNxkGkprqejDCbAdJJjxWEuJUHZxC787w1J4emnmnE",
+          "v24": "99115.849460350160338432",
+          "pubAt": "1790369800000",
+          "t0": {
+            "addr": "8JbRMGtCjanNYDWuMreoxwM7HUyrAAFSQoyHE4BnroLL",
+            "lg": "https://ipfs.sintral.me/cdn-cgi/image/width=480,quality=100,format=webp/ipfs/bafybeicy3j6qb2oyqptsvzpmdjlrx57rbl35tqpf5gg6wkrb6ovaiovafm",
+            "n": "MortySays",
+            "sym": "MORTY",
+            "liq": "279355734.510861",
+            "liqUsd": "7424.945259936296064432"
+          },
+          "t1": {
+            "addr": "So11111111111111111111111111111111111111111",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/5426.png",
+            "n": "SOL",
+            "sym": "SOL",
+            "liq": "61.357955661",
+            "liqUsd": "7424.945259936296064432"
+          },
+          "bidx": 0,
+          "exid": 10979,
+          "exn": "pump.fun",
+          "liqUsd": "14849.890519872592128864",
+          "fa": "6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P",
+          "top": true,
+          "mi": true
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-25T21:56:11.446Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 419,
+        "credit_count": 1
+      }
+    }
+  }
+}

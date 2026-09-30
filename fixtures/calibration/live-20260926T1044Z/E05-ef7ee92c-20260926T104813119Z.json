@@ -1,0 +1,469 @@
+{
+  "label": "E05-ef7ee92c-20260926T104813119Z",
+  "recordedAt": "2026-09-26T10:48:13.119Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v2/cryptocurrency/info?id=4943",
+    "path": "/v2/cryptocurrency/info",
+    "query": {
+      "id": "4943"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 4799,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 10:48:12 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 e2cb9339c523d170f53dc64537b22e10.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "SgfytbIz43QtApmPer_q4WORy4l0lA-cfg1cAp0T8T3upS9GNeCqVg==",
+      "x-amz-cf-pop": "IAD55-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "13",
+      "x-server-traceid": "42425b47acce97d4faacceb98f592379"
+    },
+    "body": {
+      "data": {
+        "4943": {
+          "id": 4943,
+          "name": "Dai",
+          "symbol": "DAI",
+          "category": "token",
+          "description": "Dai (DAI) is a cryptocurrency and operates on the Ethereum platform. Dai has a current supply of 4,589,330,415.17185883. The last known price of Dai is 0.99988793 USD and is up 0.00 over the last 24 hours. It is currently trading on 3782 active market(s) with $16,391,536.53 traded over the last 24 hours. More information can be found at https://makerdao.com/.",
+          "slug": "multi-collateral-dai",
+          "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/4943.png",
+          "subreddit": "",
+          "notice": "[Dai (DAI)](https://coinmarketcap.com/currencies/multi-collateral-dai/) has been rebranded to [Usds (USDS)](https://coinmarketcap.com/currencies/usds/). For more information, please refer to this [article](https://forum.makerdao.com/t/sky-has-arrived/24959) and [post](https://x.com/SkyEcosystem/status/1828405625828843710).",
+          "tags": [
+            "defi",
+            "stablecoin",
+            "asset-backed-stablecoin",
+            "usd-stablecoin",
+            "xlayer-ecosystem",
+            "anubis-ecosystem"
+          ],
+          "tag-names": [
+            "DeFi",
+            "Stablecoin",
+            "Asset-Backed Stablecoin",
+            "USD Stablecoin",
+            "Xlayer Ecosystem",
+            "Anubis Ecosystem"
+          ],
+          "tag-groups": [
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "PLATFORM"
+          ],
+          "urls": {
+            "website": [
+              "https://makerdao.com/"
+            ],
+            "twitter": [
+              "https://twitter.com/MakerDAO"
+            ],
+            "message_board": [],
+            "chat": [],
+            "facebook": [],
+            "explorer": [
+              "https://etherscan.io/token/0x6b175474e89094c44da98b954eedeac495271d0f",
+              "https://solscan.io/token/EjmyN6qEC1Tf1JxiG1ae7UTJhUxSwk1TCWNWqxWV4J6o",
+              "https://polygonscan.com/token/0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+              "https://bscscan.com/token/0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3"
+            ],
+            "reddit": [],
+            "technical_doc": [],
+            "source_code": [],
+            "announcement": []
+          },
+          "platform": {
+            "id": "1027",
+            "name": "Ethereum",
+            "symbol": "ETH",
+            "slug": "ethereum",
+            "token_address": "0x6b175474e89094c44da98b954eedeac495271d0f"
+          },
+          "date_added": "2019-11-22T00:00:00.000Z",
+          "twitter_username": "MakerDAO",
+          "is_hidden": 0,
+          "contract_address": [
+            {
+              "contract_address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+              "platform": {
+                "name": "Ethereum",
+                "coin": {
+                  "id": "1027",
+                  "name": "Ethereum",
+                  "symbol": "ETH",
+                  "slug": "ethereum"
+                }
+              }
+            },
+            {
+              "contract_address": "0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3",
+              "platform": {
+                "name": "BNB Smart Chain (BEP20)",
+                "coin": {
+                  "id": "1839",
+                  "name": "BNB",
+                  "symbol": "BNB",
+                  "slug": "bnb"
+                }
+              }
+            },
+            {
+              "contract_address": "0x44fA8E6f47987339850636F88629646662444217",
+              "platform": {
+                "name": "Gnosis Chain",
+                "coin": {
+                  "id": "1659",
+                  "name": "Gnosis",
+                  "symbol": "GNO",
+                  "slug": "gnosis-gno"
+                }
+              }
+            },
+            {
+              "contract_address": "0x8D11eC38a3EB5E956B052f67Da8Bdc9bef8Abf3E",
+              "platform": {
+                "name": "Fantom",
+                "coin": {
+                  "id": "3513",
+                  "name": "Fantom (Migrated to Sonic)",
+                  "symbol": "FTM",
+                  "slug": "fantom"
+                }
+              }
+            },
+            {
+              "contract_address": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+              "platform": {
+                "name": "Polygon",
+                "coin": {
+                  "id": "28321",
+                  "name": "Polygon (prev. MATIC)",
+                  "symbol": "POL",
+                  "slug": "polygon-ecosystem-token"
+                }
+              }
+            },
+            {
+              "contract_address": "0xd586E7F844cEa2F87f50152665BCbc2C279D8d70",
+              "platform": {
+                "name": "Avalanche C-Chain",
+                "coin": {
+                  "id": "5805",
+                  "name": "Avalanche",
+                  "symbol": "AVAX",
+                  "slug": "avalanche"
+                }
+              }
+            },
+            {
+              "contract_address": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1",
+              "platform": {
+                "name": "Optimism",
+                "coin": {
+                  "id": "11840",
+                  "name": "Optimism",
+                  "symbol": "OP",
+                  "slug": "optimism-ethereum"
+                }
+              }
+            },
+            {
+              "contract_address": "0x0200060000000000000000000000000000000000000000000000000000000000",
+              "platform": {
+                "name": "Sora",
+                "coin": {
+                  "id": "5802",
+                  "name": "SORA",
+                  "symbol": "XOR",
+                  "slug": "sora"
+                }
+              }
+            },
+            {
+              "contract_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+              "platform": {
+                "name": "Arbitrum",
+                "coin": {
+                  "id": "11841",
+                  "name": "Arbitrum",
+                  "symbol": "ARB",
+                  "slug": "arbitrum"
+                }
+              }
+            },
+            {
+              "contract_address": "0xef977d2f931c1978db5f6747666fa1eacb0d0339",
+              "platform": {
+                "name": "Harmony",
+                "coin": {
+                  "id": "3945",
+                  "name": "Harmony",
+                  "symbol": "ONE",
+                  "slug": "harmony"
+                }
+              }
+            },
+            {
+              "contract_address": "0x80a16016cc4a2e6a2caca8a4a498b1699ff0f844",
+              "platform": {
+                "name": "Moonriver",
+                "coin": {
+                  "id": "9285",
+                  "name": "Moonriver",
+                  "symbol": "MOVR",
+                  "slug": "moonriver"
+                }
+              }
+            },
+            {
+              "contract_address": "0xf74195Bb8a5cf652411867c5C2C5b8C2a402be35",
+              "platform": {
+                "name": "Boba Network",
+                "coin": {
+                  "id": "14556",
+                  "name": "Boba Network",
+                  "symbol": "BOBA",
+                  "slug": "boba-network"
+                }
+              }
+            },
+            {
+              "contract_address": "EjmyN6qEC1Tf1JxiG1ae7UTJhUxSwk1TCWNWqxWV4J6o",
+              "platform": {
+                "name": "Solana",
+                "coin": {
+                  "id": "5426",
+                  "name": "Solana",
+                  "symbol": "SOL",
+                  "slug": "solana"
+                }
+              }
+            },
+            {
+              "contract_address": "terra1zmclyfepfmqvfqflu8r3lv6f75trmg05z7xq95",
+              "platform": {
+                "name": "Terra Classic",
+                "coin": {
+                  "id": "4172",
+                  "name": "Terra Classic",
+                  "symbol": "LUNC",
+                  "slug": "terra-luna"
+                }
+              }
+            },
+            {
+              "contract_address": "0x765277eebeca2e31912c9946eae1021199b39c61",
+              "platform": {
+                "name": "Moonbeam",
+                "coin": {
+                  "id": "6836",
+                  "name": "Moonbeam",
+                  "symbol": "GLMR",
+                  "slug": "moonbeam"
+                }
+              }
+            },
+            {
+              "contract_address": "0xe3520349f477a5f6eb06107066048508498a291b",
+              "platform": {
+                "name": "Aurora",
+                "coin": {
+                  "id": "14803",
+                  "name": "Aurora",
+                  "symbol": "AURORA",
+                  "slug": "aurora-near"
+                }
+              }
+            },
+            {
+              "contract_address": "0x5c74070fdea071359b86082bd9f9b3deaafbe32b",
+              "platform": {
+                "name": "KAIA",
+                "coin": {
+                  "id": "32880",
+                  "name": "Kaia",
+                  "symbol": "KAIA",
+                  "slug": "kaia"
+                }
+              }
+            },
+            {
+              "contract_address": "0x4651b38e7ec14bb3db731369bfe5b08f2466bd0a",
+              "platform": {
+                "name": "Metis Andromeda",
+                "coin": {
+                  "id": "9640",
+                  "name": "Metis",
+                  "symbol": "METIS",
+                  "slug": "metisdao"
+                }
+              }
+            },
+            {
+              "contract_address": "0xf2001b145b43032aaf5ee2884e456ccd805f677d",
+              "platform": {
+                "name": "Cronos",
+                "coin": {
+                  "id": "3635",
+                  "name": "Cronos",
+                  "symbol": "CRO",
+                  "slug": "cronos"
+                }
+              }
+            },
+            {
+              "contract_address": "6b175474e89094c44da98b954eedeac495271d0f.factory.bridge.near",
+              "platform": {
+                "name": "Near",
+                "coin": {
+                  "id": "6535",
+                  "name": "NEAR Protocol",
+                  "symbol": "NEAR",
+                  "slug": "near-protocol"
+                }
+              }
+            },
+            {
+              "contract_address": "0:eb2ccad2020d9af9cec137d3146dde067039965c13a27d97293c931dae22b2b9",
+              "platform": {
+                "name": "Everscale",
+                "coin": {
+                  "id": "7505",
+                  "name": "Everscale",
+                  "symbol": "EVER",
+                  "slug": "everscale"
+                }
+              }
+            },
+            {
+              "contract_address": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+              "platform": {
+                "name": "Bitgert",
+                "coin": {
+                  "id": "11079",
+                  "name": "Bitgert",
+                  "symbol": "BRISE",
+                  "slug": "bitrise-token"
+                }
+              }
+            },
+            {
+              "contract_address": "0x0ee5893f434017d8881750101ea2f7c49c0eb503",
+              "platform": {
+                "name": "Energi",
+                "coin": {
+                  "id": "3218",
+                  "name": "Energi",
+                  "symbol": "NRG",
+                  "slug": "energi"
+                }
+              }
+            },
+            {
+              "contract_address": "ibc/0CD3A0285E1341859B5E86B6AB7682F023D03E97607CCC1DC95706411D866DF7",
+              "platform": {
+                "name": "Osmosis",
+                "coin": {
+                  "id": "12220",
+                  "name": "Osmosis",
+                  "symbol": "OSMO",
+                  "slug": "osmosis"
+                }
+              }
+            },
+            {
+              "contract_address": "EQDo_ZJyQ_YqBzBwbVpMmhbhIddKtRP99HugZJ14aFscxi7B",
+              "platform": {
+                "name": "TON",
+                "coin": {
+                  "id": "11419",
+                  "name": "Gram (prev. Toncoin)",
+                  "symbol": "GRAM",
+                  "slug": "gram"
+                }
+              }
+            },
+            {
+              "contract_address": "0xefd766ccb38eaf1dfd701853bfce31359239f305",
+              "platform": {
+                "name": "PulseChain",
+                "coin": {
+                  "id": "11145",
+                  "name": "Pulsechain",
+                  "symbol": "PLS",
+                  "slug": "pulsechain"
+                }
+              }
+            },
+            {
+              "contract_address": "0xda114221cb83fa859dbdb4c44beeaa0bb37c7537ad5ae66fe5e0efd20e6eb3",
+              "platform": {
+                "name": "Starknet",
+                "coin": {
+                  "id": "22691",
+                  "name": "Starknet",
+                  "symbol": "STRK",
+                  "slug": "starknet-token"
+                }
+              }
+            },
+            {
+              "contract_address": "0x50c5725949a6f0c72e6c4a641f24049a917db0cb",
+              "platform": {
+                "name": "Base",
+                "coin": {
+                  "id": "27716",
+                  "name": "Base",
+                  "symbol": "-",
+                  "slug": "base"
+                }
+              }
+            },
+            {
+              "contract_address": "0x83fd06f0846d9d90b3016bf670efe2e0b11cde14",
+              "platform": {
+                "name": "Anubis",
+                "coin": {
+                  "id": "40093",
+                  "name": "Anubis",
+                  "symbol": "-",
+                  "slug": "anubis"
+                }
+              }
+            }
+          ],
+          "infinite_supply": true
+        }
+      },
+      "status": {
+        "timestamp": "2026-09-26T10:48:12.786Z",
+        "error_code": 0,
+        "error_message": null,
+        "elapsed": 6,
+        "credit_count": 1,
+        "notice": null
+      }
+    }
+  }
+}

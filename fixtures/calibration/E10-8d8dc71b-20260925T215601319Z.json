@@ -1,0 +1,62 @@
+{
+  "label": "E10-8d8dc71b-20260925T215601319Z",
+  "recordedAt": "2026-09-25T21:56:01.319Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v1/dex/token/price?address=0xdac17f958d2ee523a2206206994597c13d831ec7&platform=ethereum",
+    "path": "/v1/dex/token/price",
+    "query": {
+      "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "platform": "ethereum"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 6709,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Fri, 25 Sep 2026 21:56:00 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 4211ff6411664b7619653768d1a4a490.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "ESznHXiCgpd8fz4nOx1ZSQjpBEwXd1ojptvpbZViM2HVL7saArkpFQ==",
+      "x-amz-cf-pop": "LOS50-P4",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "23",
+      "x-server-traceid": "41cea3708c47e82a94c39e0ead5fff59"
+    },
+    "body": {
+      "data": {
+        "pid": 1,
+        "pdex": "Ethereum",
+        "a": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+        "p": 0.9997784909891424,
+        "pc24h": 0.0003,
+        "v24h": 199602005.27552718,
+        "l": 374543233.5683696,
+        "ts": "1790373263000",
+        "fpct": "1589829277000",
+        "mc": 88284782057.0417
+      },
+      "status": {
+        "timestamp": "2026-09-25T21:56:00.996Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 21,
+        "credit_count": 1
+      }
+    }
+  }
+}

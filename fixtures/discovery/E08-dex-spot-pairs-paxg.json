@@ -1,0 +1,46 @@
+{
+  "label": "E08-dex-spot-pairs-paxg",
+  "recordedAt": "2026-09-24T16:06:40.933Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v4/dex/spot-pairs/latest?base_asset_ucid=4705&network_slug=ethereum&limit=10",
+    "path": "/v4/dex/spot-pairs/latest",
+    "query": {
+      "base_asset_ucid": "4705",
+      "network_slug": "ethereum",
+      "limit": "10"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 400,
+    "statusText": "Bad Request",
+    "latencyMs": 1054,
+    "headers": {
+      "connection": "keep-alive",
+      "content-length": "161",
+      "content-type": "application/json",
+      "date": "Thu, 24 Sep 2026 16:06:40 GMT",
+      "server": "nginx",
+      "via": "1.1 2ae90e7f79d3d333546a65283ed748ca.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "KobX96NnwmK-G_Me3mcVk4gjFrxzKOleo6Leti0MroekRwuZYy96mQ==",
+      "x-amz-cf-pop": "BRU50-P1",
+      "x-cache": "Error from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "8",
+      "x-server-traceid": "20e166ba27056336d7d7d7464828e657"
+    },
+    "body": {
+      "status": {
+        "timestamp": "2026-09-24T16:06:40.807Z",
+        "error_code": "400",
+        "error_message": "Please provide either a dex id or dex slug.",
+        "elapsed": 0,
+        "credit_count": 0
+      }
+    }
+  }
+}

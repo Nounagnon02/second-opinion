@@ -1,0 +1,336 @@
+{
+  "label": "E05-eae1d28c-20260926T105021981Z",
+  "recordedAt": "2026-09-26T10:50:21.981Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v2/cryptocurrency/info?id=7278",
+    "path": "/v2/cryptocurrency/info",
+    "query": {
+      "id": "7278"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 658,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 10:50:21 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 f5be520a0e05096cc6c019d4cccce3a2.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "l-_gQ2d6cFs9-4rVWe7d_LnfjpdoBWMOqwqVUZ8eJHw4eQmIg0EokQ==",
+      "x-amz-cf-pop": "IAD55-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "11",
+      "x-server-traceid": "8f5331e54c1dfda2b7ae1a55eb281eef"
+    },
+    "body": {
+      "data": {
+        "7278": {
+          "id": 7278,
+          "name": "Aave",
+          "symbol": "AAVE",
+          "category": "token",
+          "description": "Aave (AAVE) is a cryptocurrency and operates on the Ethereum platform. Aave has a current supply of 16,000,000 with 15,429,287.48634784 in circulation. The last known price of Aave is 154.05012511 USD and is up 5.59 over the last 24 hours. It is currently trading on 1367 active market(s) with $452,633,300.84 traded over the last 24 hours. More information can be found at https://aave.com/.",
+          "slug": "aave",
+          "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/7278.png",
+          "subreddit": "Aave_Official",
+          "notice": "",
+          "tags": [
+            "defi",
+            "dao",
+            "ethereum-ecosystem",
+            "yield-farming",
+            "three-arrows-capital-portfolio",
+            "governance",
+            "heco-ecosystem",
+            "avalanche-ecosystem",
+            "solana-ecosystem",
+            "lending-borowing",
+            "blockchain-capital-portfolio",
+            "defiance-capital-portfolio",
+            "framework-ventures-portfolio",
+            "alameda-research-portfolio",
+            "pantera-capital-portfolio",
+            "parafi-capital",
+            "polygon-ecosystem",
+            "fantom-ecosystem",
+            "near-protocol-ecosystem",
+            "arbitrum-ecosystem",
+            "optimism-ecosystem",
+            "standard-crypto-portfolio",
+            "gnosis-chain-ecosystem",
+            "sora-ecosystem",
+            "made-in-america",
+            "world-liberty-financial-portfolio",
+            "binance-ecosystem",
+            "binance-listing",
+            "binance-liquidity-enhancement-program"
+          ],
+          "tag-names": [
+            "DeFi",
+            "DAO",
+            "Ethereum Ecosystem",
+            "Yield Farming",
+            "Three Arrows Capital Portfolio",
+            "Governance",
+            "HECO Ecosystem",
+            "Avalanche Ecosystem",
+            "Solana Ecosystem",
+            "Lending & Borrowing",
+            "Blockchain Capital Portfolio",
+            "DeFiance Capital Portfolio",
+            "Framework Ventures Portfolio",
+            "Alameda Research Portfolio",
+            "Pantera Capital Portfolio",
+            "ParaFi Capital",
+            "Polygon Ecosystem",
+            "Fantom Ecosystem",
+            "Near Protocol Ecosystem",
+            "Arbitrum Ecosystem",
+            "Optimism Ecosystem",
+            "Standard Crypto Portfolio",
+            "Gnosis Chain Ecosystem",
+            "Sora Ecosystem",
+            "Made in America",
+            "World Liberty Financial Portfolio",
+            "Binance Ecosystem",
+            "Binance Listing",
+            "Binance Liquidity Enhancement Program"
+          ],
+          "tag-groups": [
+            "CATEGORY",
+            "CATEGORY",
+            "PLATFORM",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "PLATFORM",
+            "PLATFORM",
+            "PLATFORM",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "PLATFORM",
+            "PLATFORM",
+            "PLATFORM",
+            "PLATFORM",
+            "PLATFORM",
+            "CATEGORY",
+            "PLATFORM",
+            "PLATFORM",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY"
+          ],
+          "urls": {
+            "website": [
+              "https://aave.com/",
+              "https://ethlend.io"
+            ],
+            "twitter": [
+              "https://twitter.com/aave"
+            ],
+            "message_board": [
+              "https://medium.com/aave"
+            ],
+            "chat": [
+              "https://aave.com/discord",
+              "https://t.me/Aavesome"
+            ],
+            "facebook": [],
+            "explorer": [
+              "https://etherscan.io/token/0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
+              "https://solscan.io/token/3vAs4D1WE6Na4tCgt4BApgFfENbm8WY7q4cSPD1yM4Cg",
+              "https://explorer-mainnet.maticvigil.com/tokens/0xd6df932a45c0f255f85145f286ea0b292b21c90b/token-transfers",
+              "https://scan.hecochain.com/address/0x202b4936fe1a82a4965220860ae46d7d3939bb25"
+            ],
+            "reddit": [
+              "https://reddit.com/r/Aave_Official"
+            ],
+            "technical_doc": [
+              "https://github.com/aave/aave-protocol/blob/master/docs/Aave_Protocol_Whitepaper_v1_0.pdf"
+            ],
+            "source_code": [
+              "https://github.com/aave"
+            ],
+            "announcement": [
+              "https://bitcointalk.org/index.php?topic=2090735.0"
+            ]
+          },
+          "platform": {
+            "id": "1027",
+            "name": "Ethereum",
+            "symbol": "ETH",
+            "slug": "ethereum",
+            "token_address": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9"
+          },
+          "date_added": "2020-10-02T00:00:00.000Z",
+          "twitter_username": "aave",
+          "is_hidden": 0,
+          "contract_address": [
+            {
+              "contract_address": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+              "platform": {
+                "name": "Ethereum",
+                "coin": {
+                  "id": "1027",
+                  "name": "Ethereum",
+                  "symbol": "ETH",
+                  "slug": "ethereum"
+                }
+              }
+            },
+            {
+              "contract_address": "0x202b4936fe1a82a4965220860ae46d7d3939bb25",
+              "platform": {
+                "name": "HECO",
+                "coin": {
+                  "id": "2502",
+                  "name": "Huobi Token",
+                  "symbol": "HT",
+                  "slug": "htx-token"
+                }
+              }
+            },
+            {
+              "contract_address": "0xDF613aF6B44a31299E48131e9347F034347E2F00",
+              "platform": {
+                "name": "Gnosis Chain",
+                "coin": {
+                  "id": "1659",
+                  "name": "Gnosis",
+                  "symbol": "GNO",
+                  "slug": "gnosis-gno"
+                }
+              }
+            },
+            {
+              "contract_address": "0x6a07A792ab2965C72a5B8088d3a069A7aC3a993B",
+              "platform": {
+                "name": "Fantom",
+                "coin": {
+                  "id": "3513",
+                  "name": "Fantom (Migrated to Sonic)",
+                  "symbol": "FTM",
+                  "slug": "fantom"
+                }
+              }
+            },
+            {
+              "contract_address": "0x8ce2dee54bb9921a2ae0a63dbb2df8ed88b91dd9",
+              "platform": {
+                "name": "Avalanche C-Chain",
+                "coin": {
+                  "id": "5805",
+                  "name": "Avalanche",
+                  "symbol": "AVAX",
+                  "slug": "avalanche"
+                }
+              }
+            },
+            {
+              "contract_address": "0xd6df932a45c0f255f85145f286ea0b292b21c90b",
+              "platform": {
+                "name": "Polygon",
+                "coin": {
+                  "id": "28321",
+                  "name": "Polygon (prev. MATIC)",
+                  "symbol": "POL",
+                  "slug": "polygon-ecosystem-token"
+                }
+              }
+            },
+            {
+              "contract_address": "0xfb6115445bff7b52feb98650c87f44907e58f802",
+              "platform": {
+                "name": "BNB Smart Chain (BEP20)",
+                "coin": {
+                  "id": "1839",
+                  "name": "BNB",
+                  "symbol": "BNB",
+                  "slug": "bnb"
+                }
+              }
+            },
+            {
+              "contract_address": "0x0091bd8d8295b25cab5a7b8b0e44498e678cfc15d872ede3215f7d4c7635ba36",
+              "platform": {
+                "name": "Sora",
+                "coin": {
+                  "id": "5802",
+                  "name": "SORA",
+                  "symbol": "XOR",
+                  "slug": "sora"
+                }
+              }
+            },
+            {
+              "contract_address": "AavE1kKKnesPw4MuRJmJ9jZs9QzEE8CPxQ3ViczUDfc1",
+              "platform": {
+                "name": "Solana",
+                "coin": {
+                  "id": "5426",
+                  "name": "Solana",
+                  "symbol": "SOL",
+                  "slug": "solana"
+                }
+              }
+            },
+            {
+              "contract_address": "7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9.factory.bridge.near",
+              "platform": {
+                "name": "Near",
+                "coin": {
+                  "id": "6535",
+                  "name": "NEAR Protocol",
+                  "symbol": "NEAR",
+                  "slug": "near-protocol"
+                }
+              }
+            },
+            {
+              "contract_address": "0xba5ddd1f9d7f570dc94a51479a000e3bce967196",
+              "platform": {
+                "name": "Arbitrum",
+                "coin": {
+                  "id": "11841",
+                  "name": "Arbitrum",
+                  "symbol": "ARB",
+                  "slug": "arbitrum"
+                }
+              }
+            }
+          ],
+          "infinite_supply": false
+        }
+      },
+      "status": {
+        "timestamp": "2026-09-26T10:50:21.770Z",
+        "error_code": 0,
+        "error_message": null,
+        "elapsed": 6,
+        "credit_count": 1,
+        "notice": null
+      }
+    }
+  }
+}

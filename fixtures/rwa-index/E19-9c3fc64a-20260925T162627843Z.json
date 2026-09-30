@@ -1,0 +1,541 @@
+{
+  "label": "E19-9c3fc64a-20260925T162627843Z",
+  "recordedAt": "2026-09-25T16:26:27.843Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v5/real-world-assets/issuers?issuer_id=6a2aed5097c45356b1a5f710&limit=250&start=1",
+    "path": "/v5/real-world-assets/issuers",
+    "query": {
+      "issuer_id": "6a2aed5097c45356b1a5f710",
+      "limit": "250",
+      "start": "1"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 207,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Fri, 25 Sep 2026 16:26:27 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 b635e2b1f0ae92160e68ba87d10e2754.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "LrR8G5eazZRtDKcSIGNFoPfwG9BV7FEUt6PeOH9OlaijP_eWOr39Gg==",
+      "x-amz-cf-pop": "CDG55-P3",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "7",
+      "x-server-traceid": "dc8abdf2ede8fcf41028b2ce7e7137b4"
+    },
+    "body": {
+      "data": {
+        "name": "bStocks",
+        "logo": "https://s2.coinmarketcap.com/static/img/issuer/Untitled_design__2_.png",
+        "tokens": [
+          {
+            "name": "Micron Technology Tokenized bStocks",
+            "symbol": "MUB",
+            "crypto_id": 40212,
+            "rwa_id": 12
+          },
+          {
+            "name": "Circle Internet Group Tokenized bStocks",
+            "symbol": "CRCLB",
+            "crypto_id": 40213,
+            "rwa_id": 115
+          },
+          {
+            "name": "Tesla Tokenized bStocks",
+            "symbol": "TSLAB",
+            "crypto_id": 40214,
+            "rwa_id": 14
+          },
+          {
+            "name": "NVIDIA Tokenized bStocks",
+            "symbol": "NVDAB",
+            "crypto_id": 40215,
+            "rwa_id": 2
+          },
+          {
+            "name": "SanDisk Tokenized bStocks",
+            "symbol": "SNDKB",
+            "crypto_id": 40216,
+            "rwa_id": 48
+          },
+          {
+            "name": "SpaceX Tokenized bStocks",
+            "symbol": "SPCXB",
+            "crypto_id": 40217,
+            "rwa_id": 9
+          },
+          {
+            "name": "Strategy Tokenized bStocks",
+            "symbol": "MSTRB",
+            "crypto_id": 40536,
+            "rwa_id": 114
+          },
+          {
+            "name": "Advanced Micro Devices Tokenized bStocks",
+            "symbol": "AMDB",
+            "crypto_id": 40538,
+            "rwa_id": 25
+          },
+          {
+            "name": "iShares MSCI South Korea ETF Tokenized bStocks",
+            "symbol": "EWYB",
+            "crypto_id": 40539,
+            "rwa_id": 1062
+          },
+          {
+            "name": "Intel Tokenized bStocks",
+            "symbol": "INTCB",
+            "crypto_id": 40540,
+            "rwa_id": 20
+          },
+          {
+            "name": "Microsoft Tokenized bStocks",
+            "symbol": "MSFTB",
+            "crypto_id": 40589,
+            "rwa_id": 7
+          },
+          {
+            "name": "Palantir Tokenized bStocks",
+            "symbol": "PLTRB",
+            "crypto_id": 40590,
+            "rwa_id": 53
+          },
+          {
+            "name": "Lumentum Tokenized bStocks",
+            "symbol": "LITEB",
+            "crypto_id": 40591,
+            "rwa_id": 189
+          },
+          {
+            "name": "Meta Tokenized bStocks",
+            "symbol": "METAB",
+            "crypto_id": 40592,
+            "rwa_id": 10
+          },
+          {
+            "name": "Invesco QQQ Trust Tokenized bStocks",
+            "symbol": "QQQB",
+            "crypto_id": 40593,
+            "rwa_id": 118
+          },
+          {
+            "name": "Coinbase Tokenized bStocks",
+            "symbol": "COINB",
+            "crypto_id": 40789,
+            "rwa_id": 82
+          },
+          {
+            "name": "State Street SPDR S&P 500 ETF Tokenized bStocks",
+            "symbol": "SPYB",
+            "crypto_id": 40790,
+            "rwa_id": 86
+          },
+          {
+            "name": "Cerebras Tokenized bStocks",
+            "symbol": "CBRSB",
+            "crypto_id": 40791,
+            "rwa_id": 251
+          },
+          {
+            "name": "Qualcomm Tokenized bStocks",
+            "symbol": "QCOMB",
+            "crypto_id": 40792,
+            "rwa_id": 103
+          },
+          {
+            "name": "Alphabet Tokenized bStocks",
+            "symbol": "GOOGLB",
+            "crypto_id": 40793,
+            "rwa_id": 4
+          },
+          {
+            "name": "Semicon Bull 3X ETF Tokenized bStocks",
+            "symbol": "SOXLB",
+            "crypto_id": 40794,
+            "rwa_id": 7750
+          },
+          {
+            "name": "Corning Tokenized bStocks",
+            "symbol": "GLWB",
+            "crypto_id": 40795,
+            "rwa_id": 256
+          },
+          {
+            "name": "Western Digital Tokenized bStocks",
+            "symbol": "WDCB",
+            "crypto_id": 40796,
+            "rwa_id": 75
+          },
+          {
+            "name": "Nebius Tokenized bStocks",
+            "symbol": "NBISB",
+            "crypto_id": 40797,
+            "rwa_id": 254
+          },
+          {
+            "name": "Roundhill Memory ETF Tokenized bStocks",
+            "symbol": "DRAMB",
+            "crypto_id": 40798,
+            "rwa_id": 4789
+          },
+          {
+            "name": "SK Hynix Tokenized bStocks",
+            "symbol": "SKHYB",
+            "crypto_id": 40813,
+            "rwa_id": 8065
+          },
+          {
+            "name": "Applied Optoelectronics Tokenized bStocks",
+            "symbol": "AAOIB",
+            "crypto_id": 40844,
+            "rwa_id": 191
+          },
+          {
+            "name": "Broadcom Tokenized bStocks",
+            "symbol": "AVGOB",
+            "crypto_id": 40845,
+            "rwa_id": 13
+          },
+          {
+            "name": "TSMC Tokenized bStocks",
+            "symbol": "TSMB",
+            "crypto_id": 40846,
+            "rwa_id": 8
+          },
+          {
+            "name": "IBM Tokenized bStocks",
+            "symbol": "IBMB",
+            "crypto_id": 40847,
+            "rwa_id": 42
+          },
+          {
+            "name": "Marvell Technology Tokenized bStocks",
+            "symbol": "MRVLB",
+            "crypto_id": 40848,
+            "rwa_id": 70
+          },
+          {
+            "name": "Rocket Lab Tokenized bStocks",
+            "symbol": "RKLBB",
+            "crypto_id": 40849,
+            "rwa_id": 297
+          },
+          {
+            "name": "Robinhood Tokenized bStocks",
+            "symbol": "HOODB",
+            "crypto_id": 40850,
+            "rwa_id": 84
+          },
+          {
+            "name": "Arm Tokenized bStocks",
+            "symbol": "ARMB",
+            "crypto_id": 40851,
+            "rwa_id": 54
+          },
+          {
+            "name": "Alibaba Tokenized bStocks",
+            "symbol": "BABAB",
+            "crypto_id": 40852,
+            "rwa_id": 63
+          },
+          {
+            "name": "Nokia Tokenized bStocks",
+            "symbol": "NOKB",
+            "crypto_id": 40853,
+            "rwa_id": 1588
+          },
+          {
+            "name": "AXT Tokenized bStocks",
+            "symbol": "AXTIB",
+            "crypto_id": 40875,
+            "rwa_id": 1164
+          },
+          {
+            "name": "South Korea Bull 3X ETF Tokenized bStocks",
+            "symbol": "KORUB",
+            "crypto_id": 40876,
+            "rwa_id": 5289
+          },
+          {
+            "name": "CoreWeave Tokenized bStocks",
+            "symbol": "CRWVB",
+            "crypto_id": 40877,
+            "rwa_id": 443
+          },
+          {
+            "name": "Quantinuum Tokenized bStocks",
+            "symbol": "QNTB",
+            "crypto_id": 40878,
+            "rwa_id": 16386
+          },
+          {
+            "name": "GraniteShares 2X Long MRVL ETF Tokenized bStocks",
+            "symbol": "MVLLB",
+            "crypto_id": 40879,
+            "rwa_id": 5383
+          },
+          {
+            "name": "Tradr 2X Long SNDK ETF Tokenized bStocks",
+            "symbol": "SNXXB",
+            "crypto_id": 40880,
+            "rwa_id": 5699
+          },
+          {
+            "name": "Direxion MU Bull 2X ETF Tokenized bStocks",
+            "symbol": "MUUB",
+            "crypto_id": 40881,
+            "rwa_id": 5382
+          },
+          {
+            "name": "Oracle Tokenized bStocks",
+            "symbol": "ORCLB",
+            "crypto_id": 40882,
+            "rwa_id": 24
+          },
+          {
+            "name": "GraniteShares 2X Long INTC ETF Tokenized bStocks",
+            "symbol": "INTWB",
+            "crypto_id": 40883,
+            "rwa_id": 5186
+          },
+          {
+            "name": "ProShares UltraPro QQQ Tokenized bStocks",
+            "symbol": "TQQQB",
+            "crypto_id": 40884,
+            "rwa_id": 211
+          },
+          {
+            "name": "Apple Tokenized bStocks",
+            "symbol": "AAPLB",
+            "crypto_id": 40927,
+            "rwa_id": 3
+          },
+          {
+            "name": "VanEck Semiconductor ETF Tokenized bStocks",
+            "symbol": "SMHB",
+            "crypto_id": 40928,
+            "rwa_id": 7733
+          },
+          {
+            "name": "Amazon Tokenized bStocks",
+            "symbol": "AMZNB",
+            "crypto_id": 40929,
+            "rwa_id": 6
+          },
+          {
+            "name": "Direxion Semiconductor Bear 3X ETF Tokenized bStocks",
+            "symbol": "SOXSB",
+            "crypto_id": 40930,
+            "rwa_id": 7751
+          },
+          {
+            "name": "Dell Tokenized bStocks",
+            "symbol": "DELLB",
+            "crypto_id": 40931,
+            "rwa_id": 44
+          },
+          {
+            "name": "Fluence Energy Tokenized bStocks",
+            "symbol": "FLNCB",
+            "crypto_id": 40932,
+            "rwa_id": 1400
+          },
+          {
+            "name": "Bloom Energy Tokenized bStocks",
+            "symbol": "BEB",
+            "crypto_id": 40933,
+            "rwa_id": 190
+          },
+          {
+            "name": "Goldman Sachs Tokenized bStocks",
+            "symbol": "GSB",
+            "crypto_id": 40934,
+            "rwa_id": 39
+          },
+          {
+            "name": "Paypal Tokenized bStocks",
+            "symbol": "PYPLB",
+            "crypto_id": 40935,
+            "rwa_id": 93
+          },
+          {
+            "name": "Applied Materials Tokenized bStocks",
+            "symbol": "AMATB",
+            "crypto_id": 40936,
+            "rwa_id": 22
+          },
+          {
+            "name": "BitMine Immersion Technologies Tokenized bStocks",
+            "symbol": "BMNRB",
+            "crypto_id": 40964,
+            "rwa_id": 219
+          },
+          {
+            "name": "Coherent Tokenized bStocks",
+            "symbol": "COHRB",
+            "crypto_id": 40965,
+            "rwa_id": 188
+          },
+          {
+            "name": "Super Micro Computer Tokenized bStocks",
+            "symbol": "SMCIB",
+            "crypto_id": 40966,
+            "rwa_id": 127
+          },
+          {
+            "name": "Credo Technology Tokenized bStocks",
+            "symbol": "CRDOB",
+            "crypto_id": 40967,
+            "rwa_id": 252
+          },
+          {
+            "name": "ASML Tokenized bStocks",
+            "symbol": "ASMLB",
+            "crypto_id": 40968,
+            "rwa_id": 26
+          },
+          {
+            "name": "USA Rare Earth Tokenized bStocks",
+            "symbol": "USARB",
+            "crypto_id": 40969,
+            "rwa_id": 1682
+          },
+          {
+            "name": "IREN Limited Tokenized bStocks",
+            "symbol": "IRENB",
+            "crypto_id": 40970,
+            "rwa_id": 229
+          },
+          {
+            "name": "AST SpaceMobile Tokenized bStocks",
+            "symbol": "ASTSB",
+            "crypto_id": 40971,
+            "rwa_id": 511
+          },
+          {
+            "name": "Astera Labs Tokenized bStocks",
+            "symbol": "ALABB",
+            "crypto_id": 40972,
+            "rwa_id": 255
+          },
+          {
+            "name": "Netflix Tokenized bStocks",
+            "symbol": "NFLXB",
+            "crypto_id": 40973,
+            "rwa_id": 37
+          },
+          {
+            "name": "GameStop Tokenized bStocks",
+            "symbol": "GMEB",
+            "crypto_id": 41077,
+            "rwa_id": 116
+          },
+          {
+            "name": "Trump Media & Technology Group Tokenized bStocks",
+            "symbol": "DJTB",
+            "crypto_id": 41915,
+            "rwa_id": 2023
+          },
+          {
+            "name": "CrowdStrike Tokenized bStocks",
+            "symbol": "CRWDB",
+            "crypto_id": 41960,
+            "rwa_id": 102
+          },
+          {
+            "name": "Moderna Tokenized bStocks",
+            "symbol": "MRNAB",
+            "crypto_id": 41961,
+            "rwa_id": 232
+          },
+          {
+            "name": "ProShares UltraPro Short QQQ Tokenized bStocks",
+            "symbol": "SQQQB",
+            "crypto_id": 41962,
+            "rwa_id": 181
+          },
+          {
+            "name": "Seagate Tokenized bStocks",
+            "symbol": "STXB",
+            "crypto_id": 41963,
+            "rwa_id": 73
+          },
+          {
+            "name": "Salesforce Tokenized bStocks",
+            "symbol": "CRMB",
+            "crypto_id": 42045,
+            "rwa_id": 198
+          },
+          {
+            "name": "Hims & Hers Tokenized bStocks",
+            "symbol": "HIMSB",
+            "crypto_id": 42046,
+            "rwa_id": 125
+          },
+          {
+            "name": "CEA Industries Tokenized bStocks",
+            "symbol": "BNCB",
+            "crypto_id": 42290,
+            "rwa_id": 3066
+          },
+          {
+            "name": "Reddit Tokenized bStocks",
+            "symbol": "RDDTB",
+            "crypto_id": 42302,
+            "rwa_id": 196
+          },
+          {
+            "name": "GoPro Tokenized bStocks",
+            "symbol": "GPROB",
+            "crypto_id": 42303,
+            "rwa_id": 4016
+          },
+          {
+            "name": "Axe Compute Tokenized bStocks",
+            "symbol": "AGPUB",
+            "crypto_id": 42353,
+            "rwa_id": 6206
+          },
+          {
+            "name": "Cypherpunk Technologies Tokenized bStocks",
+            "symbol": "CYPHB",
+            "crypto_id": 42354,
+            "rwa_id": null
+          },
+          {
+            "name": "AMC Entertainment Holdings Tokenized bStocks",
+            "symbol": "AMCB",
+            "crypto_id": 42355,
+            "rwa_id": 153
+          }
+        ],
+        "issuer_id": "6a2aed5097c45356b1a5f710",
+        "num_tokens": 80,
+        "total_size": 80,
+        "has_more": false
+      },
+      "status": {
+        "timestamp": "2026-09-25T16:26:27.722Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 3,
+        "credit_count": 1
+      }
+    }
+  }
+}

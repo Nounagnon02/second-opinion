@@ -1,0 +1,189 @@
+{
+  "label": "E05-96505345-20260925T215610012Z",
+  "recordedAt": "2026-09-25T21:56:10.012Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v2/cryptocurrency/info?id=5426",
+    "path": "/v2/cryptocurrency/info",
+    "query": {
+      "id": "5426"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 312,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Fri, 25 Sep 2026 21:56:09 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 2ce1a7472148bab7a7859783f192cac4.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "tqgKEiF3jyn4IPVAS9TaxfvZEvHEO1a9n7pGZ8Lw8WUrm-FU0dkoqA==",
+      "x-amz-cf-pop": "MAD53-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "12",
+      "x-server-traceid": "e2d6648a033ef34aa5307e69623c3752"
+    },
+    "body": {
+      "data": {
+        "5426": {
+          "id": 5426,
+          "name": "Solana",
+          "symbol": "SOL",
+          "category": "coin",
+          "description": "Solana (SOL) is a cryptocurrency launched in 2020. Solana has a current supply of 634,685,779.21456122 with 587,642,021.79118955 in circulation. The last known price of Solana is 121.01151181 USD and is up 3.39 over the last 24 hours. It is currently trading on 1181 active market(s) with $6,122,452,219.76 traded over the last 24 hours. More information can be found at https://solana.com.",
+          "slug": "solana",
+          "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/5426.png",
+          "subreddit": "solana",
+          "notice": "",
+          "tags": [
+            "pos",
+            "platform",
+            "solana-ecosystem",
+            "cms-holdings-portfolio",
+            "kenetic-capital-portfolio",
+            "alameda-research-portfolio",
+            "multicoin-capital-portfolio",
+            "okx-ventures-portfolio",
+            "layer-1",
+            "ftx-bankruptcy-estate",
+            "alleged-sec-securities",
+            "cmc-crypto-awards-2024",
+            "made-in-america",
+            "us-strategic-crypto-reserve",
+            "binance-ecosystem",
+            "binance-listing",
+            "sec-cftc-token-taxonomy",
+            "sec-cftc-digital-commodities",
+            "coinlist-launchpad"
+          ],
+          "tag-names": [
+            "PoS",
+            "Platform",
+            "Solana Ecosystem",
+            "CMS Holdings Portfolio",
+            "Kenetic Capital Portfolio",
+            "Alameda Research Portfolio",
+            "Multicoin Capital Portfolio",
+            "OKX Ventures Portfolio",
+            "Layer 1",
+            "FTX Bankruptcy Estate ",
+            "Alleged SEC Securities",
+            "CMC Crypto Awards 2024",
+            "Made in America",
+            "US Strategic Crypto Reserve",
+            "Binance Ecosystem",
+            "Binance Listing",
+            "SEC/CFTC Token Taxonomy",
+            "SEC/CFTC Digital Commodities",
+            "Coinlist Launchpad"
+          ],
+          "tag-groups": [
+            "ALGORITHM",
+            "CATEGORY",
+            "PLATFORM",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY"
+          ],
+          "urls": {
+            "website": [
+              "https://solana.com"
+            ],
+            "twitter": [
+              "https://twitter.com/solana"
+            ],
+            "message_board": [
+              "https://solana.com/news",
+              "https://forums.solana.com"
+            ],
+            "chat": [
+              "https://solana.com/discord",
+              "https://t.me/solana"
+            ],
+            "facebook": [],
+            "explorer": [
+              "https://solscan.io/token/So11111111111111111111111111111111111111111",
+              "https://explorer.solana.com",
+              "https://solana.fm/",
+              "https://solscan.io/"
+            ],
+            "reddit": [
+              "https://reddit.com/r/solana"
+            ],
+            "technical_doc": [
+              "https://solana.com/solana-whitepaper.pdf"
+            ],
+            "source_code": [
+              "https://github.com/solana-labs"
+            ],
+            "announcement": [
+              "https://coinmarketcap.com/community/profile/Solana/"
+            ]
+          },
+          "platform": {
+            "id": "5426",
+            "name": "Solana",
+            "symbol": "SOL",
+            "slug": "solana",
+            "token_address": "So11111111111111111111111111111111111111111"
+          },
+          "date_added": "2020-04-10T00:00:00.000Z",
+          "twitter_username": "solana",
+          "is_hidden": 0,
+          "date_launched": "2020-03-16T00:00:00.000Z",
+          "contract_address": [
+            {
+              "contract_address": "So11111111111111111111111111111111111111111",
+              "platform": {
+                "name": "Solana",
+                "coin": {
+                  "id": "5426",
+                  "name": "Solana",
+                  "symbol": "SOL",
+                  "slug": "solana"
+                }
+              }
+            }
+          ],
+          "self_reported_circulating_supply": 525236893.3,
+          "self_reported_market_cap": 63562795221.25978,
+          "infinite_supply": true
+        }
+      },
+      "status": {
+        "timestamp": "2026-09-25T21:56:09.893Z",
+        "error_code": 0,
+        "error_message": null,
+        "elapsed": 8,
+        "credit_count": 1,
+        "notice": null
+      }
+    }
+  }
+}

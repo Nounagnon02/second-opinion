@@ -1,0 +1,191 @@
+{
+  "label": "E05-f57a4fbb-20260926T104820650Z",
+  "recordedAt": "2026-09-26T10:48:20.650Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v2/cryptocurrency/info?id=4642",
+    "path": "/v2/cryptocurrency/info",
+    "query": {
+      "id": "4642"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 1473,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 10:48:20 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 d2cb7631fe0377fd030ab6f92237ce72.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "FOfQGuxDW4zXnKt9QbNQsXCClzRkR9Qv9jl45WFyLBKyOCK1_5AT6Q==",
+      "x-amz-cf-pop": "IAD55-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "175",
+      "x-server-traceid": "9d5e1ca1fbe8305dd48db0a891642017"
+    },
+    "body": {
+      "data": {
+        "4642": {
+          "id": 4642,
+          "name": "Hedera",
+          "symbol": "HBAR",
+          "category": "coin",
+          "description": "Hedera (HBAR) is a cryptocurrency launched in 2017. Hedera has a current supply of 50,000,000,000 with 43,831,706,398.40525958 in circulation. The last known price of Hedera is 0.0945864 USD and is up 1.65 over the last 24 hours. It is currently trading on 454 active market(s) with $119,378,525.86 traded over the last 24 hours. More information can be found at https://www.hedera.com/.",
+          "slug": "hedera",
+          "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/4642.png",
+          "subreddit": "hedera",
+          "notice": "",
+          "tags": [
+            "dag",
+            "marketplace",
+            "enterprise-solutions",
+            "payments",
+            "dcg-portfolio",
+            "hedera-hashgraph-ecosystem",
+            "real-world-assets-protocols",
+            "layer-1",
+            "made-in-america",
+            "binance-ecosystem",
+            "binance-listing",
+            "iso-20022",
+            "sec-cftc-token-taxonomy",
+            "sec-cftc-digital-commodities"
+          ],
+          "tag-names": [
+            "DAG",
+            "Marketplace",
+            "Enterprise Solutions",
+            "Payments",
+            "DCG Portfolio",
+            "Hedera Hashgraph Ecosystem",
+            "Real World Assets Protocols",
+            "Layer 1",
+            "Made in America",
+            "Binance Ecosystem",
+            "Binance Listing",
+            "ISO 20022",
+            "SEC/CFTC Token Taxonomy",
+            "SEC/CFTC Digital Commodities"
+          ],
+          "tag-groups": [
+            "ALGORITHM",
+            "INDUSTRY",
+            "INDUSTRY",
+            "INDUSTRY",
+            "CATEGORY",
+            "PLATFORM",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY"
+          ],
+          "urls": {
+            "website": [
+              "https://www.hedera.com/"
+            ],
+            "twitter": [
+              "https://twitter.com/hedera"
+            ],
+            "message_board": [
+              "https://hedera.com/blog",
+              "https://medium.com/hashgraph"
+            ],
+            "chat": [
+              "https://t.me/hederahashgraph",
+              "https://hedera.com/discord"
+            ],
+            "facebook": [],
+            "explorer": [
+              "https://app.dragonglass.me/hedera/home",
+              "https://app.metrika.co/hedera/dashboard/network-overview?tr=1d",
+              "https://ledger.hashlog.io/",
+              "https://hashscan.io/"
+            ],
+            "reddit": [
+              "https://reddit.com/r/hedera"
+            ],
+            "technical_doc": [
+              "https://www.hedera.com/papers"
+            ],
+            "source_code": [
+              "https://github.com/hashgraph"
+            ],
+            "announcement": [
+              "https://hedera.com/news"
+            ]
+          },
+          "platform": {
+            "id": "4642",
+            "name": "Hedera",
+            "symbol": "HBAR",
+            "slug": "hedera",
+            "token_address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+          },
+          "date_added": "2019-09-17T00:00:00.000Z",
+          "twitter_username": "hedera",
+          "is_hidden": 0,
+          "date_launched": "2017-08-01T00:00:00.000Z",
+          "contract_address": [
+            {
+              "contract_address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+              "platform": {
+                "name": "Hedera Hashgraph",
+                "coin": {
+                  "id": "4642",
+                  "name": "Hedera",
+                  "symbol": "HBAR",
+                  "slug": "hedera"
+                }
+              }
+            }
+          ],
+          "self_reported_tags": [
+            "DAG",
+            "PoS",
+            "Energy",
+            "Marketplace",
+            "Platform",
+            "Enterprise Solutions",
+            "Collectibles & NFTs",
+            "Data Provenance",
+            "DeFi",
+            "Privacy",
+            "Identity",
+            "Payments",
+            "Quantum-Resistant",
+            "Smart Contracts",
+            "Timestamping",
+            "DCG Portfolio",
+            "Web3"
+          ],
+          "infinite_supply": false
+        }
+      },
+      "status": {
+        "timestamp": "2026-09-26T10:48:20.441Z",
+        "error_code": 0,
+        "error_message": null,
+        "elapsed": 169,
+        "credit_count": 1,
+        "notice": null
+      }
+    }
+  }
+}

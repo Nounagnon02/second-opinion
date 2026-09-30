@@ -1,0 +1,65 @@
+{
+  "label": "E06-464ec745-20260925T215856046Z",
+  "recordedAt": "2026-09-25T21:58:56.046Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v2/simple/price?id=2&include_last_updated=true",
+    "path": "/v2/simple/price",
+    "query": {
+      "id": "2",
+      "include_last_updated": "true"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 298,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Fri, 25 Sep 2026 21:58:55 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 e99fb41a4b0b0129140530df3aae3346.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "yA2Wpuv7tJ6qkDTmTmpp40DDyJrs_pNIPqn5nnToRYvndGo6_1I8qw==",
+      "x-amz-cf-pop": "MAD53-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "10",
+      "x-server-traceid": "a40098cf3b2d89519a4970c4f8c984b3"
+    },
+    "body": {
+      "data": [
+        {
+          "id": 2,
+          "name": "Litecoin",
+          "symbol": "LTC",
+          "slug": "litecoin",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "price": 70.81960217658404,
+              "last_updated": "2026-09-25T21:57:03.000Z"
+            }
+          ]
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-25T21:58:55.933Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 4,
+        "credit_count": 1
+      }
+    }
+  }
+}

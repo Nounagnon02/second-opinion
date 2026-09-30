@@ -1,0 +1,156 @@
+{
+  "label": "E05-2d378b04-20260925T220127667Z",
+  "recordedAt": "2026-09-25T22:01:27.667Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v2/cryptocurrency/info?id=5176",
+    "path": "/v2/cryptocurrency/info",
+    "query": {
+      "id": "5176"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 548,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Fri, 25 Sep 2026 22:01:27 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 bdc6f46d528af5e15c27d2e41fd4f658.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "a_rf5dnrNH1Tfq_e175-XTCXmOE0THxTWxNi-IIYrnA_vh7j0bKN2w==",
+      "x-amz-cf-pop": "LOS50-P4",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "11",
+      "x-server-traceid": "8b42a1c4568225d4026b9302b12d9e79"
+    },
+    "body": {
+      "data": {
+        "5176": {
+          "id": 5176,
+          "name": "Tether Gold",
+          "symbol": "XAUt",
+          "category": "token",
+          "description": "Tether Gold (XAUt) is a cryptocurrency launched in 2020and operates on the Ethereum platform. Tether Gold has a current supply of 707,747.089 with 622,823.659532 in circulation. The last known price of Tether Gold is 4,286.42850709 USD and is up 0.63 over the last 24 hours. It is currently trading on 484 active market(s) with $274,752,746.75 traded over the last 24 hours. More information can be found at https://gold.tether.to/.",
+          "slug": "tether-gold",
+          "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/5176.png",
+          "subreddit": "",
+          "notice": "",
+          "tags": [
+            "ethereum-ecosystem",
+            "bnb-chain-ecosystem",
+            "tokenized-gold",
+            "real-world-assets-protocols",
+            "binance-ecosystem",
+            "binance-listing",
+            "tokenized-assets",
+            "tokenized-commodities",
+            "binance-liquidity-enhancement-program"
+          ],
+          "tag-names": [
+            "Ethereum Ecosystem",
+            "BNB Chain Ecosystem",
+            "Tokenized Gold",
+            "Real World Assets Protocols",
+            "Binance Ecosystem",
+            "Binance Listing",
+            "Tokenized Assets",
+            "Tokenized commodities",
+            "Binance Liquidity Enhancement Program"
+          ],
+          "tag-groups": [
+            "PLATFORM",
+            "PLATFORM",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY"
+          ],
+          "urls": {
+            "website": [
+              "https://gold.tether.to/"
+            ],
+            "twitter": [
+              "https://twitter.com/tethergold"
+            ],
+            "message_board": [],
+            "chat": [],
+            "facebook": [],
+            "explorer": [
+              "https://etherscan.io/token/0x68749665FF8D2d112Fa859AA293F07A622782F38",
+              "https://bscscan.com/token/0x21cAef8A43163Eea865baeE23b9C2E327696A3bf",
+              "https://ethplorer.io/address/0x68749665FF8D2d112Fa859AA293F07A622782F38"
+            ],
+            "reddit": [],
+            "technical_doc": [],
+            "source_code": [],
+            "announcement": []
+          },
+          "platform": {
+            "id": "1027",
+            "name": "Ethereum",
+            "symbol": "ETH",
+            "slug": "ethereum",
+            "token_address": "0x68749665FF8D2d112Fa859AA293F07A622782F38"
+          },
+          "date_added": "2020-02-07T00:00:00.000Z",
+          "twitter_username": "tethergold",
+          "is_hidden": 0,
+          "date_launched": "2020-01-23T00:00:00.000Z",
+          "contract_address": [
+            {
+              "contract_address": "0x68749665FF8D2d112Fa859AA293F07A622782F38",
+              "platform": {
+                "name": "Ethereum",
+                "coin": {
+                  "id": "1027",
+                  "name": "Ethereum",
+                  "symbol": "ETH",
+                  "slug": "ethereum"
+                }
+              }
+            },
+            {
+              "contract_address": "0x21cAef8A43163Eea865baeE23b9C2E327696A3bf",
+              "platform": {
+                "name": "BNB Smart Chain (BEP20)",
+                "coin": {
+                  "id": "1839",
+                  "name": "BNB",
+                  "symbol": "BNB",
+                  "slug": "bnb"
+                }
+              }
+            }
+          ],
+          "self_reported_circulating_supply": 48450,
+          "self_reported_market_cap": 207672502.99796373,
+          "infinite_supply": false
+        }
+      },
+      "status": {
+        "timestamp": "2026-09-25T22:01:27.373Z",
+        "error_code": 0,
+        "error_message": null,
+        "elapsed": 7,
+        "credit_count": 1,
+        "notice": null
+      }
+    }
+  }
+}

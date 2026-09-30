@@ -1,0 +1,107 @@
+{
+  "C1": {
+    "notes": "Gap between the aggregated price and a DEX price of the same token, in percent of the aggregate (D3). The only asset measured so far is PAXG on 2026-09-24, about 16:04-16:07 UTC: against the E02 aggregate of 4253.2261 USD, E10 read 4264.1538 USD (+0.26 %), and the three PAXG pairs of the recorded Uniswap page read 4244.6334 (-0.20 %), 4253.5532 (+0.01 %) and 4264.1538 (+0.26 %) - a spread of 0.46 % between venues for a liquid token. These two limits are placeholders set well above that single sample, so that ordinary spread on a thinner token is not reported as a divergence; nothing measured yet says where the line belongs. T4.2 calibrates them on the top 50, where a limit leaving fewer than 90 % of the panel at ACT is too tight. C1 measures the gap only; how deep the venue behind it is, is C4's measurement (D5). T4.2 settles them on the panel of the 50 first assets by capitalisation, replayed from fixtures/calibration/live-20260926T1044Z. C1 ran on 31 of the 50 and measured a gap on 30 of them, TAO's venue answer carrying no price at all; those 30 gaps span -1.583 % (LEO) to +8.045 % (GRAM). Twenty-eight of the thirty sit inside 1.6 % either way, the two widest ordinary readings being LEO at -1.583 % and ENA at +1.071 %; the distribution is then empty until BNB at +5.735 % and GRAM at +8.045 %. Both limits are kept, now on that spread rather than on the single PAXG sample: 2 % sits above every ordinary reading of the panel, and 5 % falls inside the empty band between 1.583 % and 5.735 %, where any value separates the panel identically. Raising the critical limit to 6 % was measured and rejected: it returns BNB to ACT and the panel to 96 %, but 5.735 % between the aggregate and the only DEX venue read for BNB is a measurement, and moving a limit past a measurement to improve a share is the blind engine F5 forbids.",
+    "warnAbovePercent": 2,
+    "criticalAbovePercent": 5
+  },
+  "C3": {
+    "notes": "Ages measured in the T1.2 fixtures: 52-173 s for the aggregated sources (E02, E03, E06, E07, E14, which CMC documents as refreshing every 60 s), 105 s for the E10 DEX token price and 138 s for the E09 pair. The E08 sample shows what a quiet DEX pair looks like: a median of 402 s, 19 pairs of 100 past 1 h and 11 past 24 h. The aggregated limits therefore leave room for ten missed refreshes before a warning; the DEX limits accept a pair that has not traded for an hour, because a quiet token is not a wrong one (D4). No recorded answer has carried data dated after its own response clock, so any negative age past the tolerance is worth reporting. T4.2 calibrates these six numbers. T4.2 settles them on the panel of the 50 first assets by capitalisation. Its 102 aggregate ages span 69.720 s to 87.367 s, every one of them under 90 s, which is the 60 s refresh CMC documents plus the time to reach the client. The aggregate limits therefore move from 600 s and 3600 s to 300 s and 1800 s: 300 s is 3.4 times the widest age the panel showed, where 600 s was 6.9 times it, and no asset changes verdict or finding at either value. The panel puts the floor of that limit at the age itself: at 88 s no aggregate warning is raised, at 87 s six appear at once, the whole cluster sitting together. The two DEX limits are kept. The 30 DEX ages span 10.547 s to 7543 s; the two above the 3600 s limit are SOL at 7543 s and GRAM at 4453 s, and the next one down is RLUSD at 1725 s, so 3600 s falls in the empty band between them. 86400 s stays on the T1.2 measurement of quiet pairs, 11 of 100 being past 24 h, which the panel does not contradict and does not narrow.",
+    "futureToleranceSeconds": 60,
+    "families": {
+      "aggregate": {
+        "warnAfterSeconds": 300,
+        "criticalAfterSeconds": 1800
+      },
+      "dex": {
+        "warnAfterSeconds": 3600,
+        "criticalAfterSeconds": 86400
+      }
+    }
+  },
+  "C4": {
+    "notes": "Depth behind a price, on the latest snapshot only: E12, the liquidity history, is refused, so no trend over time is claimed (D5). Measured on PAXG on 2026-09-24, about 16:06-16:07 UTC: E10 reports 21006102 USD of liquidity against 1415750 USD of 24 h volume, a turnover of 0.067 (`E10-dex-token-price-paxg`); the ten pools of `E11-dex-token-pools-paxg` run from 0.0045 to 0.84, the deepest of them (Uniswap v2 PAXG/WETH, 16257792 USD held) at 0.022, and the thinnest holds 54245 USD. The counter-case is recorded too: in `E08-dex-spot-pairs-paxg-uniswap` the BULL/WETH pair reports 39995193 USD of 24 h volume against 171.00653 USD of liquidity, a turnover of 233881 (observation 11 of docs/ENDPOINTS.md). Where the line between the two belongs is not measured by anything recorded, so these are placeholders: 50 and 250 sit far above the widest turnover a liquid token showed and far below the phantom case, and the 50000 / 10000 USD floor leaves all ten recorded PAXG pools above it. The two order-size limits say how much of the deepest pool one order may take before the check says so; nothing recorded measures them, and T5.1 (`preflight_trade`) is where they are first exercised. T4.2 calibrates the four market limits on the top 50. T4.2 settles the four market limits on the panel of the 50 first assets by capitalisation, which gave 61 liquidity readings and 61 turnovers over the 31 assets it ran on, 30 of them carrying a usable reading and TAO's venue answer carrying none. The turnovers reach only 8.127 (a wSOL/SUI pool on Orca), so the placeholders 50 and 250 never came near firing; they move to 25 and 100, which is 3.1 and 12.3 times the widest turnover the panel showed and still far below the 233881 of the phantom case recorded in T1.2. The panel puts the floor of the warning limit just above its own widest reading: at 8.5 nothing new is raised, at 8 the widest reading of the panel is, the wSOL/SUI pool on Orca at 8.127. The two liquidity limits are kept, because the panel places them in gaps of its own distribution: its readings run 3757, 20585, 37990, then 55879 and upwards, so 50000 falls between 37990 and 55879 and 10000 falls between 3757 and 20585. They are what holds LEO below ACT, on 3756.8 USD of depth behind its price, and what lowers SOL on 20585.3 USD, which still leaves it at ACT with 76.9. The two order-size limits are still unexercised: no panel measures them, and T5.1 (preflight_trade) is where they are first read.",
+    "warnLiquidityBelowUsd": 50000,
+    "criticalLiquidityBelowUsd": 10000,
+    "warnTurnoverRatio": 25,
+    "criticalTurnoverRatio": 100,
+    "warnOrderSharePercent": 10,
+    "criticalOrderSharePercent": 25
+  },
+  "C5": {
+    "notes": "Premium or discount of one tokenised wrapper against the average tokenized price of its real-world asset, and the spread between the wrappers of that asset (D6). The reference is CMC's own average over the wrappers (E14 `average_tokenized_price`), never a price of the underlying asset: no reachable endpoint carries one (`tradfi_markets` is empty for GOLD in `E14-rwa-quotes-gold`, and E15 is refused in `E15-rwa-market-pairs-gold`). One asset is recorded, GOLD on 2026-09-24 at 16:02:03 UTC: against an average of 4255.052 USD, the seven wrappers sit at -0.038 % (PAXG), +0.075 % (XAUt), -0.162 % (XAUM), +0.090 % (XAUT0) and +0.107 % (XAU) when read directly, and CGO and VNXAU sit at about +96.8 %, which the gram-to-troy-ounce factor brings back to -0.088 % and +0.340 %. The widest deviation of the sample is therefore 0.340 % and the spread between the wrappers is 0.501 % of the average. Nothing recorded measures where the line belongs, so the four limits are placeholders set well above that single asset. Note that T4.2 calibrates on the top 50 cryptocurrencies, where C5 ran on two assets only - XAUt and PAXG, both info - too few to settle a limit on: these four numbers are the ones a later RWA panel still has to settle, and T5.3 is where they are first exercised. unitBandPercent separates a different unit from a deviation, and is not a quality limit: the wrappers read directly sit within 0.2 % of the average and the two others 96.8 % away, so any band between those two values splits the sample the same way. minVolume24hUsd leaves a wrapper out of the spread without hiding it; the only value measured below it is the 0 USD of XAU (\"Gold (Derivatives)\", whose market cap is 0 too), so any minimum above 0 and at or below the 4090.97 USD of VNXAU splits this sample the same way. units is empty: no source read so far states the unit of a wrapper, and an inferred unit is reported as inferred (D6, step 3). The one conversion factor is a unit definition written down by this project, not a value read from the API.",
+    "warnPremiumPercent": 2,
+    "criticalPremiumPercent": 5,
+    "warnSpreadPercent": 3,
+    "criticalSpreadPercent": 8,
+    "unitBandPercent": 25,
+    "minVolume24hUsd": 1000,
+    "units": {},
+    "conversionFactors": [
+      {
+        "name": "gram to troy ounce",
+        "factor": 31.1034768,
+        "source": "docs/DECISIONS.md D6: one international troy ounce is 31.1034768 grams exactly. A unit definition, not a value read from the API."
+      }
+    ]
+  },
+  "C6": {
+    "notes": "Gap between two endpoints that publish a value for the same asset, in percent of the E02 aggregate, and how far apart their timestamps may sit and still describe the same snapshot (D7). Compared inside `check`: E02 against E06, and, for a tokenised wrapper, the E14 `tokens[].price` of the same `crypto_id` against E02. E02 against E10 is C1's measurement and is not repeated here, so one gap never weighs twice; the comparisons that cost extra credits per asset and describe the API rather than one asset belong to the audit (T6.1). Measured on 2026-09-24, about 16:04 UTC: E02 and E06 return the same price to the last digit for both requested assets (BTC 84278.77808276, PAXG 4253.226063661451) and date both with the same 16:02:03 (`E02-quotes-latest-btc-paxg`, `E06-simple-price-btc-paxg`); E14 prices the PAXG wrapper at 4253.420091887455, 0.0046 % above the E02 aggregate, and gives its `tokens[]` no timestamp of their own (`E14-rwa-quotes-gold`). The two percentage limits are placeholders set well above that single sample, and tighter than C1's: C6 reads two publications of the same aggregate, where C1 reads two different venues. snapshotToleranceSeconds is one refresh interval of the aggregated endpoints, which CMC documents as 60 s; the only pair measured so far sits 0 s apart, and beyond the tolerance a gap is shown but not reported as a disagreement. T4.2 calibrates these three numbers on the top 50. T4.2 settles them on the panel of the 50 first assets by capitalisation, which gave 52 gaps between E02 and E06. The widest is 0.0084 % (XAUt) and the median is exactly 0: the two endpoints publish the same aggregate to the last digit on almost every asset. The two limits therefore move from 0.5 % and 2 % to 0.1 % and 0.5 %. 0.1 % is still twelve times the widest gap the panel showed, and no asset changes verdict or finding at either value; the panel puts the floor of the warning limit at its own widest reading, since 0.01 % raises nothing and 0.008 % raises the first one. snapshotToleranceSeconds is kept at 60 s, and the panel is the reason to look at it again later rather than now: 49 of the 50 pairs sit 0 s apart, and the fiftieth, USDG, sits exactly 60 s apart, on the tolerance itself rather than inside it.",
+    "warnAbovePercent": 0.1,
+    "criticalAbovePercent": 0.5,
+    "snapshotToleranceSeconds": 60
+  },
+  "C7": {
+    "notes": "Severity of a field the verdict reads but could not be read (D8). A field whose loss leaves the asset without a price is critical: the container of the answer, the quote block that holds the price, and the price itself (`price` in E02, E03, E06, E07, E08, E09 and E14, `p` in E10). Everything else a check reads - timestamps, liquidity, volume, identifiers - is a warning: the verdict is still formed, with less behind it. Lookup order: the full field path with array indices removed, then its last segment, then the default. T4.2 settles the severities on the panel of the 50 first assets by capitalisation, which showed the lookup was missing one distinction. A key may now name the endpoint it applies to (E10 data.p) as well as the field alone (price), and the most specific key that matches wins. The reason is that the same field name does not cost the same everywhere: losing the price on the endpoint that carries the asset's own aggregated price leaves the run with no price to form a verdict about, while losing it on a DEX venue endpoint leaves the run with one price where it wanted two. On the panel, AVAX and TAO scored 83.3 and 92.3 on everything that could be read and were still held at CAUTION, because E10 answered without a price - an empty data object for AVAX, only the venue and the address for TAO - and the field-only lookup rated that as critical as losing the aggregate. C1 and C4 had already reported the same loss in their own words - gap_unknown, liquidity_unknown - and the coverage line already said how much of the engine ran, so the critical counted one missing field a third time. The five fields the endpoint-agnostic map rates critical (data, quote, quotes, price, p) are therefore written down again as warnings on the four DEX venue endpoints E08, E09, E10 and E11. Nothing is hidden by this: the finding is still raised, still names the field and the answer it was read from, and still lowers the score through C7's weight. Only its severity changes, from \"the verdict cannot rest on this\" to \"the verdict rests on less\". The aggregated endpoints (E02, E03, E06, E07) and the RWA endpoints keep the endpoint-agnostic severities: the panel recorded no unreadable price on any of them, so nothing measured says to move them.",
+    "defaultSeverity": "warning",
+    "severityByField": {
+      "data": "critical",
+      "data.quote.USD": "critical",
+      "rwa_assets": "critical",
+      "issuers": "critical",
+      "quote": "critical",
+      "quotes": "critical",
+      "price": "critical",
+      "p": "critical",
+      "E08 data": "warning",
+      "E08 quote": "warning",
+      "E08 quotes": "warning",
+      "E08 price": "warning",
+      "E08 p": "warning",
+      "E09 data": "warning",
+      "E09 quote": "warning",
+      "E09 quotes": "warning",
+      "E09 price": "warning",
+      "E09 p": "warning",
+      "E10 data": "warning",
+      "E10 quote": "warning",
+      "E10 quotes": "warning",
+      "E10 price": "warning",
+      "E10 p": "warning",
+      "E11 data": "warning",
+      "E11 quote": "warning",
+      "E11 quotes": "warning",
+      "E11 price": "warning",
+      "E11 p": "warning"
+    }
+  },
+  "score": {
+    "notes": "How the seven checks weigh into one score out of 100, and where the verdict changes (F5, D11). The two verdict thresholds are the ones the specification states: ACT at or above 75, CAUTION at or above 40, DO_NOT_ACT below it. The weights are placeholders. Nothing recorded so far measures how much each check should count, and T4.2 settles them on the top 50, where at least 90 % of the panel must reach ACT; their order is a reading of what each check says about acting on a price, not a measurement. C1 and C2 carry 20 each: they put the price a trade would rest on against a price from another venue, which is the nearest thing to a second opinion on the number itself. C2 is unavailable with this key (D2) and its weight is renormalised away on every run recorded so far (D9), but it is written down so that a key reaching per-exchange prices scores it without a code change. C3 and C4 carry 15 each: they describe the market behind the price rather than the price, an old quote and a venue too thin to trade on being the two ways a correct number still misleads. C5 carries 15 and runs for tokenised wrappers only, where it is the whole subject. C6 carries 10: it reads two publications of the same aggregate, so it overlaps with C1 and describes the API more than the market. C7 carries 5: it reports how much of the answers could be read, which the other six already reflect wherever a field they needed was missing. severityPoints is the ladder a check scores on, read from its worst finding: 100 when it raised none, 50 for a warning, 0 for a critical finding. The 50 is a placeholder like the weights, and T4.2 revisits it. Only the worst finding of a check counts, because severity is already defined as the worst of the findings (src/checks/model.ts) and nothing recorded says what a second warning on the same check should cost. capWithCritical is not a weight: a critical finding is defined as one the verdict cannot rest on that source for (src/checks/model.ts), so it holds the verdict at CAUTION or below however high the weighted mean lands. Without it a run whose price field could not be read at all still reaches ACT on the strength of the checks that found nothing, which is the one outcome this tool exists to prevent (D11). It stops at CAUTION rather than DO_NOT_ACT because one unusable source among seven is a reason to look before acting, not a measurement that the data is wrong; the score still decides between CAUTION and DO_NOT_ACT underneath the cap. T4.2 read the panel of the 50 first assets by capitalisation against these numbers and changed none of them; what follows is what the panel does and does not settle, so the next task does not re-open a question already measured. With the C1, C3, C4, C6 and C7 numbers T4.2 settled, 47 of the 50 assets reach ACT, or 94 %, against the 90 % F5 requires. The weights are unchanged: nothing recorded measures how much each check should count, and the panel cannot supply it either, because C2 ran on no asset and C5 on two. severityPoints.warning is unchanged at 50, and the panel does not settle it: sweeping it from 30 to 70 leaves the share at 92 % or 94 % throughout, so the target constrains it nowhere in that range and 50 is kept as the midpoint of the ladder. The two verdict boundaries are unchanged because the specification states them, not because the panel chose them. capWithCritical is kept at CAUTION and is no longer load-bearing on this panel: with the C7 severities settled, removing the cap entirely changes no verdict, because the three assets below ACT - BNB at 65.4, LEO at 73.1, GRAM at 57.7 - are already below 75 on their score alone. It is kept on the argument of D11 rather than on a panel measurement, for the case the panel did not produce: a run scoring high on the checks that ran while one of them reports the aggregated price itself unreadable. tests/score-cap.test.ts holds that case so it cannot regress unnoticed. D9 asked whether low coverage should cap the verdict as well; the panel answers no. Coverage runs from 3 to 6 checks per asset: 19 assets sit at 3, of which 14 lost C1 and C4 to an E10 and E11 that answered HTTP 500, 4 - BTC, XMR, XLM and CC - are coins with no token contract, for which 3 of 7 is everything that can run rather than a degraded reading, and the last, AVAX, has a contract whose E10 and E11 answers came back empty. Capping a verdict at low coverage would hold 19 assets at CAUTION and bring the panel to 56 %, and capping on unavailability alone would hold 14 and bring it to 66 %: both fail F5, and the first would penalise BTC for being a coin. Coverage stays what D9 made it, a number reported beside the score and never folded into it.",
+    "weights": {
+      "C1": 20,
+      "C2": 20,
+      "C3": 15,
+      "C4": 15,
+      "C5": 15,
+      "C6": 10,
+      "C7": 5
+    },
+    "severityPoints": {
+      "info": 100,
+      "warning": 50,
+      "critical": 0
+    },
+    "actAtOrAbove": 75,
+    "cautionAtOrAbove": 40,
+    "capWithCritical": "CAUTION"
+  }
+}

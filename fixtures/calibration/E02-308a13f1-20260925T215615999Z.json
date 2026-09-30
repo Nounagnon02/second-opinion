@@ -1,0 +1,158 @@
+{
+  "label": "E02-308a13f1-20260925T215615999Z",
+  "recordedAt": "2026-09-25T21:56:15.999Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v3/cryptocurrency/quotes/latest?convert=USD&id=1958",
+    "path": "/v3/cryptocurrency/quotes/latest",
+    "query": {
+      "convert": "USD",
+      "id": "1958"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 4275,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Fri, 25 Sep 2026 21:56:15 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 4211ff6411664b7619653768d1a4a490.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "64y6HZWUOGCDmeuc5fLXdkC8pPPVapqsxC4Yl0daBqAKnva5RsDZ9Q==",
+      "x-amz-cf-pop": "LOS50-P4",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "8",
+      "x-server-traceid": "f66a6a144e8c29fda30ad73e892dffc7"
+    },
+    "body": {
+      "data": [
+        {
+          "tags": [
+            {
+              "slug": "media",
+              "name": "Media",
+              "category": "INDUSTRY"
+            },
+            {
+              "slug": "payments",
+              "name": "Payments",
+              "category": "INDUSTRY"
+            },
+            {
+              "slug": "tron-ecosystem",
+              "name": "TRON Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "layer-1",
+              "name": "Layer 1",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "dwf-labs-portfolio",
+              "name": "DWF Labs Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "alleged-sec-securities",
+              "name": "Alleged SEC Securities",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "2017-2018-alt-season",
+              "name": "2017/18 Alt season",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "tron20-ecosystem",
+              "name": "Tron20 Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "world-liberty-financial-portfolio",
+              "name": "World Liberty Financial Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-ecosystem",
+              "name": "Binance Ecosystem",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-listing",
+              "name": "Binance Listing",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "made-in-china",
+              "name": "Made in China",
+              "category": "CATEGORY"
+            }
+          ],
+          "id": 1958,
+          "name": "TRON",
+          "symbol": "TRX",
+          "slug": "tron",
+          "is_active": 1,
+          "infinite_supply": true,
+          "is_fiat": 0,
+          "circulating_supply": 94967290143.38469,
+          "total_supply": 94967287019.59538,
+          "max_supply": null,
+          "date_added": "2017-09-13T00:00:00.000Z",
+          "num_market_pairs": 1381,
+          "cmc_rank": 8,
+          "last_updated": "2026-09-25T21:55:00.000Z",
+          "tvl_ratio": null,
+          "platform": null,
+          "self_reported_circulating_supply": 94667886298.43,
+          "self_reported_market_cap": 31978670518.119995,
+          "minted_market_cap": 32079807634.3,
+          "quote": [
+            {
+              "id": 2781,
+              "symbol": "USD",
+              "price": 0.3377985055809822,
+              "volume_24h": 417030303.13221186,
+              "volume_change_24h": -18.8075,
+              "cex_volume_24h": 416952367.4886296,
+              "dex_volume_24h": 77935.64358226,
+              "percent_change_1h": 0.03932557,
+              "percent_change_24h": -0.74813709,
+              "percent_change_7d": -0.20940039,
+              "percent_change_30d": 0.78172387,
+              "percent_change_60d": 3.21753131,
+              "percent_change_90d": 5.42267202,
+              "market_cap": 32079808689.510887,
+              "market_cap_dominance": 1.116,
+              "fully_diluted_market_cap": 32079807634.3,
+              "minted_market_cap": 32079807634.3,
+              "tvl": null,
+              "last_updated": "2026-09-25T21:55:02.000Z"
+            }
+          ]
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-25T21:56:15.661Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 4,
+        "credit_count": 1
+      }
+    }
+  }
+}

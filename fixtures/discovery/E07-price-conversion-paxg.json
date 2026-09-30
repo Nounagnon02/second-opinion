@@ -1,0 +1,65 @@
+{
+  "label": "E07-price-conversion-paxg",
+  "recordedAt": "2026-09-24T16:04:07.313Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v2/tools/price-conversion?amount=1&id=4705&convert=USD",
+    "path": "/v2/tools/price-conversion",
+    "query": {
+      "amount": "1",
+      "id": "4705",
+      "convert": "USD"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 812,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Thu, 24 Sep 2026 16:04:07 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 0f8477062090de8d23b9985455734a32.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "ERTLZAXFRM_mJO8gXCuEeNGCAf95k-2KnNQhon2pTxCySzwzhZzkGg==",
+      "x-amz-cf-pop": "BRU50-P1",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "200",
+      "x-server-traceid": "0f017e85f9be2b6dc398e903d0334011"
+    },
+    "body": {
+      "data": {
+        "id": 4705,
+        "symbol": "PAXG",
+        "name": "PAX Gold",
+        "amount": 1,
+        "quote": {
+          "USD": {
+            "price": 4253.226063661451,
+            "last_updated": "2026-09-24T16:02:03.000Z"
+          }
+        },
+        "last_updated": "2026-09-24T16:03:00.000Z"
+      },
+      "status": {
+        "timestamp": "2026-09-24T16:04:07.168Z",
+        "error_code": 0,
+        "error_message": null,
+        "elapsed": 8,
+        "credit_count": 1,
+        "notice": null
+      }
+    }
+  }
+}

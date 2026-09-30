@@ -1,0 +1,188 @@
+{
+  "label": "E02-9a92e83d-20260926T080841444Z",
+  "recordedAt": "2026-09-26T08:08:41.444Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v3/cryptocurrency/quotes/latest?convert=USD&id=2010",
+    "path": "/v3/cryptocurrency/quotes/latest",
+    "query": {
+      "convert": "USD",
+      "id": "2010"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 229,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 08:08:41 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 6a24b0b0f61768774ff665d5db6543ea.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "bUZlpsNRhvw8ROXP3cmbhTWRWwMIv_7BlI3_kIRmmJ8F3h7LMI_8IA==",
+      "x-amz-cf-pop": "LHR86-P3",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "7",
+      "x-server-traceid": "63682e6c610d733df2f1587d57863cf9"
+    },
+    "body": {
+      "data": [
+        {
+          "tags": [
+            {
+              "slug": "dpos",
+              "name": "DPoS",
+              "category": "ALGORITHM"
+            },
+            {
+              "slug": "pos",
+              "name": "PoS",
+              "category": "ALGORITHM"
+            },
+            {
+              "slug": "platform",
+              "name": "Platform",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "research",
+              "name": "Research",
+              "category": "INDUSTRY"
+            },
+            {
+              "slug": "smart-contracts",
+              "name": "Smart Contracts",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "staking",
+              "name": "Staking",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "cardano-ecosystem",
+              "name": "Cardano Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "layer-1",
+              "name": "Layer 1",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "alleged-sec-securities",
+              "name": "Alleged SEC Securities",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "2017-2018-alt-season",
+              "name": "2017/18 Alt season",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "made-in-america",
+              "name": "Made in America",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "us-strategic-crypto-reserve",
+              "name": "US Strategic Crypto Reserve",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-ecosystem",
+              "name": "Binance Ecosystem",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-listing",
+              "name": "Binance Listing",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "iso-20022",
+              "name": "ISO 20022",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "sec-cftc-token-taxonomy",
+              "name": "SEC/CFTC Token Taxonomy",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "sec-cftc-digital-commodities",
+              "name": "SEC/CFTC Digital Commodities",
+              "category": "CATEGORY"
+            }
+          ],
+          "id": 2010,
+          "name": "Cardano",
+          "symbol": "ADA",
+          "slug": "cardano",
+          "is_active": 1,
+          "infinite_supply": false,
+          "is_fiat": 0,
+          "circulating_supply": 36767374068.33432,
+          "total_supply": 44994754748.60082,
+          "max_supply": 45000000000,
+          "date_added": "2017-10-01T00:00:00.000Z",
+          "num_market_pairs": 1742,
+          "cmc_rank": 14,
+          "last_updated": "2026-09-26T08:07:00.000Z",
+          "tvl_ratio": null,
+          "platform": null,
+          "self_reported_circulating_supply": 37997904336,
+          "self_reported_market_cap": 9685933562.416971,
+          "minted_market_cap": 11469480034.96,
+          "quote": [
+            {
+              "id": 2781,
+              "symbol": "USD",
+              "price": 0.25490704636677336,
+              "volume_24h": 838772484.1330903,
+              "volume_change_24h": 35.5299,
+              "cex_volume_24h": 837615595.8233544,
+              "dex_volume_24h": 1156888.3097358,
+              "percent_change_1h": 0.08096134,
+              "percent_change_24h": 2.26158473,
+              "percent_change_7d": 14.95538295,
+              "percent_change_30d": 20.23331554,
+              "percent_change_60d": 62.38876564,
+              "percent_change_90d": 75.64012187,
+              "market_cap": 9372262726.421396,
+              "market_cap_dominance": 0.3248,
+              "fully_diluted_market_cap": 11470817086.5,
+              "minted_market_cap": 11469480034.96,
+              "tvl": null,
+              "last_updated": "2026-09-26T08:07:02.000Z"
+            }
+          ]
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-26T08:08:41.296Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 3,
+        "credit_count": 1
+      }
+    }
+  }
+}

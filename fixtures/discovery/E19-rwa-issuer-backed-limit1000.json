@@ -1,0 +1,47 @@
+{
+  "label": "E19-rwa-issuer-backed-limit1000",
+  "recordedAt": "2026-09-25T15:06:30.266Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v5/real-world-assets/issuers?issuer_id=6878977dcbbf471de3366e85&limit=1000",
+    "path": "/v5/real-world-assets/issuers",
+    "query": {
+      "issuer_id": "6878977dcbbf471de3366e85",
+      "limit": "1000"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 400,
+    "statusText": "Bad Request",
+    "latencyMs": 1095,
+    "headers": {
+      "connection": "keep-alive",
+      "content-length": "244",
+      "content-type": "application/json",
+      "date": "Fri, 25 Sep 2026 15:06:30 GMT",
+      "server": "nginx",
+      "via": "1.1 95ebccdd644180b3fb6c9f7e96608aac.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "GLWXhvXGxEDLIBUi29q1dg_lVCja2qkro76QtxwqQVNfGJRSGjVaQA==",
+      "x-amz-cf-pop": "LHR86-P3",
+      "x-cache": "Error from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "8",
+      "x-server-traceid": "1c36195fcfef8f56d9f3036b10e46a1e"
+    },
+    "body": {
+      "status": {
+        "timestamp": "2026-09-25T15:06:30.079Z",
+        "error_code": "4001",
+        "error_message": "Invalid parameter.",
+        "elapsed": 0,
+        "credit_count": 0,
+        "category": "VALIDATION",
+        "error_detail": "limit: '1000' is not valid. Must be an integer between 1 and 250."
+      }
+    }
+  }
+}

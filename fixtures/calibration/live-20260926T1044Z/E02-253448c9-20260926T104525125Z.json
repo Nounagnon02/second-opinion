@@ -1,0 +1,604 @@
+{
+  "label": "E02-253448c9-20260926T104525125Z",
+  "recordedAt": "2026-09-26T10:45:25.125Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v3/cryptocurrency/quotes/latest?convert=USD&id=1975",
+    "path": "/v3/cryptocurrency/quotes/latest",
+    "query": {
+      "convert": "USD",
+      "id": "1975"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 433,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 10:45:24 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 f6d7fdc57860c8c79f694e99b07ead5a.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "j_PryuZVSCZGYB9ooUkBAiH_euZhZ9eWeS5SkwhcF4uhFmJVOVlbEA==",
+      "x-amz-cf-pop": "IAD55-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "8",
+      "x-server-traceid": "e10d18518aab93f9cdda836b5655225d"
+    },
+    "body": {
+      "data": [
+        {
+          "tags": [
+            {
+              "slug": "platform",
+              "name": "Platform",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "cosmos-ecosystem",
+              "name": "Cosmos Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "defi",
+              "name": "DeFi",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "privacy",
+              "name": "Privacy",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "interoperability",
+              "name": "Interoperability",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "iot",
+              "name": "IoT",
+              "category": "INDUSTRY"
+            },
+            {
+              "slug": "oracles",
+              "name": "Oracles",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "smart-contracts",
+              "name": "Smart Contracts",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "ethereum-ecosystem",
+              "name": "Ethereum Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "tron-ecosystem",
+              "name": "TRON Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "polkadot-ecosystem",
+              "name": "Polkadot Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "heco-ecosystem",
+              "name": "HECO Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "avalanche-ecosystem",
+              "name": "Avalanche Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "solana-ecosystem",
+              "name": "Solana Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "framework-ventures-portfolio",
+              "name": "Framework Ventures Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "hedera-hashgraph-ecosystem",
+              "name": "Hedera Hashgraph Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "polygon-ecosystem",
+              "name": "Polygon Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "fantom-ecosystem",
+              "name": "Fantom Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "cardano-ecosystem",
+              "name": "Cardano Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "terra-ecosystem",
+              "name": "Terra Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "web3",
+              "name": "Web3",
+              "category": "INDUSTRY"
+            },
+            {
+              "slug": "near-protocol-ecosystem",
+              "name": "Near Protocol Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "arbitrum-ecosystem",
+              "name": "Arbitrum Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "celo-ecosystem",
+              "name": "Celo Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "defi-2",
+              "name": "DeFi 2.0",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "cross-chain",
+              "name": "Cross-Chain",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "moonriver-ecosystem",
+              "name": "Moonriver Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "cronos-ecosystem",
+              "name": "Cronos Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "injective-ecosystem",
+              "name": "Injective Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "bnb-chain-ecosystem",
+              "name": "BNB Chain Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "oasis-ecosystem",
+              "name": "Oasis Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "moonbeam-ecosystem",
+              "name": "Moonbeam Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "xdc-ecosystem",
+              "name": "XDC Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "metisdao-ecosystem",
+              "name": "MetisDAO Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "velas-ecosystem",
+              "name": "Velas Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "doge-chain-ecosystem",
+              "name": "Doge Chain Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "aptos-ecosystem",
+              "name": "Aptos Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "sui-ecosystem",
+              "name": "Sui Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "optimism-ecosystem",
+              "name": "Optimism Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "bitcoin-ecosystem",
+              "name": "Bitcoin Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "real-world-assets-protocols",
+              "name": "Real World Assets Protocols",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "zksync-era-ecosystem",
+              "name": "zkSync Era Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "treasure-ecosystem",
+              "name": "Treasure Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "kadena-ecosystem",
+              "name": "Kadena Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "base-ecosystem",
+              "name": "Base Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "linea-ecosystem",
+              "name": "Linea Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "sei-ecosystem",
+              "name": "Sei Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "toncoin-ecosystem",
+              "name": "Toncoin Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "paal-ecosystem",
+              "name": "Paal Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "blast-ecosystem",
+              "name": "Blast Ecosystem",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "atomicals-ecosystem",
+              "name": "Atomicals Ecosystem",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "move-vm",
+              "name": "MoveVM (MVM)",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "eigenlayer-ecosystem",
+              "name": "EigenLayer Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "hyperliquid-ecosystem",
+              "name": "Hyperliquid Ecosystem",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "gnosis-chain-ecosystem",
+              "name": "Gnosis Chain Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "ronin-ecosystem",
+              "name": "Ronin Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "rootstock-rsk-ecosystem",
+              "name": "Rootstock RSK Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "astar-ecosystem",
+              "name": "Astar Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "wemix-ecosystem",
+              "name": "Wemix Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "core-ecosystem",
+              "name": "Core Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "starknet-ecosystem",
+              "name": "Starknet Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "mantle-ecosystem",
+              "name": "Mantle Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "opbnb-ecosystem",
+              "name": "opBNB Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "shibarium-ecosystem",
+              "name": "Shibarium Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "scroll-ecosystem",
+              "name": "Scroll Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "merlin-ecosystem",
+              "name": "Merlin Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "b²-network-ecosystem",
+              "name": "B² Network Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "mode-ecosystem",
+              "name": "Mode Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "taiko-ecosystem",
+              "name": "Taiko Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "metal-ecosystem",
+              "name": "Metal Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "world-chain-mainnet-ecosystem",
+              "name": "World Chain Mainnet Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "made-in-america",
+              "name": "Made in America",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "btcfi",
+              "name": "BTCfi",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "world-liberty-financial-portfolio",
+              "name": "World Liberty Financial Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "corn-ecosystem",
+              "name": "Corn Ecosystem",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "bonk-fun-ecosystem",
+              "name": "Bonk Fun Ecosystem",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "sonic-ecosystem",
+              "name": "Sonic Ecosystem",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-ecosystem",
+              "name": "Binance Ecosystem",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-listing",
+              "name": "Binance Listing",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "bittensor-ecosystem",
+              "name": "Bittensor Ecosystem",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "hyperevm-ecosystem",
+              "name": "HyperEVM Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "etherlink-ecosystem",
+              "name": "Etherlink Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "bera-chain-ecosystem",
+              "name": "Bera Chain Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "abstract-chain-ecosystem",
+              "name": "Abstract Chain Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "unichain-ecosystem",
+              "name": "Unichain Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "soneium-ecosystem",
+              "name": "Soneium Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "fraxtal-ecosystem",
+              "name": "Fraxtal Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "monad-ecosystem",
+              "name": "Monad Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "hashkey-chain-ecosystem",
+              "name": "Hashkey Chain Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "wlfi-ecosystem",
+              "name": "WLFI Ecosystem",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "plasma-ecosystem",
+              "name": "Plasma Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "x402-ecosystem",
+              "name": "x402 Ecosystem",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "iso-20022",
+              "name": "ISO 20022",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "megaeth-ecosystem",
+              "name": "MegaETH Ecosystem",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "sec-cftc-token-taxonomy",
+              "name": "SEC/CFTC Token Taxonomy",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "sec-cftc-digital-commodities",
+              "name": "SEC/CFTC Digital Commodities",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "robinhood-ecosystem",
+              "name": "Robinhood Ecosystem",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "arc-ecosystem",
+              "name": "Arc Ecosystem",
+              "category": "PLATFORM"
+            }
+          ],
+          "id": 1975,
+          "name": "Chainlink",
+          "symbol": "LINK",
+          "slug": "chainlink",
+          "is_active": 1,
+          "infinite_supply": false,
+          "is_fiat": 0,
+          "circulating_supply": 748099970.424884,
+          "total_supply": 1000000000,
+          "max_supply": 1000000000,
+          "date_added": "2017-09-20T00:00:00.000Z",
+          "num_market_pairs": 2299,
+          "cmc_rank": 12,
+          "last_updated": "2026-09-26T10:44:00.000Z",
+          "tvl_ratio": null,
+          "platform": {
+            "id": 1027,
+            "slug": "ethereum",
+            "name": "Ethereum",
+            "symbol": "ETH",
+            "token_address": "0x514910771af9ca656af840dff83e8264ecf986ca"
+          },
+          "self_reported_circulating_supply": null,
+          "self_reported_market_cap": null,
+          "minted_market_cap": 14132387688.01,
+          "quote": [
+            {
+              "id": 2781,
+              "symbol": "USD",
+              "price": 14.132387688010903,
+              "volume_24h": 691370942.5715976,
+              "volume_change_24h": -15.6821,
+              "cex_volume_24h": 677539770.6460968,
+              "dex_volume_24h": 13831171.92550094,
+              "percent_change_1h": 0.7998796,
+              "percent_change_24h": 1.68822856,
+              "percent_change_7d": 12.30614426,
+              "percent_change_30d": 20.75918719,
+              "percent_change_60d": 70.2760656,
+              "percent_change_90d": 95.44616875,
+              "market_cap": 10572438811.43395,
+              "market_cap_dominance": 0.3663,
+              "fully_diluted_market_cap": 14132387688.01,
+              "minted_market_cap": 14132387688.01,
+              "tvl": null,
+              "last_updated": "2026-09-26T10:44:03.000Z"
+            }
+          ]
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-26T10:45:24.763Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 4,
+        "credit_count": 1
+      }
+    }
+  }
+}

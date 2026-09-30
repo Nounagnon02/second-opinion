@@ -1,0 +1,65 @@
+{
+  "label": "E06-08529fac-20260926T105030868Z",
+  "recordedAt": "2026-09-26T10:50:30.868Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v2/simple/price?id=36507&include_last_updated=true",
+    "path": "/v2/simple/price",
+    "query": {
+      "id": "36507",
+      "include_last_updated": "true"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 1997,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 10:50:29 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 38fc47c0600e1aa74a99467e3cebbdee.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "SnrOsUhAt0uSX9tVbELNYqnHwC3yAia-od3w0AW_9oHu8yTjFsCOhg==",
+      "x-amz-cf-pop": "IAD55-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "11",
+      "x-server-traceid": "6173440d2a8e2486d4f25a49bd934601"
+    },
+    "body": {
+      "data": [
+        {
+          "id": 36507,
+          "name": "Pump.fun",
+          "symbol": "PUMP",
+          "slug": "pump-fun",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "price": 0.004463718368237885,
+              "last_updated": "2026-09-26T10:49:05.000Z"
+            }
+          ]
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-26T10:50:29.817Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 4,
+        "credit_count": 1
+      }
+    }
+  }
+}

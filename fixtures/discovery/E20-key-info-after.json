@@ -1,0 +1,69 @@
+{
+  "label": "E20-key-info-after",
+  "recordedAt": "2026-09-24T16:08:10.089Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v1/key/info",
+    "path": "/v1/key/info",
+    "query": {},
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 622,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Thu, 24 Sep 2026 16:08:09 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 76d92003476fb1595b22c0f2a42ace92.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "SM_5kShRDrHpCnYk_3Y5mzVl0bt1AXlTxURKVHgCGB_dEDvK2ghe2g==",
+      "x-amz-cf-pop": "CDG55-P3",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "8",
+      "x-server-traceid": "27a9810486aa1e1660babdfdb8077ec5"
+    },
+    "body": {
+      "data": {
+        "plan": {
+          "credit_limit_monthly": 15000,
+          "credit_limit_monthly_reset": "In 6 days, 7 hours, 51 minutes",
+          "credit_limit_monthly_reset_timestamp": "2026-10-01T00:00:00.000Z",
+          "rate_limit_minute": 50
+        },
+        "usage": {
+          "current_minute": {
+            "requests_made": 1,
+            "requests_left": 49
+          },
+          "current_day": {
+            "credits_used": 15
+          },
+          "current_month": {
+            "credits_used": 15,
+            "credits_left": 14985
+          }
+        }
+      },
+      "status": {
+        "timestamp": "2026-09-24T16:08:09.981Z",
+        "error_code": 0,
+        "error_message": null,
+        "elapsed": 8,
+        "credit_count": 0,
+        "notice": null
+      }
+    }
+  }
+}

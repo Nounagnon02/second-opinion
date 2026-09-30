@@ -1,0 +1,153 @@
+{
+  "label": "E05-e1e1a8f6-20260930T143918633Z",
+  "recordedAt": "2026-09-30T14:39:18.633Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v2/cryptocurrency/info?id=4705",
+    "path": "/v2/cryptocurrency/info",
+    "query": {
+      "id": "4705"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 828,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Wed, 30 Sep 2026 14:39:18 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 cab8a3ef6848ee8b34cad2177590449c.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "djxZ_mLWdvyu3wbVJysnmjEpddiHFsuEsFC40JXz8z5kMN_nPDorzA==",
+      "x-amz-cf-pop": "LOS50-P4",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "10",
+      "x-server-traceid": "d6a0e4e465d712ede0bfe399277c0964"
+    },
+    "body": {
+      "data": {
+        "4705": {
+          "id": 4705,
+          "name": "PAX Gold",
+          "symbol": "PAXG",
+          "category": "token",
+          "description": "PAX Gold (PAXG) is a cryptocurrency launched in 2019and operates on the Ethereum platform. PAX Gold has a current supply of 435,300.590539. The last known price of PAX Gold is 4,177.30995461 USD and is down -0.05 over the last 24 hours. It is currently trading on 426 active market(s) with $158,720,450.82 traded over the last 24 hours. More information can be found at https://www.paxg.com/.",
+          "slug": "pax-gold",
+          "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/4705.png",
+          "subreddit": "",
+          "notice": "",
+          "tags": [
+            "ethereum-ecosystem",
+            "tokenized-gold",
+            "real-world-assets-protocols",
+            "binance-ecosystem",
+            "binance-listing",
+            "tokenized-assets",
+            "tokenized-commodities"
+          ],
+          "tag-names": [
+            "Ethereum Ecosystem",
+            "Tokenized Gold",
+            "Real World Assets Protocols",
+            "Binance Ecosystem",
+            "Binance Listing",
+            "Tokenized Assets",
+            "Tokenized commodities"
+          ],
+          "tag-groups": [
+            "PLATFORM",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY"
+          ],
+          "urls": {
+            "website": [
+              "https://www.paxg.com/"
+            ],
+            "twitter": [
+              "https://twitter.com/paxosglobal"
+            ],
+            "message_board": [
+              "https://www.paxos.com/blog/pax-gold-the-safest-way-to-own-gold-today"
+            ],
+            "chat": [
+              "https://www.linkedin.com/company/paxos"
+            ],
+            "facebook": [],
+            "explorer": [
+              "https://etherscan.io/token/0x45804880de22913dafe09f4980848ece6ecbaf78",
+              "https://solscan.io/token/5GgRAEmv8ZxF2PR5hY72Qs5x1bnQ6UK2RbTPoqJ3wSwW",
+              "https://www.oklink.com/eth/token/0x45804880de22913dafe09f4980848ece6ecbaf78"
+            ],
+            "reddit": [],
+            "technical_doc": [
+              "https://www.paxos.com/pax-gold"
+            ],
+            "source_code": [
+              "https://github.com/paxosglobal/paxos-gold-contract"
+            ],
+            "announcement": [
+              "https://www.paxos.com/newsroom/paxos-launches-pax-gold-physical-gold-on-the-blockchain"
+            ]
+          },
+          "platform": {
+            "id": "1027",
+            "name": "Ethereum",
+            "symbol": "ETH",
+            "slug": "ethereum",
+            "token_address": "0x45804880de22913dafe09f4980848ece6ecbaf78"
+          },
+          "date_added": "2019-09-26T00:00:00.000Z",
+          "twitter_username": "paxosglobal",
+          "is_hidden": 0,
+          "date_launched": "2019-09-05T00:00:00.000Z",
+          "contract_address": [
+            {
+              "contract_address": "0x45804880de22913dafe09f4980848ece6ecbaf78",
+              "platform": {
+                "name": "Ethereum",
+                "coin": {
+                  "id": "1027",
+                  "name": "Ethereum",
+                  "symbol": "ETH",
+                  "slug": "ethereum"
+                }
+              }
+            }
+          ],
+          "self_reported_tags": [
+            "Commodities",
+            "Ethereum Ecosystem",
+            "Solana Ecosystem",
+            "Tokenized Gold",
+            "Real World Assets Protocols"
+          ],
+          "infinite_supply": true
+        }
+      },
+      "status": {
+        "timestamp": "2026-09-30T14:39:18.721Z",
+        "error_code": 0,
+        "error_message": null,
+        "elapsed": 5,
+        "credit_count": 1,
+        "notice": null
+      }
+    }
+  }
+}

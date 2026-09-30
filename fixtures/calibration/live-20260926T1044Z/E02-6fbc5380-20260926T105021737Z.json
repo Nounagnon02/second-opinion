@@ -1,0 +1,249 @@
+{
+  "label": "E02-6fbc5380-20260926T105021737Z",
+  "recordedAt": "2026-09-26T10:50:21.737Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v3/cryptocurrency/quotes/latest?convert=USD&id=7278",
+    "path": "/v3/cryptocurrency/quotes/latest",
+    "query": {
+      "convert": "USD",
+      "id": "7278"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 413,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 10:50:21 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 71b24e89f6f9e648d6cc206b3f6cc3da.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "FnScL3KnfPBa-1H_hYsflXuL2aNS8i7PY1Y7y3HYJYYWfIdgxE2Blw==",
+      "x-amz-cf-pop": "IAD55-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "8",
+      "x-server-traceid": "7a487b0f527d90f9b8bbfa4c40dc7519"
+    },
+    "body": {
+      "data": [
+        {
+          "tags": [
+            {
+              "slug": "defi",
+              "name": "DeFi",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "dao",
+              "name": "DAO",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "ethereum-ecosystem",
+              "name": "Ethereum Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "yield-farming",
+              "name": "Yield Farming",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "three-arrows-capital-portfolio",
+              "name": "Three Arrows Capital Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "governance",
+              "name": "Governance",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "heco-ecosystem",
+              "name": "HECO Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "avalanche-ecosystem",
+              "name": "Avalanche Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "solana-ecosystem",
+              "name": "Solana Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "lending-borowing",
+              "name": "Lending & Borrowing",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "blockchain-capital-portfolio",
+              "name": "Blockchain Capital Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "defiance-capital-portfolio",
+              "name": "DeFiance Capital Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "framework-ventures-portfolio",
+              "name": "Framework Ventures Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "alameda-research-portfolio",
+              "name": "Alameda Research Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "pantera-capital-portfolio",
+              "name": "Pantera Capital Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "parafi-capital",
+              "name": "ParaFi Capital",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "polygon-ecosystem",
+              "name": "Polygon Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "fantom-ecosystem",
+              "name": "Fantom Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "near-protocol-ecosystem",
+              "name": "Near Protocol Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "arbitrum-ecosystem",
+              "name": "Arbitrum Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "optimism-ecosystem",
+              "name": "Optimism Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "standard-crypto-portfolio",
+              "name": "Standard Crypto Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "gnosis-chain-ecosystem",
+              "name": "Gnosis Chain Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "sora-ecosystem",
+              "name": "Sora Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "made-in-america",
+              "name": "Made in America",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "world-liberty-financial-portfolio",
+              "name": "World Liberty Financial Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-ecosystem",
+              "name": "Binance Ecosystem",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-listing",
+              "name": "Binance Listing",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-liquidity-enhancement-program",
+              "name": "Binance Liquidity Enhancement Program",
+              "category": "CATEGORY"
+            }
+          ],
+          "id": 7278,
+          "name": "Aave",
+          "symbol": "AAVE",
+          "slug": "aave",
+          "is_active": 1,
+          "infinite_supply": false,
+          "is_fiat": 0,
+          "circulating_supply": 15429287.48634784,
+          "total_supply": 16000000,
+          "max_supply": null,
+          "date_added": "2020-10-02T00:00:00.000Z",
+          "num_market_pairs": 1367,
+          "cmc_rank": 40,
+          "last_updated": "2026-09-26T10:49:00.000Z",
+          "tvl_ratio": 0.1341892,
+          "platform": {
+            "id": 1027,
+            "slug": "ethereum",
+            "name": "Ethereum",
+            "symbol": "ETH",
+            "token_address": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9"
+          },
+          "self_reported_circulating_supply": null,
+          "self_reported_market_cap": null,
+          "minted_market_cap": 2470939737.89,
+          "quote": [
+            {
+              "id": 2781,
+              "symbol": "USD",
+              "price": 154.43373361781812,
+              "volume_24h": 447593044.5018049,
+              "volume_change_24h": 37.8512,
+              "cex_volume_24h": 431805942.12406504,
+              "dex_volume_24h": 15787102.37773993,
+              "percent_change_1h": 1.03870694,
+              "percent_change_24h": 5.96437888,
+              "percent_change_7d": 7.09743012,
+              "percent_change_30d": 22.72871596,
+              "percent_change_60d": 58.94487528,
+              "percent_change_90d": 73.0792904,
+              "market_cap": 2382802473.5793767,
+              "market_cap_dominance": 0.0825,
+              "fully_diluted_market_cap": 2470939737.89,
+              "minted_market_cap": 2470939737.89,
+              "tvl": 17757036444,
+              "last_updated": "2026-09-26T10:49:05.000Z"
+            }
+          ]
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-26T10:50:21.403Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 4,
+        "credit_count": 1
+      }
+    }
+  }
+}

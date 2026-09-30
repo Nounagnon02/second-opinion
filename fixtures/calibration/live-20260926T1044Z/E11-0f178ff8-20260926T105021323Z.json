@@ -1,0 +1,321 @@
+{
+  "label": "E11-0f178ff8-20260926T105021323Z",
+  "recordedAt": "2026-09-26T10:50:21.323Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v1/dex/token/pools?address=0x8292bb45bf1ee4d140127049757c2e0ff06317ed&platform=ethereum&size=10",
+    "path": "/v1/dex/token/pools",
+    "query": {
+      "address": "0x8292bb45bf1ee4d140127049757c2e0ff06317ed",
+      "platform": "ethereum",
+      "size": "10"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 1300,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 10:50:20 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 f5be520a0e05096cc6c019d4cccce3a2.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "q_m86q3kw9BbaD26UlXXemAO08lscNog3proDSsxHAZbaG11h5nylQ==",
+      "x-amz-cf-pop": "IAD55-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "239",
+      "x-server-traceid": "7198b649687523ce2527e19a95c2cfd2"
+    },
+    "body": {
+      "data": [
+        {
+          "addr": "0x9035721b23481db3888fd201b9c2b26dbc3af60258bca65e669f2ed98dc8eb4f",
+          "v24": "51941777.587202668642526921",
+          "pubAt": "1785507287000",
+          "t0": {
+            "addr": "0x8292bb45bf1ee4d140127049757c2e0ff06317ed",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/34387.png",
+            "n": "RLUSD",
+            "sym": "RLUSD",
+            "liq": "9045806.915048620778442996",
+            "liqUsd": "9044482.258832035973797683"
+          },
+          "t1": {
+            "addr": "0xdc035d45d973e3ec169d2276ddab16f1e407384f",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/33039.png",
+            "n": "USDS Stablecoin",
+            "sym": "USDS",
+            "liq": "10960461.056289960369252553",
+            "liqUsd": "10957873.192587775030622196"
+          },
+          "bidx": 0,
+          "exid": 11955,
+          "exn": "Uniswap v4 (Ethereum)",
+          "liqUsd": "20002355.451419811004419879",
+          "fa": "0x000000000004444c5dc75cb358380d2e3de08a90",
+          "top": true,
+          "mi": false
+        },
+        {
+          "addr": "0xcc6d2f26d363836f85a42d249e145ec0320d3e55",
+          "v24": "7191894.296454647710396316",
+          "pubAt": "1739811023000",
+          "t0": {
+            "addr": "0x8292bb45bf1ee4d140127049757c2e0ff06317ed",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/34387.png",
+            "n": "RLUSD",
+            "sym": "RLUSD",
+            "liq": "1595777.015032740920055402",
+            "liqUsd": "1595654.910094723707103681"
+          },
+          "t1": {
+            "addr": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/3408.png",
+            "n": "USD Coin",
+            "sym": "USDC",
+            "liq": "993084.606458",
+            "liqUsd": "992902.679445163506409336"
+          },
+          "bidx": 0,
+          "exid": 1348,
+          "exn": "Uniswap v3 (Ethereum)",
+          "liqUsd": "2588557.589539887213513016",
+          "fa": "0x1f98431c8ad98523631ae4a59f267346ea31f984",
+          "top": true,
+          "mi": false
+        },
+        {
+          "addr": "0x3306984f2c89224cee3510f709682ea1e590b642a33bca5ec4b8e49b2c54311b",
+          "v24": "34354.27536518228799592",
+          "pubAt": "1766156267000",
+          "t0": {
+            "addr": "0x8292bb45bf1ee4d140127049757c2e0ff06317ed",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/34387.png",
+            "n": "RLUSD",
+            "sym": "RLUSD",
+            "liq": "9233.414145181318677832",
+            "liqUsd": "9230.842021573052119131"
+          },
+          "t1": {
+            "addr": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/3408.png",
+            "n": "USD Coin",
+            "sym": "USDC",
+            "liq": "4419.388941",
+            "liqUsd": "4418.602668967302352091"
+          },
+          "bidx": 0,
+          "exid": 11955,
+          "exn": "Uniswap v4 (Ethereum)",
+          "liqUsd": "13649.444690540354471221",
+          "fa": "0x000000000004444c5dc75cb358380d2e3de08a90",
+          "top": true,
+          "mi": false
+        },
+        {
+          "addr": "0xd001ae433f254283fece51d4acce8c53263aa186-0x8292bb45bf1ee4d140127049757c2e0ff06317ed-0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          "v24": "17255227.970225899051780084",
+          "t0": {
+            "addr": "0x8292bb45bf1ee4d140127049757c2e0ff06317ed",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/34387.png",
+            "n": "RLUSD",
+            "sym": "RLUSD",
+            "liq": "32105800.811456249259740457",
+            "liqUsd": "32090037.179572178609449005"
+          },
+          "t1": {
+            "addr": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/3408.png",
+            "n": "USD Coin",
+            "sym": "USDC",
+            "liq": "27608181.429897",
+            "liqUsd": "27602273.031254708929500276"
+          },
+          "bidx": 0,
+          "exid": 1063,
+          "exn": "Curve (Ethereum)",
+          "liqUsd": "59692310.21082688753894928",
+          "fa": "0xe64608e223433e8a03a1daaefd8cb638c14b552c",
+          "mi": false
+        },
+        {
+          "addr": "0x42271fca1fa435b176d46a5544b2698a1e261782",
+          "v24": "375.674774366196803921",
+          "pubAt": "1785172043000",
+          "t0": {
+            "addr": "0x8292bb45bf1ee4d140127049757c2e0ff06317ed",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/34387.png",
+            "n": "RLUSD",
+            "sym": "RLUSD",
+            "liq": "3028103.769229904237366113",
+            "liqUsd": "3027260.239732510048899894"
+          },
+          "t1": {
+            "addr": "0xce6170ea245dc8d1f275a710a062b70f125f0110",
+            "n": "FXRP",
+            "sym": "FXRP",
+            "liq": "12748.038241",
+            "liqUsd": "19811.680047322274596107"
+          },
+          "bidx": 0,
+          "exid": 1348,
+          "exn": "Uniswap v3 (Ethereum)",
+          "liqUsd": "3047071.919779832323496",
+          "fa": "0x1f98431c8ad98523631ae4a59f267346ea31f984",
+          "mi": false
+        },
+        {
+          "addr": "0xbc1729031cb64f466b986ab23ea48fcf9f1a48fd",
+          "v24": "0",
+          "pubAt": "1786012463000",
+          "t0": {
+            "addr": "0x8292bb45bf1ee4d140127049757c2e0ff06317ed",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/34387.png",
+            "n": "RLUSD",
+            "sym": "RLUSD",
+            "liq": "19420.437745217853875629",
+            "liqUsd": "19421.287866330618594416"
+          },
+          "t1": {
+            "addr": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/3408.png",
+            "n": "USD Coin",
+            "sym": "USDC",
+            "liq": "4575.743583",
+            "liqUsd": "4575.394624578197607686"
+          },
+          "bidx": 0,
+          "exid": 7070,
+          "exn": "Maverick Protocol",
+          "liqUsd": "23996.682490908816202102",
+          "fa": "0xeb6625d65a0553c9dbc64449e56abfe519bd9c9b",
+          "mi": false
+        },
+        {
+          "addr": "0x0afaccdfe7d1b917e47e83ffd8e817013e3e0561",
+          "v24": "0",
+          "pubAt": "1785924851000",
+          "t0": {
+            "addr": "0x8292bb45bf1ee4d140127049757c2e0ff06317ed",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/34387.png",
+            "n": "RLUSD",
+            "sym": "RLUSD",
+            "liq": "251.710129190892409455",
+            "liqUsd": "251.672918138480632224"
+          },
+          "t1": {
+            "addr": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/3408.png",
+            "n": "USD Coin",
+            "sym": "USDC",
+            "liq": "23746.415436",
+            "liqUsd": "23741.970583382120900481"
+          },
+          "bidx": 0,
+          "exid": 7070,
+          "exn": "Maverick Protocol",
+          "liqUsd": "23993.643501520601532704",
+          "fa": "0xeb6625d65a0553c9dbc64449e56abfe519bd9c9b",
+          "mi": false
+        },
+        {
+          "addr": "0x38b6dbf7fbe1cb3db3ae0847866bc0fc4dbba11b-0x1abaea1f7c830bd89acc67ec4af516284b1bc33c-0x8292bb45bf1ee4d140127049757c2e0ff06317ed",
+          "v24": "0",
+          "t0": {
+            "addr": "0x1abaea1f7c830bd89acc67ec4af516284b1bc33c",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/20641.png",
+            "n": "Euro Coin",
+            "sym": "EURC",
+            "liq": "8922.9574",
+            "liqUsd": "10524.837211684888796"
+          },
+          "t1": {
+            "addr": "0x8292bb45bf1ee4d140127049757c2e0ff06317ed",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/34387.png",
+            "n": "RLUSD",
+            "sym": "RLUSD",
+            "liq": "9873.137489816994003902",
+            "liqUsd": "9875.3949002052155879"
+          },
+          "bidx": 0,
+          "exid": 1063,
+          "exn": "Curve (Ethereum)",
+          "liqUsd": "20400.232111890104384",
+          "fa": "0xe64608e223433e8a03a1daaefd8cb638c14b552c",
+          "mi": false
+        },
+        {
+          "addr": "0xef3a1cae64848f9eb25022de4dcb77b40affe419-0x8292bb45bf1ee4d140127049757c2e0ff06317ed-0xdac17f958d2ee523a2206206994597c13d831ec7",
+          "v24": "590.205310311539321445",
+          "t0": {
+            "addr": "0x8292bb45bf1ee4d140127049757c2e0ff06317ed",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/34387.png",
+            "n": "RLUSD",
+            "sym": "RLUSD",
+            "liq": "453.04212749674374121",
+            "liqUsd": "0"
+          },
+          "t1": {
+            "addr": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/825.png",
+            "n": "Tether USD",
+            "sym": "USDT",
+            "liq": "473.974816",
+            "liqUsd": "473.884125395966204348"
+          },
+          "bidx": 0,
+          "exid": 1063,
+          "exn": "Curve (Ethereum)",
+          "liqUsd": "473.884125395966204348",
+          "fa": "0xe64608e223433e8a03a1daaefd8cb638c14b552c",
+          "mi": false
+        },
+        {
+          "addr": "0xef3a1cae64848f9eb25022de4dcb77b40affe419-0x8292bb45bf1ee4d140127049757c2e0ff06317ed-0xdc035d45d973e3ec169d2276ddab16f1e407384f",
+          "v24": "52.939575528641429518",
+          "t0": {
+            "addr": "0x8292bb45bf1ee4d140127049757c2e0ff06317ed",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/34387.png",
+            "n": "RLUSD",
+            "sym": "RLUSD",
+            "liq": "453.042154129991437463",
+            "liqUsd": "0"
+          },
+          "t1": {
+            "addr": "0xdc035d45d973e3ec169d2276ddab16f1e407384f",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/33039.png",
+            "n": "USDS Stablecoin",
+            "sym": "USDS",
+            "liq": "453.650015134921266617",
+            "liqUsd": "453.529121310321206022"
+          },
+          "bidx": 0,
+          "exid": 1063,
+          "exn": "Curve (Ethereum)",
+          "liqUsd": "453.529121310321206022",
+          "fa": "0xe64608e223433e8a03a1daaefd8cb638c14b552c",
+          "mi": false
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-26T10:50:20.973Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 233,
+        "credit_count": 1
+      }
+    }
+  }
+}

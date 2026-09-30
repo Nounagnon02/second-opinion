@@ -1,0 +1,134 @@
+{
+  "label": "E02-17ec14ad-20260926T105125689Z",
+  "recordedAt": "2026-09-26T10:51:25.689Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v3/cryptocurrency/quotes/latest?convert=USD&id=24478",
+    "path": "/v3/cryptocurrency/quotes/latest",
+    "query": {
+      "convert": "USD",
+      "id": "24478"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 282,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 10:51:25 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 ec6ab86695d018f9e87cce7df2ae9964.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "WiYgXrXjeI28QEU1whIUOsN4jxRUNuQH2eyPh1SjVaD24ZiNKV0uKw==",
+      "x-amz-cf-pop": "IAD55-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "14",
+      "x-server-traceid": "f8ff3148489c7d3662307ce8e9e94893"
+    },
+    "body": {
+      "data": [
+        {
+          "tags": [
+            {
+              "slug": "memes",
+              "name": "Memes",
+              "category": "INDUSTRY"
+            },
+            {
+              "slug": "ethereum-ecosystem",
+              "name": "Ethereum Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "solana-ecosystem",
+              "name": "Solana Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "binance-ecosystem",
+              "name": "Binance Ecosystem",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-listing",
+              "name": "Binance Listing",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "etherlink-ecosystem",
+              "name": "Etherlink Ecosystem",
+              "category": "PLATFORM"
+            }
+          ],
+          "id": 24478,
+          "name": "Pepe",
+          "symbol": "PEPE",
+          "slug": "pepe",
+          "is_active": 1,
+          "infinite_supply": false,
+          "is_fiat": 0,
+          "circulating_supply": 413772355107943.94,
+          "total_supply": 413772355107943.94,
+          "max_supply": 413772355107943.94,
+          "date_added": "2023-04-17T06:18:08.000Z",
+          "num_market_pairs": 716,
+          "cmc_rank": 48,
+          "last_updated": "2026-09-26T10:50:00.000Z",
+          "tvl_ratio": null,
+          "platform": {
+            "id": 1027,
+            "slug": "ethereum",
+            "name": "Ethereum",
+            "symbol": "ETH",
+            "token_address": "0x6982508145454ce325ddbe47a25d4ec3d2311933"
+          },
+          "self_reported_circulating_supply": null,
+          "self_reported_market_cap": null,
+          "minted_market_cap": 1833894579.26,
+          "quote": [
+            {
+              "id": 2781,
+              "symbol": "USD",
+              "price": 0.000004432134135158,
+              "volume_24h": 309733803.4151132,
+              "volume_change_24h": -12.3071,
+              "cex_volume_24h": 307240760.95701855,
+              "dex_volume_24h": 2493042.45809471,
+              "percent_change_1h": 0.65319516,
+              "percent_change_24h": -1.69651754,
+              "percent_change_7d": 16.72177388,
+              "percent_change_30d": 13.10481304,
+              "percent_change_60d": 57.13739777,
+              "percent_change_90d": 86.22543491,
+              "market_cap": 1833894579.2586973,
+              "market_cap_dominance": 0.0635,
+              "fully_diluted_market_cap": 1833894579.26,
+              "minted_market_cap": 1833894579.26,
+              "tvl": null,
+              "last_updated": "2026-09-26T10:50:02.000Z"
+            }
+          ]
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-26T10:51:25.489Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 7,
+        "credit_count": 1
+      }
+    }
+  }
+}

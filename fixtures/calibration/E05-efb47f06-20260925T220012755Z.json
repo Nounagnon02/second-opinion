@@ -1,0 +1,211 @@
+{
+  "label": "E05-efb47f06-20260925T220012755Z",
+  "recordedAt": "2026-09-25T22:00:12.755Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v2/cryptocurrency/info?id=22974",
+    "path": "/v2/cryptocurrency/info",
+    "query": {
+      "id": "22974"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 5628,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Fri, 25 Sep 2026 22:00:12 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 0302c871dcf97d5203274aac0be06aae.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "ewocCcZJFYVRscuFRV33UT09XNcEWDc8yvFWEjyxAuN8qQ-pmVbEQQ==",
+      "x-amz-cf-pop": "CDG55-P3",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "83",
+      "x-server-traceid": "47a171b27f66a12103f73db85ce3a594"
+    },
+    "body": {
+      "data": {
+        "22974": {
+          "id": 22974,
+          "name": "Bittensor",
+          "symbol": "TAO",
+          "category": "token",
+          "description": "Bittensor (TAO) is a cryptocurrency launched in 2021and operates on the Bittensor platform. Bittensor has a current supply of 21,000,000 with 11,552,415.49233826 in circulation. The last known price of Bittensor is 309.71440038 USD and is up 3.79 over the last 24 hours. It is currently trading on 332 active market(s) with $370,089,583.49 traded over the last 24 hours. More information can be found at https://bittensor.com.",
+          "slug": "bittensor",
+          "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/22974.png",
+          "subreddit": "",
+          "notice": "",
+          "tags": [
+            "ai-big-data",
+            "distributed-computing",
+            "oracles",
+            "dao",
+            "polychain-capital-portfolio",
+            "dcg-portfolio",
+            "open-source",
+            "generative-ai",
+            "layer-1",
+            "depin",
+            "cmc-crypto-yearbook-2024-2025",
+            "binance-ecosystem",
+            "binance-listing",
+            "bittensor-ecosystem",
+            "robotics",
+            "robinhood-ecosystem"
+          ],
+          "tag-names": [
+            "AI & Big Data",
+            "Distributed Computing",
+            "Oracles",
+            "DAO",
+            "Polychain Capital Portfolio",
+            "DCG Portfolio",
+            "Opensource",
+            "Generative AI",
+            "Layer 1",
+            "DePIN",
+            "CMC Crypto Yearbook 2024-25",
+            "Binance Ecosystem",
+            "Binance Listing",
+            "Bittensor Ecosystem",
+            "Robotics",
+            "Robinhood Ecosystem"
+          ],
+          "tag-groups": [
+            "INDUSTRY",
+            "INDUSTRY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "INDUSTRY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY"
+          ],
+          "urls": {
+            "website": [
+              "https://bittensor.com",
+              "https://docs.bittensor.com/"
+            ],
+            "twitter": [
+              "https://twitter.com/opentensor"
+            ],
+            "message_board": [
+              "https://bittensor.medium.com/"
+            ],
+            "chat": [
+              "https://discord.gg/bittensor",
+              "https://t.me/bittensor"
+            ],
+            "facebook": [],
+            "explorer": [
+              "https://taostats.io/",
+              "https://explorer.bittensor.ai/",
+              "https://bittensor.ai/chain",
+              "https://basescan.org/token/0xf3081494b87e8d5fb7960f066e931d1d0e6e3d67",
+              "https://solscan.io/token/taoC6xyv2v8tDLcev4uaGUgV4vdQsWJrGft2kcBRrBY"
+            ],
+            "reddit": [],
+            "technical_doc": [
+              "https://drive.google.com/file/d/1VnsobL6lIAAqcA1_Tbm8AYIQscfJV4KU/view?usp=sharing"
+            ],
+            "source_code": [
+              "https://github.com/opentensor/BitTensor"
+            ],
+            "announcement": []
+          },
+          "platform": {
+            "id": "22974",
+            "name": "Bittensor",
+            "symbol": "TAO",
+            "slug": "bittensor",
+            "token_address": "0"
+          },
+          "date_added": "2023-03-06T05:20:00.000Z",
+          "twitter_username": "opentensor",
+          "is_hidden": 0,
+          "date_launched": "2021-11-01T00:00:00.000Z",
+          "contract_address": [
+            {
+              "contract_address": "0",
+              "platform": {
+                "name": "Bittensor",
+                "coin": {
+                  "id": "22974",
+                  "name": "Bittensor",
+                  "symbol": "TAO",
+                  "slug": "bittensor"
+                }
+              }
+            },
+            {
+              "contract_address": "taoC6xyv2v8tDLcev4uaGUgV4vdQsWJrGft2kcBRrBY",
+              "platform": {
+                "name": "Solana",
+                "coin": {
+                  "id": "5426",
+                  "name": "Solana",
+                  "symbol": "SOL",
+                  "slug": "solana"
+                }
+              }
+            },
+            {
+              "contract_address": "0xf3081494b87e8d5fb7960f066e931d1d0e6e3d67",
+              "platform": {
+                "name": "Base",
+                "coin": {
+                  "id": "27716",
+                  "name": "Base",
+                  "symbol": "-",
+                  "slug": "base"
+                }
+              }
+            },
+            {
+              "contract_address": "0xf3081494b87e8d5fb7960f066e931d1d0e6e3d67",
+              "platform": {
+                "name": "Robinhood Chain",
+                "coin": {
+                  "id": "40670",
+                  "name": "Robinhood",
+                  "symbol": "-",
+                  "slug": "robinhood-placeholder"
+                }
+              }
+            }
+          ],
+          "infinite_supply": false
+        }
+      },
+      "status": {
+        "timestamp": "2026-09-25T22:00:12.671Z",
+        "error_code": 0,
+        "error_message": null,
+        "elapsed": 74,
+        "credit_count": 1,
+        "notice": null
+      }
+    }
+  }
+}

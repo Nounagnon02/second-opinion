@@ -1,0 +1,133 @@
+{
+  "label": "E02-2d277aa4-20260926T104920879Z",
+  "recordedAt": "2026-09-26T10:49:20.879Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v3/cryptocurrency/quotes/latest?convert=USD&id=35491",
+    "path": "/v3/cryptocurrency/quotes/latest",
+    "query": {
+      "convert": "USD",
+      "id": "35491"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 845,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 10:49:20 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 0e373c2690d6d18d0c88347ad35ba498.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "ZFTQ-bqa2Y_tL8aaxVhtZlGxXbywtmAMf1JTORtV5_lb1g4whqKUBg==",
+      "x-amz-cf-pop": "IAD55-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "8",
+      "x-server-traceid": "aba3c3fb2c0f43c5cfbb26071c8df429"
+    },
+    "body": {
+      "data": [
+        {
+          "tags": [
+            {
+              "slug": "memes",
+              "name": "Memes",
+              "category": "INDUSTRY"
+            },
+            {
+              "slug": "bnb-chain-ecosystem",
+              "name": "BNB Chain Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "layer-1",
+              "name": "Layer 1",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-alpha",
+              "name": "Binance Alpha",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-alpha-airdrops",
+              "name": "Binance Alpha Airdrops",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-ecosystem",
+              "name": "Binance Ecosystem",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-listing",
+              "name": "Binance Listing",
+              "category": "CATEGORY"
+            }
+          ],
+          "id": 35491,
+          "name": "MemeCore",
+          "symbol": "M",
+          "slug": "memecore",
+          "is_active": 1,
+          "infinite_supply": false,
+          "is_fiat": 0,
+          "circulating_supply": 2278904057.8828206,
+          "total_supply": 5418493804.344593,
+          "max_supply": 10000000000,
+          "date_added": "2025-07-03T09:16:58.000Z",
+          "num_market_pairs": 140,
+          "cmc_rank": 35,
+          "last_updated": "2026-09-26T10:47:00.000Z",
+          "tvl_ratio": null,
+          "platform": null,
+          "self_reported_circulating_supply": null,
+          "self_reported_market_cap": null,
+          "minted_market_cap": 6658061541.17,
+          "quote": [
+            {
+              "id": 2781,
+              "symbol": "USD",
+              "price": 1.2287661076271814,
+              "volume_24h": 998539.76036076,
+              "volume_change_24h": -25.5912,
+              "cex_volume_24h": 963408.96648924,
+              "dex_volume_24h": 35130.79387152,
+              "percent_change_1h": 0.40635335,
+              "percent_change_24h": 2.75727533,
+              "percent_change_7d": -4.83458527,
+              "percent_change_30d": 9.38318732,
+              "percent_change_60d": 6.45100986,
+              "percent_change_90d": 81.57600854,
+              "market_cap": 2800240068.860462,
+              "market_cap_dominance": 0.097,
+              "fully_diluted_market_cap": 12287661076.27,
+              "minted_market_cap": 6658061541.17,
+              "tvl": null,
+              "last_updated": "2026-09-26T10:48:02.000Z"
+            }
+          ]
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-26T10:49:20.714Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 4,
+        "credit_count": 1
+      }
+    }
+  }
+}

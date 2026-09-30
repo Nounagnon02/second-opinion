@@ -1,0 +1,139 @@
+{
+  "label": "E02-129f7c4c-20260926T105018668Z",
+  "recordedAt": "2026-09-26T10:50:18.668Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v3/cryptocurrency/quotes/latest?convert=USD&id=34387",
+    "path": "/v3/cryptocurrency/quotes/latest",
+    "query": {
+      "convert": "USD",
+      "id": "34387"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 1100,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 10:50:18 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 71b24e89f6f9e648d6cc206b3f6cc3da.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "umF9JkaJp2G54PD3jEii9VgVzDNTzicGrQ74R7jEEqVvdxNXBTUMkw==",
+      "x-amz-cf-pop": "IAD55-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "10",
+      "x-server-traceid": "0232a6373c7663a9809e5dbdb22fadec"
+    },
+    "body": {
+      "data": [
+        {
+          "tags": [
+            {
+              "slug": "stablecoin",
+              "name": "Stablecoin",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "asset-backed-stablecoin",
+              "name": "Asset-Backed Stablecoin",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "usd-stablecoin",
+              "name": "USD Stablecoin",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "fiat-stablecoin",
+              "name": "Fiat Stablecoin",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-ecosystem",
+              "name": "Binance Ecosystem",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-listing",
+              "name": "Binance Listing",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "unichain-ecosystem",
+              "name": "Unichain Ecosystem",
+              "category": "PLATFORM"
+            }
+          ],
+          "id": 34387,
+          "name": "Ripple USD",
+          "symbol": "RLUSD",
+          "slug": "ripple-usd",
+          "is_active": 1,
+          "infinite_supply": true,
+          "is_fiat": 0,
+          "circulating_supply": 2491272908.0171995,
+          "total_supply": 2491272908.0171995,
+          "max_supply": null,
+          "date_added": "2024-12-18T07:22:18.000Z",
+          "num_market_pairs": 104,
+          "cmc_rank": 39,
+          "last_updated": "2026-09-26T10:49:00.000Z",
+          "tvl_ratio": null,
+          "platform": {
+            "id": 1027,
+            "slug": "ethereum",
+            "name": "Ethereum",
+            "symbol": "ETH",
+            "token_address": "0x8292bb45bf1ee4d140127049757c2e0ff06317ed"
+          },
+          "self_reported_circulating_supply": 53100129.55,
+          "self_reported_market_cap": 53096058.862911016,
+          "minted_market_cap": 2491081925.57,
+          "quote": [
+            {
+              "id": 2781,
+              "symbol": "USD",
+              "price": 0.9999233394132278,
+              "volume_24h": 387467026.76829994,
+              "volume_change_24h": 20.6664,
+              "cex_volume_24h": 328333354.8846427,
+              "dex_volume_24h": 59133671.88365731,
+              "percent_change_1h": -0.0006171,
+              "percent_change_24h": -0.00932526,
+              "percent_change_7d": -0.00202561,
+              "percent_change_30d": -0.01933609,
+              "percent_change_60d": 0.00543809,
+              "percent_change_90d": 0.00081229,
+              "market_cap": 2491081925.574261,
+              "market_cap_dominance": 0.0863,
+              "fully_diluted_market_cap": 2491081925.57,
+              "minted_market_cap": 2491081925.57,
+              "tvl": null,
+              "last_updated": "2026-09-26T10:49:05.000Z"
+            }
+          ]
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-26T10:50:18.465Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 4,
+        "credit_count": 1
+      }
+    }
+  }
+}

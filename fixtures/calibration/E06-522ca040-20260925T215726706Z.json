@@ -1,0 +1,65 @@
+{
+  "label": "E06-522ca040-20260925T215726706Z",
+  "recordedAt": "2026-09-25T21:57:26.706Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v2/simple/price?id=74&include_last_updated=true",
+    "path": "/v2/simple/price",
+    "query": {
+      "id": "74",
+      "include_last_updated": "true"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 5694,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Fri, 25 Sep 2026 21:57:26 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 bad86c53165d48d66c80e183f57163d4.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "tIk1p8f7cMPjA-7n-yVqrfpcdkigWft4rWjVvz8kAqzqZgUrkyoEVw==",
+      "x-amz-cf-pop": "FRA60-P13",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "11",
+      "x-server-traceid": "3012ea2ee96e3dda9ec2da8cb5adc1ac"
+    },
+    "body": {
+      "data": [
+        {
+          "id": 74,
+          "name": "Dogecoin",
+          "symbol": "DOGE",
+          "slug": "dogecoin",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "price": 0.09788827105539498,
+              "last_updated": "2026-09-25T21:56:03.000Z"
+            }
+          ]
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-25T21:57:26.578Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 4,
+        "credit_count": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,1550 @@
+{
+  "label": "E19-021a8ece-20260925T162629823Z",
+  "recordedAt": "2026-09-25T16:26:29.823Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v5/real-world-assets/issuers?issuer_id=695e11f774b54210f3b95dc3&limit=250&start=1",
+    "path": "/v5/real-world-assets/issuers",
+    "query": {
+      "issuer_id": "695e11f774b54210f3b95dc3",
+      "limit": "250",
+      "start": "1"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 206,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Fri, 25 Sep 2026 16:26:29 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 b635e2b1f0ae92160e68ba87d10e2754.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "9ZVC1JO4GDAV3A-BOLGW_wekVxOejxv2T48DUbDmaoSOtGonj49hEA==",
+      "x-amz-cf-pop": "CDG55-P3",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "8",
+      "x-server-traceid": "a3d1e462bd4b0d4b3df41d8734643dc8"
+    },
+    "body": {
+      "data": {
+        "name": "NA (Derivatives)",
+        "tokens": [
+          {
+            "name": "Tesla (Derivatives)",
+            "symbol": "TSLA",
+            "crypto_id": 38152,
+            "rwa_id": 14
+          },
+          {
+            "name": "NVIDIA (Derivatives)",
+            "symbol": "NVDA",
+            "crypto_id": 38153,
+            "rwa_id": 2
+          },
+          {
+            "name": "Circle Internet Group (Derivatives)",
+            "symbol": "CRCL",
+            "crypto_id": 38154,
+            "rwa_id": 115
+          },
+          {
+            "crypto_id": 39318,
+            "rwa_id": 5
+          },
+          {
+            "name": "Silver (Derivatives)",
+            "symbol": "XAG",
+            "crypto_id": 39343,
+            "rwa_id": 5
+          },
+          {
+            "name": "Gold (Derivatives)",
+            "symbol": "XAU",
+            "crypto_id": 39344,
+            "rwa_id": 1
+          },
+          {
+            "name": "Copper (Derivatives)",
+            "symbol": "XCU",
+            "crypto_id": 39467,
+            "rwa_id": null
+          },
+          {
+            "name": "Nasdaq index (Derivatives)",
+            "symbol": "IXIC",
+            "crypto_id": 39468,
+            "rwa_id": null
+          },
+          {
+            "name": "Micron Technology Inc (Derivatives)",
+            "symbol": "MU",
+            "crypto_id": 39469,
+            "rwa_id": 12
+          },
+          {
+            "name": "Alphabet Inc (Derivatives)",
+            "symbol": "GOOGL",
+            "crypto_id": 39470,
+            "rwa_id": 4
+          },
+          {
+            "name": "Amazon.com Inc (Derivatives)",
+            "symbol": "AMZN",
+            "crypto_id": 39471,
+            "rwa_id": 6
+          },
+          {
+            "name": "Intel Corp (Derivatives)",
+            "symbol": "INTC",
+            "crypto_id": 39472,
+            "rwa_id": 20
+          },
+          {
+            "name": "MicroStrategy Inc (Derivatives)",
+            "symbol": "MSTR",
+            "crypto_id": 39473,
+            "rwa_id": 114
+          },
+          {
+            "name": "Standard and Poor's 500 index (Derivatives)",
+            "symbol": "S&P500",
+            "crypto_id": 39474,
+            "rwa_id": null
+          },
+          {
+            "name": "Palantir Technologies Inc (Derivatives)",
+            "symbol": "PLTR",
+            "crypto_id": 39475,
+            "rwa_id": 53
+          },
+          {
+            "name": "Robinhood Markets (Derivatives)",
+            "symbol": "HOOD",
+            "crypto_id": 39478,
+            "rwa_id": 84
+          },
+          {
+            "name": "Netflix (Derivatives)",
+            "symbol": "NFLX",
+            "crypto_id": 39479,
+            "rwa_id": 37
+          },
+          {
+            "name": "Palladium (Derivatives)",
+            "symbol": "XPD",
+            "crypto_id": 39481,
+            "rwa_id": 16388
+          },
+          {
+            "name": "Oracle Corp (Derivatives)",
+            "symbol": "ORCL",
+            "crypto_id": 39482,
+            "rwa_id": 24
+          },
+          {
+            "name": "Coinbase Global Inc (Derivatives)",
+            "symbol": "COIN",
+            "crypto_id": 39483,
+            "rwa_id": 82
+          },
+          {
+            "name": "Global X Lithium & Battery Tech ETF (Derivatives)",
+            "symbol": "LIT",
+            "crypto_id": 39484,
+            "rwa_id": null
+          },
+          {
+            "name": "OpenAI (Derivatives)",
+            "symbol": "OPENAI",
+            "crypto_id": 39485,
+            "rwa_id": 250
+          },
+          {
+            "name": "Alibaba Group Holding Limited (Derivatives)",
+            "symbol": "BABA",
+            "crypto_id": 39486,
+            "rwa_id": 63
+          },
+          {
+            "name": "Advanced Micro Devices Inc (Derivatives)",
+            "symbol": "AMD",
+            "crypto_id": 39489,
+            "rwa_id": 25
+          },
+          {
+            "name": "Taiwan Semiconductor Manufacturing (Derivatives)",
+            "symbol": "TSM",
+            "crypto_id": 39490,
+            "rwa_id": 8
+          },
+          {
+            "name": "Apple Inc (Derivatives)",
+            "symbol": "AAPL",
+            "crypto_id": 39491,
+            "rwa_id": 3
+          },
+          {
+            "name": "iShares Russell 2000 ETF (Derivatives)",
+            "symbol": "IWM",
+            "crypto_id": 39493,
+            "rwa_id": 140
+          },
+          {
+            "name": "Aluminium (Derivatives)",
+            "symbol": "ALI",
+            "crypto_id": 39494,
+            "rwa_id": null
+          },
+          {
+            "name": "Microsoft Corporation (Derivatives)",
+            "symbol": "MSFT",
+            "crypto_id": 39495,
+            "rwa_id": 7
+          },
+          {
+            "name": "Anthropic (Derivatives)",
+            "symbol": "ANTHROPIC",
+            "crypto_id": 39496,
+            "rwa_id": 187
+          },
+          {
+            "name": "VanEck Semiconductor ETF (Derivatives)",
+            "symbol": "SMH",
+            "crypto_id": 39498,
+            "rwa_id": 7733
+          },
+          {
+            "name": "Rivian Automotive Inc (Derivatives)",
+            "symbol": "RIVN",
+            "crypto_id": 39499,
+            "rwa_id": 178
+          },
+          {
+            "name": "SK hynix Inc (Derivatives)",
+            "symbol": "000660",
+            "crypto_id": 39500,
+            "rwa_id": null
+          },
+          {
+            "name": "SpaceX (Derivatives)",
+            "symbol": "SPCX",
+            "crypto_id": 39501,
+            "rwa_id": 9
+          },
+          {
+            "crypto_id": 39502,
+            "rwa_id": null
+          },
+          {
+            "name": "Samsung Electronics Co Ltd (Derivatives)",
+            "symbol": "005930",
+            "crypto_id": 39503,
+            "rwa_id": null
+          },
+          {
+            "name": "State Street Technology Select Sector SPDR ETF (Derivatives)",
+            "symbol": "XLK",
+            "crypto_id": 39504,
+            "rwa_id": null
+          },
+          {
+            "name": "Nuclear Energy (Derivatives)",
+            "symbol": "NUCLEAR",
+            "crypto_id": 39506,
+            "rwa_id": null
+          },
+          {
+            "name": "SanDisk Corporation (Derivatives)",
+            "symbol": "SNDK",
+            "crypto_id": 39507,
+            "rwa_id": 48
+          },
+          {
+            "name": "Energy Sector (Derivatives)",
+            "symbol": "ENERGY",
+            "crypto_id": 39508,
+            "rwa_id": null
+          },
+          {
+            "name": "Eli Lilly and Company (Derivatives)",
+            "symbol": "LLY",
+            "crypto_id": 39509,
+            "rwa_id": 11
+          },
+          {
+            "name": "Roundhill Magnificent Seven ETF (Derivatives)",
+            "symbol": "MAGS",
+            "crypto_id": 39510,
+            "rwa_id": null
+          },
+          {
+            "name": "Uranium (Derivatives)",
+            "symbol": "URANIUM",
+            "crypto_id": 39511,
+            "rwa_id": null
+          },
+          {
+            "name": "Global X Robotics and Artificial Intelligence ETF (Derivatives)",
+            "symbol": "BOTZ",
+            "crypto_id": 39512,
+            "rwa_id": null
+          },
+          {
+            "name": "USA Rare Earth Inc (Derivatives)",
+            "symbol": "USAR",
+            "crypto_id": 39514,
+            "rwa_id": null
+          },
+          {
+            "name": "United States Oil Fund LP (Derivatives)",
+            "symbol": "USO",
+            "crypto_id": 39515,
+            "rwa_id": 183
+          },
+          {
+            "name": "Sprott Uranium Miners ETF (Derivatives)",
+            "symbol": "URNM",
+            "crypto_id": 39516,
+            "rwa_id": null
+          },
+          {
+            "name": "QQQ (Derivatives)",
+            "symbol": "QQQ",
+            "crypto_id": 39517,
+            "rwa_id": 118
+          },
+          {
+            "name": "USBOND (Derivatives)",
+            "symbol": "USBOND",
+            "crypto_id": 39518,
+            "rwa_id": null
+          },
+          {
+            "name": "Hyundai Motor Co (Derivatives)",
+            "symbol": "005380",
+            "crypto_id": 39573,
+            "rwa_id": null
+          },
+          {
+            "name": "Korea Composite Stock Price Index (Derivatives)",
+            "symbol": "KOSPI",
+            "crypto_id": 39575,
+            "rwa_id": null
+          },
+          {
+            "name": "Applovin (Derivatives)",
+            "symbol": "APP",
+            "crypto_id": 39629,
+            "rwa_id": 108
+          },
+          {
+            "name": "UnitedHealth Group (Derivatives)",
+            "symbol": "UNH",
+            "crypto_id": 39630,
+            "rwa_id": 33
+          },
+          {
+            "name": "Cisco Systems (Derivatives)",
+            "symbol": "CSCO",
+            "crypto_id": 39631,
+            "rwa_id": 29
+          },
+          {
+            "name": "Reddit (Derivatives)",
+            "symbol": "RDDT",
+            "crypto_id": 39633,
+            "rwa_id": 196
+          },
+          {
+            "name": "IBM (Derivatives)",
+            "symbol": "IBM",
+            "crypto_id": 39634,
+            "rwa_id": 42
+          },
+          {
+            "name": "Ishares Msci South Korea ETF (Derivatives)",
+            "symbol": "EWY",
+            "crypto_id": 39654,
+            "rwa_id": 1062
+          },
+          {
+            "name": "Global X Uranium ETF (Derivatives)",
+            "symbol": "URA",
+            "crypto_id": 39669,
+            "rwa_id": null
+          },
+          {
+            "name": "Bitmine Immersion Technologies (Derivatives)",
+            "symbol": "BMNR",
+            "crypto_id": 39670,
+            "rwa_id": 219
+          },
+          {
+            "name": "Hanmi Semiconductor Co Ltd (Derivatives)",
+            "symbol": "HANMI",
+            "crypto_id": 39672,
+            "rwa_id": null
+          },
+          {
+            "name": "State Street SPDR Dow Jones DIA ETF Trust (Derivatives)",
+            "symbol": "DIA",
+            "crypto_id": 39673,
+            "rwa_id": null
+          },
+          {
+            "name": "ASML Holding NV (Derivatives)",
+            "symbol": "ASML",
+            "crypto_id": 39677,
+            "rwa_id": 26
+          },
+          {
+            "name": "iShares MSCI Japan ETF (Derivatives)",
+            "symbol": "EWJ",
+            "crypto_id": 39685,
+            "rwa_id": null
+          },
+          {
+            "name": "PayPay Corp (Derivatives)",
+            "symbol": "PAYP",
+            "crypto_id": 39725,
+            "rwa_id": null
+          },
+          {
+            "name": "State Street SPDR S&P 500 ETF Trust (Derivatives)",
+            "symbol": "SPY",
+            "crypto_id": 39732,
+            "rwa_id": 86
+          },
+          {
+            "name": "Brent Oil (Derivatives)",
+            "symbol": "BZ",
+            "crypto_id": 39804,
+            "rwa_id": null
+          },
+          {
+            "crypto_id": 39839,
+            "rwa_id": 118
+          },
+          {
+            "name": "iShares Silver Trust (Derivatives)",
+            "symbol": "SLV",
+            "crypto_id": 39845,
+            "rwa_id": 205
+          },
+          {
+            "name": "Nikkei 225 (Derivatives)",
+            "symbol": "NI225",
+            "crypto_id": 39852,
+            "rwa_id": null
+          },
+          {
+            "name": "PDD Holdings Inc (Derivatives)",
+            "symbol": "PDD",
+            "crypto_id": 39861,
+            "rwa_id": 175
+          },
+          {
+            "name": "Allbirds Inc (Derivatives)",
+            "symbol": "BIRD",
+            "crypto_id": 39872,
+            "rwa_id": null
+          },
+          {
+            "name": "GameStop Corp (Derivatives)",
+            "symbol": "GME",
+            "crypto_id": 39928,
+            "rwa_id": 116
+          },
+          {
+            "name": "Xiaomi Corp HKD price (Derivatives)",
+            "symbol": "1810",
+            "crypto_id": 39929,
+            "rwa_id": null
+          },
+          {
+            "name": "Cerebras Systems (Derivatives)",
+            "symbol": "CBRS",
+            "crypto_id": 39931,
+            "rwa_id": 251
+          },
+          {
+            "name": "Qualcomm (Derivatives)",
+            "symbol": "QCOM",
+            "crypto_id": 39932,
+            "rwa_id": 103
+          },
+          {
+            "name": "State Street Energy Select Sector SPDR ETF (Derivatives)",
+            "symbol": "XLE",
+            "crypto_id": 39943,
+            "rwa_id": null
+          },
+          {
+            "name": "Lumentum Holdings (Derivatives)",
+            "symbol": "LITE",
+            "crypto_id": 39944,
+            "rwa_id": null
+          },
+          {
+            "name": "Roundhill Memory ETF (Derivatives)",
+            "symbol": "DRAM",
+            "crypto_id": 39945,
+            "rwa_id": null
+          },
+          {
+            "name": "Marvell Technology (Derivatives)",
+            "symbol": "MRVL",
+            "crypto_id": 39946,
+            "rwa_id": null
+          },
+          {
+            "name": "Blackstone (Derivatives)",
+            "symbol": "BX",
+            "crypto_id": 39947,
+            "rwa_id": null
+          },
+          {
+            "name": "Rocket Lab Corp (Derivatives)",
+            "symbol": "RKLB",
+            "crypto_id": 39948,
+            "rwa_id": null
+          },
+          {
+            "name": "Ishares Msci Brazil ETF (Derivatives)",
+            "symbol": "EWZ",
+            "crypto_id": 39949,
+            "rwa_id": null
+          },
+          {
+            "name": "eBay (Derivatives)",
+            "symbol": "EBAY",
+            "crypto_id": 39953,
+            "rwa_id": null
+          },
+          {
+            "name": "Zoom (Derivatives)",
+            "symbol": "ZM",
+            "crypto_id": 39954,
+            "rwa_id": 376
+          },
+          {
+            "name": "Pop Mart International Group Limited (Derivatives)",
+            "symbol": "POPMART",
+            "crypto_id": 39958,
+            "rwa_id": null
+          },
+          {
+            "name": "MiniMax Group (Derivatives)",
+            "symbol": "MINIMAX",
+            "crypto_id": 39960,
+            "rwa_id": null
+          },
+          {
+            "name": "Tencent Holdings Ltd (Derivatives)",
+            "symbol": "TENCENT",
+            "crypto_id": 39961,
+            "rwa_id": null
+          },
+          {
+            "name": "Direxion Daily Semiconductor ETF (Derivatives)",
+            "symbol": "SOXL",
+            "crypto_id": 39964,
+            "rwa_id": null
+          },
+          {
+            "crypto_id": 39980,
+            "rwa_id": null
+          },
+          {
+            "name": "Global X Defense Tech ETF  (Derivatives)",
+            "symbol": "SHLD",
+            "crypto_id": 39989,
+            "rwa_id": null
+          },
+          {
+            "name": "Western Digital Corp (Derivatives)",
+            "symbol": "WDC",
+            "crypto_id": 39990,
+            "rwa_id": null
+          },
+          {
+            "name": "Arm Holdings PLC - ADR (Derivatives)",
+            "symbol": "ARM",
+            "crypto_id": 39994,
+            "rwa_id": null
+          },
+          {
+            "name": "Coherent (Derivatives)",
+            "symbol": "COHR",
+            "crypto_id": 39995,
+            "rwa_id": 188
+          },
+          {
+            "name": "Home Depot Inc (Derivatives)",
+            "symbol": "HD",
+            "crypto_id": 39996,
+            "rwa_id": 36
+          },
+          {
+            "name": "Uber Technologies Inc (Derivatives)",
+            "symbol": "UBER",
+            "crypto_id": 39997,
+            "rwa_id": 128
+          },
+          {
+            "name": "Walt Disney Co (Derivatives)",
+            "symbol": "DIS",
+            "crypto_id": 39998,
+            "rwa_id": 110
+          },
+          {
+            "name": "Hyperliquid Strategies Inc (Derivatives)",
+            "symbol": "PURR",
+            "crypto_id": 40003,
+            "rwa_id": null
+          },
+          {
+            "name": "Fluence Energy, Inc. Class A Common Stock (Derivatives)",
+            "symbol": "FLNC",
+            "crypto_id": 40007,
+            "rwa_id": null
+          },
+          {
+            "name": "Corning Inc (Derivatives)",
+            "symbol": "GLW",
+            "crypto_id": 40010,
+            "rwa_id": null
+          },
+          {
+            "name": "JPmorgan Chase & Co (Derivatives)",
+            "symbol": "JPM",
+            "crypto_id": 40013,
+            "rwa_id": 16
+          },
+          {
+            "name": "Visa Inc (Derivatives)",
+            "symbol": "V",
+            "crypto_id": 40014,
+            "rwa_id": 18
+          },
+          {
+            "name": "Walmart Inc (Derivatives)",
+            "symbol": "WMT",
+            "crypto_id": 40015,
+            "rwa_id": 17
+          },
+          {
+            "name": "Berkshire Hathaway Inc Class B (Derivatives)",
+            "symbol": "BRKB",
+            "crypto_id": 40016,
+            "rwa_id": 15
+          },
+          {
+            "name": "Nebius Group NV (Derivatives)",
+            "symbol": "NBIS",
+            "crypto_id": 40021,
+            "rwa_id": null
+          },
+          {
+            "name": "GE Vernova Inc (Derivatives)",
+            "symbol": "GEV",
+            "crypto_id": 40035,
+            "rwa_id": 57
+          },
+          {
+            "name": "iShares MSCI Taiwan ETF (Derivatives)",
+            "symbol": "EWT",
+            "crypto_id": 40042,
+            "rwa_id": null
+          },
+          {
+            "name": "Futu Holdings (Derivatives)",
+            "symbol": "FUTU",
+            "crypto_id": 40046,
+            "rwa_id": null
+          },
+          {
+            "name": "Bloom Energy Corp (Derivatives)",
+            "symbol": "BE",
+            "crypto_id": 40064,
+            "rwa_id": null
+          },
+          {
+            "name": "CrowdStrike Holdings Inc (Derivatives)",
+            "symbol": "CRWD",
+            "crypto_id": 40065,
+            "rwa_id": 102
+          },
+          {
+            "name": "Applied Optoelectronics Inc (Derivatives)",
+            "symbol": "AAOI",
+            "crypto_id": 40067,
+            "rwa_id": null
+          },
+          {
+            "name": "Infleqtion Inc (Derivatives)",
+            "symbol": "INFQ",
+            "crypto_id": 40068,
+            "rwa_id": null
+          },
+          {
+            "name": "Nokia Oyj (Derivatives)",
+            "symbol": "NOK",
+            "crypto_id": 40072,
+            "rwa_id": null
+          },
+          {
+            "name": "Applied Materials Inc (Derivatives)",
+            "symbol": "AMAT",
+            "crypto_id": 40087,
+            "rwa_id": 22
+          },
+          {
+            "name": "Dell Technologies (Derivatives)",
+            "symbol": "DELL",
+            "crypto_id": 40088,
+            "rwa_id": null
+          },
+          {
+            "name": "Vertiv Holdings Co (Derivatives)",
+            "symbol": "VRT",
+            "crypto_id": 40089,
+            "rwa_id": null
+          },
+          {
+            "name": "Quantinuum Inc (Derivatives)",
+            "symbol": "QNTX",
+            "crypto_id": 40094,
+            "rwa_id": 16386
+          },
+          {
+            "name": "Novo Nordisk (Derivatives)",
+            "symbol": "NVO",
+            "crypto_id": 40104,
+            "rwa_id": 65
+          },
+          {
+            "name": "BlackBerry Ltd (Derivatives)",
+            "symbol": "BB",
+            "crypto_id": 40105,
+            "rwa_id": null
+          },
+          {
+            "name": "Redwire Corp (Derivatives)",
+            "symbol": "RDW",
+            "crypto_id": 40106,
+            "rwa_id": null
+          },
+          {
+            "name": "Intuitive Machines Inc (Derivatives)",
+            "symbol": "LUNR",
+            "crypto_id": 40107,
+            "rwa_id": null
+          },
+          {
+            "name": "AST SpaceMobile Inc (Derivatives)",
+            "symbol": "ASTS",
+            "crypto_id": 40108,
+            "rwa_id": null
+          },
+          {
+            "name": "ServiceNow Inc (Derivatives)",
+            "symbol": "NOW",
+            "crypto_id": 40111,
+            "rwa_id": 203
+          },
+          {
+            "name": "Hewlett Packard Enterprise Co (Derivatives)",
+            "symbol": "HPE",
+            "crypto_id": 40112,
+            "rwa_id": null
+          },
+          {
+            "name": "Hims & Hers Health (Derivatives)",
+            "symbol": "HIMS",
+            "crypto_id": 40113,
+            "rwa_id": null
+          },
+          {
+            "name": "Adobe Inc (Derivatives)",
+            "symbol": "ADBE",
+            "crypto_id": 40115,
+            "rwa_id": null
+          },
+          {
+            "name": "Salesforce Inc (Derivatives)",
+            "symbol": "CRM",
+            "crypto_id": 40116,
+            "rwa_id": 198
+          },
+          {
+            "name": "IREN Ltd (Derivatives)",
+            "symbol": "IREN",
+            "crypto_id": 40117,
+            "rwa_id": 229
+          },
+          {
+            "name": "Ondas Inc (Derivatives)",
+            "symbol": "ONDS",
+            "crypto_id": 40118,
+            "rwa_id": 235
+          },
+          {
+            "name": "Qnity Electronics Inc (Derivatives)",
+            "symbol": "Q",
+            "crypto_id": 40124,
+            "rwa_id": null
+          },
+          {
+            "name": "TTM Technologies Inc (Derivatives)",
+            "symbol": "TTMI",
+            "crypto_id": 40125,
+            "rwa_id": null
+          },
+          {
+            "name": "Modine Manufacturing Co (Derivatives)",
+            "symbol": "MOD",
+            "crypto_id": 40126,
+            "rwa_id": null
+          },
+          {
+            "name": "Palo Alto Networks Inc (Derivatives)",
+            "symbol": "PANW",
+            "crypto_id": 40199,
+            "rwa_id": 43
+          },
+          {
+            "name": "Credo Technology Group Holding Ltd (Derivatives)",
+            "symbol": "CRDO",
+            "crypto_id": 40203,
+            "rwa_id": 252
+          },
+          {
+            "name": "AXT Inc (Derivatives)",
+            "symbol": "AXTI",
+            "crypto_id": 40204,
+            "rwa_id": null
+          },
+          {
+            "name": "DraftKings Inc (Derivatives)",
+            "symbol": "DKNG",
+            "crypto_id": 40222,
+            "rwa_id": null
+          },
+          {
+            "name": "Ciena Corp (Derivatives)",
+            "symbol": "CIEN",
+            "crypto_id": 40227,
+            "rwa_id": null
+          },
+          {
+            "name": "Intuitive Surgical Inc (Derivatives)",
+            "symbol": "ISRG",
+            "crypto_id": 40228,
+            "rwa_id": 166
+          },
+          {
+            "name": "ProShares Ultra VIX Short-Term Futures ETF (Derivatives)",
+            "symbol": "UVXY",
+            "crypto_id": 40229,
+            "rwa_id": null
+          },
+          {
+            "name": "Seagate Technology Holdings PLC (Derivatives)",
+            "symbol": "STX",
+            "crypto_id": 40230,
+            "rwa_id": null
+          },
+          {
+            "name": "Twilio Inc (Derivatives)",
+            "symbol": "TWLO",
+            "crypto_id": 40234,
+            "rwa_id": null
+          },
+          {
+            "name": "Rockwell Automation Inc (Derivatives)",
+            "symbol": "ROK",
+            "crypto_id": 40235,
+            "rwa_id": null
+          },
+          {
+            "name": "Cognex Corp (Derivatives)",
+            "symbol": "CGNX",
+            "crypto_id": 40236,
+            "rwa_id": null
+          },
+          {
+            "name": "[Pre-IPO] SpaceX (Derivatives for SPACEX)",
+            "symbol": "SPACEX",
+            "crypto_id": 40237,
+            "rwa_id": null
+          },
+          {
+            "name": "Astera Labs Inc (Derivatives)",
+            "symbol": "ALAB",
+            "crypto_id": 40517,
+            "rwa_id": null
+          },
+          {
+            "name": "Teradyne Inc (Derivatives)",
+            "symbol": "TER",
+            "crypto_id": 40518,
+            "rwa_id": null
+          },
+          {
+            "name": "POET Technologies Inc (Derivatives)",
+            "symbol": "POET",
+            "crypto_id": 40519,
+            "rwa_id": null
+          },
+          {
+            "name": "Knowledge Atlas Technology JSC Ltd (Derivatives)",
+            "symbol": "ZHIPU",
+            "crypto_id": 40543,
+            "rwa_id": null
+          },
+          {
+            "name": "Lam Research Corp (Derivatives)",
+            "symbol": "LRCX",
+            "crypto_id": 40547,
+            "rwa_id": 32
+          },
+          {
+            "name": "KLA Corp (Derivatives)",
+            "symbol": "KLAC",
+            "crypto_id": 40548,
+            "rwa_id": 58
+          },
+          {
+            "name": "Super Micro Computer Inc (Derivatives)",
+            "symbol": "SMCI",
+            "crypto_id": 40549,
+            "rwa_id": 127
+          },
+          {
+            "name": "Direxion Daily MSCI South Korea Bull 3X ETF (Derivatives)",
+            "symbol": "KORU",
+            "crypto_id": 40551,
+            "rwa_id": null
+          },
+          {
+            "name": "Sony Group Corp (Derivatives)",
+            "symbol": "SONY",
+            "crypto_id": 40552,
+            "rwa_id": null
+          },
+          {
+            "name": "Strategy Variable Rate Perpetual Stretch (Derivatives)",
+            "symbol": "STRC",
+            "crypto_id": 40557,
+            "rwa_id": null
+          },
+          {
+            "name": "GraniteShares 2x Long MRVL Daily ETF (Derivatives)",
+            "symbol": "MVLL",
+            "crypto_id": 40559,
+            "rwa_id": null
+          },
+          {
+            "name": "ProShares UltraPro QQQ (Derivatives)",
+            "symbol": "TQQQ",
+            "crypto_id": 40560,
+            "rwa_id": null
+          },
+          {
+            "name": "ProShares UltraPro Short QQQ (Derivatives)",
+            "symbol": "SQQQ",
+            "crypto_id": 40561,
+            "rwa_id": null
+          },
+          {
+            "name": "Stripe (Derivatives)",
+            "symbol": "STRIPE",
+            "crypto_id": 40564,
+            "rwa_id": null
+          },
+          {
+            "name": "SoftBank Group Corp (Derivatives)",
+            "symbol": "9984",
+            "crypto_id": 40570,
+            "rwa_id": null
+          },
+          {
+            "name": "Wendy's Co (Derivatives)",
+            "symbol": "WEN",
+            "crypto_id": 40575,
+            "rwa_id": 3231
+          },
+          {
+            "name": "Tower Semiconductor Ltd (Derivatives)",
+            "symbol": "TSEM",
+            "crypto_id": 40576,
+            "rwa_id": 1102
+          },
+          {
+            "name": "Kioxia Holdings Corp (Derivatives)",
+            "symbol": "KIOXIA",
+            "crypto_id": 40577,
+            "rwa_id": null
+          },
+          {
+            "name": "RoboStrategy Inc (Derivatives)",
+            "symbol": "BOT",
+            "crypto_id": 40584,
+            "rwa_id": null
+          },
+          {
+            "name": "Direxion Daily MU Bull 2X ETF (Derivatives)",
+            "symbol": "MUU",
+            "crypto_id": 40675,
+            "rwa_id": 5382
+          },
+          {
+            "name": "Roundhill T-REX 2X Long DRAM Daily Target ETF (Derivatives)",
+            "symbol": "RAM",
+            "crypto_id": 40676,
+            "rwa_id": null
+          },
+          {
+            "name": "Bending Spoons SpA (Derivatives)",
+            "symbol": "BSP",
+            "crypto_id": 40677,
+            "rwa_id": null
+          },
+          {
+            "name": "KraneShares SSE STAR Market 50 Index ETF (Derivatives)",
+            "symbol": "KSTR",
+            "crypto_id": 40678,
+            "rwa_id": null
+          },
+          {
+            "name": "Take-Two Interactive Software, Inc. Common Stock (Derivatives)",
+            "symbol": "TTWO",
+            "crypto_id": 40679,
+            "rwa_id": 466
+          },
+          {
+            "name": "Teradyne, Inc. Common Stock (Derivatives)",
+            "symbol": "TER",
+            "crypto_id": 40680,
+            "rwa_id": 314
+          },
+          {
+            "name": "Flex Ltd. Ordinary Shares (Derivatives)",
+            "symbol": "FLEX",
+            "crypto_id": 40681,
+            "rwa_id": 316
+          },
+          {
+            "name": "Texas Instruments Incorporated Common Stock (Derivatives)",
+            "symbol": "TXN",
+            "crypto_id": 40682,
+            "rwa_id": 45
+          },
+          {
+            "name": "Caterpillar, Inc. Common Stock (Derivatives)",
+            "symbol": "CAT",
+            "crypto_id": 40683,
+            "rwa_id": 30
+          },
+          {
+            "name": "Valvoline Inc (Derivatives)",
+            "symbol": "VVV",
+            "crypto_id": 40784,
+            "rwa_id": 1747
+          },
+          {
+            "name": "Applied Digital Corp (Derivatives)",
+            "symbol": "APLD",
+            "crypto_id": 40802,
+            "rwa_id": 912
+          },
+          {
+            "name": "Silicon Motion Technology Corp (Derivatives)",
+            "symbol": "SIMO",
+            "crypto_id": 40803,
+            "rwa_id": 1135
+          },
+          {
+            "name": "Oscar Health Inc (Derivatives)",
+            "symbol": "OSCR",
+            "crypto_id": 40804,
+            "rwa_id": 173
+          },
+          {
+            "name": "SharonAI Holdings Inc (Derivatives)",
+            "symbol": "SHAZ",
+            "crypto_id": 40807,
+            "rwa_id": 2220
+          },
+          {
+            "name": "Johnson & Johnson (Derivatives)",
+            "symbol": "JNJ",
+            "crypto_id": 40820,
+            "rwa_id": 19
+          },
+          {
+            "name": "Penguin Solutions Inc (Derivatives)",
+            "symbol": "PENG",
+            "crypto_id": 40822,
+            "rwa_id": 1410
+          },
+          {
+            "name": "SK Hynix (Derivatives)",
+            "symbol": "SKHY",
+            "crypto_id": 40824,
+            "rwa_id": 8065
+          },
+          {
+            "name": "GraniteShares 2x Long INTC Daily ETF (Derivatives)",
+            "symbol": "INTW",
+            "crypto_id": 40825,
+            "rwa_id": 5186
+          },
+          {
+            "name": "Tradr 2X Long SNDK Daily ETF (Derivatives)",
+            "symbol": "SNXX",
+            "crypto_id": 40826,
+            "rwa_id": 5699
+          },
+          {
+            "name": "State Street SPDR S&P Biotech ETF (Derivatives)",
+            "symbol": "XBI",
+            "crypto_id": 40827,
+            "rwa_id": 5952
+          },
+          {
+            "name": "CEA Industries Inc (Derivatives)",
+            "symbol": "BNC",
+            "crypto_id": 40828,
+            "rwa_id": 3066
+          },
+          {
+            "name": "Forward Industries Inc (Derivatives)",
+            "symbol": "FWDI",
+            "crypto_id": 40829,
+            "rwa_id": 2703
+          },
+          {
+            "name": "Snowflake Inc (Derivatives)",
+            "symbol": "SNOW",
+            "crypto_id": 40843,
+            "rwa_id": 135
+          },
+          {
+            "name": "ChangXin Memory Technologies (Derivatives)",
+            "symbol": "CXMT",
+            "crypto_id": 40857,
+            "rwa_id": 16385
+          },
+          {
+            "name": "Direxion Daily Semiconductor Bear 3X Shares (Derivatives)",
+            "symbol": "SOXS",
+            "crypto_id": 40862,
+            "rwa_id": 7751
+          },
+          {
+            "name": "Direxion Daily Small Cap Bear 3X ETF (Derivatives)",
+            "symbol": "TZA",
+            "crypto_id": 40863,
+            "rwa_id": 5826
+          },
+          {
+            "name": "Tencent Holdings (Derivatives)",
+            "symbol": "0700",
+            "crypto_id": 40864,
+            "rwa_id": null
+          },
+          {
+            "name": "SoFi Technologies Inc (Derivatives)",
+            "symbol": "SOFI",
+            "crypto_id": 40888,
+            "rwa_id": 243
+          },
+          {
+            "name": "Xiaomi (Derivatives)",
+            "symbol": "XIAOMI",
+            "crypto_id": 40894,
+            "rwa_id": null
+          },
+          {
+            "name": "Direxion Daily 20+ Year Treasury Bull 3X Shares (Derivatives)",
+            "symbol": "TMF",
+            "crypto_id": 40911,
+            "rwa_id": null
+          },
+          {
+            "name": "ProShares UltraShort 20+ Year Treasury (Derivatives)",
+            "symbol": "TBT",
+            "crypto_id": 40912,
+            "rwa_id": null
+          },
+          {
+            "name": "ProShares Bitcoin ETF (Derivatives)",
+            "symbol": "BITO",
+            "crypto_id": 40913,
+            "rwa_id": null
+          },
+          {
+            "name": "PayPal Holdings Inc (Derivatives)",
+            "symbol": "PYPL",
+            "crypto_id": 40941,
+            "rwa_id": 93
+          },
+          {
+            "name": "Goldman Sachs Group Inc (Derivatives)",
+            "symbol": "GS",
+            "crypto_id": 40942,
+            "rwa_id": 39
+          },
+          {
+            "name": "Okta Inc (Derivatives)",
+            "symbol": "OKTA",
+            "crypto_id": 40943,
+            "rwa_id": 809
+          },
+          {
+            "name": "Axe Compute Inc (Derivatives)",
+            "symbol": "AGPU",
+            "crypto_id": 40951,
+            "rwa_id": 6206
+          },
+          {
+            "name": "Gigadevice Semiconductor Inc (Derivatives)",
+            "symbol": "GIGADEV",
+            "crypto_id": 40955,
+            "rwa_id": null
+          },
+          {
+            "name": "Yushu Technology Co (Derivatives)",
+            "symbol": "UNITREE",
+            "crypto_id": 40974,
+            "rwa_id": null
+          },
+          {
+            "name": "Coca-Cola Co (Derivatives)",
+            "symbol": "KO",
+            "crypto_id": 40982,
+            "rwa_id": 34
+          },
+          {
+            "name": "Roundhill Neocloud ETF (Derivatives)",
+            "symbol": "NCLD",
+            "crypto_id": 40983,
+            "rwa_id": null
+          },
+          {
+            "name": "Roundhill Photonics & Optics ETF (Derivatives)",
+            "symbol": "LYTE",
+            "crypto_id": 40984,
+            "rwa_id": null
+          },
+          {
+            "name": "GraniteShares 2x Long SK Hynix Daily ETF (Derivatives)",
+            "symbol": "SKUU",
+            "crypto_id": 41071,
+            "rwa_id": null
+          },
+          {
+            "name": "GraniteShares 2x Short SK Hynix Daily ETF(Derivatives)",
+            "symbol": "SKDD",
+            "crypto_id": 41072,
+            "rwa_id": null
+          },
+          {
+            "name": "Kuaishou Technology (Derivatives)",
+            "symbol": "KUAISHOU",
+            "crypto_id": 41073,
+            "rwa_id": null
+          },
+          {
+            "name": "Meituan (Derivatives)",
+            "symbol": "MEITUAN",
+            "crypto_id": 41074,
+            "rwa_id": null
+          },
+          {
+            "name": "CSOP SK Hynix Daily Max (2x) Leveraged Product (Derivatives)",
+            "symbol": "CSOPSKHYNIX2L",
+            "crypto_id": 41075,
+            "rwa_id": null
+          },
+          {
+            "name": "CSOP Samsung Daily Max (2x) (Derivatives)",
+            "symbol": "CSOPSAMSUNG2L",
+            "crypto_id": 41076,
+            "rwa_id": null
+          },
+          {
+            "name": "ZhongJi Innolight Co., Ltd. (Derivatives)",
+            "symbol": "ZHONGJI",
+            "crypto_id": 41778,
+            "rwa_id": null
+          },
+          {
+            "name": "Samsung Electro-Mechanics Co Ltd (Derivatives)",
+            "symbol": "SAMSUNGEM",
+            "crypto_id": 41779,
+            "rwa_id": null
+          },
+          {
+            "name": "LG Electronics Inc (Derivatives)",
+            "symbol": "LGELECTRONICS",
+            "crypto_id": 41780,
+            "rwa_id": null
+          },
+          {
+            "name": "Naver Corp (Derivatives)",
+            "symbol": "NAVER",
+            "crypto_id": 41782,
+            "rwa_id": null
+          },
+          {
+            "name": "Samsung KODEX 200 ETF(Derivatives)",
+            "symbol": "KODEX200",
+            "crypto_id": 41783,
+            "rwa_id": null
+          },
+          {
+            "name": "Ouster Inc (Derivatives)",
+            "symbol": "OUST",
+            "crypto_id": 41868,
+            "rwa_id": 1465
+          },
+          {
+            "name": "VanEck Gold Miners ETF (Derivatives)",
+            "symbol": "GDX",
+            "crypto_id": 41869,
+            "rwa_id": 7062
+          },
+          {
+            "name": "Vistra Corp (Derivatives)",
+            "symbol": "VST",
+            "crypto_id": 41870,
+            "rwa_id": 184
+          },
+          {
+            "name": "Shopify Inc (Derivatives)",
+            "symbol": "SHOP",
+            "crypto_id": 41871,
+            "rwa_id": 132
+          },
+          {
+            "name": "Moderna Inc (Derivatives)",
+            "symbol": "MRNA",
+            "crypto_id": 41887,
+            "rwa_id": 232
+          },
+          {
+            "name": "Trump Media & Technology Group Corp (Derivatives)",
+            "symbol": "DJT",
+            "crypto_id": 41918,
+            "rwa_id": 2023
+          },
+          {
+            "name": "SHEIN Global Holdings Limited (Derivatives)",
+            "symbol": "SHEIN",
+            "crypto_id": 41931,
+            "rwa_id": null
+          },
+          {
+            "name": "D-Wave Quantum Inc (Derivatives)",
+            "symbol": "QBTS",
+            "crypto_id": 41934,
+            "rwa_id": 88
+          },
+          {
+            "name": "Direxion Daily TSLA Bull 2X ETF (Derivatives)",
+            "symbol": "TSLL",
+            "crypto_id": 41944,
+            "rwa_id": 7856
+          },
+          {
+            "name": "MARA Holdings Inc (Derivatives)",
+            "symbol": "MARA",
+            "crypto_id": 41945,
+            "rwa_id": 123
+          },
+          {
+            "name": "Merck & Co Inc (Derivatives)",
+            "symbol": "MRK",
+            "crypto_id": 41946,
+            "rwa_id": 38
+          },
+          {
+            "name": "GraniteShares 2x Long NVDA Daily ETF (Derivatives)",
+            "symbol": "NVDL",
+            "crypto_id": 41947,
+            "rwa_id": 7470
+          },
+          {
+            "name": "IONQ Inc (Derivatives)",
+            "symbol": "IONQ",
+            "crypto_id": 41949,
+            "rwa_id": 545
+          },
+          {
+            "name": "Tempus AI Inc (Derivatives)",
+            "symbol": "TEM",
+            "crypto_id": 41950,
+            "rwa_id": 963
+          },
+          {
+            "name": "Rigetti Computing (Derivatives)",
+            "symbol": "RGTI",
+            "crypto_id": 41959,
+            "rwa_id": 241
+          },
+          {
+            "name": "Datadog Inc (Derivatives)",
+            "symbol": "DDOG",
+            "crypto_id": 41970,
+            "rwa_id": 278
+          },
+          {
+            "name": "Atlassian Corp (Derivatives)",
+            "symbol": "TEAM",
+            "crypto_id": 41971,
+            "rwa_id": 785
+          },
+          {
+            "name": "Mongodb Inc (Derivatives)",
+            "symbol": "MDB",
+            "crypto_id": 41972,
+            "rwa_id": 373
+          },
+          {
+            "name": "Zscaler Inc (Derivatives)",
+            "symbol": "ZS",
+            "crypto_id": 41973,
+            "rwa_id": 552
+          },
+          {
+            "name": "Gitlab Inc (Derivatives)",
+            "symbol": "GTLB",
+            "crypto_id": 41974,
+            "rwa_id": 1263
+          },
+          {
+            "name": "GoPro Inc (Derivatives)",
+            "symbol": "GPRO",
+            "crypto_id": 41982,
+            "rwa_id": 4016
+          },
+          {
+            "name": "BYD CO. LTD. (Derivatives)",
+            "symbol": "BYD",
+            "crypto_id": 41997,
+            "rwa_id": null
+          },
+          {
+            "name": "Lenovo Group Ltd (Derivatives)",
+            "symbol": "HK0992",
+            "crypto_id": 41998,
+            "rwa_id": null
+          },
+          {
+            "name": "Maxlinear Inc (Derivatives)",
+            "symbol": "MXL",
+            "crypto_id": 42284,
+            "rwa_id": 1551
+          },
+          {
+            "name": "Everpure Inc (Derivatives)",
+            "symbol": "P",
+            "crypto_id": 42298,
+            "rwa_id": 794
+          },
+          {
+            "name": "UiPath Inc (Derivatives)",
+            "symbol": "PATH",
+            "crypto_id": 42321,
+            "rwa_id": 1198
+          },
+          {
+            "name": "AMC Entertainment Holdings Inc (Derivatives)",
+            "symbol": "AMC",
+            "crypto_id": 42322,
+            "rwa_id": 153
+          },
+          {
+            "name": "Cypherpunk Technologies Inc (Derivatives)",
+            "symbol": "CYPH",
+            "crypto_id": 42323,
+            "rwa_id": null
+          },
+          {
+            "name": "Arista Networks Inc (Derivatives)",
+            "symbol": "ANET",
+            "crypto_id": 42324,
+            "rwa_id": 66
+          },
+          {
+            "name": "Hut 8 Corp (Derivatives)",
+            "symbol": "HUT",
+            "crypto_id": 42325,
+            "rwa_id": 898
+          },
+          {
+            "crypto_id": 42326,
+            "rwa_id": 912
+          },
+          {
+            "name": "Chevron Corporation (Derivatives)",
+            "symbol": "CVX",
+            "crypto_id": 42327,
+            "rwa_id": 51
+          },
+          {
+            "name": "iShares 20+ Year Treasury Bond ETF (Derivatives)",
+            "symbol": "TLT",
+            "crypto_id": 42328,
+            "rwa_id": 204
+          },
+          {
+            "name": "1 US Dollar (USD) to Brazil Real (BRL) (Derivatives)",
+            "symbol": "USDBRL",
+            "crypto_id": 42335,
+            "rwa_id": null
+          },
+          {
+            "name": "Polymarket (Derivatives)",
+            "symbol": "POLYMARKET",
+            "crypto_id": 42339,
+            "rwa_id": null
+          },
+          {
+            "name": "Moonshot AI (Derivatives)",
+            "symbol": "MOONSHOT",
+            "crypto_id": 42356,
+            "rwa_id": null
+          }
+        ],
+        "issuer_id": "695e11f774b54210f3b95dc3",
+        "num_tokens": 251,
+        "total_size": 251,
+        "has_more": true
+      },
+      "status": {
+        "timestamp": "2026-09-25T16:26:29.702Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 3,
+        "credit_count": 1
+      }
+    }
+  }
+}

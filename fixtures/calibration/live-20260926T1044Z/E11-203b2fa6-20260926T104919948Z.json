@@ -1,0 +1,330 @@
+{
+  "label": "E11-203b2fa6-20260926T104919948Z",
+  "recordedAt": "2026-09-26T10:49:19.948Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v1/dex/token/pools?address=0x57e114B691Db790C35207b2e685D4A43181e6061&platform=ethereum&size=10",
+    "path": "/v1/dex/token/pools",
+    "query": {
+      "address": "0x57e114B691Db790C35207b2e685D4A43181e6061",
+      "platform": "ethereum",
+      "size": "10"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 425,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 10:49:19 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 8ea525de0a543f72f5e5f9278e2150b4.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "2iS3a_4SEgTN6cPZz0UaONwr-JETNxlRURmUygv3q2J5VuO_1WakSw==",
+      "x-amz-cf-pop": "IAD55-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "199",
+      "x-server-traceid": "f9c6b659b7108ca19696b11bdc306091"
+    },
+    "body": {
+      "data": [
+        {
+          "addr": "0xc3db44adc1fcdfd5671f555236eae49f4a8eea18",
+          "v24": "2827251.070957802876717269",
+          "pubAt": "1712050067000",
+          "t0": {
+            "addr": "0x57e114b691db790c35207b2e685d4a43181e6061",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/30171.png",
+            "n": "ENA",
+            "sym": "ENA",
+            "liq": "2212800.860153125398475718",
+            "liqUsd": "629980.152795400405471083"
+          },
+          "t1": {
+            "addr": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/2396.png",
+            "n": "Wrapped Ether",
+            "sym": "WETH",
+            "liq": "333.563830502616457965",
+            "liqUsd": "896217.862955907660995457"
+          },
+          "bidx": 0,
+          "exid": 1348,
+          "exn": "Uniswap v3 (Ethereum)",
+          "liqUsd": "1526198.01575130806646654",
+          "fa": "0x1f98431c8ad98523631ae4a59f267346ea31f984",
+          "top": true,
+          "mi": false
+        },
+        {
+          "addr": "0x8c52de694f5a4ce27ea85fe4bc47e08d22c5dfb5f9b38b2a63765ed52cd3b147",
+          "v24": "66181.438960985102737722",
+          "pubAt": "1738321595000",
+          "t0": {
+            "addr": "0x57e114b691db790c35207b2e685d4a43181e6061",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/30171.png",
+            "n": "ENA",
+            "sym": "ENA",
+            "liq": "1610171.835007502543160023",
+            "liqUsd": "457492.992178429400132888"
+          },
+          "t1": {
+            "addr": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/3408.png",
+            "n": "USD Coin",
+            "sym": "USDC",
+            "liq": "191272.298223",
+            "liqUsd": "191251.081717260935214769"
+          },
+          "bidx": 0,
+          "exid": 11955,
+          "exn": "Uniswap v4 (Ethereum)",
+          "liqUsd": "648744.073895690335347656",
+          "fa": "0x000000000004444c5dc75cb358380d2e3de08a90",
+          "top": true,
+          "mi": false
+        },
+        {
+          "addr": "0x6aa3507d5b6f5470c3d0f4ebc914904a94a5a211",
+          "v24": "98873.335932927685071454",
+          "pubAt": "1755584591000",
+          "t0": {
+            "addr": "0x57e114b691db790c35207b2e685d4a43181e6061",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/30171.png",
+            "n": "ENA",
+            "sym": "ENA",
+            "liq": "394135.295110550531699785",
+            "liqUsd": "111940.782142922035775381"
+          },
+          "t1": {
+            "addr": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/2396.png",
+            "n": "Wrapped Ether",
+            "sym": "WETH",
+            "liq": "41.566984727260566843",
+            "liqUsd": "111683.086834338114568196"
+          },
+          "bidx": 0,
+          "exid": 32396,
+          "exn": "Ring Exchange (Ethereum)",
+          "liqUsd": "223623.868977260150343577",
+          "fa": "0xeb2a625b704d73e82946d8d026e1f588eed06416",
+          "top": true,
+          "mi": false
+        },
+        {
+          "addr": "0x5b29d38ddffd8514f9716cb9fb25f0ad89775c190505b4058953539007a03409",
+          "v24": "45325.700909084864245548",
+          "pubAt": "1738260491000",
+          "t0": {
+            "addr": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png",
+            "n": "Ethereum",
+            "sym": "ETH",
+            "liq": "27.275954086474014118",
+            "liqUsd": "73303.781739255020603266"
+          },
+          "t1": {
+            "addr": "0x57e114b691db790c35207b2e685d4a43181e6061",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/30171.png",
+            "n": "ENA",
+            "sym": "ENA",
+            "liq": "164512.233534351796275785",
+            "liqUsd": "46490.666824667562439466"
+          },
+          "bidx": 1,
+          "exid": 11955,
+          "exn": "Uniswap v4 (Ethereum)",
+          "liqUsd": "119794.448563922583042732",
+          "fa": "0x000000000004444c5dc75cb358380d2e3de08a90",
+          "top": true,
+          "mi": false
+        },
+        {
+          "addr": "0xae4045ffeddf61d570e6d1fe2d71ded1a2e85a88",
+          "v24": "19337.112080136555292574",
+          "pubAt": "1717393679000",
+          "t0": {
+            "addr": "0x57e114b691db790c35207b2e685d4a43181e6061",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/30171.png",
+            "n": "ENA",
+            "sym": "ENA",
+            "liq": "97524.051909617770544602",
+            "liqUsd": "27639.474972766285448467"
+          },
+          "t1": {
+            "addr": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/2396.png",
+            "n": "Wrapped Ether",
+            "sym": "WETH",
+            "liq": "5.90817848636812824",
+            "liqUsd": "15874.223623756852840942"
+          },
+          "bidx": 0,
+          "exid": 1348,
+          "exn": "Uniswap v3 (Ethereum)",
+          "liqUsd": "43513.698596523138289409",
+          "fa": "0x1f98431c8ad98523631ae4a59f267346ea31f984",
+          "top": true,
+          "mi": false
+        },
+        {
+          "addr": "0x43e62a61fc2eb6dcec53408508d5cab5bfea261be5d912ac73325ef999f282ca",
+          "v24": "4021.581640294421737992",
+          "pubAt": "1785556331000",
+          "t0": {
+            "addr": "0x57e114b691db790c35207b2e685d4a43181e6061",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/30171.png",
+            "n": "ENA",
+            "sym": "ENA",
+            "liq": "38757.143862958759955636",
+            "liqUsd": "11009.008081750020937806"
+          },
+          "t1": {
+            "addr": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/825.png",
+            "n": "Tether USD",
+            "sym": "USDT",
+            "liq": "10701.834708",
+            "liqUsd": "10699.737795749047435576"
+          },
+          "bidx": 0,
+          "exid": 11955,
+          "exn": "Uniswap v4 (Ethereum)",
+          "liqUsd": "21708.745877499068373381",
+          "fa": "0x000000000004444c5dc75cb358380d2e3de08a90",
+          "top": true,
+          "mi": false
+        },
+        {
+          "addr": "0xdfc30f4b988915be1cf3c7246da5441a4528b05ab8d76a88cfa64e584f9678eb",
+          "v24": "56755.997465407969534408",
+          "pubAt": "1739501279000",
+          "t0": {
+            "addr": "0x57e114b691db790c35207b2e685d4a43181e6061",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/30171.png",
+            "n": "ENA",
+            "sym": "ENA",
+            "liq": "24472.323391115981147512",
+            "liqUsd": "6966.317207805445992979"
+          },
+          "t1": {
+            "addr": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/825.png",
+            "n": "Tether USD",
+            "sym": "USDT",
+            "liq": "14469.28997",
+            "liqUsd": "14466.370327681394923616"
+          },
+          "bidx": 0,
+          "exid": 11955,
+          "exn": "Uniswap v4 (Ethereum)",
+          "liqUsd": "21432.687535486840916595",
+          "fa": "0x000000000004444c5dc75cb358380d2e3de08a90",
+          "top": true,
+          "mi": false
+        },
+        {
+          "addr": "0xd9b6e1ce0b96a51d899ee3d47aa98081f8528936d6e5f23c52036a9fc300c3cb",
+          "v24": "6541.024372161542488619",
+          "pubAt": "1770527291000",
+          "t0": {
+            "addr": "0x57e114b691db790c35207b2e685d4a43181e6061",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/30171.png",
+            "n": "ENA",
+            "sym": "ENA",
+            "liq": "12806.786499830461026583",
+            "liqUsd": "3642.826240782254868552"
+          },
+          "t1": {
+            "addr": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/3408.png",
+            "n": "USD Coin",
+            "sym": "USDC",
+            "liq": "7979.887799",
+            "liqUsd": "7978.3447785159612218"
+          },
+          "bidx": 0,
+          "exid": 11955,
+          "exn": "Uniswap v4 (Ethereum)",
+          "liqUsd": "11621.171019298216090351",
+          "fa": "0x000000000004444c5dc75cb358380d2e3de08a90",
+          "top": true,
+          "mi": false
+        },
+        {
+          "addr": "0xf0c7bd388578bbf21cda8de92c856c008dd91606",
+          "v24": "4622.606827266861877911",
+          "t0": {
+            "addr": "0x57e114b691db790c35207b2e685d4a43181e6061",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/30171.png",
+            "n": "ENA",
+            "sym": "ENA",
+            "liq": "288.886375302282784134",
+            "liqUsd": "80.734065840023879575"
+          },
+          "t1": {
+            "addr": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/2396.png",
+            "n": "Wrapped Ether",
+            "sym": "WETH",
+            "liq": "3.727635084070770745",
+            "liqUsd": "10010.964156410844110635"
+          },
+          "bidx": 0,
+          "liqUsd": "10091.69822225086799021",
+          "fa": "0x44b7fbd4d87149efa5347c451e74b9fd18e89c55",
+          "top": true,
+          "mi": false
+        },
+        {
+          "addr": "0x08b8cebfca0f49a9303bab1cc4e2c25d280f2c00",
+          "v24": "309.925546901878665323",
+          "pubAt": "1712032235000",
+          "t0": {
+            "addr": "0x57e114b691db790c35207b2e685d4a43181e6061",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/30171.png",
+            "n": "ENA",
+            "sym": "ENA",
+            "liq": "5173.561190708759305691",
+            "liqUsd": "1455.049911970817166724"
+          },
+          "t1": {
+            "addr": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/2396.png",
+            "n": "Wrapped Ether",
+            "sym": "WETH",
+            "liq": "0.539192873941924729",
+            "liqUsd": "1448.571436745968081718"
+          },
+          "bidx": 0,
+          "exid": 1348,
+          "exn": "Uniswap v3 (Ethereum)",
+          "liqUsd": "2903.621348716785248441",
+          "fa": "0x1f98431c8ad98523631ae4a59f267346ea31f984",
+          "top": true,
+          "mi": false
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-26T10:49:19.793Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 194,
+        "credit_count": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "label": "E02-0ab6e30f-20260926T105032404Z",
+  "recordedAt": "2026-09-26T10:50:32.404Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v3/cryptocurrency/quotes/latest?convert=USD&id=36341",
+    "path": "/v3/cryptocurrency/quotes/latest",
+    "query": {
+      "convert": "USD",
+      "id": "36341"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 306,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 10:50:32 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 71b24e89f6f9e648d6cc206b3f6cc3da.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "y9qpFk7Db7HdM-lN1DdRBGlVqDga8PeXotMn7xqGqbMiMfg0GSfjZQ==",
+      "x-amz-cf-pop": "IAD55-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "9",
+      "x-server-traceid": "61f11c8761aa63bfa61c956e5a20de74"
+    },
+    "body": {
+      "data": [
+        {
+          "tags": [
+            {
+              "slug": "decentralized-exchange-dex-token",
+              "name": "Decentralized Exchange (DEX) Token",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "defi",
+              "name": "DeFi",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "derivatives",
+              "name": "Derivatives",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "dex",
+              "name": "DEX",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "bnb-chain-ecosystem",
+              "name": "BNB Chain Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "binance-ecosystem",
+              "name": "Binance Ecosystem",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-listing",
+              "name": "Binance Listing",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "perpetuals",
+              "name": "Perpetuals",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "made-in-china",
+              "name": "Made in China",
+              "category": "CATEGORY"
+            }
+          ],
+          "id": 36341,
+          "name": "Aster",
+          "symbol": "ASTER",
+          "slug": "aster",
+          "is_active": 1,
+          "infinite_supply": false,
+          "is_fiat": 0,
+          "circulating_supply": 2704529094.894596,
+          "total_supply": 7795741639.244865,
+          "max_supply": 8000000000,
+          "date_added": "2025-04-25T06:46:11.000Z",
+          "num_market_pairs": 472,
+          "cmc_rank": 44,
+          "last_updated": "2026-09-26T10:48:00.000Z",
+          "tvl_ratio": null,
+          "platform": {
+            "id": 1839,
+            "slug": "bnb",
+            "name": "BNB Smart Chain (BEP20)",
+            "symbol": "BNB",
+            "token_address": "0x000Ae314E2A2172a039B26378814C252734f556A"
+          },
+          "self_reported_circulating_supply": null,
+          "self_reported_market_cap": null,
+          "minted_market_cap": 5701921496.77,
+          "quote": [
+            {
+              "id": 2781,
+              "symbol": "USD",
+              "price": 0.7314148878494333,
+              "volume_24h": 81120577.01950738,
+              "volume_change_24h": -16.3107,
+              "cex_volume_24h": 74117727.01832505,
+              "dex_volume_24h": 7002850.00118232,
+              "percent_change_1h": 0.07074696,
+              "percent_change_24h": 0.22722864,
+              "percent_change_7d": -4.04313436,
+              "percent_change_30d": 3.27200068,
+              "percent_change_60d": 17.59292139,
+              "percent_change_90d": 18.03141409,
+              "market_cap": 1978132844.6278603,
+              "market_cap_dominance": 0.0685,
+              "fully_diluted_market_cap": 5851319102.8,
+              "minted_market_cap": 5701921496.77,
+              "tvl": null,
+              "last_updated": "2026-09-26T10:49:05.000Z"
+            }
+          ]
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-26T10:50:32.185Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 4,
+        "credit_count": 1
+      }
+    }
+  }
+}

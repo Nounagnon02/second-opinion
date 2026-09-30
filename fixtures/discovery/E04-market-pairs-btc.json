@@ -1,0 +1,51 @@
+{
+  "label": "E04-market-pairs-btc",
+  "recordedAt": "2026-09-24T16:04:53.817Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v2/cryptocurrency/market-pairs/latest?id=1&category=spot&limit=50&convert=USD&aux=effective_liquidity%2Cmarket_score%2Cmarket_reputation",
+    "path": "/v2/cryptocurrency/market-pairs/latest",
+    "query": {
+      "id": "1",
+      "category": "spot",
+      "limit": "50",
+      "convert": "USD",
+      "aux": "effective_liquidity,market_score,market_reputation"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 403,
+    "statusText": "Forbidden",
+    "latencyMs": 907,
+    "headers": {
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Thu, 24 Sep 2026 16:04:53 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 a8e6b944a46e102c6db103fc40c2aa38.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "ICvVTk4Jg-2V1WqBrzNRAlprhJIieRO_FDB9J69ywmhM65yu-VKMmQ==",
+      "x-amz-cf-pop": "MAD53-P7",
+      "x-cache": "Error from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "5",
+      "x-server-traceid": "035720b534aef8d31a9543ce40517e68"
+    },
+    "body": {
+      "status": {
+        "timestamp": "2026-09-24T16:04:53.676Z",
+        "error_code": 1006,
+        "error_message": "Your API Key subscription plan doesn't support this endpoint.",
+        "elapsed": 0,
+        "credit_count": 0,
+        "notice": null
+      }
+    }
+  }
+}

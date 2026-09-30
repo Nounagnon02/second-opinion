@@ -1,0 +1,163 @@
+{
+  "label": "E02-fb0e9672-20260926T081005585Z",
+  "recordedAt": "2026-09-26T08:10:05.585Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v3/cryptocurrency/quotes/latest?convert=USD&id=20947",
+    "path": "/v3/cryptocurrency/quotes/latest",
+    "query": {
+      "convert": "USD",
+      "id": "20947"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 3546,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 08:10:05 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 a8284d9336a0f90160c1b68f11e03f5c.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "pZDecH20Y-ZXbZo0KBLElYtP1a_3SxCmVXvu-M-1hL3bUHbPOFk8Sw==",
+      "x-amz-cf-pop": "CDG55-P3",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "10",
+      "x-server-traceid": "f7a6fa8feabca6a3d0fdc878c724acbd"
+    },
+    "body": {
+      "data": [
+        {
+          "tags": [
+            {
+              "slug": "binance-launchpool",
+              "name": "Binance Launchpool",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "coinbase-ventures-portfolio",
+              "name": "Coinbase Ventures Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-labs-portfolio",
+              "name": "YZi Labs Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "electric-capital-portfolio",
+              "name": "Electric Capital Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "a16z-portfolio",
+              "name": "a16z Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "sui-ecosystem",
+              "name": "Sui Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "layer-1",
+              "name": "Layer 1",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "move-vm",
+              "name": "MoveVM (MVM)",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "cmc-crypto-yearbook-2024-2025",
+              "name": "CMC Crypto Yearbook 2024-25",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "made-in-america",
+              "name": "Made in America",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "world-liberty-financial-portfolio",
+              "name": "World Liberty Financial Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-ecosystem",
+              "name": "Binance Ecosystem",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-listing",
+              "name": "Binance Listing",
+              "category": "CATEGORY"
+            }
+          ],
+          "id": 20947,
+          "name": "Sui",
+          "symbol": "SUI",
+          "slug": "sui",
+          "is_active": 1,
+          "infinite_supply": false,
+          "is_fiat": 0,
+          "circulating_supply": 4096537146.5409594,
+          "total_supply": 10000000000,
+          "max_supply": 10000000000,
+          "date_added": "2022-07-12T08:03:11.000Z",
+          "num_market_pairs": 989,
+          "cmc_rank": 23,
+          "last_updated": "2026-09-26T08:08:00.000Z",
+          "tvl_ratio": null,
+          "platform": null,
+          "self_reported_circulating_supply": 4096537146.54,
+          "self_reported_market_cap": 4744776697.729954,
+          "minted_market_cap": 11582408575.83,
+          "quote": [
+            {
+              "id": 2781,
+              "symbol": "USD",
+              "price": 1.158240857583207,
+              "volume_24h": 1752119809.9238672,
+              "volume_change_24h": 87.9826,
+              "cex_volume_24h": 1672616060.2134912,
+              "dex_volume_24h": 79503749.71037517,
+              "percent_change_1h": 0.19312149,
+              "percent_change_24h": 14.15866568,
+              "percent_change_7d": 42.97439349,
+              "percent_change_30d": 51.80998769,
+              "percent_change_60d": 70.16622064,
+              "percent_change_90d": 69.23469839,
+              "market_cap": 4744776697.731065,
+              "market_cap_dominance": 0.1645,
+              "fully_diluted_market_cap": 11582408575.83,
+              "minted_market_cap": 11582408575.83,
+              "tvl": null,
+              "last_updated": "2026-09-26T08:09:03.000Z"
+            }
+          ]
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-26T08:10:05.447Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 5,
+        "credit_count": 1
+      }
+    }
+  }
+}

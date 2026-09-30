@@ -1,0 +1,193 @@
+{
+  "label": "E05-660087af-20260926T104826496Z",
+  "recordedAt": "2026-09-26T10:48:26.496Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v2/cryptocurrency/info?id=5994",
+    "path": "/v2/cryptocurrency/info",
+    "query": {
+      "id": "5994"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 410,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 10:48:26 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 d2cb7631fe0377fd030ab6f92237ce72.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "IpU-yXZyERC9MFQwmBEBlZtp6LZQhAXWvxDcu733dvMVr88hFoW8Kg==",
+      "x-amz-cf-pop": "IAD55-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "11",
+      "x-server-traceid": "8371d19caaa55db9f05361535a4970b3"
+    },
+    "body": {
+      "data": {
+        "5994": {
+          "id": 5994,
+          "name": "Shiba Inu",
+          "symbol": "SHIB",
+          "category": "token",
+          "description": "Shiba Inu (SHIB) is a cryptocurrency launched in 2020and operates on the Ethereum platform. Shiba Inu has a current supply of 589,496,066,158,401.0805233 with 589,238,954,041,309.30493244 in circulation. The last known price of Shiba Inu is 0.00000593 USD and is up 1.60 over the last 24 hours. It is currently trading on 1103 active market(s) with $99,979,224.81 traded over the last 24 hours. More information can be found at https://shibatoken.com/.",
+          "slug": "shiba-inu",
+          "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/5994.png",
+          "subreddit": "SHIBArmy",
+          "notice": "",
+          "tags": [
+            "memes",
+            "ethereum-ecosystem",
+            "doggone-doggerel",
+            "bnb-chain-ecosystem",
+            "base-ecosystem",
+            "animal-memes",
+            "binance-ecosystem",
+            "binance-listing",
+            "etherlink-ecosystem",
+            "sec-cftc-token-taxonomy",
+            "sec-cftc-digital-commodities"
+          ],
+          "tag-names": [
+            "Memes",
+            "Ethereum Ecosystem",
+            "Doggone Doggerel",
+            "BNB Chain Ecosystem",
+            "Base Ecosystem",
+            "Animal Memes",
+            "Binance Ecosystem",
+            "Binance Listing",
+            "Etherlink Ecosystem",
+            "SEC/CFTC Token Taxonomy",
+            "SEC/CFTC Digital Commodities"
+          ],
+          "tag-groups": [
+            "INDUSTRY",
+            "PLATFORM",
+            "CATEGORY",
+            "PLATFORM",
+            "PLATFORM",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "PLATFORM",
+            "CATEGORY",
+            "CATEGORY"
+          ],
+          "urls": {
+            "website": [
+              "https://shibatoken.com/"
+            ],
+            "twitter": [
+              "https://twitter.com/shibtoken"
+            ],
+            "message_board": [
+              "https://medium.com/@allhailtheshiba/all-hail-the-shiba-an-experiment-in-decentralization-87e3792e92f2"
+            ],
+            "chat": [
+              "https://discord.com/invite/shibatoken",
+              "https://t.me/ShibaInu_Dogecoinkiller"
+            ],
+            "facebook": [],
+            "explorer": [
+              "https://etherscan.io/token/0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce",
+              "https://solscan.io/token/CiKu4eHsVrc1eueVQeHn7qhXTcVu95gSQmBpX4utjL9z",
+              "https://bscscan.com/token/0xb1547683DA678f2e1F003A780143EC10Af8a832B",
+              "https://finder.terra.money/mainnet/address/terra1huku2lecfjhq9d00k5a8dh73gw7dwe6vvuf2dd"
+            ],
+            "reddit": [
+              "https://reddit.com/r/SHIBArmy"
+            ],
+            "technical_doc": [
+              "https://github.com/shytoshikusama/woofwoofpaper/raw/main/SHIBA_INU_WOOF_WOOF.pdf"
+            ],
+            "source_code": [
+              "https://github.com/shytoshikusama/"
+            ],
+            "announcement": [
+              "https://shibatoken.com/"
+            ]
+          },
+          "platform": {
+            "id": "1027",
+            "name": "Ethereum",
+            "symbol": "ETH",
+            "slug": "ethereum",
+            "token_address": "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce"
+          },
+          "date_added": "2020-08-01T00:00:00.000Z",
+          "twitter_username": "shibtoken",
+          "is_hidden": 0,
+          "date_launched": "2020-08-01T00:00:00.000Z",
+          "contract_address": [
+            {
+              "contract_address": "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce",
+              "platform": {
+                "name": "Ethereum",
+                "coin": {
+                  "id": "1027",
+                  "name": "Ethereum",
+                  "symbol": "ETH",
+                  "slug": "ethereum"
+                }
+              }
+            },
+            {
+              "contract_address": "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce",
+              "platform": {
+                "name": "Base",
+                "coin": {
+                  "id": "27716",
+                  "name": "Base",
+                  "symbol": "-",
+                  "slug": "base"
+                }
+              }
+            },
+            {
+              "contract_address": "0x2859e4544c4bb03966803b044a93563bd2d0dd4d",
+              "platform": {
+                "name": "BNB Smart Chain (BEP20)",
+                "coin": {
+                  "id": "1839",
+                  "name": "BNB",
+                  "symbol": "BNB",
+                  "slug": "bnb"
+                }
+              }
+            }
+          ],
+          "self_reported_circulating_supply": 589551575078137,
+          "self_reported_tags": [
+            "Ethereum Ecosystem",
+            "Social Token",
+            "Animal Memes"
+          ],
+          "self_reported_market_cap": 3496788372.837505,
+          "infinite_supply": false
+        }
+      },
+      "status": {
+        "timestamp": "2026-09-26T10:48:26.157Z",
+        "error_code": 0,
+        "error_message": null,
+        "elapsed": 6,
+        "credit_count": 1,
+        "notice": null
+      }
+    }
+  }
+}

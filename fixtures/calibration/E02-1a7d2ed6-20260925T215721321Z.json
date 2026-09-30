@@ -1,0 +1,183 @@
+{
+  "label": "E02-1a7d2ed6-20260925T215721321Z",
+  "recordedAt": "2026-09-25T21:57:21.321Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v3/cryptocurrency/quotes/latest?convert=USD&id=74",
+    "path": "/v3/cryptocurrency/quotes/latest",
+    "query": {
+      "convert": "USD",
+      "id": "74"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 309,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Fri, 25 Sep 2026 21:57:21 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 1d665d877b0e9ec09e9ec07fe3b6c7b6.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "BMCuAaVNjbyVTIKdzhayzFzItJj0CfiL9rWnUgqm2EGjsq0_MHI3HA==",
+      "x-amz-cf-pop": "FRA60-P13",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "10",
+      "x-server-traceid": "a9c4722cc0ce9ad0925bb99928b9efdd"
+    },
+    "body": {
+      "data": [
+        {
+          "tags": [
+            {
+              "slug": "mineable",
+              "name": "Mineable",
+              "category": "OTHERS"
+            },
+            {
+              "slug": "pow",
+              "name": "PoW",
+              "category": "ALGORITHM"
+            },
+            {
+              "slug": "scrypt",
+              "name": "Scrypt",
+              "category": "ALGORITHM"
+            },
+            {
+              "slug": "medium-of-exchange",
+              "name": "Medium of Exchange",
+              "category": "INDUSTRY"
+            },
+            {
+              "slug": "memes",
+              "name": "Memes",
+              "category": "INDUSTRY"
+            },
+            {
+              "slug": "payments",
+              "name": "Payments",
+              "category": "INDUSTRY"
+            },
+            {
+              "slug": "solana-ecosystem",
+              "name": "Solana Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "doggone-doggerel",
+              "name": "Doggone Doggerel",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "doge-chain-ecosystem",
+              "name": "Doge Chain Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "osmosis-ecosystem",
+              "name": "Osmosis Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "ftx-bankruptcy-estate",
+              "name": "FTX Bankruptcy Estate ",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "animal-memes",
+              "name": "Animal Memes",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "made-in-america",
+              "name": "Made in America",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-ecosystem",
+              "name": "Binance Ecosystem",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-listing",
+              "name": "Binance Listing",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "sec-cftc-token-taxonomy",
+              "name": "SEC/CFTC Token Taxonomy",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "sec-cftc-digital-commodities",
+              "name": "SEC/CFTC Digital Commodities",
+              "category": "CATEGORY"
+            }
+          ],
+          "id": 74,
+          "name": "Dogecoin",
+          "symbol": "DOGE",
+          "slug": "dogecoin",
+          "is_active": 1,
+          "infinite_supply": true,
+          "is_fiat": 0,
+          "circulating_supply": 156067046383.7052,
+          "total_supply": 156067046383.7052,
+          "max_supply": null,
+          "date_added": "2013-12-15T00:00:00.000Z",
+          "num_market_pairs": 1518,
+          "cmc_rank": 11,
+          "last_updated": "2026-09-25T21:54:00.000Z",
+          "tvl_ratio": null,
+          "platform": null,
+          "self_reported_circulating_supply": null,
+          "self_reported_market_cap": null,
+          "minted_market_cap": 15277133339.22,
+          "quote": [
+            {
+              "id": 2781,
+              "symbol": "USD",
+              "price": 0.09788827105539498,
+              "volume_24h": 1432097982.7338212,
+              "volume_change_24h": 3.5733,
+              "cex_volume_24h": 1429290847.6619868,
+              "dex_volume_24h": 2807135.07183434,
+              "percent_change_1h": -0.23338015,
+              "percent_change_24h": 1.84169364,
+              "percent_change_7d": 10.94484479,
+              "percent_change_30d": 13.5298876,
+              "percent_change_60d": 36.3417741,
+              "percent_change_90d": 31.50437613,
+              "market_cap": 15277133339.223036,
+              "market_cap_dominance": 0.5315,
+              "fully_diluted_market_cap": 15277133339.22,
+              "minted_market_cap": 15277133339.22,
+              "tvl": null,
+              "last_updated": "2026-09-25T21:56:03.000Z"
+            }
+          ]
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-25T21:57:21.178Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 5,
+        "credit_count": 1
+      }
+    }
+  }
+}

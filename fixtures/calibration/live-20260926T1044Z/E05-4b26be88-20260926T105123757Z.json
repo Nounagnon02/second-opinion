@@ -1,0 +1,182 @@
+{
+  "label": "E05-4b26be88-20260926T105123757Z",
+  "recordedAt": "2026-09-26T10:51:23.757Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v2/cryptocurrency/info?id=33038",
+    "path": "/v2/cryptocurrency/info",
+    "query": {
+      "id": "33038"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 904,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 10:51:23 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 df2f03f1e32bc36cc15af726be2891aa.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "2J46yXECOcTYVKPYTZ5bZN6Xmx3IBwIYGaE3zM_LNUu64j6adIy7Ow==",
+      "x-amz-cf-pop": "IAD55-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "10",
+      "x-server-traceid": "802c444eff447b9ec05b7d658b134064"
+    },
+    "body": {
+      "data": {
+        "33038": {
+          "id": 33038,
+          "name": "Sky",
+          "symbol": "SKY",
+          "category": "token",
+          "description": "Sky (SKY) is a cryptocurrency and operates on the Ethereum platform. Sky has a current supply of 23,459,804,203.60596656 with 23,419,750,385.95672936 in circulation. The last known price of Sky is 0.07917035 USD and is up 6.96 over the last 24 hours. It is currently trading on 252 active market(s) with $32,994,062.50 traded over the last 24 hours. More information can be found at https://sky.money/.",
+          "slug": "sky",
+          "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/33038.png",
+          "subreddit": "",
+          "notice": "[Maker (MKR)](https://coinmarketcap.com/currencies/maker/) has been rebranded to [Sky (SKY)](https://coinmarketcap.com/currencies/sky/). For more information, please refer to this [article](https://forum.makerdao.com/t/sky-has-arrived/24959) and [post](https://x.com/SkyEcosystem/status/1828405625828843710).",
+          "tags": [
+            "store-of-value",
+            "defi",
+            "dao",
+            "ethereum-ecosystem",
+            "polychain-capital-portfolio",
+            "governance",
+            "lending-borowing",
+            "dragonfly-capital-portfolio",
+            "electric-capital-portfolio",
+            "a16z-portfolio",
+            "1confirmation-portfolio",
+            "placeholder-ventures-portfolio",
+            "pantera-capital-portfolio",
+            "paradigm-portfolio",
+            "near-protocol-ecosystem",
+            "arbitrum-ecosystem",
+            "spartan-group",
+            "bnb-chain-ecosystem",
+            "bitcoin-ecosystem",
+            "real-world-assets-protocols",
+            "standard-crypto-portfolio",
+            "binance-ecosystem",
+            "binance-listing"
+          ],
+          "tag-names": [
+            "Store Of Value",
+            "DeFi",
+            "DAO",
+            "Ethereum Ecosystem",
+            "Polychain Capital Portfolio",
+            "Governance",
+            "Lending & Borrowing",
+            "DragonFly Capital Portfolio",
+            "Electric Capital Portfolio",
+            "a16z Portfolio",
+            "1Confirmation Portfolio",
+            "Placeholder Ventures Portfolio",
+            "Pantera Capital Portfolio",
+            "Paradigm Portfolio",
+            "Near Protocol Ecosystem",
+            "Arbitrum Ecosystem",
+            "Spartan Group",
+            "BNB Chain Ecosystem",
+            "Bitcoin Ecosystem",
+            "Real World Assets Protocols",
+            "Standard Crypto Portfolio",
+            "Binance Ecosystem",
+            "Binance Listing"
+          ],
+          "tag-groups": [
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "PLATFORM",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "PLATFORM",
+            "PLATFORM",
+            "CATEGORY",
+            "PLATFORM",
+            "PLATFORM",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY"
+          ],
+          "urls": {
+            "website": [
+              "https://sky.money/"
+            ],
+            "twitter": [
+              "https://twitter.com/SkyEcosystem"
+            ],
+            "message_board": [],
+            "chat": [],
+            "facebook": [],
+            "explorer": [
+              "https://etherscan.io/token/0x56072C95FAA701256059aa122697B133aDEd9279",
+              "https://etherscan.io/address/0x56072c95faa701256059aa122697b133aded9279"
+            ],
+            "reddit": [],
+            "technical_doc": [],
+            "source_code": [],
+            "announcement": []
+          },
+          "platform": {
+            "id": "1027",
+            "name": "Ethereum",
+            "symbol": "ETH",
+            "slug": "ethereum",
+            "token_address": "0x56072C95FAA701256059aa122697B133aDEd9279"
+          },
+          "date_added": "2024-09-18T13:25:16.000Z",
+          "twitter_username": "SkyEcosystem",
+          "is_hidden": 0,
+          "contract_address": [
+            {
+              "contract_address": "0x56072C95FAA701256059aa122697B133aDEd9279",
+              "platform": {
+                "name": "Ethereum",
+                "coin": {
+                  "id": "1027",
+                  "name": "Ethereum",
+                  "symbol": "ETH",
+                  "slug": "ethereum"
+                }
+              }
+            }
+          ],
+          "infinite_supply": false
+        }
+      },
+      "status": {
+        "timestamp": "2026-09-26T10:51:23.615Z",
+        "error_code": 0,
+        "error_message": null,
+        "elapsed": 8,
+        "credit_count": 1,
+        "notice": null
+      }
+    }
+  }
+}

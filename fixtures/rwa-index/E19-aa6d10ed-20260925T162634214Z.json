@@ -1,0 +1,68 @@
+{
+  "label": "E19-aa6d10ed-20260925T162634214Z",
+  "recordedAt": "2026-09-25T16:26:34.214Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v5/real-world-assets/issuers?issuer_id=68e27862d4cd001228754d31&limit=250&start=1",
+    "path": "/v5/real-world-assets/issuers",
+    "query": {
+      "issuer_id": "68e27862d4cd001228754d31",
+      "limit": "250",
+      "start": "1"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 198,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Fri, 25 Sep 2026 16:26:34 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 b635e2b1f0ae92160e68ba87d10e2754.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "lriJgCSs4fCxVlGYQ5yvdhYJT2_tOQTtT5fH4G0OcdXiI5UDj-qXDA==",
+      "x-amz-cf-pop": "CDG55-P3",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "5",
+      "x-server-traceid": "45f905a57ecad07ad85b3756553d9fa4"
+    },
+    "body": {
+      "data": {
+        "name": "XAGx",
+        "website": "https://xagx.org/",
+        "logo": "https://s2.coinmarketcap.com/static/img/issuer/bwdPlk2V_400x400.png",
+        "tokens": [
+          {
+            "name": "Silver Token",
+            "symbol": "XAGX",
+            "crypto_id": 32149,
+            "rwa_id": 5
+          }
+        ],
+        "issuer_id": "68e27862d4cd001228754d31",
+        "num_tokens": 1,
+        "total_size": 1,
+        "has_more": false
+      },
+      "status": {
+        "timestamp": "2026-09-25T16:26:34.097Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 2,
+        "credit_count": 1
+      }
+    }
+  }
+}

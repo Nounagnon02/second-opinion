@@ -1,0 +1,129 @@
+{
+  "label": "E02-de8273d3-20260926T104925176Z",
+  "recordedAt": "2026-09-26T10:49:25.176Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v3/cryptocurrency/quotes/latest?convert=USD&id=27772",
+    "path": "/v3/cryptocurrency/quotes/latest",
+    "query": {
+      "convert": "USD",
+      "id": "27772"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 441,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 10:49:24 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 8ea525de0a543f72f5e5f9278e2150b4.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "yK0SSKlhX7UVFzWRdJPVGjhcmemWDF-2FOdhXwUxQi7W5Qa2qgvhQg==",
+      "x-amz-cf-pop": "IAD55-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "9",
+      "x-server-traceid": "f96c68e0fb04f71d695d6fd2329cb3b8"
+    },
+    "body": {
+      "data": [
+        {
+          "tags": [
+            {
+              "slug": "stablecoin",
+              "name": "Stablecoin",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "asset-backed-stablecoin",
+              "name": "Asset-Backed Stablecoin",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "stellar-ecosystem",
+              "name": "Stellar Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "usd-stablecoin",
+              "name": "USD Stablecoin",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "fiat-stablecoin",
+              "name": "Fiat Stablecoin",
+              "category": "CATEGORY"
+            }
+          ],
+          "id": 27772,
+          "name": "PayPal USD",
+          "symbol": "PYUSD",
+          "slug": "paypal-usd",
+          "is_active": 1,
+          "infinite_supply": false,
+          "is_fiat": 0,
+          "circulating_supply": 2803598413.1037216,
+          "total_supply": 2803598413.1037216,
+          "max_supply": null,
+          "date_added": "2023-08-21T14:30:00.000Z",
+          "num_market_pairs": 177,
+          "cmc_rank": 34,
+          "last_updated": "2026-09-26T10:47:00.000Z",
+          "tvl_ratio": null,
+          "platform": {
+            "id": 1027,
+            "slug": "ethereum",
+            "name": "Ethereum",
+            "symbol": "ETH",
+            "token_address": "0x6c3ea9036406852006290770bedfcaba0e23a0e8"
+          },
+          "self_reported_circulating_supply": null,
+          "self_reported_market_cap": null,
+          "minted_market_cap": 2803043361.47,
+          "quote": [
+            {
+              "id": 2781,
+              "symbol": "USD",
+              "price": 0.999802021704444,
+              "volume_24h": 69611623.81643434,
+              "volume_change_24h": 134.5722,
+              "cex_volume_24h": 8136513.44129469,
+              "dex_volume_24h": 61475110.37513965,
+              "percent_change_1h": 0.01545611,
+              "percent_change_24h": 0.00659709,
+              "percent_change_7d": -0.01463495,
+              "percent_change_30d": 0.00218647,
+              "percent_change_60d": 0.01108557,
+              "percent_change_90d": 0.03368832,
+              "market_cap": 2803043361.4684715,
+              "market_cap_dominance": 0.0971,
+              "fully_diluted_market_cap": 2803043361.47,
+              "minted_market_cap": 2803043361.47,
+              "tvl": null,
+              "last_updated": "2026-09-26T10:48:02.000Z"
+            }
+          ]
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-26T10:49:24.820Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 4,
+        "credit_count": 1
+      }
+    }
+  }
+}

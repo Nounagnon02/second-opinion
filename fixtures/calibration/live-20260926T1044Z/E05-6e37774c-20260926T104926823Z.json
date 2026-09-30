@@ -1,0 +1,155 @@
+{
+  "label": "E05-6e37774c-20260926T104926823Z",
+  "recordedAt": "2026-09-26T10:49:26.823Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v2/cryptocurrency/info?id=21159",
+    "path": "/v2/cryptocurrency/info",
+    "query": {
+      "id": "21159"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 240,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 10:49:26 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 2f2d826c16934c22388c7129474b7d96.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "zc9YeEhTQIVoAU31v0M8K-9N10Voj49gAjnHzVVXgi-cPNHEa_3RUw==",
+      "x-amz-cf-pop": "IAD55-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "13",
+      "x-server-traceid": "76bafdf2ae49bead69c65cd7ac52129f"
+    },
+    "body": {
+      "data": {
+        "21159": {
+          "id": 21159,
+          "name": "Ondo",
+          "symbol": "ONDO",
+          "category": "token",
+          "description": "Ondo (ONDO) is a cryptocurrency launched in 2021and operates on the Ethereum platform. Ondo has a current supply of 10,000,000,000 with 4,869,330,647 in circulation. The last known price of Ondo is 0.55903855 USD and is up 1.02 over the last 24 hours. It is currently trading on 458 active market(s) with $329,080,490.95 traded over the last 24 hours. More information can be found at https://ondo.foundation/.",
+          "slug": "ondo-finance",
+          "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/21159.png",
+          "subreddit": "",
+          "notice": "",
+          "tags": [
+            "ethereum-ecosystem",
+            "real-world-assets-protocols",
+            "cmc-crypto-yearbook-2024-2025",
+            "made-in-america",
+            "world-liberty-financial-portfolio",
+            "binance-ecosystem",
+            "binance-listing",
+            "coinlist-launchpad"
+          ],
+          "tag-names": [
+            "Ethereum Ecosystem",
+            "Real World Assets Protocols",
+            "CMC Crypto Yearbook 2024-25",
+            "Made in America",
+            "World Liberty Financial Portfolio",
+            "Binance Ecosystem",
+            "Binance Listing",
+            "Coinlist Launchpad"
+          ],
+          "tag-groups": [
+            "PLATFORM",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY"
+          ],
+          "urls": {
+            "website": [
+              "https://ondo.foundation/"
+            ],
+            "twitter": [
+              "https://twitter.com/OndoFoundation"
+            ],
+            "message_board": [
+              "https://blog.ondo.foundation/"
+            ],
+            "chat": [
+              "https://t.me/+eKZJ60fBbd1hNzQx"
+            ],
+            "facebook": [],
+            "explorer": [
+              "https://etherscan.io/token/0xfAbA6f8e4a5E8Ab82F62fe7C39859FA577269BE3",
+              "https://www.okx.com/web3/explorer/eth/token/0xfAbA6f8e4a5E8Ab82F62fe7C39859FA577269BE3"
+            ],
+            "reddit": [],
+            "technical_doc": [
+              "https://docs.ondo.foundation/ondo-token"
+            ],
+            "source_code": [
+              "https://github.com/ondoprotocol"
+            ],
+            "announcement": [
+              "https://t.me/ondofinance"
+            ]
+          },
+          "platform": {
+            "id": "1027",
+            "name": "Ethereum",
+            "symbol": "ETH",
+            "slug": "ethereum",
+            "token_address": "0xfaba6f8e4a5e8ab82f62fe7c39859fa577269be3"
+          },
+          "date_added": "2024-01-18T12:06:25.000Z",
+          "twitter_username": "OndoFoundation",
+          "is_hidden": 0,
+          "date_launched": "2021-03-09T00:00:00.000Z",
+          "contract_address": [
+            {
+              "contract_address": "0xfaba6f8e4a5e8ab82f62fe7c39859fa577269be3",
+              "platform": {
+                "name": "Ethereum",
+                "coin": {
+                  "id": "1027",
+                  "name": "Ethereum",
+                  "symbol": "ETH",
+                  "slug": "ethereum"
+                }
+              }
+            }
+          ],
+          "self_reported_circulating_supply": 4869330647,
+          "self_reported_tags": [
+            "DAO",
+            "Lending & Borrowing",
+            "Real World Assets Protocols"
+          ],
+          "self_reported_market_cap": 2697233549.979385,
+          "infinite_supply": false
+        }
+      },
+      "status": {
+        "timestamp": "2026-09-26T10:49:26.668Z",
+        "error_code": 0,
+        "error_message": null,
+        "elapsed": 8,
+        "credit_count": 1,
+        "notice": null
+      }
+    }
+  }
+}

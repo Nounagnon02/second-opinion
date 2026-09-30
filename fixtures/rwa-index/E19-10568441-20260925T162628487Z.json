@@ -1,0 +1,608 @@
+{
+  "label": "E19-10568441-20260925T162628487Z",
+  "recordedAt": "2026-09-25T16:26:28.487Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v5/real-world-assets/issuers?issuer_id=688c6172abae9b5b9fb30359&limit=250&start=1",
+    "path": "/v5/real-world-assets/issuers",
+    "query": {
+      "issuer_id": "688c6172abae9b5b9fb30359",
+      "limit": "250",
+      "start": "1"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 367,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Fri, 25 Sep 2026 16:26:28 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 b635e2b1f0ae92160e68ba87d10e2754.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "3_dLnbp0pPZql3_S-MRPjwJWr68dEyfDC3Mk9U3cRGj9nL2Z3s1y8w==",
+      "x-amz-cf-pop": "CDG55-P3",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "8",
+      "x-server-traceid": "5ab86de2eb3cd2399a64acc4a03f2ea0"
+    },
+    "body": {
+      "data": {
+        "name": "Dinari Assets",
+        "website": "https://dinari.com/",
+        "logo": "https://s2.coinmarketcap.com/static/img/issuer/5a59aaed_253f_4771_8e52_4ecc50ef127c_medium.jpg",
+        "tokens": [
+          {
+            "name": "NVIDIA tokenized stock (Dinari)",
+            "symbol": "NVDA.D",
+            "crypto_id": 28616,
+            "rwa_id": 2
+          },
+          {
+            "name": "Netflix tokenized stock (Dinari)",
+            "symbol": "NFLX.D",
+            "crypto_id": 28617,
+            "rwa_id": 37
+          },
+          {
+            "name": "MSFT tokenized stock (Dinari)",
+            "symbol": "MSFT.D",
+            "crypto_id": 28618,
+            "rwa_id": 7
+          },
+          {
+            "name": "META tokenized stock (Dinari)",
+            "symbol": "META.D",
+            "crypto_id": 28621,
+            "rwa_id": 10
+          },
+          {
+            "name": "DIS tokenized stock (Dinari)",
+            "symbol": "DIS.D",
+            "crypto_id": 28622,
+            "rwa_id": 110
+          },
+          {
+            "name": "Paypal tokenized stock (Dinari)",
+            "symbol": "PYPL.D",
+            "crypto_id": 28623,
+            "rwa_id": 93
+          },
+          {
+            "name": "AAPL tokenized stock (Dinari)",
+            "symbol": "AAPL.D",
+            "crypto_id": 28624,
+            "rwa_id": 3
+          },
+          {
+            "name": "COIN tokenized stock (Dinari)",
+            "symbol": "COIN.D",
+            "crypto_id": 28625,
+            "rwa_id": 82
+          },
+          {
+            "name": "TSLA tokenized stock (Dinari)",
+            "symbol": "TSLA.D",
+            "crypto_id": 28626,
+            "rwa_id": 14
+          },
+          {
+            "name": "WisdomTree Floating Rate Tokenized Treasury Fund (Dinari)",
+            "symbol": "USFR.D",
+            "crypto_id": 28627,
+            "rwa_id": 149
+          },
+          {
+            "name": "SPY tokenized ETF (Dinari)",
+            "symbol": "SPY.D",
+            "crypto_id": 28628,
+            "rwa_id": 86
+          },
+          {
+            "name": "PFE tokenized stock (Dinari)",
+            "symbol": "PFE.D",
+            "crypto_id": 28629,
+            "rwa_id": 92
+          },
+          {
+            "name": "BRK tokenized stock (Dinari)",
+            "symbol": "BRK.A.D",
+            "crypto_id": 28630,
+            "rwa_id": 15
+          },
+          {
+            "name": "PLD tokenized stock (Dinari)",
+            "symbol": "PLD.D",
+            "crypto_id": 28631,
+            "rwa_id": 213
+          },
+          {
+            "name": "AMD tokenized stock (Dinari)",
+            "symbol": "AMD.D",
+            "crypto_id": 28632,
+            "rwa_id": 25
+          },
+          {
+            "name": "ARM tokenized stock (Dinari)",
+            "symbol": "ARM.D",
+            "crypto_id": 28633,
+            "rwa_id": 54
+          },
+          {
+            "name": "GOOGL tokenized stock (Dinari)",
+            "symbol": "GOOGL.D",
+            "crypto_id": 28634,
+            "rwa_id": 4
+          },
+          {
+            "name": "HYMB tokenized stock (Dinari)",
+            "symbol": "HYMB.D",
+            "crypto_id": 37071,
+            "rwa_id": 150
+          },
+          {
+            "name": "SPDR Gold Shares tokenized ETF (Dinari)",
+            "symbol": "GLD.D",
+            "crypto_id": 37081,
+            "rwa_id": 87
+          },
+          {
+            "name": "abrdn Physical Palladium Shares tokenized ETF (Dinari)",
+            "symbol": "PALL.D",
+            "crypto_id": 37090,
+            "rwa_id": 214
+          },
+          {
+            "name": "iShares Bitcoin Trust tokenized ETF (Dinari)",
+            "symbol": "IBIT.D",
+            "crypto_id": 37091,
+            "rwa_id": 151
+          },
+          {
+            "name": "Grayscale Ethereum Trust tokenized ETF (Dinari)",
+            "symbol": "ETHE.D",
+            "crypto_id": 37092,
+            "rwa_id": 215
+          },
+          {
+            "name": "ARK 21Shares Bitcoin tokenized ETF (Dinari)",
+            "symbol": "ARKB.D",
+            "crypto_id": 37093,
+            "rwa_id": null
+          },
+          {
+            "name": "abrdn Physical Platinum Shares tokenized ETF (Dinari)",
+            "symbol": "PPLT.D",
+            "crypto_id": 37094,
+            "rwa_id": null
+          },
+          {
+            "name": "Alpha Architect 1-3 Month Box tokenized ETF (Dinari)",
+            "symbol": "BOXX.D",
+            "crypto_id": 37101,
+            "rwa_id": null
+          },
+          {
+            "name": "GME Tokenized Stock (Dinari)",
+            "symbol": "GME.D",
+            "crypto_id": 37117,
+            "rwa_id": 116
+          },
+          {
+            "name": "ADBE tokenized stock (Dinari)",
+            "symbol": "ADBE.D",
+            "crypto_id": 37123,
+            "rwa_id": 138
+          },
+          {
+            "name": "AVGO tokenized stock (Dinari)",
+            "symbol": "AVGO.D",
+            "crypto_id": 37126,
+            "rwa_id": 13
+          },
+          {
+            "name": "BITB tokenized stock (Dinari)",
+            "symbol": "BITB.D",
+            "crypto_id": 37127,
+            "rwa_id": null
+          },
+          {
+            "name": "FBTC tokenized stock (Dinari)",
+            "symbol": "FBTC.D",
+            "crypto_id": 37128,
+            "rwa_id": null
+          },
+          {
+            "name": "MARA tokenized stock (Dinari)",
+            "symbol": "MARA.D",
+            "crypto_id": 37130,
+            "rwa_id": 123
+          },
+          {
+            "name": "NLY tokenized stock (Dinari)",
+            "symbol": "NLY.D",
+            "crypto_id": 37132,
+            "rwa_id": null
+          },
+          {
+            "name": "WOOD tokenized stock (Dinari)",
+            "symbol": "WOOD.D",
+            "crypto_id": 37133,
+            "rwa_id": null
+          },
+          {
+            "name": "WEAT tokenized stock (Dinari)",
+            "symbol": "WEAT.D",
+            "crypto_id": 37134,
+            "rwa_id": null
+          },
+          {
+            "name": "SLX tokenized stock (Dinari)",
+            "symbol": "SLX.D",
+            "crypto_id": 37135,
+            "rwa_id": null
+          },
+          {
+            "name": "GBTC tokenized stock (Dinari)",
+            "symbol": "GBTC.D",
+            "crypto_id": 37136,
+            "rwa_id": null
+          },
+          {
+            "name": "ARKX tokenized stock (Dinari)",
+            "symbol": "ARKX.D",
+            "crypto_id": 37137,
+            "rwa_id": null
+          },
+          {
+            "name": "BA tokenized stock (Dinari)",
+            "symbol": "BA.D",
+            "crypto_id": 37138,
+            "rwa_id": 106
+          },
+          {
+            "name": "BRRR tokenized stock (Dinari)",
+            "symbol": "BRRR.D",
+            "crypto_id": 37139,
+            "rwa_id": null
+          },
+          {
+            "name": "ARKK tokenized stock (Dinari)",
+            "symbol": "ARKK.D",
+            "crypto_id": 37140,
+            "rwa_id": null
+          },
+          {
+            "name": "AZN tokenized stock (Dinari)",
+            "symbol": "AZN.D",
+            "crypto_id": 37141,
+            "rwa_id": null
+          },
+          {
+            "name": "BLK tokenized stock (Dinari)",
+            "symbol": "BLK.D",
+            "crypto_id": 37142,
+            "rwa_id": null
+          },
+          {
+            "name": "JNJ tokenized stock (Dinari)",
+            "symbol": "JNJ.D",
+            "crypto_id": 37145,
+            "rwa_id": null
+          },
+          {
+            "name": "MCD tokenized stock (Dinari)",
+            "symbol": "MCD.D",
+            "crypto_id": 37147,
+            "rwa_id": null
+          },
+          {
+            "name": "QQQ tokenized stock (Dinari)",
+            "symbol": "QQQ.D",
+            "crypto_id": 37151,
+            "rwa_id": null
+          },
+          {
+            "name": "TQQQ tokenized stock (Dinari)",
+            "symbol": "TQQQ.D",
+            "crypto_id": 37152,
+            "rwa_id": null
+          },
+          {
+            "name": "HOOD tokenized stock (Dinari)",
+            "symbol": "HOOD.D",
+            "crypto_id": 37153,
+            "rwa_id": null
+          },
+          {
+            "name": "DEFI tokenized stock (Dinari)",
+            "symbol": "DEFI.D",
+            "crypto_id": 37154,
+            "rwa_id": null
+          },
+          {
+            "name": "CAT tokenized stock (Dinari)",
+            "symbol": "CAT.D",
+            "crypto_id": 37155,
+            "rwa_id": null
+          },
+          {
+            "name": "BTCW tokenized stock (Dinari)",
+            "symbol": "BTCW.D",
+            "crypto_id": 37156,
+            "rwa_id": null
+          },
+          {
+            "name": "BAC tokenized stock (Dinari)",
+            "symbol": "BAC.D",
+            "crypto_id": 37157,
+            "rwa_id": null
+          },
+          {
+            "name": "BTCO tokenized stock (Dinari)",
+            "symbol": "BTCO.D",
+            "crypto_id": 37158,
+            "rwa_id": null
+          },
+          {
+            "name": "HUT tokenized stock (Dinari)",
+            "symbol": "HUT.D",
+            "crypto_id": 37159,
+            "rwa_id": null
+          },
+          {
+            "name": "V tokenized stock (Dinari)",
+            "symbol": "V.D",
+            "crypto_id": 37160,
+            "rwa_id": null
+          },
+          {
+            "name": "XOM tokenized stock (Dinari)",
+            "symbol": "XOM.D",
+            "crypto_id": 37161,
+            "rwa_id": null
+          },
+          {
+            "name": "PHO tokenized stock (Dinari)",
+            "symbol": "PHO.D",
+            "crypto_id": 37162,
+            "rwa_id": null
+          },
+          {
+            "name": "LMT tokenized stock (Dinari)",
+            "symbol": "LMT.D",
+            "crypto_id": 37164,
+            "rwa_id": null
+          },
+          {
+            "name": "KO tokenized stock (Dinari)",
+            "symbol": "KO.D",
+            "crypto_id": 37165,
+            "rwa_id": null
+          },
+          {
+            "name": "JPM tokenized stock (Dinari)",
+            "symbol": "JPM.D",
+            "crypto_id": 37167,
+            "rwa_id": null
+          },
+          {
+            "name": "YUM tokenized stock (Dinari)",
+            "symbol": "YUM.D",
+            "crypto_id": 37168,
+            "rwa_id": null
+          },
+          {
+            "name": "EZBC tokenized stock (Dinari)",
+            "symbol": "EZBC.D",
+            "crypto_id": 37169,
+            "rwa_id": null
+          },
+          {
+            "name": "PG tokenized stock (Dinari)",
+            "symbol": "PG.D",
+            "crypto_id": 37170,
+            "rwa_id": null
+          },
+          {
+            "name": "CCL tokenized stock (Dinari)",
+            "symbol": "CCL.D",
+            "crypto_id": 37171,
+            "rwa_id": null
+          },
+          {
+            "name": "F tokenized stock (Dinari)",
+            "symbol": "F.D",
+            "crypto_id": 37173,
+            "rwa_id": null
+          },
+          {
+            "name": "CSCO tokenized stock (Dinari)",
+            "symbol": "CSCO.D",
+            "crypto_id": 37179,
+            "rwa_id": null
+          },
+          {
+            "name": "ITA tokenized stock (Dinari)",
+            "symbol": "ITA.D",
+            "crypto_id": 37181,
+            "rwa_id": null
+          },
+          {
+            "name": "RKLB tokenized stock (Dinari)",
+            "symbol": "RKLB.D",
+            "crypto_id": 37182,
+            "rwa_id": null
+          },
+          {
+            "name": "COST tokenized stock (Dinari)",
+            "symbol": "COST.D",
+            "crypto_id": 37184,
+            "rwa_id": null
+          },
+          {
+            "name": "WALRF tokenized stock (Dinari)",
+            "symbol": "WALRF.D",
+            "crypto_id": 37185,
+            "rwa_id": null
+          },
+          {
+            "name": "SPSK tokenized stock (Dinari)",
+            "symbol": "SPSK.D",
+            "crypto_id": 37206,
+            "rwa_id": null
+          },
+          {
+            "name": "SPTE tokenized stock (Dinari)",
+            "symbol": "SPTE.D",
+            "crypto_id": 37232,
+            "rwa_id": null
+          },
+          {
+            "name": "SPUS tokenized stock (Dinari)",
+            "symbol": "SPUS.D",
+            "crypto_id": 37233,
+            "rwa_id": null
+          },
+          {
+            "name": "SPWO tokenized stock (Dinari)",
+            "symbol": "SPWO.D",
+            "crypto_id": 37234,
+            "rwa_id": null
+          },
+          {
+            "name": "UFO tokenized stock (Dinari)",
+            "symbol": "UFO.D",
+            "crypto_id": 37235,
+            "rwa_id": null
+          },
+          {
+            "name": "VXX tokenized stock (Dinari)",
+            "symbol": "VXX.D",
+            "crypto_id": 37236,
+            "rwa_id": null
+          },
+          {
+            "name": "SNOW tokenized stock (Dinari)",
+            "symbol": "SNOW.D",
+            "crypto_id": 37239,
+            "rwa_id": null
+          },
+          {
+            "name": "SBUX tokenized stock (Dinari)",
+            "symbol": "SBUX.D",
+            "crypto_id": 37242,
+            "rwa_id": null
+          },
+          {
+            "name": "MELI tokenized stock (Dinari)",
+            "symbol": "MELI.D",
+            "crypto_id": 37243,
+            "rwa_id": null
+          },
+          {
+            "name": "EEM tokenized stock (Dinari)",
+            "symbol": "EEM.D",
+            "crypto_id": 37246,
+            "rwa_id": null
+          },
+          {
+            "name": "CVX tokenized stock (Dinari)",
+            "symbol": "CVX.D",
+            "crypto_id": 37247,
+            "rwa_id": null
+          },
+          {
+            "name": "USHY tokenized stock (Dinari)",
+            "symbol": "USHY.D",
+            "crypto_id": 37249,
+            "rwa_id": null
+          },
+          {
+            "name": "TJX tokenized stock (Dinari)",
+            "symbol": "TJX.D",
+            "crypto_id": 37254,
+            "rwa_id": null
+          },
+          {
+            "name": "SOXL tokenized stock (Dinari)",
+            "symbol": "SOXL.D",
+            "crypto_id": 37255,
+            "rwa_id": null
+          },
+          {
+            "name": "SQ tokenized stock (Dinari)",
+            "symbol": "SQ.D",
+            "crypto_id": 37261,
+            "rwa_id": null
+          },
+          {
+            "name": "ERO tokenized stock (Dinari)",
+            "symbol": "ERO.D",
+            "crypto_id": 37262,
+            "rwa_id": null
+          },
+          {
+            "name": "DAL tokenized stock (Dinari)",
+            "symbol": "DAL.D",
+            "crypto_id": 37264,
+            "rwa_id": null
+          },
+          {
+            "name": "RDDT tokenized stock (Dinari)",
+            "symbol": "RDDT.D",
+            "crypto_id": 37265,
+            "rwa_id": null
+          },
+          {
+            "name": "RBLX tokenized stock (Dinari)",
+            "symbol": "RBLX.D",
+            "crypto_id": 37267,
+            "rwa_id": null
+          },
+          {
+            "name": "SONY tokenized stock (Dinari)",
+            "symbol": "SONY.D",
+            "crypto_id": 37268,
+            "rwa_id": null
+          },
+          {
+            "name": "AMZN tokenized stock (Dinari)",
+            "symbol": "AMZN.D",
+            "crypto_id": 37271,
+            "rwa_id": null
+          },
+          {
+            "name": "AMC tokenized stock (Dinari)",
+            "symbol": "AMC.D",
+            "crypto_id": 37273,
+            "rwa_id": null
+          }
+        ],
+        "issuer_id": "688c6172abae9b5b9fb30359",
+        "num_tokens": 91,
+        "total_size": 91,
+        "has_more": false
+      },
+      "status": {
+        "timestamp": "2026-09-25T16:26:28.368Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 3,
+        "credit_count": 1
+      }
+    }
+  }
+}

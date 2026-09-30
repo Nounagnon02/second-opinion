@@ -1,0 +1,66 @@
+{
+  "label": "E13-rwa-map-gold",
+  "recordedAt": "2026-09-24T16:03:48.841Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v5/real-world-assets/map?symbol=GOLD",
+    "path": "/v5/real-world-assets/map",
+    "query": {
+      "symbol": "GOLD"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 796,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Thu, 24 Sep 2026 16:03:48 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 b5a881aabeb53eabef56362664c79ea4.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "Y1yvAUfUVCSVw8WY_UaqqnMFzhm6D6CxDdvaDk5BSagzdIv2Hf4BcQ==",
+      "x-amz-cf-pop": "BRU50-P1",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "7",
+      "x-server-traceid": "cbd62db68a3e6a0def0f98ff2a738a9e"
+    },
+    "body": {
+      "data": {
+        "rwa_assets": [
+          {
+            "name": "Gold",
+            "symbol": "GOLD",
+            "slug": "gold",
+            "rwa_id": 1,
+            "asset_type": "commodity",
+            "rwa_rank": 1,
+            "has_tokens": true,
+            "first_historical_data": "2009-09-27T00:00:00.000Z",
+            "last_historical_data": "2026-09-24T16:00:00.000Z"
+          }
+        ],
+        "total_size": 1,
+        "has_more": false
+      },
+      "status": {
+        "timestamp": "2026-09-24T16:03:48.717Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 1,
+        "credit_count": 0
+      }
+    }
+  }
+}

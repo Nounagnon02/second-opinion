@@ -1,0 +1,181 @@
+{
+  "label": "E05-1fef5459-20260926T104724952Z",
+  "recordedAt": "2026-09-26T10:47:24.952Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v2/cryptocurrency/info?id=20947",
+    "path": "/v2/cryptocurrency/info",
+    "query": {
+      "id": "20947"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 224,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 10:47:24 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 7da46316f14c93c894dc0b0f9fcad800.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "UH5TX2YmxJQc20o4LoSMqJZ5V5k3wRbTDcRNvWqo7LMiYWRmvNfEXQ==",
+      "x-amz-cf-pop": "IAD55-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "13",
+      "x-server-traceid": "f1084564aa0397159de3dd636e5c2e7e"
+    },
+    "body": {
+      "data": {
+        "20947": {
+          "id": 20947,
+          "name": "Sui",
+          "symbol": "SUI",
+          "category": "coin",
+          "description": "Sui (SUI) is a cryptocurrency launched in 2023. Sui has a current supply of 10,000,000,000 with 4,096,537,146.5409594 in circulation. The last known price of Sui is 1.18615097 USD and is up 13.55 over the last 24 hours. It is currently trading on 989 active market(s) with $1,738,079,943.42 traded over the last 24 hours. More information can be found at https://sui.io/.",
+          "slug": "sui",
+          "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/20947.png",
+          "subreddit": "sui/",
+          "notice": "",
+          "tags": [
+            "binance-launchpool",
+            "coinbase-ventures-portfolio",
+            "binance-labs-portfolio",
+            "electric-capital-portfolio",
+            "a16z-portfolio",
+            "sui-ecosystem",
+            "layer-1",
+            "move-vm",
+            "cmc-crypto-yearbook-2024-2025",
+            "made-in-america",
+            "world-liberty-financial-portfolio",
+            "binance-ecosystem",
+            "binance-listing"
+          ],
+          "tag-names": [
+            "Binance Launchpool",
+            "Coinbase Ventures Portfolio",
+            "YZi Labs Portfolio",
+            "Electric Capital Portfolio",
+            "a16z Portfolio",
+            "Sui Ecosystem",
+            "Layer 1",
+            "MoveVM (MVM)",
+            "CMC Crypto Yearbook 2024-25",
+            "Made in America",
+            "World Liberty Financial Portfolio",
+            "Binance Ecosystem",
+            "Binance Listing"
+          ],
+          "tag-groups": [
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "PLATFORM",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY"
+          ],
+          "urls": {
+            "website": [
+              "https://sui.io/"
+            ],
+            "twitter": [
+              "https://twitter.com/SuiNetwork"
+            ],
+            "message_board": [
+              "https://blog.sui.io/"
+            ],
+            "chat": [
+              "https://discord.gg/sui"
+            ],
+            "facebook": [],
+            "explorer": [
+              "https://suivision.xyz/",
+              "https://suiscan.xyz/mainnet/home",
+              "https://www.okx.com/web3/explorer/sui"
+            ],
+            "reddit": [
+              "https://reddit.com/r/sui/"
+            ],
+            "technical_doc": [
+              "https://docs.sui.io/paper/sui.pdf"
+            ],
+            "source_code": [
+              "https://github.com/MystenLabs"
+            ],
+            "announcement": []
+          },
+          "platform": {
+            "id": "5426",
+            "name": "Solana",
+            "symbol": "SOL",
+            "slug": "solana",
+            "token_address": "suifhC9gU1VbJAPYPTBkHJyyyStKGLLYPVDTmPoqbvA"
+          },
+          "date_added": "2022-07-12T08:03:11.000Z",
+          "twitter_username": "SuiNetwork",
+          "is_hidden": 0,
+          "date_launched": "2023-04-10T00:00:00.000Z",
+          "contract_address": [
+            {
+              "contract_address": "suifhC9gU1VbJAPYPTBkHJyyyStKGLLYPVDTmPoqbvA",
+              "platform": {
+                "name": "Solana",
+                "coin": {
+                  "id": "5426",
+                  "name": "Solana",
+                  "symbol": "SOL",
+                  "slug": "solana"
+                }
+              }
+            },
+            {
+              "contract_address": "0x2::sui::SUI",
+              "platform": {
+                "name": "Sui Network",
+                "coin": {
+                  "id": "20947",
+                  "name": "Sui",
+                  "symbol": "SUI",
+                  "slug": "sui"
+                }
+              }
+            }
+          ],
+          "self_reported_circulating_supply": 4096537146.54,
+          "self_reported_tags": [
+            "Layer 1"
+          ],
+          "self_reported_market_cap": 4841197758.54389,
+          "infinite_supply": false
+        }
+      },
+      "status": {
+        "timestamp": "2026-09-26T10:47:24.807Z",
+        "error_code": 0,
+        "error_message": null,
+        "elapsed": 7,
+        "credit_count": 1,
+        "notice": null
+      }
+    }
+  }
+}

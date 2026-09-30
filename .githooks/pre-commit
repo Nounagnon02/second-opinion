@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Refuses the commit when the staged changes contain the CMC API key (see scripts/check-secrets.sh).
+# Enabled by scripts/install-hooks.sh, which `npm install` runs through the `prepare` script.
+set -euo pipefail
+root="$(git rev-parse --show-toplevel)"
+if ! "$root/scripts/check-secrets.sh"; then
+  echo "Commit refused: remove the secret from the staged changes, then commit again." >&2
+  exit 1
+fi

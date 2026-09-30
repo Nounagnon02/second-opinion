@@ -1,0 +1,195 @@
+{
+  "label": "E05-b154c0c2-20260926T104827646Z",
+  "recordedAt": "2026-09-26T10:48:27.646Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v2/cryptocurrency/info?id=3635",
+    "path": "/v2/cryptocurrency/info",
+    "query": {
+      "id": "3635"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 466,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 10:48:27 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 d2cb7631fe0377fd030ab6f92237ce72.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "h5C-sTXexy0Y48zoFZgAdvMBvuLRnoEn0hpqMYz-lYjtJ4NsZHFcnA==",
+      "x-amz-cf-pop": "IAD55-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "15",
+      "x-server-traceid": "b5c1e7c0045c067533633c5b9f8cd408"
+    },
+    "body": {
+      "data": {
+        "3635": {
+          "id": 3635,
+          "name": "Cronos",
+          "symbol": "CRO",
+          "category": "coin",
+          "description": "Cronos (CRO) is a cryptocurrency launched in 2021. Cronos has a current supply of 98,944,757,106.3361 with 49,744,751,984.44081 in circulation. The last known price of Cronos is 0.06583417 USD and is up 0.90 over the last 24 hours. It is currently trading on 357 active market(s) with $11,500,141.03 traded over the last 24 hours. More information can be found at https://cronos.org/.",
+          "slug": "cronos",
+          "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/3635.png",
+          "subreddit": "",
+          "notice": "",
+          "tags": [
+            "medium-of-exchange",
+            "centralized-exchange",
+            "mobile",
+            "payments",
+            "layer-1"
+          ],
+          "tag-names": [
+            "Medium of Exchange",
+            "Centralized Exchange (CEX) Token",
+            "Mobile",
+            "Payments",
+            "Layer 1"
+          ],
+          "tag-groups": [
+            "INDUSTRY",
+            "CATEGORY",
+            "INDUSTRY",
+            "INDUSTRY",
+            "CATEGORY"
+          ],
+          "urls": {
+            "website": [
+              "https://cronos.org/"
+            ],
+            "twitter": [
+              "https://twitter.com/cronos_chain"
+            ],
+            "message_board": [
+              "https://blog.cronos.org/"
+            ],
+            "chat": [
+              "https://discord.com/invite/pahqHz26q4"
+            ],
+            "facebook": [],
+            "explorer": [
+              "https://explorer.cronos.org/",
+              "https://solscan.io/token/DvjMYMVeXgKxaixGKpzQThLoG98nc7HSU7eanzsdCboA",
+              "https://etherscan.io/token/0xa0b73e1ff0b80914ab6fe0444e65848c4c34450b"
+            ],
+            "reddit": [],
+            "technical_doc": [
+              "https://whitepaper.cronos.org/"
+            ],
+            "source_code": [
+              "https://github.com/crypto-org-chain/cronos"
+            ],
+            "announcement": [
+              "https://blog.cronos.org/"
+            ]
+          },
+          "platform": {
+            "id": "1027",
+            "name": "Ethereum",
+            "symbol": "ETH",
+            "slug": "ethereum",
+            "token_address": "0xa0b73e1ff0b80914ab6fe0444e65848c4c34450b"
+          },
+          "date_added": "2018-12-14T00:00:00.000Z",
+          "twitter_username": "cronos_chain",
+          "is_hidden": 0,
+          "date_launched": "2021-03-25T00:00:00.000Z",
+          "contract_address": [
+            {
+              "contract_address": "0xa0b73e1ff0b80914ab6fe0444e65848c4c34450b",
+              "platform": {
+                "name": "Ethereum",
+                "coin": {
+                  "id": "1027",
+                  "name": "Ethereum",
+                  "symbol": "ETH",
+                  "slug": "ethereum"
+                }
+              }
+            },
+            {
+              "contract_address": "DvjMYMVeXgKxaixGKpzQThLoG98nc7HSU7eanzsdCboA",
+              "platform": {
+                "name": "Solana",
+                "coin": {
+                  "id": "5426",
+                  "name": "Solana",
+                  "symbol": "SOL",
+                  "slug": "solana"
+                }
+              }
+            },
+            {
+              "contract_address": "ibc/E6931F78057F7CC5DA0FD6CEF82FF39373A6E0452BF1FD76910B93292CF356C1",
+              "platform": {
+                "name": "Osmosis",
+                "coin": {
+                  "id": "12220",
+                  "name": "Osmosis",
+                  "symbol": "OSMO",
+                  "slug": "osmosis"
+                }
+              }
+            },
+            {
+              "contract_address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+              "platform": {
+                "name": "Cronos",
+                "coin": {
+                  "id": "3635",
+                  "name": "Cronos",
+                  "symbol": "CRO",
+                  "slug": "cronos"
+                }
+              }
+            },
+            {
+              "contract_address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+              "platform": {
+                "name": "Cronos zkEVM Mainnet",
+                "coin": {
+                  "id": "3635",
+                  "name": "Cronos",
+                  "symbol": "CRO",
+                  "slug": "cronos"
+                }
+              }
+            }
+          ],
+          "self_reported_circulating_supply": 97393210558,
+          "self_reported_tags": [
+            "Platform",
+            "Cosmos Ecosystem",
+            "Ethereum Ecosystem"
+          ],
+          "self_reported_market_cap": 6399713660.022647,
+          "infinite_supply": false
+        }
+      },
+      "status": {
+        "timestamp": "2026-09-26T10:48:27.276Z",
+        "error_code": 0,
+        "error_message": null,
+        "elapsed": 10,
+        "credit_count": 1,
+        "notice": null
+      }
+    }
+  }
+}

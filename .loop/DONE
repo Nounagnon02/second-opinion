@@ -1,0 +1,101 @@
+BOUCLE TERMINÉE — Second Opinion
+Dernière itération : 2026-09-30, tâche T9.3.
+
+================================================================================
+ÉTAT DU BACKLOG
+================================================================================
+
+35 tâches sur 35 sont cochées [x]. Aucune n'est [ ], aucune n'est restée [!].
+Les six lignes [H] de `TASKS.md` sont réservées à l'humain et n'ont pas été touchées.
+
+Phase 0  mise en place ........................ T0.1 → T0.3   [x]
+Phase 1  découverte de l'API .................. T1.1 → T1.3   [x]
+Phase 2  socle (client, replay, modèle) ....... T2.1 → T2.3   [x]
+Phase 3  moteur (C1 à C7, score, CLI) ........ T3.1 → T3.7   [x]
+Phase 4  calibration .......................... T4.1 → T4.2   [x]
+Phase 5  MCP et agent de démo ................. T5.1 → T5.3   [x]
+Phase 6  audit de l'API ....................... T6.1 → T6.2   [x]
+Phase 7  web .................................. T7.1 → T7.2   [x]
+Phase 8  livrables ............................ T8.1 → T8.7   [x]
+Phase 9  vérification finale .................. T9.1 → T9.3   [x]
+
+================================================================================
+CE QUI EXISTE, ET CE QUI LE PROUVE
+================================================================================
+
+Le produit : un second avis sur une donnée de marché avant d'agir. Sept contrôles
+(C1 à C7) lisent les réponses réelles de CoinMarketCap, un score pondéré en tire
+un verdict ACT / CAUTION / DO_NOT_ACT, et quatre outils MCP le rendent à un agent.
+
+- `npm run check -- <symbole>` rend un verdict ; `npm run demo` déroule les deux
+  scénarios ; `npm run audit` produit le rapport sur l'API ; `npm run mcp` sert
+  les quatre outils en stdio ; `npm run web:dev` sert l'interface.
+- La suite : **1 270 tests dans 70 fichiers**, hors réseau, sur réponses
+  enregistrées. `npm run lint`, `npm run typecheck` et `npm test` passent.
+- Les appels réels sont dans `fixtures/` (clé masquée « *** » partout).
+- Les huit critères d'acceptation de la section 8 du cahier des charges sont lus
+  un par un, commande par commande, dans `docs/FINAL_CHECK.md` : cinq tenus sans
+  réserve, trois avec une réserve nommée, aucun non tenu. Les réserves se
+  réduisent à H2 (deux d'entre elles) et à l'enregistrement du serveur MCP dans
+  un client, qui écrit un fichier hors du dépôt.
+- Crédits CMC : **494 restants sur 500**. La dernière itération n'a rien dépensé.
+
+Ce que la dernière itération a changé, parce qu'elle a trouvé autre chose que ce
+qu'elle cherchait : `scripts/check-secrets.sh` avait deux portées, et aucune des
+deux n'avait quoi que ce soit à lire dans ce dépôt (index vide, historique d'un
+commit). Une troisième portée, `--worktree`, lit maintenant les 944 fichiers
+qu'un clone recevrait, et une portée mal tapée est refusée au lieu d'imprimer un
+vert. `tests/git-hooks.test.ts` relit les trois portées sur ce dépôt à chaque
+`npm test`.
+
+================================================================================
+CE QUI RESTE À L'HUMAIN — DIX ÉTAPES, DANS CET ORDRE
+================================================================================
+
+`docs/HUMAN_CHECKLIST.md` est la version complète : chaque étape y dit ce qu'elle
+attend, ce qu'elle produit, et comment savoir qu'elle a marché. Résumé :
+
+H1  Décider ce qui n'entre pas dans l'historique (deux marches interrompues et
+    deux journaux). « Tout garder » est l'état documenté et ne demande rien.
+H2  `npm run prepare`, puis committer le travail depuis un terminal.
+    ⚠ BLOQUANT POUR TOUT LE RESTE. La boucle n'a jamais pu committer : le hook
+    global `gitflow-asin` refuse les commandes git qui modifient le dépôt, et
+    une session autonome n'a personne pour confirmer. Le working tree porte donc
+    tout le projet ; l'historique porte un commit, le cahier des charges.
+    La commande de rattrapage est dans `.loop/BLOCKED.md`, option 3.
+    Une convention est à trancher là : `CLAUDE.md` demande des commits
+    « T3.2: ... » sur la branche courante, le hook demande une branche ASIN et
+    un Conventional Commit. Les deux ne peuvent pas être satisfaites.
+H3  Créer le dépôt GitHub public et pousser.            → produit REPO_URL
+H4  Déployer sur Vercel avec la variable `CMC_API_KEY`. → produit DEMO_URL
+    Seule étape qui peut être abandonnée sans perdre une exigence du règlement.
+H5  Relire le ton de ce qui sera publié sur l'API. Aucun test ne juge un ton.
+H6  S'inscrire sur DoraHacks avec l'e-mail du compte CoinMarketCap.
+H7  Enregistrer la vidéo (~90 s, script dans `docs/VIDEO_SCRIPT.md`) et la
+    téléverser.                                        → produit VIDEO_URL
+H8  Créer la page BUIDL sur DoraHacks.                  → produit BUIDL_URL
+H9  Publier le post sur X (#BuildwithCMC).              → produit X_POST_URL
+H10 Remettre le lien du post dans la soumission.
+
+Cinq liens restent volontairement vides dans les documents de soumission
+(REPO_URL, DEMO_URL, VIDEO_URL, BUIDL_URL, X_POST_URL) : chacun nomme une adresse
+qui n'existe pas avant qu'une personne la crée, et un test refuse qu'une adresse
+inventée prenne leur place.
+
+================================================================================
+OÙ LIRE QUOI
+================================================================================
+
+README.md ....................... démarrage, configuration MCP, architecture
+docs/HUMAN_CHECKLIST.md ......... les dix étapes ci-dessus, en détail
+docs/FINAL_CHECK.md ............. les huit critères, commande par commande
+docs/SUBMISSION.md .............. le texte à coller dans DoraHacks
+docs/VIDEO_SCRIPT.md ............ le script de la vidéo, plan par plan
+docs/X_POST.md .................. le brouillon du post
+docs/API_AUDIT.md, API_FEEDBACK.md  ce que les données ont montré, et le retour
+docs/EVIDENCE.md ................ un appel suivi de la requête au verdict
+docs/CALIBRATION.md, DECISIONS.md   comment les seuils ont été réglés
+.loop/BLOCKED.md ................ le blocage des commits, itération par itération
+.loop/PROGRESS.md ............... le journal des itérations
+
+Commencer par H1, puis H2. Rien d'autre ne peut avancer avant le commit.

@@ -1,0 +1,175 @@
+{
+  "label": "E05-ca0e7bec-20260926T105024795Z",
+  "recordedAt": "2026-09-26T10:50:24.795Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v2/cryptocurrency/info?id=27075",
+    "path": "/v2/cryptocurrency/info",
+    "query": {
+      "id": "27075"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 1503,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 10:50:24 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 71b24e89f6f9e648d6cc206b3f6cc3da.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "IguWnmf-YueaBvjUq_QGhoiQX7y8eb-QaGJtFbroFawWqzaaTWahOg==",
+      "x-amz-cf-pop": "IAD55-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "13",
+      "x-server-traceid": "cf4cec81df38fe02a6efb31a916f4081"
+    },
+    "body": {
+      "data": {
+        "27075": {
+          "id": 27075,
+          "name": "Mantle",
+          "symbol": "MNT",
+          "category": "token",
+          "description": "Mantle (MNT) is a cryptocurrency launched in 2021and operates on the Ethereum platform. Mantle has a current supply of 6,219,316,794.889999 with 3,302,294,382.53684 in circulation. The last known price of Mantle is 0.70116572 USD and is up 3.48 over the last 24 hours. It is currently trading on 234 active market(s) with $47,156,338.65 traded over the last 24 hours. More information can be found at https://group.mantle.xyz/.",
+          "slug": "mantle",
+          "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/27075.png",
+          "subreddit": "",
+          "notice": "BitDAO has migrated 1:1 on Mantle (MNT). For more details, kindly check the official announcement [here](https://www.mantle.xyz/blog/announcements/bit-to-mnt-user-guide). Click to view [BitDao (BIT)](https://coinmarketcap.com/currencies/bitdao/)",
+          "tags": [
+            "ethereum-ecosystem",
+            "layer-2",
+            "dwf-labs-portfolio",
+            "mantle-ecosystem",
+            "made-in-china",
+            "neobank"
+          ],
+          "tag-names": [
+            "Ethereum Ecosystem",
+            "Layer 2",
+            "DWF Labs Portfolio",
+            "Mantle Ecosystem",
+            "Made in China",
+            "Neobank"
+          ],
+          "tag-groups": [
+            "PLATFORM",
+            "CATEGORY",
+            "CATEGORY",
+            "PLATFORM",
+            "CATEGORY",
+            "CATEGORY"
+          ],
+          "urls": {
+            "website": [
+              "https://group.mantle.xyz/"
+            ],
+            "twitter": [
+              "https://twitter.com/Mantle_Official"
+            ],
+            "message_board": [
+              "https://group.mantle.xyz/blog",
+              "https://forum.mantle.xyz/"
+            ],
+            "chat": [
+              "https://discord.com/invite/0xMantle",
+              "https://t.me/mantlenetwork"
+            ],
+            "facebook": [],
+            "explorer": [
+              "https://mantlescan.xyz/",
+              "https://explorer.mantle.xyz/"
+            ],
+            "reddit": [],
+            "technical_doc": [
+              "https://docs.mantle.xyz/network/for-developers/quick-access"
+            ],
+            "source_code": [
+              "https://github.com/mantlenetworkio"
+            ],
+            "announcement": [
+              "https://x.com/Mantle_Official/status/1915375616914055661"
+            ]
+          },
+          "platform": {
+            "id": "1027",
+            "name": "Ethereum",
+            "symbol": "ETH",
+            "slug": "ethereum",
+            "token_address": "0x3c3a81e81dc49a522a592e7622a7e711c06bf354"
+          },
+          "date_added": "2023-07-17T11:00:31.000Z",
+          "twitter_username": "Mantle_Official",
+          "is_hidden": 0,
+          "date_launched": "2021-08-16T00:00:00.000Z",
+          "contract_address": [
+            {
+              "contract_address": "0x3c3a81e81dc49a522a592e7622a7e711c06bf354",
+              "platform": {
+                "name": "Ethereum",
+                "coin": {
+                  "id": "1027",
+                  "name": "Ethereum",
+                  "symbol": "ETH",
+                  "slug": "ethereum"
+                }
+              }
+            },
+            {
+              "contract_address": "0xdeaddeaddeaddeaddeaddeaddeaddeaddead0000",
+              "platform": {
+                "name": "Mantle",
+                "coin": {
+                  "id": "27075",
+                  "name": "Mantle",
+                  "symbol": "MNT",
+                  "slug": "mantle"
+                }
+              }
+            },
+            {
+              "contract_address": "4SoQ8UkWfeDH47T56PA53CZCeW4KytYCiU65CwBWoJUt",
+              "platform": {
+                "name": "Solana",
+                "coin": {
+                  "id": "5426",
+                  "name": "Solana",
+                  "symbol": "SOL",
+                  "slug": "solana"
+                }
+              }
+            }
+          ],
+          "self_reported_circulating_supply": 3302294382.54,
+          "self_reported_tags": [
+            "Layer 2",
+            "Governance",
+            "World Liberty Financial Portfolio"
+          ],
+          "self_reported_market_cap": 2317590927.468001,
+          "infinite_supply": false
+        }
+      },
+      "status": {
+        "timestamp": "2026-09-26T10:50:24.458Z",
+        "error_code": 0,
+        "error_message": null,
+        "elapsed": 7,
+        "credit_count": 1,
+        "notice": null
+      }
+    }
+  }
+}

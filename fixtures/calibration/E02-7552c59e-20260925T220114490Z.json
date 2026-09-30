@@ -1,0 +1,123 @@
+{
+  "label": "E02-7552c59e-20260925T220114490Z",
+  "recordedAt": "2026-09-25T22:01:14.490Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v3/cryptocurrency/quotes/latest?convert=USD&id=3635",
+    "path": "/v3/cryptocurrency/quotes/latest",
+    "query": {
+      "convert": "USD",
+      "id": "3635"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 3652,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Fri, 25 Sep 2026 22:01:13 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 b894b12b5c8ca4bd2f40c026723bc534.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "zj6pLqJRnUGO53gMvz2GNZNOqljbwnQYNrsWaFKlOSotVDgDYx8odA==",
+      "x-amz-cf-pop": "LOS50-P4",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "10",
+      "x-server-traceid": "deedaeb1d8dd5f564c5ed438e2ee000c"
+    },
+    "body": {
+      "data": [
+        {
+          "tags": [
+            {
+              "slug": "medium-of-exchange",
+              "name": "Medium of Exchange",
+              "category": "INDUSTRY"
+            },
+            {
+              "slug": "centralized-exchange",
+              "name": "Centralized Exchange (CEX) Token",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "mobile",
+              "name": "Mobile",
+              "category": "INDUSTRY"
+            },
+            {
+              "slug": "payments",
+              "name": "Payments",
+              "category": "INDUSTRY"
+            },
+            {
+              "slug": "layer-1",
+              "name": "Layer 1",
+              "category": "CATEGORY"
+            }
+          ],
+          "id": 3635,
+          "name": "Cronos",
+          "symbol": "CRO",
+          "slug": "cronos",
+          "is_active": 1,
+          "infinite_supply": false,
+          "is_fiat": 0,
+          "circulating_supply": 49743677062.41776,
+          "total_supply": 98943682184.31306,
+          "max_supply": 100000000000,
+          "date_added": "2018-12-14T00:00:00.000Z",
+          "num_market_pairs": 357,
+          "cmc_rank": 32,
+          "last_updated": "2026-09-25T21:59:00.000Z",
+          "tvl_ratio": null,
+          "platform": null,
+          "self_reported_circulating_supply": 97393210558,
+          "self_reported_market_cap": 6328599134.916453,
+          "minted_market_cap": 6429348595.14,
+          "quote": [
+            {
+              "id": 2781,
+              "symbol": "USD",
+              "price": 0.06497988000044028,
+              "volume_24h": 14841673.01362396,
+              "volume_change_24h": 9.0092,
+              "cex_volume_24h": 14761459.4300214,
+              "dex_volume_24h": 80213.58360256,
+              "percent_change_1h": -1.04549737,
+              "percent_change_24h": 2.68593311,
+              "percent_change_7d": 8.43968972,
+              "percent_change_30d": 10.89533349,
+              "percent_change_60d": 15.19774056,
+              "percent_change_90d": 18.80824796,
+              "market_cap": 3232338166.29656,
+              "market_cap_dominance": 0.1125,
+              "fully_diluted_market_cap": 6497988000.04,
+              "minted_market_cap": 6429348595.14,
+              "tvl": null,
+              "last_updated": "2026-09-25T22:00:02.000Z"
+            }
+          ]
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-25T22:01:13.853Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 4,
+        "credit_count": 1
+      }
+    }
+  }
+}

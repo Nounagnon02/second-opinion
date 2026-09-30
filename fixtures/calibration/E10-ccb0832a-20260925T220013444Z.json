@@ -1,0 +1,55 @@
+{
+  "label": "E10-ccb0832a-20260925T220013444Z",
+  "recordedAt": "2026-09-25T22:00:13.444Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v1/dex/token/price?address=0&platform=bittensor",
+    "path": "/v1/dex/token/price",
+    "query": {
+      "address": "0",
+      "platform": "bittensor"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 689,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Fri, 25 Sep 2026 22:00:13 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 39e519d65c07d4d8d73d1f22f04f931a.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "yDqwwxp1bfLWX3f41lBBUXt52tbZq81UDSGDh6_SK_ZBQNYYMnMfKA==",
+      "x-amz-cf-pop": "CDG55-P3",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "178",
+      "x-server-traceid": "0ac26d165c6a4eacfcd4af6b602d7efb"
+    },
+    "body": {
+      "data": {
+        "pid": 258,
+        "pdex": "Bittensor",
+        "a": "0"
+      },
+      "status": {
+        "timestamp": "2026-09-25T22:00:13.367Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 174,
+        "credit_count": 1
+      }
+    }
+  }
+}

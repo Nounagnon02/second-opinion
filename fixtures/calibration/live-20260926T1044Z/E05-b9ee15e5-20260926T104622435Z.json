@@ -1,0 +1,162 @@
+{
+  "label": "E05-b9ee15e5-20260926T104622435Z",
+  "recordedAt": "2026-09-26T10:46:22.435Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v2/cryptocurrency/info?id=512",
+    "path": "/v2/cryptocurrency/info",
+    "query": {
+      "id": "512"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 408,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 10:46:22 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 24eb88cb96b9676eb6757c142361d0e2.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "q2PenYbaFAhL86723ttZimb39aGXlv36rINVwb3B0X3tg1vOxNfujA==",
+      "x-amz-cf-pop": "IAD55-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "12",
+      "x-server-traceid": "e81e31627a15e1915ec88952e032a17a"
+    },
+    "body": {
+      "data": {
+        "512": {
+          "id": 512,
+          "name": "Stellar",
+          "symbol": "XLM",
+          "category": "coin",
+          "description": "Stellar (XLM) is a cryptocurrency launched in 2014. Stellar has a current supply of 50,001,786,839.70047 with 34,970,187,319.35608 in circulation. The last known price of Stellar is 0.21843933 USD and is down -0.56 over the last 24 hours. It is currently trading on 844 active market(s) with $357,208,593.33 traded over the last 24 hours. More information can be found at https://www.stellar.org.",
+          "slug": "stellar",
+          "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/512.png",
+          "subreddit": "stellar",
+          "notice": "",
+          "tags": [
+            "medium-of-exchange",
+            "enterprise-solutions",
+            "decentralized-exchange-dex-token",
+            "defi",
+            "smart-contracts",
+            "hashkey-capital-portfolio",
+            "real-world-assets-protocols",
+            "2017-2018-alt-season",
+            "made-in-america",
+            "binance-ecosystem",
+            "binance-listing",
+            "iso-20022",
+            "sec-cftc-token-taxonomy",
+            "sec-cftc-digital-commodities"
+          ],
+          "tag-names": [
+            "Medium of Exchange",
+            "Enterprise Solutions",
+            "Decentralized Exchange (DEX) Token",
+            "DeFi",
+            "Smart Contracts",
+            "Hashkey Capital Portfolio",
+            "Real World Assets Protocols",
+            "2017/18 Alt season",
+            "Made in America",
+            "Binance Ecosystem",
+            "Binance Listing",
+            "ISO 20022",
+            "SEC/CFTC Token Taxonomy",
+            "SEC/CFTC Digital Commodities"
+          ],
+          "tag-groups": [
+            "INDUSTRY",
+            "INDUSTRY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY"
+          ],
+          "urls": {
+            "website": [
+              "https://www.stellar.org"
+            ],
+            "twitter": [
+              "https://twitter.com/StellarOrg"
+            ],
+            "message_board": [
+              "https://stellarcommunity.org/",
+              "https://galactictalk.org/"
+            ],
+            "chat": [
+              "https://discord.com/invite/zVYdY3ktTn"
+            ],
+            "facebook": [
+              "https://www.facebook.com/stellarorg"
+            ],
+            "explorer": [
+              "https://dashboard.stellar.org/",
+              "https://stellar.expert/explorer/public/",
+              "https://steexp.com/",
+              "https://blockchair.com/stellar"
+            ],
+            "reddit": [
+              "https://reddit.com/r/stellar"
+            ],
+            "technical_doc": [
+              "https://www.stellar.org/papers/stellar-consensus-protocol.pdf"
+            ],
+            "source_code": [
+              "https://github.com/stellar/stellar-core"
+            ],
+            "announcement": [
+              "https://bitcointalk.org/index.php?topic=1428573.0"
+            ]
+          },
+          "platform": null,
+          "date_added": "2014-08-05T00:00:00.000Z",
+          "twitter_username": "StellarOrg",
+          "is_hidden": 0,
+          "date_launched": "2014-07-30T00:00:00.000Z",
+          "self_reported_circulating_supply": 31531408660,
+          "self_reported_tags": [
+            "PoA",
+            "Platform",
+            "DeFi",
+            "Smart Contracts",
+            "Layer 1"
+          ],
+          "self_reported_market_cap": 6885419925.959309,
+          "infinite_supply": false
+        }
+      },
+      "status": {
+        "timestamp": "2026-09-26T10:46:22.108Z",
+        "error_code": 0,
+        "error_message": null,
+        "elapsed": 6,
+        "credit_count": 1,
+        "notice": null
+      }
+    }
+  }
+}

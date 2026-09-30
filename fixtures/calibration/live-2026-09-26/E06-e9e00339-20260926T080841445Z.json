@@ -1,0 +1,65 @@
+{
+  "label": "E06-e9e00339-20260926T080841445Z",
+  "recordedAt": "2026-09-26T08:08:41.445Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v2/simple/price?id=2010&include_last_updated=true",
+    "path": "/v2/simple/price",
+    "query": {
+      "id": "2010",
+      "include_last_updated": "true"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 229,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 08:08:41 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 90e82f6f2930f84801ecec48033a7eb2.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "3UkJ6ZXa6AdDu3h46lu24BFS7eheAtqkMHs9DXSFZDbhm-nNrkPafA==",
+      "x-amz-cf-pop": "LHR86-P3",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "8",
+      "x-server-traceid": "b6203671dab573120cb0ffc3aa92dea3"
+    },
+    "body": {
+      "data": [
+        {
+          "id": 2010,
+          "name": "Cardano",
+          "symbol": "ADA",
+          "slug": "cardano",
+          "quotes": [
+            {
+              "symbol": "USD",
+              "price": 0.25490704636677336,
+              "last_updated": "2026-09-26T08:07:02.000Z"
+            }
+          ]
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-26T08:08:41.298Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 4,
+        "credit_count": 1
+      }
+    }
+  }
+}

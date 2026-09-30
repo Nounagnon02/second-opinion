@@ -1,0 +1,206 @@
+{
+  "label": "E05-a91308a0-20260926T104522479Z",
+  "recordedAt": "2026-09-26T10:45:22.479Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v2/cryptocurrency/info?id=74",
+    "path": "/v2/cryptocurrency/info",
+    "query": {
+      "id": "74"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 417,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 10:45:22 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 48850a600c11c704f12260094c298d3a.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "btqGSiqqbpx5vERRQfTmWp6PlYXbn-ydRAvCRUFqSxnVAnP3YkJWLA==",
+      "x-amz-cf-pop": "IAD55-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "13",
+      "x-server-traceid": "e59c468ab70af261f3cfc002da4a062b"
+    },
+    "body": {
+      "data": {
+        "74": {
+          "id": 74,
+          "name": "Dogecoin",
+          "symbol": "DOGE",
+          "category": "coin",
+          "description": "Dogecoin (DOGE) is a cryptocurrency . Users are able to generate DOGE through the process of mining. Dogecoin has a current supply of 171,786,103,126.5791. The last known price of Dogecoin is 0.09793207 USD and is up 1.56 over the last 24 hours. It is currently trading on 1518 active market(s) with $1,427,008,066.98 traded over the last 24 hours. More information can be found at http://dogecoin.com/.",
+          "slug": "dogecoin",
+          "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/74.png",
+          "subreddit": "dogecoin",
+          "notice": "",
+          "tags": [
+            "mineable",
+            "pow",
+            "scrypt",
+            "medium-of-exchange",
+            "memes",
+            "payments",
+            "solana-ecosystem",
+            "doggone-doggerel",
+            "doge-chain-ecosystem",
+            "osmosis-ecosystem",
+            "ftx-bankruptcy-estate",
+            "animal-memes",
+            "made-in-america",
+            "binance-ecosystem",
+            "binance-listing",
+            "sec-cftc-token-taxonomy",
+            "sec-cftc-digital-commodities"
+          ],
+          "tag-names": [
+            "Mineable",
+            "PoW",
+            "Scrypt",
+            "Medium of Exchange",
+            "Memes",
+            "Payments",
+            "Solana Ecosystem",
+            "Doggone Doggerel",
+            "Doge Chain Ecosystem",
+            "Osmosis Ecosystem",
+            "FTX Bankruptcy Estate ",
+            "Animal Memes",
+            "Made in America",
+            "Binance Ecosystem",
+            "Binance Listing",
+            "SEC/CFTC Token Taxonomy",
+            "SEC/CFTC Digital Commodities"
+          ],
+          "tag-groups": [
+            "OTHERS",
+            "ALGORITHM",
+            "ALGORITHM",
+            "INDUSTRY",
+            "INDUSTRY",
+            "INDUSTRY",
+            "PLATFORM",
+            "CATEGORY",
+            "PLATFORM",
+            "PLATFORM",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY"
+          ],
+          "urls": {
+            "website": [
+              "http://dogecoin.com/"
+            ],
+            "twitter": [
+              "https://twitter.com/dogecoin"
+            ],
+            "message_board": [],
+            "chat": [
+              "http://webchat.freenode.net/?nick=Shibe..&channels=%23dogecoin&prompt=1"
+            ],
+            "facebook": [],
+            "explorer": [
+              "https://blockchair.com/dogecoin",
+              "http://dogechain.info/chain/Dogecoin",
+              "https://www.oklink.com/doge",
+              "https://explorer.viabtc.com/doge"
+            ],
+            "reddit": [
+              "https://reddit.com/r/dogecoin"
+            ],
+            "technical_doc": [
+              "https://github.com/dogecoin/dogecoin/blob/master/README.md"
+            ],
+            "source_code": [
+              "https://github.com/dogecoin/dogecoin"
+            ],
+            "announcement": [
+              "https://bitcointalk.org/index.php?topic=361813.0"
+            ]
+          },
+          "platform": null,
+          "date_added": "2013-12-15T00:00:00.000Z",
+          "twitter_username": "dogecoin",
+          "is_hidden": 0,
+          "contract_address": [
+            {
+              "contract_address": "0xba2ae424d960c26247dd6c32edc70b295c744c43",
+              "platform": {
+                "name": "BNB Smart Chain (BEP20)",
+                "coin": {
+                  "id": "1839",
+                  "name": "BNB",
+                  "symbol": "BNB",
+                  "slug": "bnb"
+                }
+              }
+            },
+            {
+              "contract_address": "factory/osmo10pk4crey8fpdyqd62rsau0y02e3rk055w5u005ah6ly7k849k5tsf72x40/alloyed/allDOGE",
+              "platform": {
+                "name": "Osmosis",
+                "coin": {
+                  "id": "12220",
+                  "name": "Osmosis",
+                  "symbol": "OSMO",
+                  "slug": "osmosis"
+                }
+              }
+            },
+            {
+              "contract_address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+              "platform": {
+                "name": "Dogechain(EVM)",
+                "coin": {
+                  "id": "74",
+                  "name": "Dogecoin",
+                  "symbol": "DOGE",
+                  "slug": "dogecoin"
+                }
+              }
+            },
+            {
+              "contract_address": "DoGEV7LASBkQbibMc5k5vKnTZoMg423GpJ5QtJEGfm7R",
+              "platform": {
+                "name": "Solana",
+                "coin": {
+                  "id": "5426",
+                  "name": "Solana",
+                  "symbol": "SOL",
+                  "slug": "solana"
+                }
+              }
+            }
+          ],
+          "infinite_supply": true
+        }
+      },
+      "status": {
+        "timestamp": "2026-09-26T10:45:22.144Z",
+        "error_code": 0,
+        "error_message": null,
+        "elapsed": 7,
+        "credit_count": 1,
+        "notice": null
+      }
+    }
+  }
+}

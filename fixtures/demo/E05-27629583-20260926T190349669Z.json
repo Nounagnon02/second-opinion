@@ -1,0 +1,110 @@
+{
+  "label": "E05-27629583-20260926T190349669Z",
+  "recordedAt": "2026-09-26T19:03:49.669Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v2/cryptocurrency/info?id=39344",
+    "path": "/v2/cryptocurrency/info",
+    "query": {
+      "id": "39344"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 6505,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 19:03:49 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 20ceb3a898e15e6aebf59e5741cdd43c.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "sad0A1sT_L8yjcsdH1aVqoVDvq6sEdUMX9MDXbjwzHjwDOl2ZPIKYw==",
+      "x-amz-cf-pop": "LHR86-P3",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "9",
+      "x-server-traceid": "ffdbfc91927498c460d26d6d4ba54e2b"
+    },
+    "body": {
+      "data": {
+        "39344": {
+          "id": 39344,
+          "name": "Gold (Derivatives)",
+          "symbol": "XAU",
+          "category": "token",
+          "description": "Gold (Derivatives) (XAU) is a cryptocurrency . Gold (Derivatives) has a current supply of 0. The last known price of Gold (Derivatives) is 4,284.75717493 USD and is down -0.30 over the last 24 hours. It is currently trading on 106 active market(s) with $0.00 traded over the last 24 hours.",
+          "slug": "gold-derivatives",
+          "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/39344.png",
+          "subreddit": "",
+          "notice": "",
+          "tags": [
+            "defi",
+            "synthetics",
+            "tokenized-gold",
+            "binance-ecosystem",
+            "binance-listing",
+            "tokenized-assets",
+            "tokenized-commodities",
+            "tradfi-assets-derivatives"
+          ],
+          "tag-names": [
+            "DeFi",
+            "Synthetics",
+            "Tokenized Gold",
+            "Binance Ecosystem",
+            "Binance Listing",
+            "Tokenized Assets",
+            "Tokenized commodities",
+            "TradFi Assets (Derivatives)"
+          ],
+          "tag-groups": [
+            "CATEGORY",
+            "INDUSTRY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY"
+          ],
+          "urls": {
+            "website": [],
+            "twitter": [],
+            "message_board": [],
+            "chat": [],
+            "facebook": [],
+            "explorer": [],
+            "reddit": [],
+            "technical_doc": [],
+            "source_code": [],
+            "announcement": []
+          },
+          "platform": null,
+          "date_added": "2026-01-12T05:52:10.000Z",
+          "twitter_username": "",
+          "is_hidden": 0,
+          "infinite_supply": false
+        }
+      },
+      "status": {
+        "timestamp": "2026-09-26T19:03:49.337Z",
+        "error_code": 0,
+        "error_message": null,
+        "elapsed": 5,
+        "credit_count": 1,
+        "notice": null
+      }
+    }
+  }
+}

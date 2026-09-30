@@ -1,0 +1,146 @@
+{
+  "label": "E05-909c4e19-20260925T215743007Z",
+  "recordedAt": "2026-09-25T21:57:43.007Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v2/cryptocurrency/info?id=328",
+    "path": "/v2/cryptocurrency/info",
+    "query": {
+      "id": "328"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 6928,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Fri, 25 Sep 2026 21:57:42 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 2d9af3a9a16eac5eb4058369b793c828.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "lfDY6fpQC-rE6HiiO_lwu2zKdD4jqlWeyYD5PaTAFkQ9neHx_pzvhg==",
+      "x-amz-cf-pop": "LOS50-P4",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "10",
+      "x-server-traceid": "80d47d51643df66b3ed1abf4d874af78"
+    },
+    "body": {
+      "data": {
+        "328": {
+          "id": 328,
+          "name": "Monero",
+          "symbol": "XMR",
+          "category": "coin",
+          "description": "Monero (XMR) is a cryptocurrency . Users are able to generate XMR through the process of mining. Monero has a current supply of 18,809,448.08989584. The last known price of Monero is 553.4563443 USD and is down -2.82 over the last 24 hours. It is currently trading on 377 active market(s) with $118,140,100.33 traded over the last 24 hours. More information can be found at https://www.getmonero.org/.",
+          "slug": "monero",
+          "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/328.png",
+          "subreddit": "monero",
+          "notice": "",
+          "tags": [
+            "mineable",
+            "pow",
+            "medium-of-exchange",
+            "privacy",
+            "ringct",
+            "boostvc-portfolio",
+            "electric-capital-portfolio",
+            "galaxy-digital-portfolio",
+            "layer-1",
+            "2017-2018-alt-season",
+            "binance-ecosystem",
+            "binance-listing",
+            "privacy-coins"
+          ],
+          "tag-names": [
+            "Mineable",
+            "PoW",
+            "Medium of Exchange",
+            "Privacy",
+            "RingCT",
+            "BoostVC Portfolio",
+            "Electric Capital Portfolio",
+            "Galaxy Digital Portfolio",
+            "Layer 1",
+            "2017/18 Alt season",
+            "Binance Ecosystem",
+            "Binance Listing",
+            "Privacy Coins"
+          ],
+          "tag-groups": [
+            "OTHERS",
+            "ALGORITHM",
+            "INDUSTRY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY"
+          ],
+          "urls": {
+            "website": [
+              "https://www.getmonero.org/"
+            ],
+            "twitter": [
+              "https://twitter.com/monero"
+            ],
+            "message_board": [
+              "https://forum.getmonero.org/",
+              "https://forum.monero.space/"
+            ],
+            "chat": [
+              "https://telegram.me/monero"
+            ],
+            "facebook": [],
+            "explorer": [
+              "http://moneroblocks.info/",
+              "http://chainradar.com/xmr/blocks",
+              "https://blockchair.com/monero"
+            ],
+            "reddit": [
+              "https://reddit.com/r/monero"
+            ],
+            "technical_doc": [
+              "https://github.com/monero-project/research-lab/blob/master/whitepaper/whitepaper.pdf"
+            ],
+            "source_code": [
+              "https://github.com/monero-project/monero"
+            ],
+            "announcement": [
+              "https://bitcointalk.org/index.php?topic=583449.0"
+            ]
+          },
+          "platform": null,
+          "date_added": "2014-05-21T00:00:00.000Z",
+          "twitter_username": "monero",
+          "is_hidden": 0,
+          "infinite_supply": true
+        }
+      },
+      "status": {
+        "timestamp": "2026-09-25T21:57:42.709Z",
+        "error_code": 0,
+        "error_message": null,
+        "elapsed": 6,
+        "credit_count": 1,
+        "notice": null
+      }
+    }
+  }
+}

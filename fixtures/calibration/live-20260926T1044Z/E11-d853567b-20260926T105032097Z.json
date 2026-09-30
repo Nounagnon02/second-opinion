@@ -1,0 +1,326 @@
+{
+  "label": "E11-d853567b-20260926T105032097Z",
+  "recordedAt": "2026-09-26T10:50:32.097Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v1/dex/token/pools?address=pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn&platform=solana&size=10",
+    "path": "/v1/dex/token/pools",
+    "query": {
+      "address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+      "platform": "solana",
+      "size": "10"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 1228,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 10:50:31 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 f5be520a0e05096cc6c019d4cccce3a2.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "6Pl31EHtlxiH35mmBj4RtABCI5ZRy5WgwBlp9NCOZl3smLd8t2jorA==",
+      "x-amz-cf-pop": "IAD55-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "317",
+      "x-server-traceid": "9cea84f6fc70293bb90d6d4c89cb30b9"
+    },
+    "body": {
+      "data": [
+        {
+          "addr": "2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd",
+          "v24": "7342565.339044013877627957",
+          "pubAt": "1752512149000",
+          "t0": {
+            "addr": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/3408.png",
+            "n": "USD Coin",
+            "sym": "USDC",
+            "liq": "11572171.685014",
+            "liqUsd": "11570951.356904067064207523"
+          },
+          "t1": {
+            "addr": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/36507.png",
+            "n": "Pump",
+            "sym": "PUMP",
+            "liq": "2587819386.920517",
+            "liqUsd": "11536258.981371025864354871"
+          },
+          "bidx": 1,
+          "exid": 12062,
+          "exn": "PumpSwap",
+          "liqUsd": "23107210.338275092928562393",
+          "fa": "pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA",
+          "top": true,
+          "mi": false
+        },
+        {
+          "addr": "DNhfyh75AApg1L1Yig3fErvERKutYRqfWLGb496iViSZ",
+          "v24": "1300860.168013307492939439",
+          "t0": {
+            "addr": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/3408.png",
+            "n": "USD Coin",
+            "sym": "USDC",
+            "liq": "4128168.747468",
+            "liqUsd": "4127733.416874728064393421"
+          },
+          "t1": {
+            "addr": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/36507.png",
+            "n": "Pump",
+            "sym": "PUMP",
+            "liq": "43725348.20549",
+            "liqUsd": "195281.766337774355874496"
+          },
+          "bidx": 1,
+          "exid": 33165,
+          "exn": "Tessera V",
+          "liqUsd": "4323015.183212502420267916",
+          "fa": "TessVdML9pBGgG9yGks7o4HewRaXVAMuoVj4x83GLQH",
+          "top": true,
+          "mi": false
+        },
+        {
+          "addr": "BofA2ViUSudPBTUms2KRuG6AHNeMawjNfwqTJDgx5BKW",
+          "v24": "4658612.307132184010883397",
+          "pubAt": "1757950381000",
+          "t0": {
+            "addr": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/36507.png",
+            "n": "Pump",
+            "sym": "PUMP",
+            "liq": "445344031.573245",
+            "liqUsd": "1987139.321335705200657822"
+          },
+          "t1": {
+            "addr": "So11111111111111111111111111111111111111112",
+            "lg": "https://dex-static.sintral.io/token-logo/16/So11111111111111111111111111111111111111112/1766048405124.jpeg",
+            "n": "Wrapped SOL",
+            "sym": "wSOL",
+            "liq": "5719.038865836",
+            "liqUsd": "689264.048356355243926655"
+          },
+          "bidx": 0,
+          "exid": 1426,
+          "exn": "Orca",
+          "liqUsd": "2676403.369692060444584477",
+          "fa": "whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc",
+          "top": true,
+          "mi": false
+        },
+        {
+          "addr": "9SMp4yLKGtW9TnLimfVPkDARsyNSfJw43WMke4r7KoZj",
+          "v24": "2919420.222840525446404306",
+          "t0": {
+            "addr": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/3408.png",
+            "n": "USD Coin",
+            "sym": "USDC",
+            "liq": "848668.84952",
+            "liqUsd": "848565.390945731066432961"
+          },
+          "t1": {
+            "addr": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/36507.png",
+            "n": "Pump",
+            "sym": "PUMP",
+            "liq": "361890027.107263",
+            "liqUsd": "1613846.706397197310523613"
+          },
+          "bidx": 1,
+          "exid": 9882,
+          "exn": "Meteora DLMM",
+          "liqUsd": "2462412.097342928376956574",
+          "fa": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+          "top": true,
+          "mi": false
+        },
+        {
+          "addr": "HbjYfcWZBjCBYTJpZkLGxqArVmZVu3mQcRudb6Wg1sVh",
+          "v24": "804404.870968047660045646",
+          "t0": {
+            "addr": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/36507.png",
+            "n": "Pump",
+            "sym": "PUMP",
+            "liq": "107410377.889192",
+            "liqUsd": "479034.14542424968679038"
+          },
+          "t1": {
+            "addr": "So11111111111111111111111111111111111111112",
+            "lg": "https://dex-static.sintral.io/token-logo/16/So11111111111111111111111111111111111111112/1766048405124.jpeg",
+            "n": "Wrapped SOL",
+            "sym": "wSOL",
+            "liq": "9405.841684934",
+            "liqUsd": "1133600.831732309372578361"
+          },
+          "bidx": 0,
+          "exid": 9882,
+          "exn": "Meteora DLMM",
+          "liqUsd": "1612634.977156559059368741",
+          "fa": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+          "top": true,
+          "mi": false
+        },
+        {
+          "addr": "4AFAkCSkSNmra64irggEFd8ZtF4WCtFe51qVaFFNBL2D",
+          "v24": "4881692.167362340484213377",
+          "t0": {
+            "addr": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/3408.png",
+            "n": "USD Coin",
+            "sym": "USDC",
+            "liq": "391071.15861",
+            "liqUsd": "391029.514878424739023962"
+          },
+          "t1": {
+            "addr": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/36507.png",
+            "n": "Pump",
+            "sym": "PUMP",
+            "liq": "145795771.136987",
+            "liqUsd": "650202.90340093156363249"
+          },
+          "bidx": 1,
+          "exid": 1426,
+          "exn": "Orca",
+          "liqUsd": "1041232.418279356302656452",
+          "fa": "whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc",
+          "top": true,
+          "mi": false
+        },
+        {
+          "addr": "Dwgaka8QiSkFQ3bGXhZpmncM63DwhjK5zzQRiqt9WA8K",
+          "v24": "149712.68230165005472175",
+          "t0": {
+            "addr": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/3408.png",
+            "n": "USD Coin",
+            "sym": "USDC",
+            "liq": "102764.220503",
+            "liqUsd": "102744.650712183307861701"
+          },
+          "t1": {
+            "addr": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/36507.png",
+            "n": "Pump",
+            "sym": "PUMP",
+            "liq": "148149203.96671",
+            "liqUsd": "659863.177293717810094236"
+          },
+          "bidx": 1,
+          "exid": 10557,
+          "exn": "Raydium (CLMM)",
+          "liqUsd": "762607.828005901117955937",
+          "fa": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+          "top": true,
+          "mi": false
+        },
+        {
+          "addr": "45ssPkUQs1ssbeDqxD2mZrMdJYAXF7GyQyhS5xDXuWC5",
+          "v24": "2123605.398651373811954738",
+          "t0": {
+            "addr": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/36507.png",
+            "n": "Pump",
+            "sym": "PUMP",
+            "liq": "70603337.638403",
+            "liqUsd": "315497.151556850930623912"
+          },
+          "t1": {
+            "addr": "So11111111111111111111111111111111111111112",
+            "lg": "https://dex-static.sintral.io/token-logo/16/So11111111111111111111111111111111111111112/1766048405124.jpeg",
+            "n": "Wrapped SOL",
+            "sym": "wSOL",
+            "liq": "1787.630550864",
+            "liqUsd": "215446.904930947311688095"
+          },
+          "bidx": 0,
+          "exid": 10557,
+          "exn": "Raydium (CLMM)",
+          "liqUsd": "530944.056487798242312006",
+          "fa": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+          "top": true,
+          "mi": false
+        },
+        {
+          "addr": "2QDGj5BWMSNyEfmyDFx7eEvWWm4KujUPJ38Xdkntvxtd",
+          "v24": "1073821.33368302981090252",
+          "t0": {
+            "addr": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/36507.png",
+            "n": "Pump",
+            "sym": "PUMP",
+            "liq": "37682232.547289",
+            "liqUsd": "168294.035131315179086128"
+          },
+          "t1": {
+            "addr": "So11111111111111111111111111111111111111112",
+            "lg": "https://dex-static.sintral.io/token-logo/16/So11111111111111111111111111111111111111112/1766048405124.jpeg",
+            "n": "Wrapped SOL",
+            "sym": "wSOL",
+            "liq": "1434.184331453",
+            "liqUsd": "172857.948746332873712654"
+          },
+          "bidx": 0,
+          "exid": 9882,
+          "exn": "Meteora DLMM",
+          "liqUsd": "341151.983877648052798781",
+          "fa": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+          "top": true,
+          "mi": false
+        },
+        {
+          "addr": "Cb7ZRgPLhji3Th7htXyKEqbXvNjPpeTvckXuWakBUhXu",
+          "v24": "912326.055407086311416978",
+          "pubAt": "1788985934000",
+          "t0": {
+            "addr": "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump",
+            "lg": "https://ipfs.sintral.me/cdn-cgi/image/width=480,quality=100,format=webp/url/https%3A%2F%2Faxiomtrading.sfo3.cdn.digitaloceanspaces.com%2F41UrTGwAokUi5y9qXvHtG82fYsHgCnQE7oFtLhYRwYMP.webp",
+            "n": "baton",
+            "sym": "baton",
+            "liq": "61232172.932176",
+            "liqUsd": "122313.153210762625008112"
+          },
+          "t1": {
+            "addr": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+            "lg": "https://s2.coinmarketcap.com/static/img/coins/64x64/36507.png",
+            "n": "Pump",
+            "sym": "PUMP",
+            "liq": "27070970.602611",
+            "liqUsd": "120901.148354966372645414"
+          },
+          "bidx": 0,
+          "exid": 12062,
+          "exn": "PumpSwap",
+          "liqUsd": "243214.301565728997653525",
+          "fa": "pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA",
+          "top": true,
+          "mi": false
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-26T10:50:31.250Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 313,
+        "credit_count": 1
+      }
+    }
+  }
+}

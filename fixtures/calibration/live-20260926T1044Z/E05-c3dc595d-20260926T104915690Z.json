@@ -1,0 +1,235 @@
+{
+  "label": "E05-c3dc595d-20260926T104915690Z",
+  "recordedAt": "2026-09-26T10:49:15.690Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v2/cryptocurrency/info?id=33793",
+    "path": "/v2/cryptocurrency/info",
+    "query": {
+      "id": "33793"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 6278,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 10:49:15 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 8ea525de0a543f72f5e5f9278e2150b4.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "5Szc_52h4WCJDngC182UKQhKb1WBT_pmsXrtKBdNetzDlvbl0QVa0w==",
+      "x-amz-cf-pop": "IAD55-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "13",
+      "x-server-traceid": "485ea386bbc74c31b7d77f522dbed6dd"
+    },
+    "body": {
+      "data": {
+        "33793": {
+          "id": 33793,
+          "name": "Global Dollar",
+          "symbol": "USDG",
+          "category": "token",
+          "description": "Global Dollar (USDG) is a cryptocurrency launched in 2024and operates on the Ethereum platform. Global Dollar has a current supply of 3,245,247,890.04586. The last known price of Global Dollar is 1.0000242 USD and is up 0.03 over the last 24 hours. It is currently trading on 2942 active market(s) with $608,135,961.55 traded over the last 24 hours. More information can be found at https://globaldollar.com.",
+          "slug": "global-dollar-usdg",
+          "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/33793.png",
+          "subreddit": "",
+          "notice": "",
+          "tags": [
+            "stablecoin",
+            "asset-backed-stablecoin",
+            "usd-stablecoin",
+            "robinhood-ecosystem"
+          ],
+          "tag-names": [
+            "Stablecoin",
+            "Asset-Backed Stablecoin",
+            "USD Stablecoin",
+            "Robinhood Ecosystem"
+          ],
+          "tag-groups": [
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY"
+          ],
+          "urls": {
+            "website": [
+              "https://globaldollar.com"
+            ],
+            "twitter": [
+              "https://twitter.com/global_dollar"
+            ],
+            "message_board": [
+              "https://www.linkedin.com/feed/update/urn:li:activity:7257865630844948481/"
+            ],
+            "chat": [
+              "https://www.linkedin.com/company/globaldollar"
+            ],
+            "facebook": [],
+            "explorer": [
+              "https://etherscan.io/token/0xe343167631d89B6Ffc58B88d6b7fB0228795491D",
+              "https://mantlescan.xyz/token/0x063C1d1ef6e9099Ce3E8e9AD5C6173d12C49C086",
+              "https://solscan.io/token/2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH",
+              "https://explorer.inkonchain.com/token/0xe343167631d89B6Ffc58B88d6b7fB0228795491D",
+              "https://arbiscan.io/token/0x004b506865409877c9fa29bfb1eba929984b9bbc#transactions"
+            ],
+            "reddit": [],
+            "technical_doc": [
+              "https://424565.fs1.hubspotusercontent-na1.net/hubfs/424565/USDGWhitePaper.pdf"
+            ],
+            "source_code": [
+              "https://github.com/paxosglobal/usdg-contract"
+            ],
+            "announcement": [
+              "https://x.com/global_dollar/status/1852101183332323561"
+            ]
+          },
+          "platform": {
+            "id": "1027",
+            "name": "Ethereum",
+            "symbol": "ETH",
+            "slug": "ethereum",
+            "token_address": "0xe343167631d89B6Ffc58B88d6b7fB0228795491D"
+          },
+          "date_added": "2024-11-05T04:54:47.000Z",
+          "twitter_username": "global_dollar",
+          "is_hidden": 0,
+          "date_launched": "2024-10-30T00:00:00.000Z",
+          "contract_address": [
+            {
+              "contract_address": "0xe343167631d89B6Ffc58B88d6b7fB0228795491D",
+              "platform": {
+                "name": "Ethereum",
+                "coin": {
+                  "id": "1027",
+                  "name": "Ethereum",
+                  "symbol": "ETH",
+                  "slug": "ethereum"
+                }
+              }
+            },
+            {
+              "contract_address": "2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH",
+              "platform": {
+                "name": "Solana",
+                "coin": {
+                  "id": "5426",
+                  "name": "Solana",
+                  "symbol": "SOL",
+                  "slug": "solana"
+                }
+              }
+            },
+            {
+              "contract_address": "0x4ae46a509f6b1d9056937ba4500cb143933d2dc8",
+              "platform": {
+                "name": "X Layer",
+                "coin": {
+                  "id": "3897",
+                  "name": "OKB",
+                  "symbol": "OKB",
+                  "slug": "okb"
+                }
+              }
+            },
+            {
+              "contract_address": "0xe343167631d89B6Ffc58B88d6b7fB0228795491D",
+              "platform": {
+                "name": "Ink",
+                "coin": {
+                  "id": "36851",
+                  "name": "INK",
+                  "symbol": "INK",
+                  "slug": "ink-token"
+                }
+              }
+            },
+            {
+              "contract_address": "0x7E955252E15c84f5768B83c41a71F9eba181802F",
+              "platform": {
+                "name": "Robinhood Chain Testnet",
+                "coin": {
+                  "id": "40670",
+                  "name": "Robinhood",
+                  "symbol": "-",
+                  "slug": "robinhood-placeholder"
+                }
+              }
+            },
+            {
+              "contract_address": "0x5fc5360d0400a0fd4f2af552add042d716f1d168",
+              "platform": {
+                "name": "Robinhood Chain",
+                "coin": {
+                  "id": "40670",
+                  "name": "Robinhood",
+                  "symbol": "-",
+                  "slug": "robinhood-placeholder"
+                }
+              }
+            },
+            {
+              "contract_address": "0x063C1d1ef6e9099Ce3E8e9AD5C6173d12C49C086",
+              "platform": {
+                "name": "Mantle",
+                "coin": {
+                  "id": "27075",
+                  "name": "Mantle",
+                  "symbol": "MNT",
+                  "slug": "mantle"
+                }
+              }
+            },
+            {
+              "contract_address": "0x004b506865409877c9fa29bfb1eba929984b9bbc",
+              "platform": {
+                "name": "Arbitrum",
+                "coin": {
+                  "id": "11841",
+                  "name": "Arbitrum",
+                  "symbol": "ARB",
+                  "slug": "arbitrum"
+                }
+              }
+            }
+          ],
+          "self_reported_circulating_supply": 10750140,
+          "self_reported_tags": [
+            "Medium of Exchange",
+            "Payments",
+            "Stablecoin",
+            "Asset-Backed Stablecoin",
+            "Ethereum Ecosystem",
+            "Solana Ecosystem",
+            "USD Stablecoin",
+            "Fiat Stablecoin"
+          ],
+          "self_reported_market_cap": 10752146.935086472,
+          "infinite_supply": false
+        }
+      },
+      "status": {
+        "timestamp": "2026-09-26T10:49:15.314Z",
+        "error_code": 0,
+        "error_message": null,
+        "elapsed": 7,
+        "credit_count": 1,
+        "notice": null
+      }
+    }
+  }
+}

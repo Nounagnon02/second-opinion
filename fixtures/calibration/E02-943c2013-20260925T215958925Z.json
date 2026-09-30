@@ -1,0 +1,168 @@
+{
+  "label": "E02-943c2013-20260925T215958925Z",
+  "recordedAt": "2026-09-25T21:59:58.925Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v3/cryptocurrency/quotes/latest?convert=USD&id=4642",
+    "path": "/v3/cryptocurrency/quotes/latest",
+    "query": {
+      "convert": "USD",
+      "id": "4642"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 319,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Fri, 25 Sep 2026 21:59:58 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 0302c871dcf97d5203274aac0be06aae.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "4SALpU69o2k-Lu0pPO5461gYB1FW5CHB79KiI2dqKV0AOeS2Y3c6aQ==",
+      "x-amz-cf-pop": "CDG55-P3",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "8",
+      "x-server-traceid": "7a339a13d5d032c4247e98870eb58b27"
+    },
+    "body": {
+      "data": [
+        {
+          "tags": [
+            {
+              "slug": "dag",
+              "name": "DAG",
+              "category": "ALGORITHM"
+            },
+            {
+              "slug": "marketplace",
+              "name": "Marketplace",
+              "category": "INDUSTRY"
+            },
+            {
+              "slug": "enterprise-solutions",
+              "name": "Enterprise Solutions",
+              "category": "INDUSTRY"
+            },
+            {
+              "slug": "payments",
+              "name": "Payments",
+              "category": "INDUSTRY"
+            },
+            {
+              "slug": "dcg-portfolio",
+              "name": "DCG Portfolio",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "hedera-hashgraph-ecosystem",
+              "name": "Hedera Hashgraph Ecosystem",
+              "category": "PLATFORM"
+            },
+            {
+              "slug": "real-world-assets-protocols",
+              "name": "Real World Assets Protocols",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "layer-1",
+              "name": "Layer 1",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "made-in-america",
+              "name": "Made in America",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-ecosystem",
+              "name": "Binance Ecosystem",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "binance-listing",
+              "name": "Binance Listing",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "iso-20022",
+              "name": "ISO 20022",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "sec-cftc-token-taxonomy",
+              "name": "SEC/CFTC Token Taxonomy",
+              "category": "CATEGORY"
+            },
+            {
+              "slug": "sec-cftc-digital-commodities",
+              "name": "SEC/CFTC Digital Commodities",
+              "category": "CATEGORY"
+            }
+          ],
+          "id": 4642,
+          "name": "Hedera",
+          "symbol": "HBAR",
+          "slug": "hedera",
+          "is_active": 1,
+          "infinite_supply": false,
+          "is_fiat": 0,
+          "circulating_supply": 43831706399.29675,
+          "total_supply": 50000000000,
+          "max_supply": 50000000000,
+          "date_added": "2019-09-17T00:00:00.000Z",
+          "num_market_pairs": 454,
+          "cmc_rank": 27,
+          "last_updated": "2026-09-25T21:59:00.000Z",
+          "tvl_ratio": null,
+          "platform": null,
+          "self_reported_circulating_supply": null,
+          "self_reported_market_cap": null,
+          "minted_market_cap": 4702390392.64,
+          "quote": [
+            {
+              "id": 2781,
+              "symbol": "USD",
+              "price": 0.09404780785274612,
+              "volume_24h": 129103968.33532406,
+              "volume_change_24h": 17.6848,
+              "cex_volume_24h": 129103968.33532406,
+              "dex_volume_24h": 0,
+              "percent_change_1h": -0.80376574,
+              "percent_change_24h": 0.05598728,
+              "percent_change_7d": 18.36265239,
+              "percent_change_30d": 20.64900394,
+              "percent_change_60d": 37.01511599,
+              "percent_change_90d": 30.89330487,
+              "market_cap": 4122275901.2990437,
+              "market_cap_dominance": 0.1434,
+              "fully_diluted_market_cap": 4702390392.64,
+              "minted_market_cap": 4702390392.64,
+              "tvl": null,
+              "last_updated": "2026-09-25T21:59:04.000Z"
+            }
+          ]
+        }
+      ],
+      "status": {
+        "timestamp": "2026-09-25T21:59:58.823Z",
+        "error_code": "0",
+        "error_message": "",
+        "elapsed": 4,
+        "credit_count": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "label": "E05-66ae74f8-20260926T105030621Z",
+  "recordedAt": "2026-09-26T10:50:30.621Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v2/cryptocurrency/info?id=36507",
+    "path": "/v2/cryptocurrency/info",
+    "query": {
+      "id": "36507"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 1750,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 10:50:30 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 7da46316f14c93c894dc0b0f9fcad800.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "ZiigzW9oNUKEi-VV-0WnzTtfg1LnKgK7nMMXBxrR6mnVJBDUisgGWA==",
+      "x-amz-cf-pop": "IAD55-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "9",
+      "x-server-traceid": "ce764c38c58c5599a0a7fb0a389b33ba"
+    },
+    "body": {
+      "data": {
+        "36507": {
+          "id": 36507,
+          "name": "Pump.fun",
+          "symbol": "PUMP",
+          "category": "token",
+          "description": "Pump.fun (PUMP) is a cryptocurrency launched in 2025and operates on the Solana platform. Pump.fun has a current supply of 831,735,209,983.860924 with 466,223,389,728.589801 in circulation. The last known price of Pump.fun is 0.00446049 USD and is up 10.22 over the last 24 hours. It is currently trading on 404 active market(s) with $278,070,564.48 traded over the last 24 hours. More information can be found at https://pump.fun/.",
+          "slug": "pump-fun",
+          "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/36507.png",
+          "subreddit": "",
+          "notice": "",
+          "tags": [
+            "launchpad",
+            "solana-ecosystem",
+            "pump-fun-ecosystem",
+            "binance-ecosystem",
+            "binance-listing",
+            "coinlist-launchpad"
+          ],
+          "tag-names": [
+            "Launchpad",
+            "Solana Ecosystem",
+            "Pump Fun Ecosystem",
+            "Binance Ecosystem",
+            "Binance Listing",
+            "Coinlist Launchpad"
+          ],
+          "tag-groups": [
+            "CATEGORY",
+            "PLATFORM",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY"
+          ],
+          "urls": {
+            "website": [
+              "https://pump.fun/"
+            ],
+            "twitter": [
+              "https://twitter.com/pumpfun"
+            ],
+            "message_board": [
+              "https://x.com/pumpfun"
+            ],
+            "chat": [],
+            "facebook": [],
+            "explorer": [
+              "https://solscan.io/token/pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn"
+            ],
+            "reddit": [],
+            "technical_doc": [
+              "https://github.com/pump-fun/pump-public-docs"
+            ],
+            "source_code": [
+              "https://github.com/pump-fun/pump-public-docs"
+            ],
+            "announcement": [
+              "https://x.com/pumpfun"
+            ]
+          },
+          "platform": {
+            "id": "5426",
+            "name": "Solana",
+            "symbol": "SOL",
+            "slug": "solana",
+            "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn"
+          },
+          "date_added": "2025-05-14T18:51:49.000Z",
+          "twitter_username": "pumpfun",
+          "is_hidden": 0,
+          "date_launched": "2025-07-14T00:00:00.000Z",
+          "contract_address": [
+            {
+              "contract_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+              "platform": {
+                "name": "Solana",
+                "coin": {
+                  "id": "5426",
+                  "name": "Solana",
+                  "symbol": "SOL",
+                  "slug": "solana"
+                }
+              }
+            }
+          ],
+          "infinite_supply": false
+        }
+      },
+      "status": {
+        "timestamp": "2026-09-26T10:50:30.042Z",
+        "error_code": 0,
+        "error_message": null,
+        "elapsed": 4,
+        "credit_count": 1,
+        "notice": null
+      }
+    }
+  }
+}

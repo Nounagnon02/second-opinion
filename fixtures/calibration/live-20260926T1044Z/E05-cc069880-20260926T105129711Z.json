@@ -1,0 +1,227 @@
+{
+  "label": "E05-cc069880-20260926T105129711Z",
+  "recordedAt": "2026-09-26T10:51:29.711Z",
+  "request": {
+    "method": "GET",
+    "url": "https://pro-api.coinmarketcap.com/v2/cryptocurrency/info?id=8916",
+    "path": "/v2/cryptocurrency/info",
+    "query": {
+      "id": "8916"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "X-CMC_PRO_API_KEY": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "latencyMs": 429,
+    "headers": {
+      "access-control-allow-headers": "origin, accept, DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Authorization, accept-language, X-CMC_PRO_API_KEY",
+      "access-control-allow-methods": "OPTIONS, HEAD, GET, POST, PUT, DELETE, PATCH",
+      "access-control-max-age": "600",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Sat, 26 Sep 2026 10:51:29 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "vary": "Accept-Encoding",
+      "via": "1.1 8ea525de0a543f72f5e5f9278e2150b4.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "575VEwMkAlBLWPGZYGAJTrHD6IQNxn_gZ206ccp8yYvc7_XM0CMgww==",
+      "x-amz-cf-pop": "IAD55-P7",
+      "x-cache": "Miss from cloudfront",
+      "x-envoy-decorator-operation": "cmc-pro-api-service.cmc-backend.svc.cluster.local:9700/*",
+      "x-envoy-upstream-service-time": "16",
+      "x-server-traceid": "51c9e65e26b8b8cb3bed7110b49e1222"
+    },
+    "body": {
+      "data": {
+        "8916": {
+          "id": 8916,
+          "name": "Internet Computer",
+          "symbol": "ICP",
+          "category": "coin",
+          "description": "Internet Computer (ICP) is a cryptocurrency launched in 2021. Internet Computer has a current supply of 556,903,974.48168742. The last known price of Internet Computer is 3.21277432 USD and is down -0.50 over the last 24 hours. It is currently trading on 444 active market(s) with $81,493,829.18 traded over the last 24 hours. More information can be found at https://internetcomputer.org/.",
+          "slug": "internet-computer",
+          "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/8916.png",
+          "subreddit": "",
+          "notice": "",
+          "tags": [
+            "platform",
+            "ai-big-data",
+            "smart-contracts",
+            "polychain-capital-portfolio",
+            "electric-capital-portfolio",
+            "fenbushi-capital-portfolio",
+            "hashkey-capital-portfolio",
+            "a16z-portfolio",
+            "multicoin-capital-portfolio",
+            "exnetwork-capital-portfolio",
+            "icp-ecosystem",
+            "internet-computer-ecosystem",
+            "layer-1",
+            "alleged-sec-securities",
+            "depin",
+            "binance-ecosystem",
+            "binance-listing",
+            "binance-liquidity-enhancement-program"
+          ],
+          "tag-names": [
+            "Platform",
+            "AI & Big Data",
+            "Smart Contracts",
+            "Polychain Capital Portfolio",
+            "Electric Capital Portfolio",
+            "Fenbushi Capital Portfolio",
+            "Hashkey Capital Portfolio",
+            "a16z Portfolio",
+            "Multicoin Capital Portfolio",
+            "Exnetwork Capital Portfolio",
+            "[Deprecated] ICP Ecosystem",
+            "Internet Computer Ecosystem",
+            "Layer 1",
+            "Alleged SEC Securities",
+            "DePIN",
+            "Binance Ecosystem",
+            "Binance Listing",
+            "Binance Liquidity Enhancement Program"
+          ],
+          "tag-groups": [
+            "CATEGORY",
+            "INDUSTRY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY",
+            "PLATFORM",
+            "PLATFORM",
+            "CATEGORY",
+            "CATEGORY",
+            "INDUSTRY",
+            "CATEGORY",
+            "CATEGORY",
+            "CATEGORY"
+          ],
+          "urls": {
+            "website": [
+              "https://internetcomputer.org/",
+              "https://dfinity.org"
+            ],
+            "twitter": [
+              "https://twitter.com/dfinity"
+            ],
+            "message_board": [
+              "https://www.linkedin.com/company/dfinity/"
+            ],
+            "chat": [],
+            "facebook": [],
+            "explorer": [
+              "https://dashboard.internetcomputer.org/"
+            ],
+            "reddit": [],
+            "technical_doc": [],
+            "source_code": [
+              "https://github.com/dfinity/ic"
+            ],
+            "announcement": [
+              "https://internetcomputer.org/news"
+            ]
+          },
+          "platform": {
+            "id": "8916",
+            "name": "Internet Computer",
+            "symbol": "ICP",
+            "slug": "internet-computer",
+            "token_address": "ryjl3-tyaaa-aaaaa-aaaba-cai"
+          },
+          "date_added": "2021-03-23T00:00:00.000Z",
+          "twitter_username": "dfinity",
+          "is_hidden": 0,
+          "date_launched": "2021-05-10T00:00:00.000Z",
+          "contract_address": [
+            {
+              "contract_address": "ryjl3-tyaaa-aaaaa-aaaba-cai",
+              "platform": {
+                "name": "ICP",
+                "coin": {
+                  "id": "8916",
+                  "name": "Internet Computer",
+                  "symbol": "ICP",
+                  "slug": "internet-computer"
+                }
+              }
+            },
+            {
+              "contract_address": "0x00f3C42833C3170159af4E92dbb451Fb3F708917",
+              "platform": {
+                "name": "Ethereum",
+                "coin": {
+                  "id": "1027",
+                  "name": "Ethereum",
+                  "symbol": "ETH",
+                  "slug": "ethereum"
+                }
+              }
+            },
+            {
+              "contract_address": "0x00f3C42833C3170159af4E92dbb451Fb3F708917",
+              "platform": {
+                "name": "Arbitrum",
+                "coin": {
+                  "id": "11841",
+                  "name": "Arbitrum",
+                  "symbol": "ARB",
+                  "slug": "arbitrum"
+                }
+              }
+            },
+            {
+              "contract_address": "0x00f3C42833C3170159af4E92dbb451Fb3F708917",
+              "platform": {
+                "name": "Base",
+                "coin": {
+                  "id": "27716",
+                  "name": "Base",
+                  "symbol": "-",
+                  "slug": "base"
+                }
+              }
+            }
+          ],
+          "self_reported_circulating_supply": 556903974.48,
+          "self_reported_tags": [
+            "Platform",
+            "AI & Big Data",
+            "Gaming",
+            "Smart Contracts",
+            "Polychain Capital Portfolio",
+            "Metaverse",
+            "Electric Capital Portfolio",
+            "Fenbushi Capital Portfolio",
+            "Hashkey Capital Portfolio",
+            "a16z Portfolio",
+            "Multicoin Capital Portfolio",
+            "Play To Earn",
+            "Web3"
+          ],
+          "self_reported_market_cap": 1787481728.7587435,
+          "infinite_supply": true
+        }
+      },
+      "status": {
+        "timestamp": "2026-09-26T10:51:29.369Z",
+        "error_code": 0,
+        "error_message": null,
+        "elapsed": 9,
+        "credit_count": 1,
+        "notice": null
+      }
+    }
+  }
+}
